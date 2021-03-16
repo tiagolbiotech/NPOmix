@@ -1,0 +1,216 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Tiago Leao",
+        "submitter_orcid": "https://orcid.org/0000-0003-1034-9153",
+        "submitter_email": "tiagolbiotech@gmail.com",
+        "PI_name": "Lena Gerwick",
+        "PI_institution": "University of California San Diego",
+        "PI_email": "lgerwick@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085038",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=319a0d1e28bb4a41b86da4d74bb05d1f",
+            "molecular_network": "a6dce71bae704796a5d804b88f8c5b75"
+        },
+        "publications": "10.1073/pnas.1618556114"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "SW-BG-11",
+                    "medium_volume": 1000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 27,
+                    "growth_duration": 340
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "We add salts to regular BG-11",
+                "sample_preparation_method": "SW-BG-11"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790",
+                        "ratio": 0.34
+                    },
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15767",
+                        "ratio": 0.66
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "2:1 DCM:MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "Gerwick LCMS",
+                "range": "190-2000",
+                "collision_energy": "35eV",
+                "buffering": "0.1% formic acid",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                }
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "GCA_001767235.1"
+            },
+            "BioSample_accession": "SAMN05826283",
+            "publications": "28265051",
+            "genome_label": "Moorea producens PAL"
+        },
+        {
+            "BioSample_accession": "SAMN05826284",
+            "genome_label": "Moorea producens JHB",
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "GCA_001854205.1"
+            },
+            "publications": "28265051"
+        },
+        {
+            "BioSample_accession": "SAMN02471690",
+            "publications": "28265051",
+            "genome_label": "Moorea producens 3L",
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "GCA_001942475.1"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "GCA_001942495.1"
+            },
+            "publications": "28265051",
+            "BioSample_accession": "SAMN05826285",
+            "genome_label": "Moorea bouillonii PNG"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Moorea producens PAL",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085038/raw/PAL_15AUG08-1.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Gerwick LCMS"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Gerwick LCMS",
+            "genome_label": "Moorea producens JHB",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085038/raw/JHB_22AUG96-1.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Gerwick LCMS",
+            "genome_label": "Moorea producens 3L",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085038/raw/3L.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Gerwick LCMS",
+            "genome_label": "Moorea bouillonii PNG",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085038/raw/PNG_19MAY05-8.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Curacin A",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "C[C@H]1C[C@H]1C2=N[C@@H](CS2)/C=C\\CC/C=C/C=C(\\C)/CC[C@H](CC=C)OC",
+            "IUPAC": "(4R)-4-[(1Z,5E,7E,11R)-11-methoxy-8-methyltetradeca-1,5,7,13-tetraenyl]-2-[(1R,2S)-2-methylcyclopropyl]-4,5-dihydro-1,3-thiazole",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085038/raw/3L.mzXML",
+            "MS2_scan": "735",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001165"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Barbamide",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "C[C@@H](C/C(=C\\C(=O)N(C)[C@@H](CC1=CC=CC=C1)C2=NC=CS2)/OC)C(Cl)(Cl)Cl",
+            "IUPAC": "(E,5S)-6,6,6-trichloro-3-methoxy-N,5-dimethyl-N-[(1S)-2-phenyl-1-(1,3-thiazol-2-yl)ethyl]hex-2-enamide",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085038/raw/3L.mzXML",
+            "MS2_scan": "743",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000962"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Hectochlorin",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "[(5S,12S,13S,16S)-12-(4,4-dichloropentyl)-16-(2-hydroxypropan-2-yl)-4,4,13-trimethyl-2,10,14-trioxo-3,11,15-trioxa-7,18-dithia-20,21-diazatricyclo[15.2.1.16,9]henicosa-1(19),6(21),8,17(20)-tetraen-5-yl] acetate",
+            "SMILES": "C[C@H]1[C@@H](OC(=O)C2=CSC(=N2)[C@H](C(OC(=O)C3=CSC(=N3)[C@@H](OC1=O)C(C)(C)O)(C)C)OC(=O)C)CCCC(C)(Cl)Cl",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085038/raw/JHB_22AUG96-1.mzXML",
+            "MS2_scan": "622",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001000"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Jamaicamide A-C",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "(E,9E)-14-bromo-9-(chloromethylidene)-N-[(E)-3-methoxy-5-[(2S)-2-methyl-5-oxo-2H-pyrrol-1-yl]-5-oxopent-3-enyl]-6-methyltetradec-4-en-13-ynamide",
+            "SMILES": "C[C@H]1C=CC(=O)N1C(=O)/C=C(\\CCNC(=O)CC/C=C/C(C)CC/C(=C/Cl)/CCCC#CBr)/OC",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085038/raw/JHB_22AUG96-1.mzXML",
+            "MS2_scan": "761",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001001"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Cryptomaldamide",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085038/raw/JHB_22AUG96-1.mzXML",
+            "MS2_scan": "66",
+            "SMILES": "NC(N[C@@H](CO)C(N[C@H](C(C)C)C(N(C)[C@@H](C(C)C)/C([H])=C(C)/C(O)=O)=O)=O)=N",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001560"
+            }
+        }
+    ]
+}

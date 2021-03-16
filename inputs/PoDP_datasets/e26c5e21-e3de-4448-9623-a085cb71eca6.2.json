@@ -1,0 +1,1694 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Andrew McAvoy",
+        "submitter_orcid": "https://orcid.org/0000-0002-3647-3956",
+        "submitter_email": "amcavoy6@gatech.edu",
+        "PI_name": "Dr. Neha Garg",
+        "PI_email": "neha.garg@chemistry.gatech.edu",
+        "PI_institution": "Georgia Institute of Technology"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084945",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=a4d33f9ed0304bcca1e215c1e59d2c9e&view=advanced_view",
+            "molecular_network": "717832a6d96a47b2be9f166ce7f41c5d"
+        },
+        "publications": "32212725"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 20
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "other_growth_conditions": "Media supplemented with 50 mM MOPS buffer (adjusted to pH 7.0 with NaOH).",
+                "sample_preparation_method": "24hrs_noTMP"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 20
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "other_growth_conditions": "Media supplemented with 50 mM MOPS buffer (adjusted to pH 7.0 with NaOH).",
+                "sample_preparation_method": "48hrs_noTMP"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 20
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "other_growth_conditions": "Media supplemented with 12 mM trimethoprim dissolved in DMSO to a final concentration of 30 uM, and with 50 mM MOPS buffer (adjusted to pH 7.0 with NaOH).",
+                "sample_preparation_method": "24hrs_TMP+"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 20
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "other_growth_conditions": "Media supplemented with 12 mM trimethoprim dissolved in DMSO to a final concentration of 30 uM.",
+                "sample_preparation_method": "48hrs_TMP+"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "other_extraction_parameters": "20 mL cultures were extracted by adding 20 mL of ethyl acetate to whole cultures, vortexing every 30 minutes for 2 hours, centrifuging for 3 minutes at 3,000 x g, harvesting ethyl acetate fraction, and drying in vacuo.",
+                "extraction_method": "EA"
+            },
+            {
+                "other_extraction_parameters": "20 mL cultures were extracted by adding 20 mL of ethyl acetate w/ 0.2% to whole cultures, vortexing every 30 minutes for 2 hours, centrifuging for 3 minutes at 3,000 x g, harvesting ethyl acetate fraction, and drying in vacuo.",
+                "solvents": [
+                    {
+                        "ratio": 0.998,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    },
+                    {
+                        "ratio": 0.002,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_46787",
+                        "Other_solvent": "Acetic acid"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "EA+HAc"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_38472"
+                    },
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "other_extraction_parameters": "C18 (100 mg) SPE columns were first washed with 10 mL 100% acetonitrile before equilibriating with 10 mL 100% water. Supernatant was harvested by centrifuging cells for 10 minutes @ 10,000 x g. The supernatant was then loaded onto SPE columns, and eluted in three steps with 5 mL of 20%, 50%, and 100% acetonitrile. All fractions were pooled together before LC-MS/MS analysis.",
+                "extraction_method": "SPE_C18"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Quadrupole time-of-flight (QToF)"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "50-2000",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "A Kinetex 1.7 micron C18 reverse phase UHPLC column (50 x 2.1 mm) was used. The gradient used was 5% solvent B (acetonitrile with 0.1% formic acid) and 95% solvent A (water with 0.1% formic acid) for 2 min, a linear gradient of 5%-95% B over 17 minutes, held at 95% B for 3 minutes, a gradient from 95%-5% B for 1 minute, and held at 5% B for 1 minute, with a flow rate of 0.5 mL/min throughout. Prior to data collection, an external calibration with ESI-L Low Concentration Tuning Mix was performed, and hexakis(1H,1H,2H-perfluoroethoxy)phosphazene was used as an internal lock-mass calibrant during data acquisition. A capillary voltage of 4500 V, nebulizer gas pressure (nitrogen) of 2 bar, ion source temperature of 200 °C, dry gas flow of 9 L/min, spectral rate of 3 Hz for MS1 and 6 Hz for MS2 was used. The eight most intense ions per MS1 scan were selected for fragmentation and acquisition of MS2 data.A basic stepping function was used to fragment ions at 50% and 125% of the CID calculated for each m/z with timing of 50% for each step. Simmilarly, basic stepping of collision RF of 550 and 800 Vpp with a timing of 50% for each step and transfer time stepping of 75 and 90 microseconds with a timing of 50% for each step was employed. MS/MS active exclusion parameter was set to 2 and active exclusion was released after 30 seconds. The mass of internal lock-mass calibrant was excluded from MS2 list. ",
+                "instrumentation_method": "QToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000009485.1"
+            },
+            "BioSample_accession": "SAMEA1705928",
+            "publications": "18931103",
+            "genome_label": "Burkholderia cenocepacia J2315"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000981305.1"
+            },
+            "BioSample_accession": "SAMN02045905",
+            "publications": "10655415, 9453660",
+            "genome_label": "Burkholderia cenocepacia K56-2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000018505.1"
+            },
+            "BioSample_accession": "SAMN00623032",
+            "publications": "16233838, 15812007",
+            "genome_label": "Burkholderia multivorans ATCC 17616"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000959525.1"
+            },
+            "BioSample_accession": "SAMN03140189",
+            "publications": "25931592",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000286575.1"
+            },
+            "BioSample_accession": "SAMN00255227",
+            "publications": "23105085",
+            "genome_label": "Burkholderia multivorans CF2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000959505.1"
+            },
+            "BioSample_accession": "SAMN03144971",
+            "publications": "25931592",
+            "genome_label": "Burkholderia dolosa AU0158"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003568605.1"
+            },
+            "BioSample_accession": "SAMN02866398",
+            "publications": "25414490",
+            "genome_label": "Burkholderia thailandensis E264"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/No_trimethoprim/J2315_EA_24_P1-B-1_01_2650.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/No_trimethoprim/J2315_EA_48_P1-B-2_01_2651.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/No_trimethoprim/J2315_SPE_24_P1-B-3_01_2652.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/No_trimethoprim/J2315_SPE_48_P1-B-4_01_2653.mzML"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/Trimethoprim/J2315_EA_24_TMP_P1-B-5_01_2654.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/Trimethoprim/J2315_EA_48_TMP_P1-B-6_01_2655.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF",
+            "genome_label": "Burkholderia cenocepacia J2315"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/Trimethoprim/J2315_SPE_24_TMP_P1-B-7_01_2656.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_J2315_MarvinLab/Trimethoprim/J2315_SPE_48_TMP_P1-B-8_01_2657.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/No_trimethoprim/BcK562_EA_24_2_P1-E-1_01_2802.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/No_trimethoprim/BcK562_EA_48_2_P1-E-2_01_2803.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/No_trimethoprim/BcK562_SPE_24_3_P1-E-3_01_2808.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/No_trimethoprim/BcK562_SPE_48_3_P1-E-4_01_2809.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/Trimethoprim/BcK562_EA_24_TMP_3_P1-E-5_01_2810.mzML",
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/Trimethoprim/BcK562_EA_48_TMP_3_P1-E-6_01_2811.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/Trimethoprim/BcK562_SPE_24_TMP_3_P1-E-7_01_2829.mzML",
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.cenocepacia_K-56-2_JoannaGoldbergLab/Trimethoprim/BcK562_SPE_48_TMP_3_P1-E-8_01_2831.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/No_trimethoprim/Bdolosa_EA_24_2_P1-A-1_01_2846.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/No_trimethoprim/Bdolosa_EA_48_2_P1-A-2_01_2847.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/No_trimethoprim/Bdolosa_SPE_24_3_P1-A-3_01_2849.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/No_trimethoprim/Bdolosa_SPE_48_2_P1-A-4_01_2850.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/Trimethoprim/Bdolosa_EA_24_TMP_2_P1-A-5_01_2851.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/Trimethoprim/Bdolosa_EA_48_TMP_2_P1-A-6_01_2852.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/Trimethoprim/Bdolosa_SPE_24_TMP_2_P1-A-7_01_2853.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.dolosa_AU1058/Trimethoprim/Bdolosa_SPE_48_TMP_2_P1-A-8_01_2854.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/No_Trimethoprim/BmvATCC17016_EA_24_P1-A-1_01_2762.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/No_Trimethoprim/BmvATCC17016_EA_48_P1-A-2_01_2763.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/No_Trimethoprim/BmvATCC17016_SPE_24_P1-A-3_01_2764.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/No_Trimethoprim/BmvATCC17016_SPE_48_P1-A-4_01_2765.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/Trimethoprim/BmvATCC17016_EA_24_TMP_P1-A-5_01_2766.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/Trimethoprim/BmvATCC17016_EA_48_TMP_P1-A-6_01_2767.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_ATCC_17616/Trimethoprim/BmvATCC17016_SPE_24_TMP_P1-A-7_01_2768.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/No_trimethoprim/BtE265_EA_24_P1-E-1_01_2751.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/No_trimethoprim/BtE265_EA_48_P1-E-2_01_2752.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/No_trimethoprim/BtE265_SPE_24_P1-E-3_01_2753.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/No_trimethoprim/BtE265_SPE_48_P1-E-4_01_2754.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/Trimethoprim/BtE265_EA_24_TMP_P1-E-5_01_2755.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/Trimethoprim/BtE265_EA_48_TMP_P1-E-6_01_2756.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/Trimethoprim/BtE265_SPE_24_TMP_P1-E-7_01_2757.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF1_BrownLab/Trimethoprim/BtE265_SPE_48_TMP_P1-E-8_01_2758.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/No_Trimethoprim/BmvCF2_EA_24_P1-B-1_01_2729.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/No_Trimethoprim/BmvCF2_EA_48_P1-B-2_01_2730.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/No_Trimethoprim/BmvCF2_SPE_24_P1-B-3_01_2731.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/No_Trimethoprim/BmvCF2_SPE_48_P1-B-4_01_2732.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/Trimethoprim/BmvCF2_EA_24_TMP_P1-B-5_01_2733.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/Trimethoprim/BmvCF2_EA_48_TMP_P1-B-6_01_2734.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/Trimethoprim/BmvCF2_SPE_24_TMP_P1-B-7_01_2735.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.multivorans_CF2_BrownLab/Trimethoprim/BmvCF2_SPE_48_TMP_P1-B-8_01_2736.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/No_trimethoprim/BmvCF1_EA_24_P1-A-1_01_2718.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/No_trimethoprim/BmvCF1_EA_48_P1-A-2_01_2719.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/No_trimethoprim/BmvCF1_SPE_24_P1-A-3_01_2720.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/No_trimethoprim/BmvCF1_SPE_48_P1-A-4_01_2721.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/Trimethoprim/BmvCF1_EA_24_TMP_P1-A-5_01_2722.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/Trimethoprim/BmvCF1_EA_48_TMP_P1-A-6_01_2723.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/Trimethoprim/BmvCF1_SPE_24_TMP_P1-A-7_01_2724.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset1_1/B.thailandensis_E264/Trimethoprim/BmvCF1_SPE_48_TMP_P1-A-8_01_2725.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_EA_24_1_rerun_P1-A-1_01_3956.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_EA_24_2_rerun_P1-A-1_01_3957.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_EA_48_1_rerun_P1-A-2_01_3958.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_EA_48_2_rerun_P1-A-2_01_3959.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_SPE_24_1_rerun_P1-A-3_01_3963.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_SPE_24_2_rerun_P1-A-3_01_3964.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_SPE_48_1_rerun_P1-A-4_01_3965.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/BcJ2315_LB_SPE_48_2_rerun_P1-A-4_01_3966.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_24_noTri_1_P2-D-1_01_6343.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_24_noTri_2_P2-D-1_01_6344.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_24_noTri_3_P2-D-1_01_6345.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_48_noTri_1_P2-D-2_01_6346.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_48_noTri_2_P2-D-2_01_6347.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_EA_48_noTri_3_P2-D-2_01_6348.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_SPE_24_noTri_1_P2-D-5_01_6357.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_SPE_24_noTri_2_P2-D-5_01_6358.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/No_trimethoprim/J2315_SPE_24_noTri_3_P2-D-5_01_6359.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_EA_24_Tri_1_rerun_P1-A-5_01_3967.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_EA_24_Tri_2_rerun_P1-A-5_01_3968.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_EA_48_Tri_1_rerun_P1-A-6_01_3969.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_EA_48_Tri_2_rerun_P1-A-6_01_3970.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_SPE_24_Tri_1_rerun_P1-A-7_01_3971.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_SPE_24_Tri_2_rerun_P1-A-7_01_3972.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_SPE_48_Tri_1_rerun_P1-A-8_01_3973.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/BcJ2315_LB_SPE_48_Tri_2_rerun_P1-A-8_01_3974.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_24_Tri_1_P2-D-3_01_6349.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_24_Tri_2_P2-D-3_01_6350.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_24_Tri_3_P2-D-3_01_6351.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_48_Tri_1_P2-D-3_01_6354.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_48_Tri_2_P2-D-3_01_6355.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_EA_48_Tri_3_P2-D-3_01_6356.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_SPE_24_Tri_1_P2-D-6_01_6360.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_SPE_24_Tri_2_P2-D-6_01_6361.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_J2315/Trimethoprim/J2315_SPE_24_Tri_3_P2-D-6_01_6362.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_EA_24_1_P1-A-1_01_4039.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_EA_24_2_P1-A-1_01_4040.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_EA_48_1_P1-A-2_01_4041.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_EA_48_2_P1-A-2_01_4042.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_SPE_24_1_P1-A-3_01_4043.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_SPE_24_2_P1-A-3_01_4044.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_SPE_48_1_P1-A-4_01_4045.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/No_trimethoprim/BcK562_LB_SPE_48_2_P1-A-4_01_4046.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_EA_24_Tri_1_P1-A-5_01_4047.mzXML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_EA_24_Tri_2_P1-A-5_01_4048.mzXML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_EA_48_Tri_1_P1-A-6_01_4049.mzXML",
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_EA_48_Tri_2_P1-A-6_01_4050.mzXML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_SPE_24_Tri_1_P1-A-7_01_4051.mzXML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_SPE_24_Tri_2_P1-A-7_01_4052.mzXML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_SPE_48_Tri_1_P1-A-8_01_4053.mzXML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.cenocepacia_K56-2/Trimethoprim/BcK562_LB_SPE_48_Tri_2_P1-A-8_01_4054.mzXML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_EA_24_1_P1-B-1_01_3864.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_EA_24_2_P1-B-1_01_3865.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_EA_48_1_P1-B-2_01_3866.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_EA_48_2_P1-B-2_01_3867.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_SPE_24_1_P1-B-3_01_3868.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_SPE_24_2_P1-B-3_01_3869.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_SPE_48_1_P1-B-4_01_3870.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/No_trimethoprim/BmvATCC17616_LB_SPE_48_2_P1-B-4_01_3871.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_EA_24_Tri_1_P1-B-5_01_3872.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_EA_24_Tri_2_P1-B-5_01_3873.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_EA_48_Tri_1_P1-B-6_01_3874.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_EA_48_Tri_2_P1-B-6_01_3875.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_SPE_24_Tri_1_P1-B-7_01_3876.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_ATCC_17616/Trimethoprim/BmvATCC17616_LB_SPE_24_Tri_2_P1-B-7_01_3877.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_EA_24_1_rerun_P1-E-1_01_3978.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_EA_24_2_rerun_P1-E-1_01_3979.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_EA_48_1_rerun_P1-E-2_01_3980.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_EA_48_2_rerun_P1-E-2_01_3981.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_SPE_24_1_rerun_P1-E-3_01_3987.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_SPE_24_2_rerun_P1-E-3_01_3988.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_SPE_48_1_rerun_P1-E-4_01_3989.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/No_trimethoprim/BtE265_LB_SPE_48_2_rerun_P1-E-4_01_3990.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_EA_24_Tri_1_rerun_P1-E-5_01_3991.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_EA_24_Tri_2_rerun_P1-E-5_01_3992.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_EA_48_Tri_1_rerun_P1-E-6_01_4032.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_EA_48_Tri_2_rerun_P1-E-6_01_4030.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_SPE_24_Tri_1_rerun_P1-E-7_01_4031.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_SPE_24_Tri_2_rerun_P1-E-7_01_4033.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_SPE_48_Tri_1_rerun_P1-E-8_01_4034.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.multivorans_CF1/Trimethoprim/BtE265_LB_SPE_48_Tri_2_rerun_P1-E-8_01_4035.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_EA_24_1_P1-B-1_01_3831.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_EA_24_2_P1-B-1_01_3832.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_EA_48_1_P1-B-2_01_3833.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_EA_48_2_P1-B-2_01_3834.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_SPE_24_1_P1-B-3_01_3835.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_SPE_24_2_P1-B-3_01_3836.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_SPE_48_1_P1-B-4_01_3837.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/No_trimethoprim/BmvCF2_LB_SPE_48_2_P1-B-4_01_3838.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_EA_24_Tri_1_P1-B-5_01_3839.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_EA_24_Tri_2_P1-B-5_01_3840.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_EA_48_Tri_1_P1-B-6_01_3841.mzML",
+            "genome_label": "Burkholderia multivorans CF2",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_EA_48_Tri_2_P1-B-6_01_3842.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_SPE_24_Tri_1_P1-B-7_01_3843.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_SPE_24_Tri_2_P1-B-7_01_3844.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_SPE_48_Tri_1_P1-B-8_01_3845.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.mulitvorans_CF2/Trimethoprim/BmvCF2_LB_SPE_48_Tri_2_P1-B-8_01_3846.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_EA_24_1_P1-D-1_01_3900.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_EA_24_2_P1-D-1_01_3901.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_EA_48_1_P1-D-2_01_3902.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_EA_48_2_P1-D-2_01_3903.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_SPE_24_1_P1-D-3_01_3904.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_SPE_24_2_P1-D-3_01_3905.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_SPE_48_1_P1-D-4_01_3906.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/No_trimethoprim/BdAU1058_LB_SPE_48_2_P1-D-4_01_3907.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_EA_24_Tri_1_P1-D-5_01_3908.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_EA_24_Tri_2_P1-D-5_01_3909.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_EA_48_Tri_1_P1-D-6_01_3910.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_EA_48_Tri_2_P1-D-6_01_3911.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_SPE_24_Tri_1_P1-D-7_01_3912.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://maftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_SPE_24_Tri_2_P1-D-7_01_3913.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_SPE_48_Tri_1_P1-D-8_01_3914.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.dolosa_AU1058/Trimethoprim/BdAU1058_LB_SPE_48_Tri_2_P1-D-8_01_3915.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_EA_24_1_P1-A-1_01_3812.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_EA_24_2_P1-A-1_01_3813.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_EA_48_1_P1-A-2_01_3814.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_EA_48_2_P1-A-2_01_3815.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_SPE_24_1_P1-A-3_01_3816.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_SPE_24_2_P1-A-3_01_3817.mzML",
+            "sample_preparation_label": "24hrs_noTMP",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_SPE_48_1_P1-A-4_01_3818.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/No_trimethoprim/BmvCF1_LB_SPE_48_2_P1-A-4_01_3819.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_EA_24_Tri_1_P1-A-5_01_3820.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_EA_24_Tri_2_P1-A-5_01_3821.mzML",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_EA_48_Tri_1_P1-A-6_01_3822.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_EA_48_Tri_2_P1-A-6_01_3823.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_SPE_24_Tri_1_P1-A-7_01_3824.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "24hrs_TMP+",
+            "instrumentation_method_label": "QToF",
+            "extraction_method_label": "SPE_C18"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_SPE_24_Tri_2_P1-A-7_01_3825.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "24hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_SPE_48_Tri_1_P1-A-8_01_3826.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Dataset2_2/B.thailandensis_E264/Trimethoprim/BmvCF1_LB_SPE_48_Tri_2_P1-A-8_01_3827.mzML",
+            "genome_label": "Burkholderia thailandensis E264",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "SPE_C18",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.cenocepacia_J2315/BcJ2315_EA+acid_48_P1-B-5_01_4989.mzML",
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia J2315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.cenocepacia_J2315/BcJ2315_EA+acid_48_Tri_P1-B-6_01_4990.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.cenocepacia_K56-2/BcK562_EA+acid_48_P1-B-7_01_5468.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia cenocepacia K56-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.cenocepacia_K56-2/BcK562_EA+acid_48_Tri_P1-B-8_01_5469.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_ATCC17616/BmvATCC17616_EA+acid_48_P1-B-7_01_4994.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans ATCC 17616",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_ATCC17616/BmvATCC17616_EA+acid_48_Tri_P1-B-8_01_4995.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_CF1/BmvCF-1_EA+acid_48_P1-B-3_01_5458.mzML",
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF1 (a.k.a ATCC BAA-247)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_CF1/BmvCF-1_EA+acid_48_Tri_P1-B-4_01_5459.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_CF2/BmvCF-2_EA+acid_48_P1-B-5_01_5463.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia multivorans CF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.%20multivorans_CF2/BmvCF-2_EA+acid_48_Tri_P1-B-6_01_5464.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.dolosa_AU1058/BdAU1058_EA+acid_48_P1-B-3_01_4984.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia dolosa AU0158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.dolosa_AU1058/BdAU1058_EA+acid_48_Tri_P1-B-4_01_4985.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.thailandensis_E264/BtE264_EA+acid_48_P1-C-1_01_4999.mzML",
+            "sample_preparation_label": "48hrs_noTMP",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        },
+        {
+            "genome_label": "Burkholderia thailandensis E264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084945/ccms_peak/Acidified_EA_2/Wildtype_strains/B.thailandensis_E264/BtE264_EA+acid_48_Tri_P1-C-2_01_5000.mzML",
+            "sample_preparation_label": "48hrs_TMP+",
+            "extraction_method_label": "EA+HAc",
+            "instrumentation_method_label": "QToF"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0001599",
+                "strain": "HG938371",
+                "coordinates": "222371 - 231743"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Fragin as produced by Burkholderia cenocepacia K56-2 (and production upregulated in the presence of trimethoprim). Of all the strains examined in this study, fragin was only detected in the B. cenocepacia K56-2 strain. More information about this molecule and the corresponding BGC can be found in the following paper PMID: 29602945.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "SMILES": "CCCCCCCC(=O)NCC(C(C)C)[N+](=NO)[O-]",
+            "IUPAC": "(Z)-hydroxyimino-[3-methyl-1-(octanoylamino)butan-2-yl]-oxidoazanium",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=235&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000964"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Burkholdac A as produced by Burkholderia thailandensis E264. Of all the strains examined in this study, the burkholdacs were only detected in the B. thailandensis E264 strain.",
+            "verification": [
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "CC(C)C1C(CC(=O)OC2CC(=O)NC(C(=O)NC(CSSCCC=C2)C(=O)N1)CCSC)O",
+            "IUPAC": "(15E)-5-hydroxy-20-(2-methylsulfanylethyl)-6-propan-2-yl-2-oxa-11,12-dithia-7,19,22-triazabicyclo[7.7.6]docos-15-ene-3,8,18,21-tetrone",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=546&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001102"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Malleilactone as produced by Burkholderia thailandensis E264. Of all the strains examined in this study, malleilactone was only detected in the B. thailandensis E264 strain.",
+            "verification": [
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "CCCCCCCC=C(C)C(=O)C1=C(OC(=C1)C(=O)CC)O",
+            "IUPAC": "(E)-1-(2-hydroxy-5-propanoylfuran-3-yl)-2-methyldec-2-en-1-one",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=404&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000961"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Bactobolin B as produced by Burkholderia thailandensis E264. Of all the strains examined in this study, bactobolins were only detected in the B. thailandensis E264 strain.",
+            "verification": [
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "CC(C(=O)NC1C2C(C(CC(=C2C(=O)OC1(C)C(Cl)Cl)O)O)O)N",
+            "IUPAC": "(2S)-N-[(3S,4R,4aR,5R,6R)-3-(dichloromethyl)-5,6,8-trihydroxy-3-methyl-1-oxo-4a,5,6,7-tetrahydro-4H-isochromen-4-yl]-2-aminopropanamide",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=107&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%22table_sort_history%22%3A%22main.precursor%20mass_asc%22%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0000572",
+                "strain": " CP004117",
+                "coordinates": "1016145 - 1020660"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Capistruin C as produced by Burkholderia thailandensis E264. Of all the strains examined in this study, capistruin C was only detected in the B. thailandensis E264 strain. More information about this molecule and the corresponding BGC can be found in the following paper PMID: 20064439.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "SMILES": "O[C@@H]([C@H](NC(CN1)=O)C(N2CCC[C@H]2C(NCC(N[C@H](C(N[C@@H](CCC(N)=O)C(N[C@@H]([C@H](O)C)C(N3CCC[C@H]3C(N[C@H](C(N[C@H](C(N[C@@H](CCCNC(N)=N)C(N[C@@H](C(C)C)C(N[C@H](C(N[C@@H](CO)C(N[C@@H](CCCNC(N)=N)C(N[C@H](C(NCC(O)=O)=O)CC4=CC=CC=C4)=O)=O)=O)[C@@H](C)CC)=O)=O)=O)C)=O)CC1=O)=O)=O)=O)=O)CC5=CC=CC=C5)=O)=O)=O)C",
+            "IUPAC": "((6S,9S,12S,17aS,23S,30S,32aS)-9-(3-amino-3-oxopropyl)-12-benzyl-6,23-bis((R)-1-hydroxyethyl)-5,8,11,14,17,22,25,28,32-nonaoxotriacontahydro-1H,5H-dipyrrolo[2,1-c:2',1'-r][1,4,7,10,13,16,19,22,25]nonaazacyclooctacosine-30-carbonyl)-L-alanyl-L-arginyl-L-valyl-L-isoleucyl-L-seryl-L-arginyl-L-phenylalanylglycine",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=261&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0001721",
+                "strain": "KY523076",
+                "coordinates": "1 - 30395"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Ornibactin C8 as produced by multiple strains in this study. Ornibactin C8 was detected in all strains in this study other than the B. thailandensis E264 strain. Although ornibactin C8 was not detected at a high enough intensity to trigger data-dependent acquisition of MS2 data for this molecule in B. cenocepacia J2315 extracts, we see a feature with the characteristic m/z and retention time of ornibactin C8 in these extracts. More information about this molecule and the corresponding BGC can be found in the following paper PMID: 16672617.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "IUPAC": "4-[[1-[[1-(4-aminobutylamino)-5-[formyl(hydroxy)amino]-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-[[2-amino-5-[hydroxy(3-hydroxyoctanoyl)amino]pentanoyl]amino]-2-hydroxy-4-oxobutanoic acid",
+            "SMILES": "CCCCCC(CC(=O)N(CCCC(C(=O)NC(C(C(=O)O)O)C(=O)NC(CO)C(=O)NC(CCCN(C=O)O)C(=O)NCCCCN)N)O)O",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=523&show=true&task=717832a6d96a47b2be9f166ce7f41c5d#%7B%7D"
+        }
+    ]
+}

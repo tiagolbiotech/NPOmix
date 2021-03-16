@@ -1,0 +1,111 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Katherine N Maloney",
+        "submitter_email": "kmaloney@pointloma.edu",
+        "submitter_orcid": "https://orcid.org/0000-0003-3472-7593",
+        "submitter_name_secondary": "M. Caroline Roper",
+        "submitter_email_secondary": "mcroper@ucr.edu",
+        "PI_name": "Katherine N Maloney",
+        "PI_institution": "Point Loma Nazarene University",
+        "PI_email": "kmaloney@pointloma.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085000",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=b0f425ae9e9647c48ad4dfe723f0393b&view=advanced_view",
+            "molecular_network": "2d7a6e2364cd412c839aebafe94f1fcd"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "https://www.sigmaaldrich.com/catalog/product/sial/70139?lang=en&region=NL",
+                    "medium_volume": 250
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "PDB ambient shaking - dark",
+                "other_growth_conditions": "grown in the dark (covered flasks with foil)"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "other_growth_conditions": "grown in the light",
+                "sample_preparation_method": "PDB ambient shaking - light"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "EtOAc liquid partition"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-1550",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "Kinetex C18 1.7 um x 100 x 2.1 mm; water:acetonitrile 11 min",
+                "instrumentation_method": "QE Tiny Earth conditions"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASLF000000000"
+            },
+            "genome_label": "Epicoccum nigrum cf0051"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Epicoccum nigrum cf0051",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085000/ccms_peak/KM_EN-dark.mzML",
+            "sample_preparation_label": "PDB ambient shaking - dark",
+            "extraction_method_label": "EtOAc liquid partition",
+            "instrumentation_method_label": "QE Tiny Earth conditions"
+        },
+        {
+            "sample_preparation_label": "PDB ambient shaking - light",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085000/ccms_peak/KM_EN-light.mzML",
+            "genome_label": "Epicoccum nigrum cf0051",
+            "extraction_method_label": "EtOAc liquid partition",
+            "instrumentation_method_label": "QE Tiny Earth conditions"
+        }
+    ]
+}

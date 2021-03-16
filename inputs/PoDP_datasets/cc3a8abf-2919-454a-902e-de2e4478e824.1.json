@@ -1,0 +1,561 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Xuanji Li",
+        "submitter_email": "hnlixuanji@outlook.com",
+        "submitter_orcid": "https://orcid.org/0000-0001-6227-9906",
+        "PI_name": "Søren johannes Sørensen",
+        "PI_institution": "University of Copenhagen",
+        "PI_email": "sjs@bio.ku.dk"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000082891",
+            "MaSSIVE_URL": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/"
+        },
+        "publications": "10.1016/j.envint.2019.02.048"
+    },
+    "experimental": {
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "Approximately 180 mg fecal samples were suspended in water, a\nsubsample of each was mixed with acetonitrile to a final concentration\nof 1% and acidified with formic acid to a final concentration of 0.5% to\ncounteract the buffer capacity of the samples. Samples were filtered on\n3000 Da Amicon Spinfilters to remove debris",
+                "extraction_method": "method1"
+            }
+        ],
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "metagenomics samples"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Normal Phase",
+                "mode": "http://purl.obolibrary.org/obo/CHMO_0002262",
+                "ionization": {},
+                "buffering": "a mobile phase consisting of solvent A (0.1% formic acid) and B (80% acetonitrile in 0.1% formic acid). The concentration of solvent B was linearly increased from 2 to 10% over 3 min and from 10 to 95% solution B over 15 min. Solvent B was maintained at 95% for 2 min.",
+                "instrumentation_method": "LC-MS/ MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "BioSample_accession": "SAMN09429653",
+            "genome_label": "Cd_48"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "BioSample_accession": "SAMN09429652",
+            "genome_label": "Cd_47"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429651",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_46"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429650 ",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_45"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429649",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_44"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "BioSample_accession": "SAMN09429648",
+            "genome_label": "Cd_43"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429647",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_42"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429646",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_41"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429645",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_40"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429644",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_35"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429643",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Cd_33"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429642",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_31"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429641",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_27"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429640",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": " As_26"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429639",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_22"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429638",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_20"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429637",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_19"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429636",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "As_18"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429635",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_16"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429634",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_15"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429633",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_14"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429632",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_13"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429631",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_12"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429630",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_10"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "BioSample_accession": "SAMN09429629",
+            "genome_label": "Control_9"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429628",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_8"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429627",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_7"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429626",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_6"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429625",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "BioSample_accession": "SAMN09429624",
+            "genome_label": "Control_2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "GenBank_accession": "PRJNA476308",
+                "ENA_NCBI_accession": "PRJNA476308"
+            },
+            "BioSample_accession": "SAMN09429623",
+            "publications": " 10.1016/j.envint.2019.02.048",
+            "genome_label": "Control_1"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Control_1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample01.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample02.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample05.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample06.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_7",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample07.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_8",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample08.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample09.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_10",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample10.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample12.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_13",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample13.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_14",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample14.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_15",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample15.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Control_16",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample16.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_18",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample18.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_19",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample19.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_20",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample20.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_22",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample22.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": " As_26",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample26.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_27",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample27.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "As_31",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample31.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_33",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample33.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_35",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample35.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_40",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample40.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_41",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample41.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_42",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample41%20(2).mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_43",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample43.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_44",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample44.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_45",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample45.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_46",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample46.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_47",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample47.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        },
+        {
+            "genome_label": "Cd_48",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample48.mzML",
+            "extraction_method_label": "method1",
+            "instrumentation_method_label": "LC-MS/ MS",
+            "sample_preparation_label": "metagenomics samples"
+        }
+    ]
+}

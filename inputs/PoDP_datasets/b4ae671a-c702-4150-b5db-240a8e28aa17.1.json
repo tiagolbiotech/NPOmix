@@ -1,0 +1,86 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Seoung Rak Lee",
+        "submitter_email": "davidseoungrak@gmail.com",
+        "PI_name": "Ki Hyun Kim",
+        "PI_institution": "Sungkyunkwan University",
+        "PI_email": "khkim83@skku.edu",
+        "submitter_orcid": "https://orcid.org/0000-0002-5285-9138"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084989",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5bd2823c34904ca09a1777d362f31f8d&view=advanced_view",
+            "molecular_network": "471d8f87e42449f4be1654ce0a3b8182"
+        },
+        "publications": "31447803"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "Solid/ISP-2"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17824"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "Isopropanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000129",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-1700",
+                "collision_energy": "20",
+                "buffering": "Acetonitrile10-100%",
+                "other_instrumentation": "Agilent 6510 series",
+                "instrumentation_method": "TOF/Neg"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_002812405.1"
+            },
+            "BioSample_accession": "SAMN07312782",
+            "publications": "31447803",
+            "genome_label": "Streptomyces sp. M56"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. M56",
+            "sample_preparation_label": "Solid/ISP-2",
+            "extraction_method_label": "Isopropanol",
+            "instrumentation_method_label": "TOF/Neg",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084989/raw/20200102_M56_EA_MSMS_Neg-r002.mgf"
+        }
+    ]
+}

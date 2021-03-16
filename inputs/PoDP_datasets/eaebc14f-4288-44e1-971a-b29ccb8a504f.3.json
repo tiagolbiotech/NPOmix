@@ -1,0 +1,108 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Chao Du",
+        "submitter_orcid": "https://orcid.org/0000-0003-3447-5293",
+        "submitter_email": "c.du@biology.leidenuniv.nl",
+        "PI_name": "Gilles P. van Wezel",
+        "PI_institution": "Leiden University (Institute of Biology Leiden)",
+        "PI_email": "g.wezel@biology.leidenuniv.nl"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000079139",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=f53b81b49545441988b4fea3a16e1497&view=advanced_view",
+            "molecular_network": "88cf27f37cbd4e6eb4008f2cdf1ded35"
+        },
+        "related_GNPSMassIVE_ID": "MSV000079279",
+        "publications": "10.1021/acschembio.5b00801"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=486"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 7,
+                    "growth_phase_OD": "Stationary phase"
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "R5 agar +25 mM GlcNAc",
+                "sample_preparation_method": "R5+GlcNAc"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "complex",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtAc"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2000",
+                "buffering": "acetonitrile with 0.1% formic acid",
+                "instrumentation_method": "TOF-ESI"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000710405",
+                "RefSeq_accession": "GCF_000710405"
+            },
+            "BioSample_accession": "SAMN02570147",
+            "publications": "10.1021/acschembio.5b00801",
+            "genome_label": "Kitasatospora sp. MBT66"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Kitasatospora sp. MBT66",
+            "sample_preparation_label": "R5+GlcNAc",
+            "extraction_method_label": "EtAc",
+            "instrumentation_method_label": "TOF-ESI",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079139/peak/Himalaya%20strains/007_Hm125_1_01_240.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "BGC0000028: bafilomycin B1 biosynthetic gene cluster from Streptomyces lohii, Streptomyces griseus DSM 2608 and Kitasatospora sp. MBT66",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "COC1\\C=C\\C=C(C)\\CC(C)C(O)C(C)\\C=C(/C)\\C=C(OC)\\C(=O)OC1C(C)C(O)C(C)C1(O)CC(OC(=O)\\C=C\\C(=O)NC2=C(O)CCC2=O)C(C)C(O1)C(C)C",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079139/peak/Himalaya%20strains/007_Hm125_1_01_240.mzXML",
+            "MS2_scan": "463-472",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GU390405",
+                "coordinates": "1 - 74,009",
+                "similar_MIBiG_number": "BGC0000028"
+            }
+        }
+    ]
+}

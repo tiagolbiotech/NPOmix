@@ -1,0 +1,339 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Jamshid Amiri Moghaddam",
+        "submitter_orcid": "https://orcid.org/0000-0002-9385-0711",
+        "submitter_email": "jamshid.amiri.moghaddam@leibniz-hki.de",
+        "PI_name": "Christine Beemelmanns",
+        "PI_email": "christine.beemelmanns@hki-jena.de",
+        "PI_institution": "Leibniz Institute for Natural Product Research and Infection Biology e.V. Hans-Knöll-Institute (HKI)"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084884",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=74e32e8f03414545abe5f759468df98a"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf",
+                    "medium_volume": 25
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 140
+                },
+                "sample_preparation_method": "Marine_broth_cultivation"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf",
+                    "medium_volume": 25
+                },
+                "growth_parameters": {
+                    "growth_temperature": 50,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_rpm": 140
+                },
+                "other_growth_conditions": "30 g sucrose and 1 g yeast extracts were added to marine broth",
+                "sample_preparation_method": "modified_marine_broth_cultivation"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.2,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "other_extraction_parameters": "Cultures were centrifuged at 8000 rmp for 20 min and supernatant were used for SPE (Chromband HR-X 30 mg) fractionation with 20% MeOH",
+                "extraction_method": "SPE20_fractionation"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "other_extraction_parameters": "Cultures were centrifuged at 8000 rmp for 20 min and supernatant were used for SPE (Chromband HR-X 30 mg) fractionation with 50% MeOH",
+                "extraction_method": "SPE50_fractionation"
+            },
+            {
+                "extracted_material": "supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "other_extraction_parameters": "Cultures were centrifuged at 8000 rmp for 20 min and supernatant were used for SPE (Chromband HR-X 30 mg) fractionation with 100% MeOH",
+                "extraction_method": "SPE100_fractionation"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-2000",
+                "buffering": "0.1% formic acid",
+                "collision_energy": "30",
+                "instrumentation_method": "Pos_HRMS_marine"
+            },
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000129",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-2000",
+                "collision_energy": "30",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "Neg_HRMS_marine"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "FTMA00000000"
+            },
+            "BioSample_accession": "SAMN05421797",
+            "genome_label": "Maribacter_15366"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AAXU00000000"
+            },
+            "BioSample_accession": "SAMN02436092",
+            "genome_label": "Algoriphagus "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JQMD00000000"
+            },
+            "BioSample_accession": "SAMN02799635",
+            "genome_label": "Zobellia "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "QCYM00000000"
+            },
+            "BioSample_accession": "SAMN08946991",
+            "genome_label": "Labrenzia"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP001683"
+            },
+            "BioSample_accession": "SAMN02598440",
+            "genome_label": "Saccharomonospora"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Maribacter_15366",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_15366.mzML"
+        },
+        {
+            "genome_label": "Maribacter_15366",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "extraction_method_label": "SPE20_fractionation",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_15366n.mzML"
+        },
+        {
+            "genome_label": "Maribacter_15366",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_15366.mzML"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_15366n.mzML",
+            "genome_label": "Maribacter_15366",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine"
+        },
+        {
+            "genome_label": "Maribacter_15366",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_15366.mzML"
+        },
+        {
+            "genome_label": "Maribacter_15366",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_15366n.mzML"
+        },
+        {
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "genome_label": "Algoriphagus ",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_Alg.mzML"
+        },
+        {
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "extraction_method_label": "SPE20_fractionation",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "genome_label": "Algoriphagus ",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_Algn.mzML"
+        },
+        {
+            "genome_label": "Algoriphagus ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_Alg.mzML"
+        },
+        {
+            "genome_label": "Algoriphagus ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_Algn.mzML"
+        },
+        {
+            "genome_label": "Algoriphagus ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_Alg.mzML"
+        },
+        {
+            "genome_label": "Algoriphagus ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_Algn.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_zob.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_zobn.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_zob.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_zobn.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_zob.mzML"
+        },
+        {
+            "genome_label": "Zobellia ",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_zobn.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_Lab.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE20_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w20_Labn.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_Lab.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE50_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w50_Labn.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_Lab.mzML"
+        },
+        {
+            "genome_label": "Labrenzia",
+            "sample_preparation_label": "Marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Neg_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_Labn.mzML"
+        },
+        {
+            "genome_label": "Saccharomonospora",
+            "sample_preparation_label": "modified_marine_broth_cultivation",
+            "extraction_method_label": "SPE100_fractionation",
+            "instrumentation_method_label": "Pos_HRMS_marine",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/Sacch00196_MS2.mzML"
+        }
+    ]
+}

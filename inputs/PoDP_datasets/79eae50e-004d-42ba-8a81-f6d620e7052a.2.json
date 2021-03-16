@@ -1,0 +1,144 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Benjamin-Florian Hempel",
+        "submitter_orcid": "https://orcid.org/0000-0002-1998-4033",
+        "submitter_email": "benjamin.hempel@tu-berlin.de",
+        "PI_name": "Daniel Petras & Roderich Suessmuth",
+        "PI_institution": "Technische Universität Berlin",
+        "PI_email": "roderich.suessmuth@tu-berlin.de"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085023",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=69f83b2db3924c52a259264cb0e826eb",
+            "molecular_network": "65f1f42cca394c8ea47b9c1ab80214cb"
+        },
+        "publications": "27232656"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "YPG",
+                    "medium_volume": 1000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 160
+                },
+                "sample_preparation_method": "YPG",
+                "other_growth_conditions": "After the first 24 h of growth, the cultures were fed (125 mg/L culture) pABA or d4-pABA daily for 4 days"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.9,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_46787",
+                        "Other_solvent": "MeOH/Water"
+                    }
+                ],
+                "extracted_material": "cells",
+                "resins": "XAD-1600 Amberlite",
+                "extraction_method": "XAD"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.9,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_46787",
+                        "Other_solvent": "MeOH/Water"
+                    }
+                ],
+                "extracted_material": "cells",
+                "resins": "XAD-1600 Amberlite",
+                "other_extraction_parameters": "SPE C8 CHROMOBAND column",
+                "extraction_method": "SPE"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "200-3000",
+                "collision_energy": "30",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "Orbitrap"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_002240395.1"
+            },
+            "BioSample_accession": "SAMN05504068",
+            "genome_label": "Xanthomonas citri pv. mangiferaeindicae"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Xanthomonas citri pv. mangiferaeindicae",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085023/peak/XaMa_SILAC/XM_d0_SPE_40.mzXML",
+            "sample_preparation_label": "YPG",
+            "extraction_method_label": "SPE",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Xanthomonas citri pv. mangiferaeindicae",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085023/peak/XaMa_SILAC/XM_d4_SPE_40.mzXML",
+            "sample_preparation_label": "YPG",
+            "extraction_method_label": "SPE",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Xanthomonas citri pv. mangiferaeindicae",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085023/peak/XaMa_SILAC/XanMangi_XAD_crude_D0_1.mzXML",
+            "sample_preparation_label": "YPG",
+            "extraction_method_label": "XAD",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Xanthomonas citri pv. mangiferaeindicae",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085023/peak/XaMa_SILAC/XanMangi_XAD_crude_D4_1.mzXML",
+            "sample_preparation_label": "YPG",
+            "extraction_method_label": "XAD",
+            "instrumentation_method_label": "Orbitrap"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0001088",
+                "strain": "AJ586576.1",
+                "coordinates": "30,166 - 50,805"
+            },
+            "link": "single molecule",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "C/C(=C\\CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)N)/C)/C)/CC/C=C(\\C)/CCC(=O)O",
+            "known_link": "Xanthomonic acid",
+            "IUPAC": "4-amino-3-[(2E,6E,10E,14E)-17-carboxy-3,7,11,15-tetramethylheptadeca-2,6,10,14-tetraenyl]benzoic acid",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085023/peak/XaMa_SILAC/XanMangi_XAD_crude_D0_1.mzXML",
+            "MS2_scan": "906, 909, 925, 928, 940, 943"
+        }
+    ]
+}

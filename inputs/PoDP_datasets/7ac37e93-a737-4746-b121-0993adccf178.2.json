@@ -1,0 +1,257 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Eric Helfrich",
+        "submitter_orcid": "https://orcid.org/0000-0001-8751-3279",
+        "submitter_email": "eriche@ethz.ch",
+        "PI_name": "Jörn Piel",
+        "PI_email": "jpiel@ethz.ch",
+        "PI_institution": "ETH Zurich",
+        "submitter_name_secondary": "Michael Rust",
+        "submitter_email_secondary": "rustmi@ethz.ch"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078667",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=1a001fea41e84bffa15b0d712051ea56"
+        },
+        "related_GNPSMassIVE_ID": "MSV000078669,MSV000078670",
+        "publications": "10.1038/nature12959,10.1126/science.1226121,10.1038/nchem.2666, 10.1073/pnas.0405976101"
+    },
+    "experimental": {
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_16236"
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "enriched ‘Entotheonella’ fraction"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_16236"
+                    }
+                ],
+                "extracted_material": "complex",
+                "extraction_method": "Theonella swinhoei (yellow chemotype)"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "collision_energy": "35",
+                "range": "200-2500 and 100-1600",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "nano-LC (Acclaim PepMap RSLC nano Viper column (2 mm, C18, 100 A (15 cm 3 50 mm); A= H2O 1 and B= 1-propanol with B at 10–80% for 0–60 min and 100% for 61–95 min at a flowrate of 0.3 ml min) ",
+                "instrumentation_method": "nano_LC_HRMSMS"
+            },
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "200-2500 and 100-1600",
+                "collision_energy": "35",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "UPLC-HRMSMS",
+                "other_instrumentation": "UHPLC (Phenomenex Kinetex 2.6 mm C18 100 A (150 3 4.6 mm) column; A= H20 and B= acetonitrile with B at 5% for 0–2 min, 5–95% for 2–14 min and 95% for 14–17 min at a flowrate of 0.5 ml/min), "
+            }
+        ],
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "enriched ‘Entotheonella’ fraction from the marine sponge Theonella swinhoei (yellow chemotype)"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "other_growth_conditions": "Sponge was stored in Ethanol or RNAlater",
+                "sample_preparation_method": "enriched ‘Entotheonella’ fraction"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "Theonella swinhoei (yellow chemotype)"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "other_growth_conditions": "Sponge was stored in Ethanol or RNAlater",
+                "sample_preparation_method": "Theonella swinhoei"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "ENA_NCBI_accession": "AZHW00000000.1",
+                "GenBank_accession": "AZHW00000000.1"
+            },
+            "publications": "10.1038/nature12959, 10.1126/science.1226121, 10.1038/nchem.2666, 10.1073/pnas.0405976101",
+            "BioSample_accession": "SAMN02420412",
+            "genome_label": "‘Candidatus Entotheonella factor’"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Ento_Alex_targeted.mzXML",
+            "instrumentation_method_label": "nano_LC_HRMSMS",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Ento_Eric_130913212942.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "nano_LC_HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_11092013_Ento_Alex.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_11092013_Ento_Eric.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_11092013_Ento_Sponge.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_15_Targeted_Entotheonella.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_17_Targeted_Entotheonella.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_22_Alex_Ento2.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_22_EntoAlex_131022170549.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_22_MixEnto2.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_22_Spong2.mzXML",
+            "sample_preparation_label": "Theonella swinhoei",
+            "extraction_method_label": "Theonella swinhoei (yellow chemotype)",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_2013_10_22_Spong_131022163851.mzXML",
+            "sample_preparation_label": "Theonella swinhoei",
+            "extraction_method_label": "Theonella swinhoei (yellow chemotype)",
+            "instrumentation_method_label": "UPLC-HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Ento_Alex_130913232338.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "nano_LC_HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Entotheonella_enriched_combined.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella’ fraction",
+            "extraction_method_label": "enriched ‘Entotheonella’ fraction",
+            "instrumentation_method_label": "nano_LC_HRMSMS"
+        },
+        {
+            "genome_label": "‘Candidatus Entotheonella factor’",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Sponge.mzXML",
+            "sample_preparation_label": "Theonella swinhoei",
+            "extraction_method_label": "Theonella swinhoei (yellow chemotype)",
+            "instrumentation_method_label": "nano_LC_HRMSMS"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000598"
+            },
+            "link": "single molecule",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Ento_Alex_targeted.mzXML",
+            "SMILES": "CC[C@H](C)[C@@H](C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H]([C@H](C(=O)NC)O)C(=O)N[C@@H](C)C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CO)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CC(=O)N)C(=O)N[C@H](C(=O)N[C@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)O)C(C)(C)C[S@@](=O)C)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H]([C@H](C(=O)NC)O)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H]([C@@H](C)CC(=O)N)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C(C)(C)O)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C(C)(C)CC)NC(=O)CNC(=O)C(=O)CCC(C)(C)C",
+            "IUPAC": "(2S,3R)-2-[[(2R,3R)-2-[[(2S)-5-amino-2-[[(2R)-4-amino-2-[[(2S)-2-[[(2R)-4-amino-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[(2R,3R)-2-[[(2S)-2-[[(2R)-2-[[(2S,3S)-2-[[(2R)-2-[[2-[[(2R)-2-[[(2S)-2-[[(2R,3R)-2-[[(2S,3S)-2-[[(2R)-2-[[2-[[2-[[(2S)-2-[[(2R)-2-[[(2S,3S)-5-amino-2-[[(2R)-2-[[(2S)-2-[[2-[[(2S)-2-[[2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-[[2-[[(2S)-2-[[2-[(5,5-dimethyl-2-oxohexanoyl)amino]acetyl]amino]-3,3-dimethylpentanoyl]amino]acetyl]amino]-3,3-dimethylbutanoyl]amino]-3,3-dimethylbutanoyl]amino]-3,3-dimethylbutanoyl]amino]propanoyl]amino]-3,3-dimethylbutanoyl]amino]-3,3-dimethylbutanoyl]amino]propanoyl]amino]acetyl]amino]propanoyl]amino]-3,3-dimethylbutanoyl]amino]propanoyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-hydroxy-3-methylbutanoyl]amino]acetyl]amino]propanoyl]amino]acetyl]amino]-3,3-dimethylbutanoyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-methyl-5-oxopentanoyl]amino]-3-hydroxy-3-methylbutanoyl]amino]propanoyl]amino]acetyl]amino]acetyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxy-4-(methylamino)-4-oxobutanoyl]amino]-3,3-dimethylbutanoyl]amino]-3-hydroxy-3-methylbutanoyl]amino]acetyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-methylpentanoyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-methylbutanoyl]amino]-3-hydroxy-4-(methylamino)-4-oxobutanoyl]amino]propanoyl]amino]-4-(methylamino)-4-oxobutanoyl]amino]-3-methylbutanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylbutanoyl]amino]-4-oxobutanoyl]amino]-3,3-dimethyl-4-[(S)-methylsulfinyl]butanoyl]amino]-4-oxobutanoyl]amino]-5-oxopentanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxybutanoic acid",
+            "MS2_scan": "17706, 17699",
+            "known_link": "Polytheonamide A and B were isolated from the marine sponge Theonella swinhoei. Metagenomic and single cell studies identified the RiPP biosynthetic gene cluster to be encoded in the genome of the symbiont ‘Candidatus Entotheonella factor’. Heterologous expression studies were used to characterize the individual proteins encoded in the poy biosynthetic gene cluster. "
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001105"
+            },
+            "link": "single molecule",
+            "known_link": "Onnamide A and a wide range of analogs were isolated from the marine sponge Theonella swinhoei. Metagenomic and single cell studies identified the trans-AT PKS biosynthetic gene cluster to be encoded in the genome of the symbiont ‘Candidatus Entotheonella factor’. Bioinformatic studies were used to identify the onn biosynthetic gene cluster.  The biosynthetic gene cluster is in good agreement with the isolated polyketides. In addition, the biosynthetic gene cluster is very similar to other biosynthetic gene clusters that are responsible for the production of pederin-like compounds to which onnamide belongs. ",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078667/spectrum/EH_Ento_Eric_130913212942.mzXML",
+            "MS2_scan": "6824, 6516",
+            "SMILES": "C[C@H]1[C@H](O[C@](CC1=C)([C@@H](C(=O)N[C@@H]2[C@@H]3[C@@H]([C@H](C([C@H](O3)C[C@@H](CCC/C=C/C=C/C=C/C(=O)N[C@@H](CCCN=C(N)N)C(=O)O)O)(C)C)OC)OCO2)O)OC)C",
+            "IUPAC": "(2S)-2-[[(2E,4E,6E,11R)-12-[(4S,4aS,6R,8S,8aR)-4-[[(2S)-2-hydroxy-2-[(2R,5R,6R)-2-methoxy-5,6-dimethyl-4-methylideneoxan-2-yl]acetyl]amino]-8-methoxy-7,7-dimethyl-4a,6,8,8a-tetrahydro-4H-pyrano[3,2-d][1,3]dioxin-6-yl]-11-hydroxydodeca-2,4,6-trienoyl]amino]-5-(diaminomethylideneamino)pentanoic acid"
+        }
+    ]
+}

@@ -1,0 +1,777 @@
+	NCBI_ID	Database	BioSample	LCMS_file	Genome_label	Method	New_NCBI_ID	Downloaded
+47	CP022686.1	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000083387/peak/mzXML/S_N1.mzXML	Ecoli_Nissle_genome	genome	NaN	no
+48	CP022686.1	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000083387/peak/mzXML/S_N2.mzXML	Ecoli_Nissle_genome	genome	NaN	no
+49	CP022686.1	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000083387/peak/mzXML/S_N3.mzXML	Ecoli_Nissle_genome	genome	NaN	no
+212	GCF_000227135.1	RefSeq_accession	SAMN08057133	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BHU568	genome	NaN	no
+213	GCF_000227135.1	RefSeq_accession	SAMN08057132	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BHU575	genome	NaN	no
+214	GCF_000227135.1	RefSeq_accession	SAMN08057131	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK275	genome	NaN	no
+215	GCF_000227135.1	RefSeq_accession	SAMN08057130	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK282	genome	NaN	no
+216	GCF_000227135.1	RefSeq_accession	SAMN08057129	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK604	genome	NaN	no
+217	GCF_000227135.1	RefSeq_accession	SAMN08057128	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK406	genome	NaN	no
+218	GCF_000227135.1	RefSeq_accession	SAMN08057125	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK026	genome	NaN	no
+219	GCF_000227135.1	RefSeq_accession	SAMN08057127	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK519	genome	NaN	no
+220	GCF_000227135.1	RefSeq_accession	SAMN08057126	https://www.ebi.ac.uk/metabolights/MTBLS1606	Leishmania donovani BPK612	genome	NaN	no
+226	CP031759	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000083295/raw/CO348.mzXML	Pseudoalteromonas piscicida strain DE1-A	genome	NaN	no
+238	ASM205596v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/44_Bsub_3610_LB_RD1_01_5571.mzXML	ASM205596v1	genome	NaN	no
+239	ASM764v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/13_SE12228_LB_RA7_01_5443.mzXML	ASM764v1	genome	NaN	no
+240	Wild_Type_454AllContigs	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/47_Paer_PA01_LB_RD3_01_5579.mzXML	Wild_Type_454AllContigs	genome	NaN	no
+241	SE1457	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/16_SE1457_NA_RB8_01_5481.mzXML	SE1457	genome	NaN	no
+242	ASM23121v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/17_Pacne_11827_BHI_RA9_01_5543.mzXML	ASM23121v1	genome	NaN	no
+243	ASM23121v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/18_PropA11827_TSA_RA10_01_5450.mzXML	ASM23121v1	genome	NaN	no
+244	ASM73048v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/19_PropA6919_LB_RA11_01_5461.mzXML	ASM73048v1	genome	NaN	no
+245	12625_2_11	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/50_Sa_MSSA_LB_RD6_01_5588.mzXML	12625_2_11	genome	NaN	no
+246	ASM1342v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/1_SA113_TSA_BB3_01_5743.mzXML	ASM1342v1	genome	NaN	no
+247	ASM73048v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/20_PropA6919_BHI_RA12_01_5453.mzXML	ASM73048v1	genome	NaN	no
+248	ASM187869v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/55_Ecoli_LB_BB1_01_6059.mzXML	ASM187869v1	genome	NaN	no
+249	ASM146933v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/21_SE_FS1_LB_RB9_01_5484.mzXML	ASM146933v1	genome	NaN	no
+250	ASM80567v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/56_Cm23348_LB_RB2_01_5464.mzXML	ASM80567v1	genome	NaN	no
+251	ASM23951v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/25_SE_14.1.R1.SE_LB_BA3_01_5723.mzXML	ASM23951v2	genome	NaN	no
+252	ASM22729v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/26_Pavidum_LB_RB1_01_5646.mzXML	ASM22729v1	genome	NaN	no
+253	ASM746v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/61_Smutans_UAI-59_BHI_BB8_01_5757.mzXML	ASM746v2	genome	NaN	no
+254	ASM146959v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/34_Pacne_12.1.L1_LB_RC4_01_5639.mzXML	ASM146959v1	genome	NaN	no
+269	NZ_CP011104	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Pte_1865.mzXML	Photorhabdus thracensis DSM 15199	genome	NaN	no
+277	FN667741	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xbo_1835.mzXML	Xenorhabdus bovienii SS-2004	genome	NaN	no
+280	FO704550	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xdo_1883.mzXML	Xenorhabdus doucetiae FRM	genome	NaN	no
+288	FN667742	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xne_1859.mzXML	Xenorhabdus nematophila ATCC 19061	genome	NaN	no
+289	FO704551	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xpo_1763.mzXML	Xenorhabdus poinarii G6	genome	NaN	no
+293	212082	JGI_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085031/peak/ETNP_63.mzML	Metagenome Ocean ETNP1	metagenome	NaN	no
+294	212661	JGI_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085031/peak/ETNP_52.mzML	Metagenome Ocean ETNP2	metagenome	NaN	no
+295	LT559118.1	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000085123/peak/Nonomuraea_A40926.mzML	Nonomuraea sp. ATCC39727 (gerenzaniensis)	genome	NaN	no
+309	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-1.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+310	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-1_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+311	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-2.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+312	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-2_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+313	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-3.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+314	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-3_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+315	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-4.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+316	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-4_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+317	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-5.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+318	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-5_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+319	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-6.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+320	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-6_neg.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+369	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-1.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+370	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-1_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+371	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-2.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+372	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-2_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+373	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-3.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+374	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-3_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+375	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-4.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+376	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-4_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+377	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-5.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+378	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-5_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+379	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-6.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+380	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-6_neg.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+405	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-1.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+406	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-1_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+407	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-2.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+408	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-2_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+409	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-3.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+410	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-3_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+411	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-4.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+412	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-4_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+413	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-5.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+414	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-5_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+415	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-6.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+416	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-6_neg.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+477	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-1.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+478	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-1_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+479	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-2.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+480	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-2_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+481	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-3.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+482	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-3_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+483	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-4.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+484	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-4_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+485	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-5.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+486	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-5_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+487	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-6.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+488	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-6_neg.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+489	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-1.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+490	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-1_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+491	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-2.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+492	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-2_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+493	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-3.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+494	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-3_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+495	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-4.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+496	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-4_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+497	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-5.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+498	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-5_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+499	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-6.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+500	2563366517	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-6_neg.mzXML	Salinispora oceanensis CNY703	genome	NaN	no
+501	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-1.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+502	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-1_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+503	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-2.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+504	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-2_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+505	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-3.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+506	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-3_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+507	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-4.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+508	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-4_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+509	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-5.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+510	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-5_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+511	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-6.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+512	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-6_neg.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+537	2558860984	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085179/peak/B632-2_26_01_10126.mzXML	CNB-632	genome	NaN	no
+538	2526164782	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085179/peak/P082_1_21_01_9386.mzXML	CNP-082	genome	NaN	no
+540	2654587513	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085179/peak/Q509-2_35_01_10137.mzXML	CNQ-509	genome	NaN	no
+543	2558860985	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085179/peak/X435_2_29_01_9396.mzXML	CNX-435	genome	NaN	no
+570	ASM22033v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_331_BD6_01_22716.mzXML	ASM22033v1	genome	NaN	no
+571	ASM17999v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_708_RD4_01_22805.mzXML	ASM17999v1	genome	NaN	no
+572	ASM17999v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_708_BD1_01_22711.mzXML	ASM17999v1	genome	NaN	no
+577	ASM16051v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_103_RD6_01_22561.mzXML	ASM16051v1	genome	NaN	no
+578	ASM16051v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_103_RD10_01_22225.mzXML	ASM16051v1	genome	NaN	no
+579	ASM16023v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_142_RE7_01_22821.mzXML	ASM16023v1	genome	NaN	no
+580	ASM16023v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_142_BD6_01_22901.mzXML	ASM16023v1	genome	NaN	no
+581	ASM16023v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_142_BE2_01_22725.mzXML	ASM16023v1	genome	NaN	no
+582	ASM17413v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_117_RE4_01_22818.mzXML	ASM17413v1	genome	NaN	no
+583	ASM17413v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_117_BD3_01_22898.mzXML	ASM17413v1	genome	NaN	no
+584	ASM17413v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_117_BD11_01_22721.mzXML	ASM17413v1	genome	NaN	no
+585	ASM17471v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_121_RF5_01_22832.mzXML	ASM17471v1	genome	NaN	no
+586	ASM17471v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_121_BE3_01_22911.mzXML	ASM17471v1	genome	NaN	no
+587	ASM17471v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_121_BE12_01_22735.mzXML	ASM17471v1	genome	NaN	no
+588	ASM16231v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_636_RC12_01_22800.mzXML	ASM16231v1	genome	NaN	no
+589	ASM16231v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_636_BC10_01_22707.mzXML	ASM16231v1	genome	NaN	no
+590	ASM16225v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_638_RD5_01_22560.mzXML	ASM16225v1	genome	NaN	no
+591	ASM16225v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_638_RD9_01_22224.mzXML	ASM16225v1	genome	NaN	no
+592	ASM17703v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_642_RD12_01_22227.mzXML	ASM17703v2	genome	NaN	no
+593	ASM17503v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_645_RD8_01_22563.mzXML	ASM17503v1	genome	NaN	no
+594	ASM17503v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_645_RE1_01_22229.mzXML	ASM17503v1	genome	NaN	no
+595	ASM27630v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_906_RD3_01_22558.mzXML	ASM27630v1	genome	NaN	no
+596	ASM27630v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_906_RD5_01_22220.mzXML	ASM27630v1	genome	NaN	no
+597	04_NF40_HMP1647v01	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_1084_BA2_01_23016.mzXML	04_NF40_HMP1647v01	genome	NaN	no
+598	ASM16063v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_13_RA8_01_22107.mzXML	ASM16063v1	genome	NaN	no
+599	ASM16063v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_13_RA10_01_22447.mzXML	ASM16063v1	genome	NaN	no
+600	ASM16063v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_13_BA12_01_23026.mzXML	ASM16063v1	genome	NaN	no
+601	ASM14430v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_492_RC2_01_22298.mzXML	ASM14430v1	genome	NaN	no
+605	ASM14400v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_488_RB10_01_22293.mzXML	ASM14400v1	genome	NaN	no
+606	ASM14402v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_489_RB11_01_22294.mzXML	ASM14402v1	genome	NaN	no
+607	ASM14412v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_490_RB12_01_22295.mzXML	ASM14412v1	genome	NaN	no
+608	ASM14477v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_491_RC1_01_22297.mzXML	ASM14477v1	genome	NaN	no
+609	ASM14438v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_493_RC3_01_22299.mzXML	ASM14438v1	genome	NaN	no
+610	ASM14434v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_494_RC4_01_22300.mzXML	ASM14434v1	genome	NaN	no
+611	ASM14434v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_494_RD10_01_24972.mzXML	ASM14434v1	genome	NaN	no
+612	ASM14406v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_495_RC5_01_22301.mzXML	ASM14406v1	genome	NaN	no
+613	ASM14517v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_496_RC6_01_22302.mzXML	ASM14517v1	genome	NaN	no
+614	ASM14557v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_497_RC7_01_22303.mzXML	ASM14557v1	genome	NaN	no
+615	ASM14452v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_498_RC8_01_22304.mzXML	ASM14452v1	genome	NaN	no
+616	ASM14450v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_499_RC9_01_22305.mzXML	ASM14450v1	genome	NaN	no
+617	ASM14479v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_500_RC10_01_22306.mzXML	ASM14479v1	genome	NaN	no
+618	ASM14479v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_500_RD11_01_24973.mzXML	ASM14479v1	genome	NaN	no
+619	ASM14414v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_501_RC11_01_22307.mzXML	ASM14414v1	genome	NaN	no
+620	ASM14414v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_501_RD12_01_24974.mzXML	ASM14414v1	genome	NaN	no
+621	ASM14545v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_502_RC12_01_22308.mzXML	ASM14545v1	genome	NaN	no
+622	ASM14471v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_503_RD1_01_22310.mzXML	ASM14471v1	genome	NaN	no
+623	ASM14471v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_503_RE1_01_24976.mzXML	ASM14471v1	genome	NaN	no
+624	ASM14511v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_504_RD2_01_22311.mzXML	ASM14511v1	genome	NaN	no
+625	ASM14551v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_505_RD3_01_22312.mzXML	ASM14551v1	genome	NaN	no
+626	ASM14456v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_506_RD4_01_22313.mzXML	ASM14456v1	genome	NaN	no
+627	ASM14458v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_507_RD5_01_22314.mzXML	ASM14458v1	genome	NaN	no
+628	ASM14549v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_508_RD6_01_22315.mzXML	ASM14549v1	genome	NaN	no
+629	ASM14549v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_508_RB7_01_24946.mzXML	ASM14549v1	genome	NaN	no
+630	ASM14555v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_509_RD7_01_22316.mzXML	ASM14555v1	genome	NaN	no
+631	ASM14507v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_510_RD8_01_22317.mzXML	ASM14507v1	genome	NaN	no
+632	ASM14444v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_512_RD9_01_22318.mzXML	ASM14444v1	genome	NaN	no
+633	ASM14444v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_512_RE2_01_24977.mzXML	ASM14444v1	genome	NaN	no
+634	ASM14444v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_512_RB8_01_24949.mzXML	ASM14444v1	genome	NaN	no
+635	ASM14519v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_513_RD10_01_22319.mzXML	ASM14519v1	genome	NaN	no
+636	ASM14475v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_514_RD11_01_22320.mzXML	ASM14475v1	genome	NaN	no
+637	ASM14408v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_515_RD12_01_22321.mzXML	ASM14408v1	genome	NaN	no
+638	ASM14436v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_516_RE1_01_22323.mzXML	ASM14436v1	genome	NaN	no
+639	ASM14487v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_518_RE2_01_22324.mzXML	ASM14487v1	genome	NaN	no
+640	ASM14426v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_519_RE3_01_22325.mzXML	ASM14426v1	genome	NaN	no
+641	ASM14446v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_520_RE4_01_22326.mzXML	ASM14446v1	genome	NaN	no
+642	ASM14446v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_520_RB9_01_24950.mzXML	ASM14446v1	genome	NaN	no
+643	ASM14432v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_521_RE5_01_22327.mzXML	ASM14432v1	genome	NaN	no
+644	ASM14418v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_522_RE6_01_22328.mzXML	ASM14418v1	genome	NaN	no
+645	ASM14509v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_524_RE8_01_22330.mzXML	ASM14509v1	genome	NaN	no
+646	ASM14485v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_525_RE9_01_22331.mzXML	ASM14485v1	genome	NaN	no
+647	ASM14485v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_525_RB10_01_24951.mzXML	ASM14485v1	genome	NaN	no
+648	ASM14547v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_526_RE10_01_22332.mzXML	ASM14547v1	genome	NaN	no
+649	ASM14547v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_526_RB11_01_24952.mzXML	ASM14547v1	genome	NaN	no
+650	ASM14535v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_527_RE11_01_22333.mzXML	ASM14535v1	genome	NaN	no
+651	ASM14454v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_528_RE12_01_22334.mzXML	ASM14454v1	genome	NaN	no
+652	ASM14473v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_529_RF1_01_22336.mzXML	ASM14473v1	genome	NaN	no
+653	ASM14404v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_530_RF2_01_22337.mzXML	ASM14404v1	genome	NaN	no
+654	ASM14424v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_531_RF3_01_22338.mzXML	ASM14424v1	genome	NaN	no
+655	ASM14424v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_531_RB12_01_24953.mzXML	ASM14424v1	genome	NaN	no
+656	ASM14410v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_536_RF5_01_22340.mzXML	ASM14410v1	genome	NaN	no
+657	ASM14442v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_539_RF6_01_22341.mzXML	ASM14442v1	genome	NaN	no
+658	ASM14420v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_552_RF7_01_22342.mzXML	ASM14420v1	genome	NaN	no
+659	ASM14505v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_554_RF8_01_22343.mzXML	ASM14505v1	genome	NaN	no
+660	ASM14489v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_555_RF9_01_22344.mzXML	ASM14489v1	genome	NaN	no
+661	ASM14489v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_555_RE3_01_24978.mzXML	ASM14489v1	genome	NaN	no
+662	ASM14489v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_555_RC1_01_24955.mzXML	ASM14489v1	genome	NaN	no
+663	ASM18007v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_561_RE2_01_22570.mzXML	ASM18007v1	genome	NaN	no
+664	ASM18007v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_561_RE9_01_22237.mzXML	ASM18007v1	genome	NaN	no
+665	ASM18007v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_561_RE2_01_22982.mzXML	ASM18007v1	genome	NaN	no
+666	ASM16017v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_106_RD9_01_22810.mzXML	ASM16017v1	genome	NaN	no
+667	ASM16017v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_106_BC7_01_22889.mzXML	ASM16017v1	genome	NaN	no
+668	ASM16017v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_106_BD3_01_22713.mzXML	ASM16017v1	genome	NaN	no
+669	ASM14416v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_523_RE7_01_22329.mzXML	ASM14416v1	genome	NaN	no
+670	ASM14553v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_534_RF4_01_22339.mzXML	ASM14553v1	genome	NaN	no
+692	Blongum22Bv1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_848_RE7_01_22496.mzXML	Blongum22Bv1	genome	NaN	no
+693	Blongum22Bv1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_848_BE4_01_23070.mzXML	Blongum22Bv1	genome	NaN	no
+695	ASM17567v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_107_RA3_01_22519.mzXML	ASM17567v1	genome	NaN	no
+696	ASM17567v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_107_RA3_01_22180.mzXML	ASM17567v1	genome	NaN	no
+697	ASM17567v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_107_RA3_01_22931.mzXML	ASM17567v1	genome	NaN	no
+698	ASM17687v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_114_RA12_01_22528.mzXML	ASM17687v1	genome	NaN	no
+699	ASM17687v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_114_RB1_01_22190.mzXML	ASM17687v1	genome	NaN	no
+700	ASM17687v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_114_RA12_01_22940.mzXML	ASM17687v1	genome	NaN	no
+701	ASM17483v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_116_RB11_01_22540.mzXML	ASM17483v1	genome	NaN	no
+702	ASM17483v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_116_RC1_01_22203.mzXML	ASM17483v1	genome	NaN	no
+703	ASM14358v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_245_RC1_01_22543.mzXML	ASM14358v1	genome	NaN	no
+704	ASM14358v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_245_RC3_01_22205.mzXML	ASM14358v1	genome	NaN	no
+705	ASM14358v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_245_RC3_01_22957.mzXML	ASM14358v1	genome	NaN	no
+714	Clos_clos_WAL_7855_v11	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_317_RA2_01_22101.mzXML	Clos_clos_WAL_7855_v11	genome	NaN	no
+715	Clos_clos_WAL_7855_v11	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_317_RA3_01_22440.mzXML	Clos_clos_WAL_7855_v11	genome	NaN	no
+716	Clos_clos_WAL_7855_v11	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_317_BA5_01_23019.mzXML	Clos_clos_WAL_7855_v11	genome	NaN	no
+717	Clos_symb_WAL_14673_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_319_RA5_01_22104.mzXML	Clos_symb_WAL_14673_V2	genome	NaN	no
+718	Clos_symb_WAL_14673_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_319_RA8_01_22445.mzXML	Clos_symb_WAL_14673_V2	genome	NaN	no
+719	Clos_symb_WAL_14673_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_319_BA10_01_23024.mzXML	Clos_symb_WAL_14673_V2	genome	NaN	no
+721	ASM16243v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_640_BC6_01_22888.mzXML	ASM16243v1	genome	NaN	no
+722	ASM16243v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_640_BD2_01_22712.mzXML	ASM16243v1	genome	NaN	no
+723	ASM27614v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_896_RC9_01_22551.mzXML	ASM27614v1	genome	NaN	no
+724	ASM27614v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_896_RC11_01_22213.mzXML	ASM27614v1	genome	NaN	no
+725	ASM27614v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_896_RC10_01_22964.mzXML	ASM27614v1	genome	NaN	no
+726	ASM27616v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_897_RC10_01_22552.mzXML	ASM27616v1	genome	NaN	no
+727	ASM27616v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_897_RC12_01_22214.mzXML	ASM27616v1	genome	NaN	no
+728	ASM27616v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_897_RC11_01_22965.mzXML	ASM27616v1	genome	NaN	no
+729	ASM27646v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_898_RB4_01_22533.mzXML	ASM27646v1	genome	NaN	no
+730	ASM27646v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_898_RB5_01_22194.mzXML	ASM27646v1	genome	NaN	no
+731	ASM27618v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_900_RC11_01_22553.mzXML	ASM27618v1	genome	NaN	no
+732	ASM27618v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_900_RD1_01_22216.mzXML	ASM27618v1	genome	NaN	no
+733	ASM27618v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_900_RC12_01_22966.mzXML	ASM27618v1	genome	NaN	no
+734	ASM27620v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_901_RC12_01_22554.mzXML	ASM27620v1	genome	NaN	no
+735	ASM27620v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_901_RD2_01_22217.mzXML	ASM27620v1	genome	NaN	no
+736	ASM27620v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_901_RD1_01_22968.mzXML	ASM27620v1	genome	NaN	no
+737	ASM27622v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_902_RD1_01_22556.mzXML	ASM27622v1	genome	NaN	no
+738	ASM27622v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_902_RD3_01_22218.mzXML	ASM27622v1	genome	NaN	no
+739	ASM27622v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_902_RD2_01_22969.mzXML	ASM27622v1	genome	NaN	no
+740	ASM27624v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_903_RA5_01_22521.mzXML	ASM27624v1	genome	NaN	no
+741	ASM27624v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_903_RA5_01_22181.mzXML	ASM27624v1	genome	NaN	no
+742	ASM27624v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_903_RA6_01_22934.mzXML	ASM27624v1	genome	NaN	no
+743	ASM27626v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_904_RD2_01_22557.mzXML	ASM27626v1	genome	NaN	no
+744	ASM27626v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_904_RD4_01_22219.mzXML	ASM27626v1	genome	NaN	no
+745	ASM27626v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_904_RD3_01_22970.mzXML	ASM27626v1	genome	NaN	no
+746	ASM15961v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_102_RD9_01_22564.mzXML	ASM15961v1	genome	NaN	no
+747	ASM15961v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_102_RE4_01_22232.mzXML	ASM15961v1	genome	NaN	no
+748	ASM15961v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_102_RD8_01_22975.mzXML	ASM15961v1	genome	NaN	no
+749	ASM17711v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_118_RE6_01_22820.mzXML	ASM17711v1	genome	NaN	no
+750	ASM17711v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_118_BD5_01_22900.mzXML	ASM17711v1	genome	NaN	no
+751	ASM17711v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_118_BE1_01_22724.mzXML	ASM17711v1	genome	NaN	no
+756	ASM18370v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_246_RE5_01_22819.mzXML	ASM18370v1	genome	NaN	no
+757	ASM18370v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_246_BD4_01_22899.mzXML	ASM18370v1	genome	NaN	no
+758	ASM18370v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_246_BD12_01_22722.mzXML	ASM18370v1	genome	NaN	no
+759	Clos_symb_WAL_14163_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_309_RA7_01_22444.mzXML	Clos_symb_WAL_14163_V1	genome	NaN	no
+760	Clos_symb_WAL_14163_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_309_BA9_01_23023.mzXML	Clos_symb_WAL_14163_V1	genome	NaN	no
+761	ASM15408v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_633_RD9_01_22147.mzXML	ASM15408v1	genome	NaN	no
+762	ASM15408v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_633_RD12_01_22488.mzXML	ASM15408v1	genome	NaN	no
+763	ASM15408v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_633_BD10_01_23063.mzXML	ASM15408v1	genome	NaN	no
+766	ASM16233v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_639_RG10_01_22850.mzXML	ASM16233v1	genome	NaN	no
+767	ASM16233v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_639_RH9_01_23100.mzXML	ASM16233v1	genome	NaN	no
+768	ASM16233v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_639_BG5_01_22754.mzXML	ASM16233v1	genome	NaN	no
+769	ASM17699v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_641_RD2_01_22803.mzXML	ASM17699v2	genome	NaN	no
+770	ASM17699v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_641_BC12_01_22709.mzXML	ASM17699v2	genome	NaN	no
+771	Fuso_nucl_OT_420_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_758_RB8_01_22380.mzXML	Fuso_nucl_OT_420_V1	genome	NaN	no
+772	Fuso_nucl_OT_420_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_758_RB10_01_25833.mzXML	Fuso_nucl_OT_420_V1	genome	NaN	no
+773	Fuso_nucl_OT_420_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI758_RB11_01_22625.mzXML	Fuso_nucl_OT_420_V1	genome	NaN	no
+777	ASM27608v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_917_RC7_01_22549.mzXML	ASM27608v1	genome	NaN	no
+778	ASM27608v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_917_RC9_01_22211.mzXML	ASM27608v1	genome	NaN	no
+779	ASM27610v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_918_RC8_01_22550.mzXML	ASM27610v1	genome	NaN	no
+780	ASM27610v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_918_RC10_01_22212.mzXML	ASM27610v1	genome	NaN	no
+781	ASM24227v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_479_BC8_01_22890.mzXML	ASM24227v1	genome	NaN	no
+784	ASM46791v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_1063_RF8_01_22835.mzXML	ASM46791v2	genome	NaN	no
+785	ASM46791v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_1063_BE6_01_22914.mzXML	ASM46791v2	genome	NaN	no
+786	ASM46791v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_1063_BF3_01_22739.mzXML	ASM46791v2	genome	NaN	no
+787	ASM46620v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_1070_RE4_01_22572.mzXML	ASM46620v2	genome	NaN	no
+788	ASM46620v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_1070_RE3_01_22983.mzXML	ASM46620v2	genome	NaN	no
+789	ASM29517v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_975_RB1_01_22373.mzXML	ASM29517v2	genome	NaN	no
+790	ASM29517v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_975_RB2_01_25825.mzXML	ASM29517v2	genome	NaN	no
+791	ASM29517v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI975_RA12_01_22613.mzXML	ASM29517v2	genome	NaN	no
+792	ASM14723v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_463_RB2_01_22374.mzXML	ASM14723v1	genome	NaN	no
+793	ASM14723v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_463_RB3_01_25826.mzXML	ASM14723v1	genome	NaN	no
+794	ASM14723v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI463_RB1_01_22615.mzXML	ASM14723v1	genome	NaN	no
+795	ASM23883v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_478_RD8_01_22809.mzXML	ASM23883v1	genome	NaN	no
+796	ASM16381v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_335_RF4_01_22585.mzXML	ASM16381v1	genome	NaN	no
+797	ASM16381v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_335_RF10_01_22251.mzXML	ASM16381v1	genome	NaN	no
+798	ASM16381v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_335_RF4_01_22997.mzXML	ASM16381v1	genome	NaN	no
+799	ASM16441v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_343_RF10_01_22591.mzXML	ASM16441v1	genome	NaN	no
+800	ASM16441v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_343_RG4_01_22258.mzXML	ASM16441v1	genome	NaN	no
+801	ASM16441v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_343_RF10_01_23004.mzXML	ASM16441v1	genome	NaN	no
+802	ASM18714v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_466_RE1_01_22815.mzXML	ASM18714v1	genome	NaN	no
+803	ASM18714v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_466_BC12_01_22894.mzXML	ASM18714v1	genome	NaN	no
+804	ASM18714v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_466_BD8_01_22718.mzXML	ASM18714v1	genome	NaN	no
+805	ASM18716v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_467_RE2_01_22816.mzXML	ASM18716v1	genome	NaN	no
+806	ASM18716v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_467_BD1_01_22896.mzXML	ASM18716v1	genome	NaN	no
+807	ASM18716v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_467_BD9_01_22719.mzXML	ASM18716v1	genome	NaN	no
+826	Micr_sp_oral_taxon_186_F0373_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_841_RA11_01_22527.mzXML	Micr_sp_oral_taxon_186_F0373_V1	genome	NaN	no
+827	Micr_sp_oral_taxon_186_F0373_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_841_RA12_01_22188.mzXML	Micr_sp_oral_taxon_186_F0373_V1	genome	NaN	no
+828	Micr_sp_oral_taxon_186_F0373_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_841_RA11_01_22939.mzXML	Micr_sp_oral_taxon_186_F0373_V1	genome	NaN	no
+842	ASM18398v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_15_RE12_01_22580.mzXML	ASM18398v1	genome	NaN	no
+843	ASM18398v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_15_RE12_01_22992.mzXML	ASM18398v1	genome	NaN	no
+844	ASM14683v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_296_RD4_01_22559.mzXML	ASM14683v1	genome	NaN	no
+845	ASM14683v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_296_RD6_01_22221.mzXML	ASM14683v1	genome	NaN	no
+846	ASM18534v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_297_RD7_01_22222.mzXML	ASM18534v1	genome	NaN	no
+847	ASM24507v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM__648_RA1_01_22517.mzXML	ASM24507v1	genome	NaN	no
+848	ASM24507v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB__648_RA1_01_22174.mzXML	ASM24507v1	genome	NaN	no
+849	ASM24507v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_648_RA1_01_22929.mzXML	ASM24507v1	genome	NaN	no
+850	ASM29400v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_934_RA7_01_22366.mzXML	ASM29400v2	genome	NaN	no
+851	ASM29400v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_934_RA8_01_25818.mzXML	ASM29400v2	genome	NaN	no
+852	ASM29400v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI934_RA6_01_22607.mzXML	ASM29400v2	genome	NaN	no
+853	ASM29505v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_952_RA8_01_22367.mzXML	ASM29505v2	genome	NaN	no
+854	ASM29505v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_952_RA9_01_25819.mzXML	ASM29505v2	genome	NaN	no
+855	ASM29505v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI952_RA7_01_22608.mzXML	ASM29505v2	genome	NaN	no
+856	ASM29557v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_959_RA9_01_22368.mzXML	ASM29557v2	genome	NaN	no
+857	ASM29557v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_959_RA10_01_25820.mzXML	ASM29557v2	genome	NaN	no
+858	ASM29557v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI959_RA8_01_22609.mzXML	ASM29557v2	genome	NaN	no
+859	ASM29541v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_965_RA10_01_22369.mzXML	ASM29541v2	genome	NaN	no
+860	ASM29541v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_965_RA11_01_25821.mzXML	ASM29541v2	genome	NaN	no
+861	ASM29541v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI965_RA9_01_22610.mzXML	ASM29541v2	genome	NaN	no
+862	ASM29535v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_968_RA11_01_22370.mzXML	ASM29535v2	genome	NaN	no
+863	ASM29535v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_968_RA12_01_25822.mzXML	ASM29535v2	genome	NaN	no
+864	ASM29535v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI968_RA10_01_22611.mzXML	ASM29535v2	genome	NaN	no
+865	ASM29523v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_970_RA12_01_22371.mzXML	ASM29523v2	genome	NaN	no
+866	ASM29523v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_970_RB1_01_25824.mzXML	ASM29523v2	genome	NaN	no
+867	ASM29523v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI970_RA11_01_22612.mzXML	ASM29523v2	genome	NaN	no
+868	ASM46785v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1064_RA5_01_22275.mzXML	ASM46785v2	genome	NaN	no
+869	ASM46785v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1064_RD4_01_24966.mzXML	ASM46785v2	genome	NaN	no
+870	ASM46785v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_1064_RA3_01_24944.mzXML	ASM46785v2	genome	NaN	no
+871	ASM16461v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_342_RA6_01_22768.mzXML	ASM16461v1	genome	NaN	no
+872	ASM16461v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_342_BA6_01_22862.mzXML	ASM16461v1	genome	NaN	no
+873	ASM16461v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_342_BA6_01_22677.mzXML	ASM16461v1	genome	NaN	no
+874	ASM16423v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_344_RF11_01_22592.mzXML	ASM16423v1	genome	NaN	no
+875	ASM16423v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_344_RG5_01_22259.mzXML	ASM16423v1	genome	NaN	no
+876	ASM16423v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_344_RF11_01_23005.mzXML	ASM16423v1	genome	NaN	no
+877	ASM16449v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM__345_RA1_01_22763.mzXML	ASM16449v1	genome	NaN	no
+878	ASM16449v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB__345_BA1_01_22857.mzXML	ASM16449v1	genome	NaN	no
+879	ASM16449v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_345_BA1_01_22672.mzXML	ASM16449v1	genome	NaN	no
+880	ASM16435v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_346_RA5_01_22767.mzXML	ASM16435v1	genome	NaN	no
+881	ASM16435v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_346_BA5_01_22861.mzXML	ASM16435v1	genome	NaN	no
+882	ASM16435v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_346_BA5_01_22676.mzXML	ASM16435v1	genome	NaN	no
+883	ASM16431v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_347_RA7_01_22769.mzXML	ASM16431v1	genome	NaN	no
+884	ASM16431v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_347_BA7_01_22863.mzXML	ASM16431v1	genome	NaN	no
+885	ASM16431v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_347_BA7_01_22678.mzXML	ASM16431v1	genome	NaN	no
+886	ASM16453v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_356_RA4_01_22766.mzXML	ASM16453v1	genome	NaN	no
+887	ASM16453v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_356_BA4_01_22860.mzXML	ASM16453v1	genome	NaN	no
+888	ASM16453v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_356_BA4_01_22675.mzXML	ASM16453v1	genome	NaN	no
+889	ASM16455v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_365_RA2_01_22764.mzXML	ASM16455v1	genome	NaN	no
+890	ASM16455v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_365_BA2_01_22858.mzXML	ASM16455v1	genome	NaN	no
+891	ASM16455v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_365_BA2_01_22673.mzXML	ASM16455v1	genome	NaN	no
+892	ASM16419v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_366_RA3_01_22765.mzXML	ASM16419v1	genome	NaN	no
+893	ASM16419v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_366_BA3_01_22859.mzXML	ASM16419v1	genome	NaN	no
+894	ASM16419v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_366_BA3_01_22674.mzXML	ASM16419v1	genome	NaN	no
+895	ASM16379v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_334_RF5_01_22586.mzXML	ASM16379v1	genome	NaN	no
+896	ASM16379v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_334_RF11_01_22252.mzXML	ASM16379v1	genome	NaN	no
+897	ASM16379v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_334_RF5_01_22998.mzXML	ASM16379v1	genome	NaN	no
+898	ASM23935v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_477_RA4_01_22520.mzXML	ASM23935v1	genome	NaN	no
+899	ASM23935v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_477_RA5_01_22933.mzXML	ASM23935v1	genome	NaN	no
+900	ASM29438v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_991_RD12_01_22813.mzXML	ASM29438v2	genome	NaN	no
+901	ASM29438v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_991_BC11_01_22893.mzXML	ASM29438v2	genome	NaN	no
+902	ASM29438v2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_991_BD7_01_22717.mzXML	ASM29438v2	genome	NaN	no
+903	ASM41470v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1105_RC1_01_22386.mzXML	ASM41470v1	genome	NaN	no
+904	ASM41470v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1105_RC6_01_22633.mzXML	ASM41470v1	genome	NaN	no
+905	ASM41468v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1106_RC2_01_22387.mzXML	ASM41468v1	genome	NaN	no
+906	ASM41468v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1106_RC2_01_25838.mzXML	ASM41468v1	genome	NaN	no
+907	ASM41468v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1106_RC7_01_22634.mzXML	ASM41468v1	genome	NaN	no
+908	ASM41466v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1107_RC3_01_22388.mzXML	ASM41466v1	genome	NaN	no
+909	ASM41466v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1107_RC3_01_25839.mzXML	ASM41466v1	genome	NaN	no
+910	ASM41460v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1110_RC5_01_22390.mzXML	ASM41460v1	genome	NaN	no
+911	ASM41460v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1110_RC5_01_25841.mzXML	ASM41460v1	genome	NaN	no
+912	ASM41460v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1110_RC9_01_22636.mzXML	ASM41460v1	genome	NaN	no
+913	ASM41458v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1111_RC6_01_22391.mzXML	ASM41458v1	genome	NaN	no
+914	ASM41458v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1111_RC10_01_22637.mzXML	ASM41458v1	genome	NaN	no
+915	ASM41456v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1112_RC7_01_22392.mzXML	ASM41456v1	genome	NaN	no
+916	ASM41456v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1112_RC11_01_22638.mzXML	ASM41456v1	genome	NaN	no
+917	ASM41454v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1113_RC8_01_22393.mzXML	ASM41454v1	genome	NaN	no
+918	ASM41452v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1114_RB3_01_22375.mzXML	ASM41452v1	genome	NaN	no
+919	ASM41452v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1114_RB2_01_22616.mzXML	ASM41452v1	genome	NaN	no
+920	ASM41450v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1115_RC10_01_22395.mzXML	ASM41450v1	genome	NaN	no
+921	ASM41450v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1115_RC6_01_25842.mzXML	ASM41450v1	genome	NaN	no
+922	ASM41450v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1115_RC12_01_22639.mzXML	ASM41450v1	genome	NaN	no
+923	ASM41448v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1116_RC11_01_22396.mzXML	ASM41448v1	genome	NaN	no
+924	ASM41448v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1116_RD1_01_22641.mzXML	ASM41448v1	genome	NaN	no
+925	ASM41442v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1119_RC12_01_22397.mzXML	ASM41442v1	genome	NaN	no
+926	ASM41442v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_1119_RC7_01_25843.mzXML	ASM41442v1	genome	NaN	no
+927	ASM41442v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI1119_RD2_01_22642.mzXML	ASM41442v1	genome	NaN	no
+928	ASM46658v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1139_RE11_01_22162.mzXML	ASM46658v1	genome	NaN	no
+929	ASM46658v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_1139_BE11_01_23077.mzXML	ASM46658v1	genome	NaN	no
+930	ASM16349v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_16_RB7_01_22290.mzXML	ASM16349v1	genome	NaN	no
+946	ASM17695v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_134_RE2_01_25864.mzXML	ASM17695v1	genome	NaN	no
+947	ASM18548v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_141_RE10_01_22824.mzXML	ASM18548v1	genome	NaN	no
+948	ASM18548v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_141_BD8_01_22903.mzXML	ASM18548v1	genome	NaN	no
+949	ASM18548v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_141_BE5_01_22728.mzXML	ASM18548v1	genome	NaN	no
+979	VspAS16v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM__895_RG3_01_24995.mzXML	VspAS16v1	genome	NaN	no
+980	VspAS16v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_895_RF1_01_24985.mzXML	VspAS16v1	genome	NaN	no
+981	Bact_sp_D2_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_28_RD5_01_22143.mzXML	Bact_sp_D2_V2	genome	NaN	no
+982	Bact_sp_D2_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_28_RD8_01_22484.mzXML	Bact_sp_D2_V2	genome	NaN	no
+983	Bact_sp_D2_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_28_BD7_01_23060.mzXML	Bact_sp_D2_V2	genome	NaN	no
+984	04_NF_x40_HMP1651v01	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_1088_RA7_01_22277.mzXML	04_NF_x40_HMP1651v01	genome	NaN	no
+985	ASM18668v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_146_RE7_01_22987.mzXML	ASM18668v1	genome	NaN	no
+986	ASM36486v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_147_RE3_01_22571.mzXML	ASM36486v1	genome	NaN	no
+987	ASM36486v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_147_RE10_01_22238.mzXML	ASM36486v1	genome	NaN	no
+988	ASM16015v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_200_RF3_01_22584.mzXML	ASM16015v1	genome	NaN	no
+989	ASM16015v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_200_RF9_01_22250.mzXML	ASM16015v1	genome	NaN	no
+990	ASM16015v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_200_RF3_01_22996.mzXML	ASM16015v1	genome	NaN	no
+991	ASM15927v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_202_RA9_01_22525.mzXML	ASM15927v1	genome	NaN	no
+992	ASM15927v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_202_RA9_01_22185.mzXML	ASM15927v1	genome	NaN	no
+993	ASM15927v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_202_RA10_01_22938.mzXML	ASM15927v1	genome	NaN	no
+994	ASM15967v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_204_RF8_01_22589.mzXML	ASM15967v1	genome	NaN	no
+995	ASM15967v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_204_RG2_01_22256.mzXML	ASM15967v1	genome	NaN	no
+996	ASM15967v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_204_RF8_01_23002.mzXML	ASM15967v1	genome	NaN	no
+997	ASM18827v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_275_RF7_01_22834.mzXML	ASM18827v1	genome	NaN	no
+998	ASM18827v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_275_BE5_01_22913.mzXML	ASM18827v1	genome	NaN	no
+999	ASM18827v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_275_BF2_01_22738.mzXML	ASM18827v1	genome	NaN	no
+1000	ASM15925v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_201_RA8_01_22524.mzXML	ASM15925v1	genome	NaN	no
+1001	ASM15925v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_201_RA8_01_22184.mzXML	ASM15925v1	genome	NaN	no
+1002	ASM14652v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_272_RC3_01_22545.mzXML	ASM14652v1	genome	NaN	no
+1003	ASM14652v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_272_RC5_01_22207.mzXML	ASM14652v1	genome	NaN	no
+1004	ASM14652v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_272_RC4_01_22958.mzXML	ASM14652v1	genome	NaN	no
+1008	ASM19559v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_468_RE8_01_22576.mzXML	ASM19559v1	genome	NaN	no
+1009	ASM19559v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_468_RF3_01_22244.mzXML	ASM19559v1	genome	NaN	no
+1010	ASM19559v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_468_RE8_01_22988.mzXML	ASM19559v1	genome	NaN	no
+1018	ASM16341v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_94_RE6_01_22574.mzXML	ASM16341v1	genome	NaN	no
+1019	ASM16341v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_94_RF1_01_22242.mzXML	ASM16341v1	genome	NaN	no
+1020	ASM16341v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_94_RE5_01_22985.mzXML	ASM16341v1	genome	NaN	no
+1021	ASM17477v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_130_RB6_01_22947.mzXML	ASM17477v1	genome	NaN	no
+1022	ASM17705v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_136_RB8_01_22291.mzXML	ASM17705v1	genome	NaN	no
+1023	ASM17735v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_138_RA6_01_22276.mzXML	ASM17735v1	genome	NaN	no
+1024	ASM17735v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_138_RD5_01_24967.mzXML	ASM17735v1	genome	NaN	no
+1025	ASM17735v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_138_RA4_01_24945.mzXML	ASM17735v1	genome	NaN	no
+1028	ASM19565v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_354_RC4_01_22792.mzXML	ASM19565v1	genome	NaN	no
+1029	ASM19565v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_354_BC2_01_22884.mzXML	ASM19565v1	genome	NaN	no
+1030	ASM19565v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_354_BC2_01_22699.mzXML	ASM19565v1	genome	NaN	no
+1031	ASM24229v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_469_RB1_01_22776.mzXML	ASM24229v1	genome	NaN	no
+1032	ASM24229v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_469_BA11_01_22682.mzXML	ASM24229v1	genome	NaN	no
+1045	ASM17993v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_705_RD3_01_22804.mzXML	ASM17993v1	genome	NaN	no
+1049	ASM21359v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_333_RA11_01_22187.mzXML	ASM21359v1	genome	NaN	no
+1053	Clos_bolt_WAL_14578_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_318_BA3_01_23017.mzXML	Clos_bolt_WAL_14578_V1	genome	NaN	no
+1054	Clos_perf_WAL_14572_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_310_RA4_01_22103.mzXML	Clos_perf_WAL_14572_V2	genome	NaN	no
+1055	Clos_perf_WAL_14572_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_310_RA6_01_22443.mzXML	Clos_perf_WAL_14572_V2	genome	NaN	no
+1056	Clos_perf_WAL_14572_V2	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_310_BA8_01_23022.mzXML	Clos_perf_WAL_14572_V2	genome	NaN	no
+1057	ASM14759v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_432_RF7_01_22588.mzXML	ASM14759v1	genome	NaN	no
+1058	ASM14759v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_432_RG1_01_22255.mzXML	ASM14759v1	genome	NaN	no
+1059	ASM14759v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_432_RF7_01_23001.mzXML	ASM14759v1	genome	NaN	no
+1089	ASM16241v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_5_RB6_01_22289.mzXML	ASM16241v1	genome	NaN	no
+1090	ASM16241v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_5_RD9_01_24971.mzXML	ASM16241v1	genome	NaN	no
+1091	ASM16215v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_18_RD2_01_22140.mzXML	ASM16215v1	genome	NaN	no
+1092	ASM16215v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_18_RD5_01_22481.mzXML	ASM16215v1	genome	NaN	no
+1093	ASM16215v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_18_BD4_01_23057.mzXML	ASM16215v1	genome	NaN	no
+1094	ASM16365v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_19_RE11_01_22579.mzXML	ASM16365v1	genome	NaN	no
+1095	ASM16365v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_19_RF6_01_22247.mzXML	ASM16365v1	genome	NaN	no
+1096	ASM16365v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_19_RE11_01_22991.mzXML	ASM16365v1	genome	NaN	no
+1100	ASM16245v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_45_RA9_01_22279.mzXML	ASM16245v1	genome	NaN	no
+1101	ASM16373v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM__49_RG1_01_24993.mzXML	ASM16373v1	genome	NaN	no
+1102	ASM16227v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_77_RE5_01_22416.mzXML	ASM16227v1	genome	NaN	no
+1103	ASM16227v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_77_RD12_01_25861.mzXML	ASM16227v1	genome	NaN	no
+1104	ASM16227v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI77_RE7_01_22660.mzXML	ASM16227v1	genome	NaN	no
+1105	ASM16303v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_80_RB2_01_22285.mzXML	ASM16303v1	genome	NaN	no
+1106	ASM15839v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_87_RD11_01_22812.mzXML	ASM15839v1	genome	NaN	no
+1107	ASM15839v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_87_BC10_01_22892.mzXML	ASM15839v1	genome	NaN	no
+1108	ASM15839v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_87_BD5_01_22715.mzXML	ASM15839v1	genome	NaN	no
+1109	ASM16289v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_90_RE7_01_22575.mzXML	ASM16289v1	genome	NaN	no
+1110	ASM16289v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_90_RF2_01_22243.mzXML	ASM16289v1	genome	NaN	no
+1111	ASM16289v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_90_RE6_01_22986.mzXML	ASM16289v1	genome	NaN	no
+1112	ASM9087v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_91_RB5_01_22534.mzXML	ASM9087v1	genome	NaN	no
+1113	ASM9087v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_91_RB6_01_22195.mzXML	ASM9087v1	genome	NaN	no
+1114	ASM9087v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_91_RB4_01_22945.mzXML	ASM9087v1	genome	NaN	no
+1115	ASM16291v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_93_RB5_01_22288.mzXML	ASM16291v1	genome	NaN	no
+1116	ASM17527v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_115_RB2_01_22531.mzXML	ASM17527v1	genome	NaN	no
+1117	ASM17527v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_115_RB3_01_22192.mzXML	ASM17527v1	genome	NaN	no
+1118	ASM17527v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_115_RB1_01_22942.mzXML	ASM17527v1	genome	NaN	no
+1121	ASM18560v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_210_RB11_01_22123.mzXML	ASM18560v1	genome	NaN	no
+1122	ASM18560v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_210_RC2_01_22465.mzXML	ASM18560v1	genome	NaN	no
+1128	Acti	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_236_RB3_01_22115.mzXML	Acti	genome	NaN	no
+1129	Acti	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_236_RB5_01_22455.mzXML	Acti	genome	NaN	no
+1130	Acti	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_236_BB5_01_23032.mzXML	Acti	genome	NaN	no
+1139	ASM18744v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_248_RG3_01_22843.mzXML	ASM18744v1	genome	NaN	no
+1140	ASM18744v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_248_RH2_01_23093.mzXML	ASM18744v1	genome	NaN	no
+1141	ASM18744v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_248_BF10_01_22746.mzXML	ASM18744v1	genome	NaN	no
+1142	Clos_hath_WAL_18680_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_308_RA4_01_22441.mzXML	Clos_hath_WAL_18680_V1	genome	NaN	no
+1143	Clos_hath_WAL_18680_V1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_308_BA6_01_23020.mzXML	Clos_hath_WAL_18680_V1	genome	NaN	no
+1148	ASM15905v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_635_RA4_01_25814.mzXML	ASM15905v1	genome	NaN	no
+1149	ASM17995v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_706_BC5_01_22887.mzXML	ASM17995v1	genome	NaN	no
+1153	ASM9094v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_6_RE10_01_22421.mzXML	ASM9094v1	genome	NaN	no
+1154	ASM9094v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_6_RE5_01_25867.mzXML	ASM9094v1	genome	NaN	no
+1155	ASM9094v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI6_RE12_01_22665.mzXML	ASM9094v1	genome	NaN	no
+1156	ASM15701v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_20_RC3_01_22128.mzXML	ASM15701v1	genome	NaN	no
+1157	ASM15701v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_20_RC6_01_22469.mzXML	ASM15701v1	genome	NaN	no
+1158	ASM15701v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_20_BC6_01_23046.mzXML	ASM15701v1	genome	NaN	no
+1165	ASM17501v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_51_RF6_01_22587.mzXML	ASM17501v1	genome	NaN	no
+1166	ASM17501v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_51_RF12_01_22254.mzXML	ASM17501v1	genome	NaN	no
+1167	ASM16213v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_58_RD1_01_22139.mzXML	ASM16213v1	genome	NaN	no
+1168	ASM16213v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_58_RD4_01_22480.mzXML	ASM16213v1	genome	NaN	no
+1169	ASM16213v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_BHI_58_BD3_01_23056.mzXML	ASM16213v1	genome	NaN	no
+1170	ASM16293v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_92_RB9_01_22292.mzXML	ASM16293v1	genome	NaN	no
+1171	ASM17473v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_RCM_119_RE8_01_22822.mzXML	ASM17473v1	genome	NaN	no
+1172	ASM17473v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_TSB_119_BD7_01_22902.mzXML	ASM17473v1	genome	NaN	no
+1173	ASM17473v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Aerobic_BHI_119_BE3_01_22726.mzXML	ASM17473v1	genome	NaN	no
+1176	ASM17933v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM__263_RA1_01_22271.mzXML	ASM17933v1	genome	NaN	no
+1180	EspAS15v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_RCM_766_RA2_01_22272.mzXML	EspAS15v1	genome	NaN	no
+1181	EspAS15v1	GenBank_accession	AAAAA000000	ftp://massive.ucsd.edu/MSV000082045/peak/HMP/Samples/Anaerobic_TSB_766_RD1_01_24963.mzXML	EspAS15v1	genome	NaN	no
+1191	2563366531	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-646.mzXML	Salinispora mooreana CNY646	genome	NaN	no
+1196	2561511036	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-801.mzXML	Salinispora vitiensis CNS801	genome	NaN	no
+1199	2563366532	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-666.mzXML	Salinispora goodfellowii CNY666	genome	NaN	no
+1202	2561511035	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-133.mzXML	Salinispora pacifica CNT133A	genome	NaN	no
+1207	2563366533	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-673.mzXML	Salinispora oceanensis CNY673	genome	NaN	no
+1208	2561511034	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-403.mzXML	Salinispora oceanensis CNT403	genome	NaN	no
+1223	JAASLF000000000	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000085000/ccms_peak/KM_EN-dark.mzML	Epicoccum nigrum cf0051	genome	NaN	no
+1224	JAASLF000000000	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000085000/ccms_peak/KM_EN-light.mzML	Epicoccum nigrum cf0051	genome	NaN	no
+1606	2517287019	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-EA.mzXML	Salinispora pacifica CNS960	genome	NaN	no
+1607	2517287019	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-Bu.mzXML	Salinispora pacifica CNS960	genome	NaN	no
+1608	2517287019	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-Me.mzXML	Salinispora pacifica CNS960	genome	NaN	no
+1612	JAAUXT000000000	ENA_NCBI_accession	SAMN14350112	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.007_RE5_01_40591.mzML	MO18_007	metagenome	NaN	no
+1613	JAAUXU000000000	ENA_NCBI_accession	SAMN14350113	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.010_RB3_01_40768.mzXML	MO18_010	metagenome	NaN	no
+1614	JAAUXV000000000	ENA_NCBI_accession	SAMN14350114	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.039_RE4_01_40694.mzXML	MO18_039	metagenome	NaN	no
+1615	JAAUXW000000000	ENA_NCBI_accession	SAMN14350115	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.042_BB8_01_40616.mzXML	MO18_042	metagenome	NaN	no
+1616	JAAUXX000000000	ENA_NCBI_accession	SAMN14350116	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.071_BA2_01_40703.mzXML	MO18_071	metagenome	NaN	no
+1617	JAAUXY000000000	ENA_NCBI_accession	SAMN14350117	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.074_RD3_01_40579.mzXML	MO18_074	metagenome	NaN	no
+1618	JAAUXZ000000000	ENA_NCBI_accession	SAMN14350119	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.103_RD2_01_40578.mzXML	MO18_103	metagenome	NaN	no
+1619	JAAUYA000000000	ENA_NCBI_accession	SAMN14350120	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.106_RC4_01_40569.mzXML	MO18_106	metagenome	NaN	no
+1620	JAAUYB000000000	ENA_NCBI_accession	SAMN14350121	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.135_GC1_01_40859.mzXML	MO18_135	metagenome	NaN	no
+1621	JAAUYC000000000	ENA_NCBI_accession	SAMN14350122	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.138_RB5_01_40770.mzXML	MO18_138	metagenome	NaN	no
+1622	JAAUYD000000000	ENA_NCBI_accession	SAMN14350128	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.167_BD3_01_40631.mzXML	MO18_167	metagenome	NaN	no
+1623	JAAUYE000000000	ENA_NCBI_accession	SAMN14350131	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.170_BA5_01_40706.mzXML	MO18_170	metagenome	NaN	no
+1624	JAAUYF000000000	ENA_NCBI_accession	SAMN14350202	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.180_BD6_01_40738.mzXML	MO18_180	metagenome	NaN	no
+1625	JAAUYG000000000	ENA_NCBI_accession	SAMN14350201	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.184_RB3_01_40662.mzXML	MO18_184	metagenome	NaN	no
+1626	JAAUYH000000000	ENA_NCBI_accession	SAMN14350203	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.188_BE4_01_40746.mzXML	MO18_188	metagenome	NaN	no
+1627	JAAUYI000000000	ENA_NCBI_accession	SAMN14350216	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.192_RD2_01_40682.mzXML	MO18_192	metagenome	NaN	no
+1628	JAAUYJ000000000	ENA_NCBI_accession	SAMN14350222	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.199_BB4_01_40612.mzXML	MO18_199	metagenome	NaN	no
+1629	JAAUYK000000000	ENA_NCBI_accession	SAMN14350223	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.202_RD5_01_40581.mzXML	MO18_202	metagenome	NaN	no
+1630	JAAUYL000000000	ENA_NCBI_accession	SAMN14350225	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.231_BE3_01_40642.mzXML	MO18_231	metagenome	NaN	no
+1631	JAAUYM000000000	ENA_NCBI_accession	SAMN14350224	ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.234_RC7_01_40572.mzXML	MO18_234	metagenome	NaN	no
+1632	JFDN01000000  	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084781/raw/KoLRI027771_neg.mzXML	Umbilicaria muehlenbergii KoLRILF000956	genome	NaN	no
+1678	2600255042	JGI_IMG_genome_ID	SAMN02436820	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1033_redo_BA4_01_45980.mzXML	Clostridium sp. KLE 1755	genome	NaN	no
+1693	2588253729	JGI_IMG_genome_ID	SAMN00103275	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_169_BE9_01_45974.mzXML	Parabacteroides sp. 31_2	genome	NaN	no
+1721	646564561	JGI_IMG_genome_ID	SAMN00000718	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_122_BF12_01_46184.mzXML	Propionibacterium acnes SK137	genome	NaN	no
+1723	648276713	JGI_IMG_genome_ID	SAMN00003364	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_138_BA6_01_46094.mzXML	Prevotella amnii CRIS 21A-A	genome	NaN	no
+1781	2537561888	JGI_IMG_genome_ID	SAMN00828784	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_766_BA2_01_46090.mzXML	Peptostreptococcaceae sp. AS15	genome	NaN	no
+1831	2600255042	JGI_IMG_genome_ID	SAMN02436820	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1033_BA4_01_45999.mzXML	Clostridium sp. KLE 1755	genome	NaN	no
+1846	2588253729	JGI_IMG_genome_ID	SAMN00103275	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_169_BE9_01_46070.mzXML	Parabacteroides sp. 31_2	genome	NaN	no
+1874	646564561	JGI_IMG_genome_ID	SAMN00000718	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_122_GF12_01_46298.mzXML	Propionibacterium acnes SK137	genome	NaN	no
+1876	648276713	JGI_IMG_genome_ID	SAMN00003364	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_138_GA6_01_46207.mzXML	Prevotella amnii CRIS 21A-A	genome	NaN	no
+1934	2537561888	JGI_IMG_genome_ID	SAMN00828784	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_766_GA2_01_46203.mzXML	Peptostreptococcaceae sp. AS15	genome	NaN	no
+2124	2600255042	JGI_IMG_genome_ID	SAMN02436820	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%202A/HM_1033_BA4_01_46529.mzXML	Clostridium sp. KLE 1755	genome	NaN	no
+2139	2588253729	JGI_IMG_genome_ID	SAMN00103275	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%202A/HM_169_BE9_01_46602.mzXML	Parabacteroides sp. 31_2	genome	NaN	no
+2167	646564561	JGI_IMG_genome_ID	SAMN00000718	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203A/HM_122_BF12_01_46968.mzXML	Propionibacterium acnes SK137	genome	NaN	no
+2169	648276713	JGI_IMG_genome_ID	SAMN00003364	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203A/HM_138_BA6_01_46878.mzXML	Prevotella amnii CRIS 21A-A	genome	NaN	no
+2227	2537561888	JGI_IMG_genome_ID	SAMN00828784	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203A/HM_766_BA2_01_46874.mzXML	Peptostreptococcaceae sp. AS15	genome	NaN	no
+2277	2600255042	JGI_IMG_genome_ID	SAMN02436820	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%202B/HM_1033_GA4_01_46626.mzXML	Clostridium sp. KLE 1755	genome	NaN	no
+2292	2588253729	JGI_IMG_genome_ID	SAMN00103275	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%202B/HM_169_GE9_01_46699.mzXML	Parabacteroides sp. 31_2	genome	NaN	no
+2320	646564561	JGI_IMG_genome_ID	SAMN00000718	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203B/HM_122_GF12_01_46850.mzXML	Propionibacterium acnes SK137	genome	NaN	no
+2322	648276713	JGI_IMG_genome_ID	SAMN00003364	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203B/HM_138_GA6_01_46759.mzXML	Prevotella amnii CRIS 21A-A	genome	NaN	no
+2380	2537561888	JGI_IMG_genome_ID	SAMN00828784	ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/RCM%20plates/Plate%203B/HM_766_GA2_01_46755.mzXML	Peptostreptococcaceae sp. AS15	genome	NaN	no
+2405	PRJNA158687	JGI_Genome_ID	SAMN02744079	ftp://massive.ucsd.edu/MSV000084954/peak/040220043.mzML	Chroococcidiopsis sp. PCC 6712	genome	NaN	no
+2475	PRJNA476308	GenBank_accession	SAMN09429623	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample01.mzML	Control_1	metagenome	NaN	no
+2476	PRJNA476308	ENA_NCBI_accession	SAMN09429624	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample02.mzML	Control_2	metagenome	NaN	no
+2477	PRJNA476308	GenBank_accession	SAMN09429625	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample05.mzML	Control_5	metagenome	NaN	no
+2478	PRJNA476308	ENA_NCBI_accession	SAMN09429626	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample06.mzML	Control_6	metagenome	NaN	no
+2479	PRJNA476308	ENA_NCBI_accession	SAMN09429627	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample07.mzML	Control_7	metagenome	NaN	no
+2480	PRJNA476308	ENA_NCBI_accession	SAMN09429628	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample08.mzML	Control_8	metagenome	NaN	no
+2481	PRJNA476308	ENA_NCBI_accession	SAMN09429629	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample09.mzML	Control_9	metagenome	NaN	no
+2482	PRJNA476308	ENA_NCBI_accession	SAMN09429630	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample10.mzML	Control_10	metagenome	NaN	no
+2483	PRJNA476308	ENA_NCBI_accession	SAMN09429631	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample12.mzML	Control_12	metagenome	NaN	no
+2484	PRJNA476308	GenBank_accession	SAMN09429632	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample13.mzML	Control_13	metagenome	NaN	no
+2485	PRJNA476308	ENA_NCBI_accession	SAMN09429633	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample14.mzML	Control_14	metagenome	NaN	no
+2486	PRJNA476308	ENA_NCBI_accession	SAMN09429634	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample15.mzML	Control_15	metagenome	NaN	no
+2487	PRJNA476308	ENA_NCBI_accession	SAMN09429635	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample16.mzML	Control_16	metagenome	NaN	no
+2488	PRJNA476308	ENA_NCBI_accession	SAMN09429636	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample18.mzML	As_18	metagenome	NaN	no
+2489	PRJNA476308	ENA_NCBI_accession	SAMN09429637	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample19.mzML	As_19	metagenome	NaN	no
+2490	PRJNA476308	ENA_NCBI_accession	SAMN09429638	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample20.mzML	As_20	metagenome	NaN	no
+2491	PRJNA476308	GenBank_accession	SAMN09429639	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample22.mzML	As_22	metagenome	NaN	no
+2492	PRJNA476308	ENA_NCBI_accession	SAMN09429640	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample26.mzML	 As_26	metagenome	NaN	no
+2493	PRJNA476308	ENA_NCBI_accession	SAMN09429641	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample27.mzML	As_27	metagenome	NaN	no
+2494	PRJNA476308	GenBank_accession	SAMN09429642	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample31.mzML	As_31	metagenome	NaN	no
+2495	PRJNA476308	ENA_NCBI_accession	SAMN09429643	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample33.mzML	Cd_33	metagenome	NaN	no
+2496	PRJNA476308	ENA_NCBI_accession	SAMN09429644	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample35.mzML	Cd_35	metagenome	NaN	no
+2497	PRJNA476308	ENA_NCBI_accession	SAMN09429645	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample40.mzML	Cd_40	metagenome	NaN	no
+2498	PRJNA476308	ENA_NCBI_accession	SAMN09429646	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample41.mzML	Cd_41	metagenome	NaN	no
+2499	PRJNA476308	ENA_NCBI_accession	SAMN09429647	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample41%20(2).mzML	Cd_42	metagenome	NaN	no
+2500	PRJNA476308	GenBank_accession	SAMN09429648	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample43.mzML	Cd_43	metagenome	NaN	no
+2501	PRJNA476308	ENA_NCBI_accession	SAMN09429649	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample44.mzML	Cd_44	metagenome	NaN	no
+2502	PRJNA476308	ENA_NCBI_accession	SAMN09429650 	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample45.mzML	Cd_45	metagenome	NaN	no
+2503	PRJNA476308	ENA_NCBI_accession	SAMN09429651	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample46.mzML	Cd_46	metagenome	NaN	no
+2504	PRJNA476308	ENA_NCBI_accession	SAMN09429652	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample47.mzML	Cd_47	metagenome	NaN	no
+2505	PRJNA476308	ENA_NCBI_accession	SAMN09429653	ftp://massive.ucsd.edu/MSV000082891/ccms_peak/20170406_10431116_Metabolomics_Sample48.mzML	Cd_48	metagenome	NaN	no
+2506	NZ_CP044407	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000085027/peak/B499_MSMS_1-A,2_01_17362.mzML	wmmb499	genome	NaN	no
+3328	2751185442	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085085/peak/JB418_alone.mzXML	Pseudomonas psychrophila sp. JB418	genome	NaN	no
+3329	2751185442	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085085/peak/JB418_1.mzXML	Pseudomonas psychrophila sp. JB418	genome	NaN	no
+3330	2751185442	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085085/peak/JB418_2.mzXML	Pseudomonas psychrophila sp. JB418	genome	NaN	no
+3331	2751185442	JGI_Genome_ID	No BioSample	ftp://massive.ucsd.edu/MSV000085085/peak/JB418_3.mzXML	Pseudomonas psychrophila sp. JB418	genome	NaN	no
+3332	SRR7448286	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A1_BA1_01_6287.mzXML	SC01_Caries	metagenome	NaN	no
+3333	SRR7448282	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A3_BA3_01_6289.mzXML	SC05_Caries	metagenome	NaN	no
+3334	SRR7448281	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A4_BA4_01_6290.mzXML	SC07_Caries	metagenome	NaN	no
+3335	SRR7448284	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A5_BA5_01_6291.mzXML	SC09_Caries	metagenome	NaN	no
+3336	SRR7448283	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A6_BA6_01_6292.mzXML	SC10_Caries	metagenome	NaN	no
+3337	SRR7448280	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A7_BA7_01_6293.mzXML	SC11_Caries	metagenome	NaN	no
+3338	SRR7448279	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A8_BA8_01_6294.mzXML	SC15_Caries	metagenome	NaN	no
+3339	SRR7448325	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A9_BA9_01_6295.mzXML	SC16_Caries	metagenome	NaN	no
+3340	SRR7448285	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A10_BA10_01_6296.mzXML	SC18_Caries	metagenome	NaN	no
+3341	SRR7448297	GenBank_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C2_BC2_01_6314.mzXML	SC19_Healthy	genome	NaN	no
+3342	SRR7448288	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A11_BA11_01_6297.mzXML	SC20_Caries	metagenome	NaN	no
+3343	SRR7448287	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A12_BA12_01_6298.mzXML	SC21_Caries	metagenome	NaN	no
+3344	SRR7448324	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B1_BB1_01_6300.mzXML	SC22_Caries	metagenome	NaN	no
+3345	SRR7448304	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C3_BC3_01_6315.mzXML	SC23_Healthy	metagenome	NaN	no
+3346	SRR7448305	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C4_BC4_01_6316.mzXML	SC24_Healthy	metagenome	NaN	no
+3347	SRR7448320	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B2_BB2_01_6301.mzXML	SC25_Caries	metagenome	NaN	no
+3348	SRR7448319	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B3_BB3_01_6302.mzXML	SC26_Caries	metagenome	NaN	no
+3349	SRR7448318	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B4_BB4_01_6303.mzXML	SC27_Caries	metagenome	NaN	no
+3350	SRR7448315	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C5_BC5_01_6317.mzXML	SC28_Healthy	metagenome	NaN	no
+3351	SRR7448314	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C6_BC6_01_6318.mzXML	SC29_Healthy	metagenome	NaN	no
+3352	SRR7448308	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C7_BC7_01_6319.mzXML	SC30_Healthy	metagenome	NaN	no
+3353	SRR7448317	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B5_BB5_01_6304.mzXML	SC31_Caries	metagenome	NaN	no
+3354	SRR7448316	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B6_BB6_01_6305.mzXML	SC32_Caries	metagenome	NaN	no
+3355	SRR7448307	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C8_BC8_01_6320.mzXML	SC33_Healthy	metagenome	NaN	no
+3356	SRR7448302	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B7_BB7_01_6306.mzXML	SC34_Caries	metagenome	NaN	no
+3357	SRR7448311	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C9_BC9_01_6321.mzXML	SC35_Healthy	metagenome	NaN	no
+3358	SRR7448303	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B8_BB8_01_6307.mzXML	SC36_Caries	metagenome	NaN	no
+3359	SRR7448300	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B9_BB9_01_6308.mzXML	SC37_Caries	metagenome	NaN	no
+3360	SRR7448323	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B10_BB10_01_6309.mzXML	SC38_Caries	metagenome	NaN	no
+3361	SRR7448322	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B11_BB11_01_6310.mzXML	SC39_Caries	metagenome	NaN	no
+3362	SRR7448321	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B12_BB12_01_6311.mzXML	SC40_Caries	metagenome	NaN	no
+3363	SRR7448298	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C10_BC10_01_6322.mzXML	SC41_Healthy	metagenome	NaN	no
+3364	SRR7448299	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C11_BC11_01_6323.mzXML	SC42_Healthy	metagenome	NaN	no
+3365	SRR7448296	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C12_BC12_01_6324.mzXML	SC43_Healthy	metagenome	NaN	no
+3366	SRR7448310	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D1_BD1_01_6326.mzXML	SC44_Healthy	metagenome	NaN	no
+3367	SRR7448309	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D2_BD2_01_6327.mzXML	SC45_Healthy	metagenome	NaN	no
+3368	SRR7448292	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D3_BD3_01_6328.mzXML	SC46_Healthy	metagenome	NaN	no
+3369	SRR7448293	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D4_BD4_01_6329.mzXML	SC47_Healthy	metagenome	NaN	no
+3370	SRR7448294	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D5_BD5_01_6330.mzXML	SC48_Healthy	metagenome	NaN	no
+3371	SRR7448295	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D6_BD6_01_6331.mzXML	SC49_Healthy	metagenome	NaN	no
+3372	SRR7448289	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D7_BD7_01_6332.mzXML	SC50_Healthy	metagenome	NaN	no
+3373	SRR7448290	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D8_BD8_01_6333.mzXML	SC51_Healthy	metagenome	NaN	no
+3374	SRR7448313	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D10_BD10_01_6335.mzXML	SC53_Healthy	metagenome	NaN	no
+3375	SRR7448312	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D11_BD11_01_6336.mzXML	SC54_Healthy	metagenome	NaN	no
+3376	SRR7448306	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D12_BD12_01_6337.mzXML	SC55_Healthy	metagenome	NaN	no
+3377	SRR7448291	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_E1_BE1_01_6339.mzXML	SC56_Healthy	metagenome	NaN	no
+3378	SRR7448301	ENA_NCBI_accession	SAMN09489426	ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C1_BC1_01_6313.mzXML	SC17_Healthy	metagenome	NaN	no
+3379	JAAHTG010000000	ENA_NCBI_accession	SAMN13939989	ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140416_1MJP40_24.mzXML	MH_40_24	metagenome	NaN	no
+3380	JAAHTH010000000	ENA_NCBI_accession	SAMN13939990	ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140517_1MJP3_79_12.mzXML	MH_79_12	metagenome	NaN	no
+3405	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_B.mzXML	CNS615	genome	NaN	no
+3406	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_M.mzXML	CNS615	genome	NaN	no
+3407	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_E.mzXML	CNS615	genome	NaN	no
+3408	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_B.mzXML	CNS615	genome	NaN	no
+3409	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_M.mzXML	CNS615	genome	NaN	no
+3410	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_E.mzXML	CNS615	genome	NaN	no
+3411	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_B.mzXML	CNS615	genome	NaN	no
+3412	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_M.mzXML	CNS615	genome	NaN	no
+3413	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_E.mzXML	CNS615	genome	NaN	no
+3414	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_B.mzXML	CNS615	genome	NaN	no
+3415	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_M.mzXML	CNS615	genome	NaN	no
+3416	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_E.mzXML	CNS615	genome	NaN	no
+3417	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_B.mzXML	CNS615	genome	NaN	no
+3418	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_M.mzXML	CNS615	genome	NaN	no
+3419	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_E.mzXML	CNS615	genome	NaN	no
+3420	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_B.mzXML	CNS615	genome	NaN	no
+3421	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_M.mzXML	CNS615	genome	NaN	no
+3422	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_E.mzXML	CNS615	genome	NaN	no
+3423	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_B.mzXML	CNS615	genome	NaN	no
+3424	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_M.mzXML	CNS615	genome	NaN	no
+3425	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_E.mzXML	CNS615	genome	NaN	no
+3426	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_B.mzXML	CNS615	genome	NaN	no
+3427	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_M.mzXML	CNS615	genome	NaN	no
+3428	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_E.mzXML	CNS615	genome	NaN	no
+3429	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_B.mzXML	CNT302	genome	NaN	no
+3430	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_M.mzXML	CNT302	genome	NaN	no
+3431	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_E.mzXML	CNT302	genome	NaN	no
+3432	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_B.mzXML	CNT302	genome	NaN	no
+3433	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_M.mzXML	CNT302	genome	NaN	no
+3434	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_E.mzXML	CNT302	genome	NaN	no
+3435	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_B.mzXML	CNT302	genome	NaN	no
+3436	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_M.mzXML	CNT302	genome	NaN	no
+3437	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_E.mzXML	CNT302	genome	NaN	no
+3438	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_B.mzXML	CNT302	genome	NaN	no
+3439	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_M.mzXML	CNT302	genome	NaN	no
+3440	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_E.mzXML	CNT302	genome	NaN	no
+3441	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_B.mzXML	CNT302	genome	NaN	no
+3442	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_M.mzXML	CNT302	genome	NaN	no
+3443	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_E.mzXML	CNT302	genome	NaN	no
+3444	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_B.mzXML	CNT302	genome	NaN	no
+3445	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_M.mzXML	CNT302	genome	NaN	no
+3446	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_E.mzXML	CNT302	genome	NaN	no
+3447	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_B.mzXML	CNT302	genome	NaN	no
+3448	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_M.mzXML	CNT302	genome	NaN	no
+3449	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_E.mzXML	CNT302	genome	NaN	no
+3450	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_B.mzXML	CNT302	genome	NaN	no
+3451	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_M.mzXML	CNT302	genome	NaN	no
+3452	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_E.mzXML	CNT302	genome	NaN	no
+3460	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/Control_seed_3_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3461	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/tasA_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3462	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/3610_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3463	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/eps_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3464	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/bslA_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3465	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/JC81_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3466	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pks_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3467	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pps_seed_1_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3468	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/Control_seed_4_5_days_extremo_raiz.mzML	Melon	genome	NaN	no
+3469	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/3610_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3470	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/tasA_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3471	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/eps_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3472	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/bslA_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3473	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/JC81_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3474	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pks_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3475	457668	GenBank_accession	No BioSample	ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pps_seed_2_5_days_inicio_raiz.mzML	Melon	genome	NaN	no
+3625	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS615_A1_B.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3626	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNS615_A1_M.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3627	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNS615_A1_E.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3628	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_B.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3629	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_M.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3630	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_E.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3631	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_B.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3632	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_M.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3633	GCA_000365385.1 	GenBank_accession	SAMN02194547	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_E.mzXML	Streptomyces sp. CNS615	genome	NaN	no
+3634	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT302_A1_B.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3635	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT302_A1_M.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3636	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNT302_A1_E.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3637	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_B.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3638	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_M.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3639	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_E.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3640	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_B.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3641	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_M.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3642	GCA_000377525.1 	GenBank_accession	SAMN02194422	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_E.mzXML	Streptomyces sp. CNT302	genome	NaN	no
+3652	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_B.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3653	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_M.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3654	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_E.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3655	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_B.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3656	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_M.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3657	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_E.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3676	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_B.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3677	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_M.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3678	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_E.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3697	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_B.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3698	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_M.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3699	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_E.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3712	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_B.mzXML	Streptomyces albus	genome	NaN	no
+3713	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_M.mzXML	Streptomyces albus	genome	NaN	no
+3714	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_E.mzXML	Streptomyces albus	genome	NaN	no
+3757	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_B.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3758	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_M.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3759	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_E.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3760	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_B.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3761	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_M.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3762	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_E.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3781	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_B.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3782	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_M.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3783	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_E.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3802	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_B.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3803	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_M.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3804	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_E.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3817	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_B.mzXML	Streptomyces albus	genome	NaN	no
+3818	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_M.mzXML	Streptomyces albus	genome	NaN	no
+3819	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_E.mzXML	Streptomyces albus	genome	NaN	no
+3862	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_B.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3863	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_M.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3864	2526164782	JGI_Genome_ID	SAMN02745835	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_E.mzXML	Streptomyces sp. CNP082	genome	NaN	no
+3865	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_B.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3866	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_M.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3867	2526164782	JGI_Genome_ID	1649593 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_E.mzXML	Streptomyces sp. CNQ149	genome	NaN	no
+3886	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_B.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3887	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_M.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3888	GCA_000377125.1	GenBank_accession	1290527 	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_E.mzXML	Streptomyces sp. CNS580	genome	NaN	no
+3907	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_B.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3908	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_M.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3909	2558860985	JGI_Genome_ID	SAMN02745430	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_E.mzXML	Streptomyces sp. CNX435	genome	NaN	no
+3922	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS//S.alb_MS_B.mzXML	Streptomyces albus	genome	NaN	no
+3923	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.alb_MS_M.mzXML	Streptomyces albus	genome	NaN	no
+3924	2816332174	JGI_Genome_ID	SAMN12024760	ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.alb_MS_E.mzXML	Streptomyces albus	genome	NaN	no
+3970	651717039, 651716642	JGI_Genome_ID	SAMN11997568	ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN1-MS2.mzXML	Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)	genome	NaN	no
+3971	651717039, 651716642	JGI_Genome_ID	SAMN11997568	ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN2-MS2.mzXML	Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)	genome	NaN	no
+3972	651717039, 651716642	JGI_Genome_ID	SAMN11997568	ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN3-MS2.mzXML	Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)	genome	NaN	no
+4698	235463	JGI_Genome_ID	PRJNA639598	ftp://massive.ucsd.edu/MSV000085586/peak/Actinomadura%20sp.%20BRA177/BRA177_Actinomadura_CrudeExtract_1-3_01_2357	genome - Actinomadura BRA177	genome	NaN	no

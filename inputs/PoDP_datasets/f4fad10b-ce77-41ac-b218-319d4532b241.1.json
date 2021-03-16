@@ -1,0 +1,307 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Carlos Molina-Santiago",
+        "submitter_orcid": "https://orcid.org/0000-0002-1131-8917",
+        "submitter_email": "camolsan@uma.es",
+        "PI_name": "Diego Romero, Carlos Molina-Santiago, María Victoria Berlanga-Clavero",
+        "PI_institution": "Malaga University",
+        "PI_email": "diego_romero@uma.es"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084674",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=b2e3636335d24c2da72634b7c6c8b63f&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "dH2O",
+                    "medium_volume": 6
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "Seed germination in water",
+                "sample_preparation_method": "Control"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis WT",
+                "sample_preparation_method": "Bacterized WT"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis TasA",
+                "sample_preparation_method": "Bacterized TasA"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis eps",
+                "sample_preparation_method": "Bacterized eps"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis bslA",
+                "sample_preparation_method": "Bacterized bslA"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis JC81",
+                "sample_preparation_method": "Bacterized JC81"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis pks",
+                "sample_preparation_method": "Bacterized pks"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 24
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "Bacterized seed germination in water - bacillus subtilis pps",
+                "sample_preparation_method": "Bacterized pps"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "methanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-3000",
+                "instrumentation_method": "Orbitrap",
+                "collision_energy": "35"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "457668"
+            },
+            "genome_label": "Melon"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP020102.1"
+            },
+            "genome_label": "Bacillus"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/Control_seed_3_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap",
+            "sample_preparation_label": "Control"
+        },
+        {
+            "genome_label": "Melon",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/tasA_seed_1_5_days_inicio_raiz.mzML",
+            "sample_preparation_label": "Bacterized TasA",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/3610_seed_1_5_days_inicio_raiz.mzML",
+            "sample_preparation_label": "Bacterized WT",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "sample_preparation_label": "Bacterized eps",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/eps_seed_1_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "sample_preparation_label": "Bacterized bslA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/bslA_seed_1_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "sample_preparation_label": "Bacterized JC81",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/JC81_seed_1_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "sample_preparation_label": "Bacterized pks",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pks_seed_1_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "sample_preparation_label": "Bacterized pps",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pps_seed_1_5_days_inicio_raiz.mzML",
+            "genome_label": "Melon",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Control",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/Control_seed_4_5_days_extremo_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized WT",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/3610_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized TasA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/tasA_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized eps",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/eps_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized bslA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/bslA_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized JC81",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/JC81_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized pks",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pks_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        },
+        {
+            "genome_label": "Melon",
+            "sample_preparation_label": "Bacterized pps",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084674/ccms_peak/pps_seed_2_5_days_inicio_raiz.mzML",
+            "extraction_method_label": "methanol",
+            "instrumentation_method_label": "Orbitrap"
+        }
+    ]
+}

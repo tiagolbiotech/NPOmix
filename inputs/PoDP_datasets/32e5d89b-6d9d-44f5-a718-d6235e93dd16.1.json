@@ -1,0 +1,111 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Kyo Bin Kang",
+        "submitter_email": "kbkang@sookmyung.ac.kr",
+        "PI_name": "Kyo Bin Kang & Jae-Seoun Hur",
+        "PI_institution": "Sookmyung Women's University &  Sunchon National University",
+        "PI_email": "jshur1@sunchon.ac.kr"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084781",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=b331e087177546f29c87c82fce031e1c&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "https://www.sigmaaldrich.com/catalog/product/sial/70139?lang=en&region=NL",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 150
+                },
+                "sample_preparation_method": "Liquid PD"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000129",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "TOF/Neg",
+                "buffering": "0.1% formic acid"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "EtOAc"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JFDN01000000  "
+            },
+            "publications": "24762942",
+            "genome_label": "Umbilicaria muehlenbergii KoLRILF000956"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JFDM01000000"
+            },
+            "genome_label": "Endocarpon pusillum KoLRILF000583",
+            "publications": "24855301"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AXCT02000000"
+            },
+            "genome_label": "Cladonia metacorallifera KoLRI002260",
+            "publications": "24526650"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Umbilicaria muehlenbergii KoLRILF000956",
+            "instrumentation_method_label": "TOF/Neg",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "Liquid PD",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084781/raw/KoLRI027771_neg.mzXML"
+        },
+        {
+            "genome_label": "Endocarpon pusillum KoLRILF000583",
+            "instrumentation_method_label": "TOF/Neg",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "Liquid PD",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084781/raw/KoLRI027238_neg.mzXML"
+        },
+        {
+            "genome_label": "Cladonia metacorallifera KoLRI002260",
+            "instrumentation_method_label": "TOF/Neg",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "Liquid PD",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084781/raw/KoLRI027184_neg.mzXML"
+        }
+    ]
+}

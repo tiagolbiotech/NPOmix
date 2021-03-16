@@ -1,0 +1,91 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Irina Koester",
+        "submitter_email": "ikoester@ucsd.edu",
+        "PI_name": "Michael Beman",
+        "PI_institution": "University of California",
+        "PI_email": "jmbeman@gmail.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085031",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=4f938a3899614faf9c54c9d042e08e64"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000022",
+                    "metagenomic_sample_description": "Eastern Tropical Northern Pacific"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "Metagenome Ocean"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "complex",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "resins": "PPL",
+                "extraction_method": "SPE"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-1500",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "DDA"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "JGI_Genome_ID": "212661",
+                "JGI_ID": "212082"
+            },
+            "genome_label": "Metagenome Ocean ETNP1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "JGI_ID": "212661"
+            },
+            "genome_label": "Metagenome Ocean ETNP2"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Metagenome Ocean ETNP1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085031/peak/ETNP_63.mzML",
+            "sample_preparation_label": "Metagenome Ocean",
+            "extraction_method_label": "SPE",
+            "instrumentation_method_label": "DDA"
+        },
+        {
+            "genome_label": "Metagenome Ocean ETNP2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085031/peak/ETNP_52.mzML",
+            "sample_preparation_label": "Metagenome Ocean",
+            "extraction_method_label": "SPE",
+            "instrumentation_method_label": "DDA"
+        }
+    ]
+}

@@ -1,0 +1,509 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Hamada Saad",
+        "submitter_orcid": "https://orcid.org/0000-0002-4387-0474",
+        "submitter_email": "Hamada.saad@pharm.uni-tuebingen.de",
+        "PI_name": "Harald Gross",
+        "PI_institution": "Tuebingen University",
+        "PI_email": "Harald.gross@uni-tuebingen.de",
+        "submitter_name_secondary": "Saefuddin Aziz",
+        "submitter_email_secondary": "azizgene@gmail.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085018",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=aa2847c8e761455c9263454311492729&view=advanced_view",
+            "molecular_network": "2c5aeb3641a440a2b07d8a8c06f41f97"
+        },
+        "publications": "17254952, 30666877, 23402329"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Davis minimal Broth glycerol",
+                    "Other_medium_link": "https://www.sciencedirect.com/science/article/pii/S1074552106004236?via%3Dihub",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 140
+                },
+                "sample_preparation_method": "DMB gly"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "R4",
+                    "Other_medium_link": "https://www.nature.com/articles/s41589-018-0193-2",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 140
+                },
+                "sample_preparation_method": "R4"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=484",
+                    "Other_medium": "M",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 32,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 140
+                },
+                "sample_preparation_method": "MM9"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "King's B ",
+                    "Other_medium_link": "https://www.ncbi.nlm.nih.gov/pubmed/?term=13184240",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 140
+                },
+                "sample_preparation_method": "KB"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "PharmaMedia",
+                    "Other_medium_link": "https://pubs.acs.org/doi/10.1021/np050091j",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask"
+                },
+                "sample_preparation_method": "PharmaMedia"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "EthylAcetate"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15767"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "DCM"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "Butanol"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "Methanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "50-1800 Da",
+                "collision_energy": "33 Kev",
+                "buffering": "0.1% TFA",
+                "instrumentation_method": "TOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AYUD00000000"
+            },
+            "genome_label": "Pseudomonas aurantiaca PB-St2",
+            "BioSample_accession": "SAMN02388884",
+            "publications": "24459254"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP000076"
+            },
+            "genome_label": "Pseudomonas protegens Pf-5",
+            "BioSample_accession": "SAMN02604012",
+            "publications": "15980861, 17254952"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "QOLE01000000"
+            },
+            "genome_label": "Pseudomonas aeruginosa TUEPA7472",
+            "BioSample_accession": "SAMN09389195",
+            "publications": "30533654"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP000094  "
+            },
+            "genome_label": "Pseudomonas fluorescens Pf0-1 LK194 gacA+ mutant",
+            "BioSample_accession": "SAMN02598267",
+            "publications": "19432983, 30666877"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LSLE00000000"
+            },
+            "genome_label": "Pseudomonas putida BW11M1",
+            "BioSample_accession": "SAMN04481375",
+            "publications": "27081131, 26507104, 23690965"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "PPFB00000000"
+            },
+            "genome_label": "Streptomyces sp. DH12",
+            "BioSample_accession": "SAMN08365448",
+            "publications": "29496834"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "QKWM01000000"
+            },
+            "genome_label": "Streptomyces sp. SW 4",
+            "BioSample_accession": "SAMN09390512",
+            "publications": "30533905"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LWGR00000000"
+            },
+            "genome_label": "Nocardia terpenica IFM-0406",
+            "BioSample_accession": "SAMN04426989",
+            "publications": "27979943"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Pseudomonas aurantiaca PB-St2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/P_aurantiaca_PB-St2_GD4_01_38292.mzXML",
+            "sample_preparation_label": "DMB gly",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Pseudomonas aurantiaca PB-St2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/P_aurantiaca_PB-St2_KsB_GE2_01_38299.mzXML",
+            "sample_preparation_label": "KB",
+            "extraction_method_label": "DCM",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Pseudomonas protegens Pf-5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/Protegens_Pf5_GD1_01_38288.mzXML",
+            "sample_preparation_label": "DMB gly",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Pseudomonas aeruginosa TUEPA7472",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/P_aeruginosa_TUEPA_GC8_01_38287.mzXML",
+            "sample_preparation_label": "DMB gly",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Pseudomonas fluorescens Pf0-1 LK194 gacA+ mutant",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/P_fluorescens_Pf0-1_LK194_Gac+_GD3_01_38290.mzXML",
+            "sample_preparation_label": "DMB gly",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Pseudomonas putida BW11M1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/P_putida_BW11M1_GD2_01_38289.mzXML",
+            "sample_preparation_label": "DMB gly",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Streptomyces sp. DH12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/Streptomyces_DH12_R4_GE1_01_38298.mzXML",
+            "sample_preparation_label": "R4",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Streptomyces sp. SW 4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/Streptomyces_SW4_R4_GD8_01_38296.mzXML",
+            "sample_preparation_label": "R4",
+            "extraction_method_label": "EthylAcetate",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Nocardia terpenica IFM-0406",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/Noc_IFM0406_SN_MM9_GA7_01_31071.mzXML",
+            "sample_preparation_label": "MM9",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Nocardia terpenica IFM-0406",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085018/peak/Noc_IFM0406_GE3_01_17769.mzXML",
+            "sample_preparation_label": "PharmaMedia",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "TOF"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of Brasilicardin A and related molecules that can be linked to a reference gene cluster in MiBG from Nocardia terpenica IFM 0406 that is included in this study in which was earlier validated ",
+            "SMILES": "O=C(C1=CC=CC(O)=C1)O[C@H]([C@@H](O[C@H](O[C@H](CO)[C@H]2O)[C@H](NC(C)=O)[C@H]2O)[C@H]3O)[C@H](C)O[C@H]3O[C@H]([C@H]4O)C[C@@]([C@@]5([H])C4(C)C)(C)[C@]6([H])[C@](CC5)(C)[C@H](C(C)=CC6)C[C@H](OC)[C@H](N)C(O)=O",
+            "IUPAC": "(2S,3S)-4-((1S,4aS,4bS,6S,7S,8aS,10aS)-6-(((2S,3R,4S,5S,6S)-4-(((2S,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl)oxy)-3-hydroxy-5-((3-hydroxybenzoyl)oxy)-6-methyltetrahydro-2H-pyran-2-yl)oxy)-7-hydroxy-2,4b,8,8,10a-pentamethyl-1,4,4a,4b,5,6,7,8,8a,9,10,10a-dodecahydrophenanthren-1-yl)-2-amino-3-methoxybutanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=603&highlight_node=9210&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000632"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of Brasilicardin C and related molecules that can be linked to a reference gene cluster in MiBG from Nocardia terpenica IFM 0406 that is included in this study in which was earlier validated ",
+            "SMILES": "O=C(O)[C@H](N)[C@H](OC)C[C@@H](C(C)=CC1)[C@@](CC2)(C)[C@@]1([H])[C@](C[C@@H](O[C@@](O[C@@H](C)[C@@H]3O)([H])[C@H](O)[C@@H]3O)[C@@H]4O)(C)[C@]2([H])C4(C)C",
+            "IUPAC": "(2R,3R)-2-amino-4-((1S,4aS,4bR,6R,7R,8aR,10aS)-7-hydroxy-2,4b,8,8,10a-pentamethyl-6-(((2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyltetrahydro-2H-pyran-2-yl)oxy)-1,4,4a,4b,5,6,7,8,8a,9,10,10a-dodecahydrophenanthren-1-yl)-3-methoxybutanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=97&highlight_node=9094&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000632"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of brasilinolides and related molecules that can be linked to a reference gene cluster in MiBG from Nocardia terpenica IFM 0406 that is included in this study in which was earlier validated ",
+            "SMILES": "CCCCC(O[C@@H]1C[C@@H](OC(C(C(O)C(C(O)C(C2C(C)C3C(C(O)CCCC(OC(CC(O)=O)=O)CC(O)C[C@@H]4C[C@H](O)[C@@H](O)[C@@](CC(O)C(C)CCC(O)CC(O)CC(O)C/C=C/C(O2)=O)(O)O4)O3)C)C)C)C)O[C@H](C)[C@@H]1O)=O",
+            "IUPAC": "3-(((1R,30S,31R,32S,E)-14-(3,5-dihydroxy-7-(((2S,4R,5S,6R)-5-hydroxy-6-methyl-4-(pentanoyloxy)tetrahydro-2H-pyran-2-yl)oxy)-4,6-dimethyloctan-2-yl)-3,9,20,22,24,28,30,31,32-nonahydroxy-13,27-dimethyl-16-oxo-11,15,34-trioxatricyclo[28.3.1.010,12]tetratriacont-17-en-5-yl)oxy)-3-oxopropanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=116&highlight_node=9437&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001381"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of terpenibactins and related molecules from Nocardia terpenica IFM 0406 can be linked to a similar gene cluster in MiBG ",
+            "SMILES": "O=C(N[C@@H](CCCCN(O)C=O)C(OC(C(C(N[C@@H]1CCCCN(O)C1=O)=O)C)CCCCCCCCCCCCCCC)=O)[C@@H]2[C@H](C)OC(C3=CC=CC=C3O)=N2",
+            "IUPAC": "1-(((R)-1-hydroxy-2-oxoazepan-3-yl)amino)-2-methyl-1-oxooctadecan-3-yl N6-formyl-N6-hydroxy-N2-((4S,5S)-2-(2-hydroxyphenyl)-5-methyl-4,5-dihydrooxazole-4-carbonyl)-L-lysinate",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=1157&highlight_node=9260&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0001027"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of gacamides and related molecules from P. fluorescens Pf0-1 LK194 gacA+ mutant can be linked to a reference gene cluster in MiBG",
+            "SMILES": "CCCCCCC[C@@H](O)CC(N[C@@H](C(N[C@@H](C(N[C@@H](C(N[C@H](C(N[C@@H](C(N[C@@H](C(N[C@@H]1COC([C@H]([C@H](CC)C)NC([C@@H](CO)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC1=O)=O)=O)=O)=O)=O)CCC(N)=O)=O)CC(C)C)=O)[C@@H](CC)C)=O)CCC(N)=O)=O)CC(O)=O)=O)CC(C)C)=O",
+            "IUPAC": "(3R,6R,9S,12R,15R)-18-amino-6-(3-amino-3-oxopropyl)-9-((R)-sec-butyl)-15-(((3S,6R,9S,12S,15R)-3-((S)-sec-butyl)-6-(hydroxymethyl)-9,12-diisobutyl-2,5,8,11,14-pentaoxo-1-oxa-4,7,10,13-tetraazacyclohexadecan-15-yl)carbamoyl)-3-((R)-2-((R)-3-hydroxydecanamido)-4-methylpentanamido)-12-isobutyl-4,7,10,13,18-pentaoxo-5,8,11,14-tetraazaoctadecanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=3&highlight_node=8717&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001842"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of xantholysins and related molecules from P. putida BW11M1 can be linked to a reference gene cluster in MiBG ",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CCCCCCCC(CC(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC1C(C)C)=O)CCC(N)=O)=O)CC(C)C)=O)CC(C)C)=O)CCC(N)=O)=O)CC(C)C)=O)C(C)C)=O)COC1=O)=O)CCC(N)=O)=O)CC(C)C)=O)C(C)C)=O)CCC(N)=O)=O)CCC(O)=O)=O)CC(C)C)=O)O",
+            "IUPAC": "1-amino-13-(3-amino-3-oxopropyl)-4-((6,15-bis(3-amino-3-oxopropyl)-9,12,18-triisobutyl-3,21-diisopropyl-2,5,8,11,14,17,20,23-octaoxo-1-oxa-4,7,10,13,16,19,22-heptaazacyclopentacosan-24-yl)carbamoyl)-16-(2-(3-hydroxydecanamido)-4-methylpentanamido)-7-isobutyl-10-isopropyl-1,6,9,12,15-pentaoxo-5,8,11,14-tetraazanonadecan-19-oic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=3&highlight_node=9215&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000463"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of pristinamycins and related molecules from Streptomyces sp. SW 4 can be linked to a reference gene cluster in MiBG ",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C(C1=COC(CC2=O)=N1)N3C(C(O[C@H](C(C)C)[C@H](C)/C=C/C(NC/C=C/C(C)=C/[C@@H](O)C2)=O)=O)=CCC3",
+            "IUPAC": "(12Z,6R,7R,8E,13E,15E,17S)-17-hydroxy-6-isopropyl-7,15-dimethyl-32,33-dihydro-31H-5-oxa-11-aza-1(4,2)-oxazola-3(1,5)-pyrrolacycloicosaphane-8,13,15-triene-2,4,10,19-tetraone",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=13&highlight_node=7961&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000952"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of streptogramins B and related molecules from Streptomyces sp. SW 4 can be linked to a reference gene cluster in MiBG ",
+            "SMILES": "O=C(N(CCC1)C1C(O[C@H](C(C)C)[C@H](C)/C=C/C(NC/C=C/C(C)=C/C(O)C2)=O)=O)C3=COC(CC2=O)=N3",
+            "IUPAC": "(12Z,6R,7R,8E,13E,15E)-17-hydroxy-6-isopropyl-7,15-dimethyl-5-oxa-11-aza-1(4,2)-oxazola-3(1,2)-pyrrolidinacycloicosaphane-8,13,15-triene-2,4,10,19-tetraone",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=947&highlight_node=9214&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001116"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of orfamides and related molecules from P. protegens Pf-5 that can be linked to a reference gene cluster in MiBG ",
+            "SMILES": "CCCCCCCCCCCC(CC(=O)N[C@@H](CC(C)C)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@@H]1[C@H](OC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@H](NC1=O)C(C)CC)CC(C)C)CO)CC(C)C)CC(C)C)CO)C(C)C)C)O",
+            "IUPAC": "(4R)-5-(((3S,6R,9S,12S,15R,18S,21R,24R,25R)-21-(sec-butyl)-6,15-bis(hydroxymethyl)-9,12,18-triisobutyl-3-isopropyl-25-methyl-2,5,8,11,14,17,20,23-octaoxo-1-oxa-4,7,10,13,16,19,22-heptaazacyclopentacosan-24-yl)amino)-4-((2S)-2-(3-hydroxytetradecanamido)-4-methylpentanamido)-5-oxopentanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=16&highlight_node=9512&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000399"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of (WLIP/Viscosin) and related molecules from P. aurantiaca PB-St2 can be linked to a similar gene cluster in MiBG ",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CCCCCCCC(CC(=O)N[C@@H](CC(C)C)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@@H]1C(OC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@H](NC1=O)C(C)C)CC(C)C)CO)CC(C)C)CO)[C@@H](C)CC)C)O",
+            "IUPAC": "(4R)-5-(((3S,6R,9S,12R,15S,18R,21R)-3-((S)-sec-butyl)-6,12-bis(hydroxymethyl)-9,15-diisobutyl-18-isopropyl-22-methyl-2,5,8,11,14,17,20-heptaoxo-1-oxa-4,7,10,13,16,19-hexaazacyclodocosan-21-yl)amino)-4-((2S)-2-(3-hydroxydecanamido)-4-methylpentanamido)-5-oxopentanoic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=16&highlight_node=9423&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0001312"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of actinomycins  and related molecules from Streptomyces sp. DH12 can be linked to a reference gene cluster in MiBG ",
+            "SMILES": "C[C@@H]1[C@H](NC(C2=C3C(OC4=C(C)C(C(N)=C(C(N[C@H]5[C@@H](C)OC([C@H](C(C)C)N(C)C(CN(C)C([C@@H]6CCCN6C([C@@H](C(C)C)NC5=O)=O)=O)=O)=O)=O)C4=N3)=O)=C(C)C=C2)=O)C(N[C@H](C(C)C)C(N7CCC[C@H]7C(N(C)CC(N(C)[C@@H](C(C)C)C(O1)=O)=O)=O)=O)=O",
+            "IUPAC": "2-amino-N1,N9-bis((6S,9R,10S,13R,18aS)-6,13-diisopropyl-2,5,9-trimethyl-1,4,7,11,14-pentaoxohexadecahydro-1H-pyrrolo[2,1-i][1]oxa[4,7,10,13]tetraazacyclohexadecin-10-yl)-4,6-dimethyl-3-oxo-3H-phenoxazine-1,9-dicarboxamide",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=370&highlight_node=9484&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000296"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "A molecular family of annimycin and related molecules from Streptomyces sp. DH12 can be linked to a reference gene cluster in MiBG",
+            "SMILES": "CC/C=C/C=C(/C=C/C=C/C(O)CC(NC1=C(O)CCC1=O)=O)C",
+            "IUPAC": "(4E,6E,8E,10E)-3-hydroxy-N-(2-hydroxy-5-oxocyclopent-1-en-1-yl)-8-methyltrideca-4,6,8,10-tetraenamide",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=222&highlight_node=4049&task=2c5aeb3641a440a2b07d8a8c06f41f97#%7B%7D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001298"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Pseudopyronines A from P. putida BW11M1",
+            "SMILES": "CCCCCCC1=C(O)C=C(CCCCC)OC1=O",
+            "IUPAC": "3-hexyl-4-hydroxy-6-pentyl-2H-pyran-2-one",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085018/peak/P_putida_BW11M1_GD2_01_38289.mzXML",
+            "MS2_scan": "3573",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001285"
+            }
+        }
+    ]
+}

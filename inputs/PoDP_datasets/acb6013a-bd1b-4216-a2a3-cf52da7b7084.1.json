@@ -1,0 +1,2587 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Kelly Weldon",
+        "submitter_orcid": "https://orcid.org/0000-0003-1064-8153",
+        "submitter_email": "kcweldon@eng.ucsd.edu",
+        "PI_name": "Pieter C. Dorrestein",
+        "PI_institution": "University of California, San Diego",
+        "PI_email": "pdorrestein@health.ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083302",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=ef195e6569004a14a47560f7619e8591",
+            "molecular_network": "6379dfdb0f7d4c31b75afd14c8f36778"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000395",
+                    "metagenomic_sample_description": "Mus musculus fecal pellet"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "metagenomic_mouse_fecal"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    },
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "SeedGrant_Extraction"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-1500",
+                "buffering": "0.1% Formic Acid",
+                "instrumentation_method": "Seed Grant TOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_label": "ERS4356233",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356233"
+            },
+            "BioSample_accession": "ERS4356233"
+        },
+        {
+            "genome_label": "ERS4356234",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356234"
+            },
+            "BioSample_accession": "ERS4356234"
+        },
+        {
+            "genome_label": "ERS4356235",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356235"
+            },
+            "BioSample_accession": "ERS4356235"
+        },
+        {
+            "genome_label": "ERS4356236",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356236"
+            },
+            "BioSample_accession": "ERS4356236"
+        },
+        {
+            "genome_label": "ERS4356237",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356237"
+            },
+            "BioSample_accession": "ERS4356237"
+        },
+        {
+            "genome_label": "ERS4356238",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356238"
+            },
+            "BioSample_accession": "ERS4356238"
+        },
+        {
+            "genome_label": "ERS4356239",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356239"
+            },
+            "BioSample_accession": "ERS4356239"
+        },
+        {
+            "genome_label": "ERS4356240",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356240"
+            },
+            "BioSample_accession": "ERS4356240"
+        },
+        {
+            "genome_label": "ERS4356241",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356241"
+            },
+            "BioSample_accession": "ERS4356241"
+        },
+        {
+            "genome_label": "ERS4356242",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356242"
+            },
+            "BioSample_accession": "ERS4356242"
+        },
+        {
+            "genome_label": "ERS4356243",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356243"
+            },
+            "BioSample_accession": "ERS4356243"
+        },
+        {
+            "genome_label": "ERS4356244",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356244"
+            },
+            "BioSample_accession": "ERS4356244"
+        },
+        {
+            "genome_label": "ERS4356245",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356245"
+            },
+            "BioSample_accession": "ERS4356245"
+        },
+        {
+            "genome_label": "ERS4356246",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356246"
+            },
+            "BioSample_accession": "ERS4356246"
+        },
+        {
+            "genome_label": "ERS4356247",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356247"
+            },
+            "BioSample_accession": "ERS4356247"
+        },
+        {
+            "genome_label": "ERS4356248",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356248"
+            },
+            "BioSample_accession": "ERS4356248"
+        },
+        {
+            "genome_label": "ERS4356249",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356249"
+            },
+            "BioSample_accession": "ERS4356249"
+        },
+        {
+            "genome_label": "ERS4356250",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356250"
+            },
+            "BioSample_accession": "ERS4356250"
+        },
+        {
+            "genome_label": "ERS4356251",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356251"
+            },
+            "BioSample_accession": "ERS4356251"
+        },
+        {
+            "genome_label": "ERS4356252",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356252"
+            },
+            "BioSample_accession": "ERS4356252"
+        },
+        {
+            "genome_label": "ERS4356253",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356253"
+            },
+            "BioSample_accession": "ERS4356253"
+        },
+        {
+            "genome_label": "ERS4356254",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356254"
+            },
+            "BioSample_accession": "ERS4356254"
+        },
+        {
+            "genome_label": "ERS4356255",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356255"
+            },
+            "BioSample_accession": "ERS4356255"
+        },
+        {
+            "genome_label": "ERS4356256",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356256"
+            },
+            "BioSample_accession": "ERS4356256"
+        },
+        {
+            "genome_label": "ERS4356257",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356257"
+            },
+            "BioSample_accession": "ERS4356257"
+        },
+        {
+            "genome_label": "ERS4356258",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356258"
+            },
+            "BioSample_accession": "ERS4356258"
+        },
+        {
+            "genome_label": "ERS4356259",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356259"
+            },
+            "BioSample_accession": "ERS4356259"
+        },
+        {
+            "genome_label": "ERS4356260",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356260"
+            },
+            "BioSample_accession": "ERS4356260"
+        },
+        {
+            "genome_label": "ERS4356261",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356261"
+            },
+            "BioSample_accession": "ERS4356261"
+        },
+        {
+            "genome_label": "ERS4356262",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356262"
+            },
+            "BioSample_accession": "ERS4356262"
+        },
+        {
+            "genome_label": "ERS4356263",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356263"
+            },
+            "BioSample_accession": "ERS4356263"
+        },
+        {
+            "genome_label": "ERS4356264",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356264"
+            },
+            "BioSample_accession": "ERS4356264"
+        },
+        {
+            "genome_label": "ERS4356265",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356265"
+            },
+            "BioSample_accession": "ERS4356265"
+        },
+        {
+            "genome_label": "ERS4356266",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356266"
+            },
+            "BioSample_accession": "ERS4356266"
+        },
+        {
+            "genome_label": "ERS4356267",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356267"
+            },
+            "BioSample_accession": "ERS4356267"
+        },
+        {
+            "genome_label": "ERS4356268",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356268"
+            },
+            "BioSample_accession": "ERS4356268"
+        },
+        {
+            "genome_label": "ERS4356269",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356269"
+            },
+            "BioSample_accession": "ERS4356269"
+        },
+        {
+            "genome_label": "ERS4356270",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356270"
+            },
+            "BioSample_accession": "ERS4356270"
+        },
+        {
+            "genome_label": "ERS4356271",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356271"
+            },
+            "BioSample_accession": "ERS4356271"
+        },
+        {
+            "genome_label": "ERS4356273",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356273"
+            },
+            "BioSample_accession": "ERS4356273"
+        },
+        {
+            "genome_label": "ERS4356152",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356152"
+            },
+            "BioSample_accession": "ERS4356152"
+        },
+        {
+            "genome_label": "ERS4356153",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356153"
+            },
+            "BioSample_accession": "ERS4356153"
+        },
+        {
+            "genome_label": "ERS4356154",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356154"
+            },
+            "BioSample_accession": "ERS4356154"
+        },
+        {
+            "genome_label": "ERS4356155",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356155"
+            },
+            "BioSample_accession": "ERS4356155"
+        },
+        {
+            "genome_label": "ERS4356156",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356156"
+            },
+            "BioSample_accession": "ERS4356156"
+        },
+        {
+            "genome_label": "ERS4356157",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356157"
+            },
+            "BioSample_accession": "ERS4356157"
+        },
+        {
+            "genome_label": "ERS4356158",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356158"
+            },
+            "BioSample_accession": "ERS4356158"
+        },
+        {
+            "genome_label": "ERS4356159",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356159"
+            },
+            "BioSample_accession": "ERS4356159"
+        },
+        {
+            "genome_label": "ERS4356160",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356160"
+            },
+            "BioSample_accession": "ERS4356160"
+        },
+        {
+            "genome_label": "ERS4356161",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356161"
+            },
+            "BioSample_accession": "ERS4356161"
+        },
+        {
+            "genome_label": "ERS4356162",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356162"
+            },
+            "BioSample_accession": "ERS4356162"
+        },
+        {
+            "genome_label": "ERS4356163",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356163"
+            },
+            "BioSample_accession": "ERS4356163"
+        },
+        {
+            "genome_label": "ERS4356164",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356164"
+            },
+            "BioSample_accession": "ERS4356164"
+        },
+        {
+            "genome_label": "ERS4356165",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356165"
+            },
+            "BioSample_accession": "ERS4356165"
+        },
+        {
+            "genome_label": "ERS4356166",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356166"
+            },
+            "BioSample_accession": "ERS4356166"
+        },
+        {
+            "genome_label": "ERS4356167",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356167"
+            },
+            "BioSample_accession": "ERS4356167"
+        },
+        {
+            "genome_label": "ERS4356168",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356168"
+            },
+            "BioSample_accession": "ERS4356168"
+        },
+        {
+            "genome_label": "ERS4356169",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356169"
+            },
+            "BioSample_accession": "ERS4356169"
+        },
+        {
+            "genome_label": "ERS4356170",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356170"
+            },
+            "BioSample_accession": "ERS4356170"
+        },
+        {
+            "genome_label": "ERS4356171",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356171"
+            },
+            "BioSample_accession": "ERS4356171"
+        },
+        {
+            "genome_label": "ERS4356172",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356172"
+            },
+            "BioSample_accession": "ERS4356172"
+        },
+        {
+            "genome_label": "ERS4356173",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356173"
+            },
+            "BioSample_accession": "ERS4356173"
+        },
+        {
+            "genome_label": "ERS4356174",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356174"
+            },
+            "BioSample_accession": "ERS4356174"
+        },
+        {
+            "genome_label": "ERS4356175",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356175"
+            },
+            "BioSample_accession": "ERS4356175"
+        },
+        {
+            "genome_label": "ERS4356176",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356176"
+            },
+            "BioSample_accession": "ERS4356176"
+        },
+        {
+            "genome_label": "ERS4356177",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356177"
+            },
+            "BioSample_accession": "ERS4356177"
+        },
+        {
+            "genome_label": "ERS4356178",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356178"
+            },
+            "BioSample_accession": "ERS4356178"
+        },
+        {
+            "genome_label": "ERS4356179",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356179"
+            },
+            "BioSample_accession": "ERS4356179"
+        },
+        {
+            "genome_label": "ERS4356180",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356180"
+            },
+            "BioSample_accession": "ERS4356180"
+        },
+        {
+            "genome_label": "ERS4356182",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356182"
+            },
+            "BioSample_accession": "ERS4356182"
+        },
+        {
+            "genome_label": "ERS4356183",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356183"
+            },
+            "BioSample_accession": "ERS4356183"
+        },
+        {
+            "genome_label": "ERS4356184",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356184"
+            },
+            "BioSample_accession": "ERS4356184"
+        },
+        {
+            "genome_label": "ERS4356185",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356185"
+            },
+            "BioSample_accession": "ERS4356185"
+        },
+        {
+            "genome_label": "ERS4356186",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356186"
+            },
+            "BioSample_accession": "ERS4356186"
+        },
+        {
+            "genome_label": "ERS4356187",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356187"
+            },
+            "BioSample_accession": "ERS4356187"
+        },
+        {
+            "genome_label": "ERS4356188",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356188"
+            },
+            "BioSample_accession": "ERS4356188"
+        },
+        {
+            "genome_label": "ERS4356189",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356189"
+            },
+            "BioSample_accession": "ERS4356189"
+        },
+        {
+            "genome_label": "ERS4356190",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356190"
+            },
+            "BioSample_accession": "ERS4356190"
+        },
+        {
+            "genome_label": "ERS4356191",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356191"
+            },
+            "BioSample_accession": "ERS4356191"
+        },
+        {
+            "genome_label": "ERS4356192",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356192"
+            },
+            "BioSample_accession": "ERS4356192"
+        },
+        {
+            "genome_label": "ERS4356193",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356193"
+            },
+            "BioSample_accession": "ERS4356193"
+        },
+        {
+            "genome_label": "ERS4356194",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356194"
+            },
+            "BioSample_accession": "ERS4356194"
+        },
+        {
+            "genome_label": "ERS4356195",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356195"
+            },
+            "BioSample_accession": "ERS4356195"
+        },
+        {
+            "genome_label": "ERS4356196",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356196"
+            },
+            "BioSample_accession": "ERS4356196"
+        },
+        {
+            "genome_label": "ERS4356197",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356197"
+            },
+            "BioSample_accession": "ERS4356197"
+        },
+        {
+            "genome_label": "ERS4356198",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356198"
+            },
+            "BioSample_accession": "ERS4356198"
+        },
+        {
+            "genome_label": "ERS4356199",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356199"
+            },
+            "BioSample_accession": "ERS4356199"
+        },
+        {
+            "genome_label": "ERS4356200",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356200"
+            },
+            "BioSample_accession": "ERS4356200"
+        },
+        {
+            "genome_label": "ERS4356201",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356201"
+            },
+            "BioSample_accession": "ERS4356201"
+        },
+        {
+            "genome_label": "ERS4356202",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356202"
+            },
+            "BioSample_accession": "ERS4356202"
+        },
+        {
+            "genome_label": "ERS4356203",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356203"
+            },
+            "BioSample_accession": "ERS4356203"
+        },
+        {
+            "genome_label": "ERS4356204",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356204"
+            },
+            "BioSample_accession": "ERS4356204"
+        },
+        {
+            "genome_label": "ERS4356205",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356205"
+            },
+            "BioSample_accession": "ERS4356205"
+        },
+        {
+            "genome_label": "ERS4356206",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356206"
+            },
+            "BioSample_accession": "ERS4356206"
+        },
+        {
+            "genome_label": "ERS4356207",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356207"
+            },
+            "BioSample_accession": "ERS4356207"
+        },
+        {
+            "genome_label": "ERS4356209",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356209"
+            },
+            "BioSample_accession": "ERS4356209"
+        },
+        {
+            "genome_label": "ERS4356210",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356210"
+            },
+            "BioSample_accession": "ERS4356210"
+        },
+        {
+            "genome_label": "ERS4356211",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356211"
+            },
+            "BioSample_accession": "ERS4356211"
+        },
+        {
+            "genome_label": "ERS4356212",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356212"
+            },
+            "BioSample_accession": "ERS4356212"
+        },
+        {
+            "genome_label": "ERS4356213",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356213"
+            },
+            "BioSample_accession": "ERS4356213"
+        },
+        {
+            "genome_label": "ERS4356214",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356214"
+            },
+            "BioSample_accession": "ERS4356214"
+        },
+        {
+            "genome_label": "ERS4356215",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356215"
+            },
+            "BioSample_accession": "ERS4356215"
+        },
+        {
+            "genome_label": "ERS4356216",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356216"
+            },
+            "BioSample_accession": "ERS4356216"
+        },
+        {
+            "genome_label": "ERS4356217",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356217"
+            },
+            "BioSample_accession": "ERS4356217"
+        },
+        {
+            "genome_label": "ERS4356218",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356218"
+            },
+            "BioSample_accession": "ERS4356218"
+        },
+        {
+            "genome_label": "ERS4356219",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356219"
+            },
+            "BioSample_accession": "ERS4356219"
+        },
+        {
+            "genome_label": "ERS4356220",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356220"
+            },
+            "BioSample_accession": "ERS4356220"
+        },
+        {
+            "genome_label": "ERS4356221",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356221"
+            },
+            "BioSample_accession": "ERS4356221"
+        },
+        {
+            "genome_label": "ERS4356222",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356222"
+            },
+            "BioSample_accession": "ERS4356222"
+        },
+        {
+            "genome_label": "ERS4356223",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356223"
+            },
+            "BioSample_accession": "ERS4356223"
+        },
+        {
+            "genome_label": "ERS4356224",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356224"
+            },
+            "BioSample_accession": "ERS4356224"
+        },
+        {
+            "genome_label": "ERS4356225",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356225"
+            },
+            "BioSample_accession": "ERS4356225"
+        },
+        {
+            "genome_label": "ERS4356226",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356226"
+            },
+            "BioSample_accession": "ERS4356226"
+        },
+        {
+            "genome_label": "ERS4356227",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356227"
+            },
+            "BioSample_accession": "ERS4356227"
+        },
+        {
+            "genome_label": "ERS4356228",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356228"
+            },
+            "BioSample_accession": "ERS4356228"
+        },
+        {
+            "genome_label": "ERS4356229",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356229"
+            },
+            "BioSample_accession": "ERS4356229"
+        },
+        {
+            "genome_label": "ERS4356230",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356230"
+            },
+            "BioSample_accession": "ERS4356230"
+        },
+        {
+            "genome_label": "ERS4356231",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356231"
+            },
+            "BioSample_accession": "ERS4356231"
+        },
+        {
+            "genome_label": "ERS4356232",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356232"
+            },
+            "BioSample_accession": "ERS4356232"
+        },
+        {
+            "genome_label": "ERS4356275",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356275"
+            },
+            "BioSample_accession": "ERS4356275"
+        },
+        {
+            "genome_label": "ERS4356276",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356276"
+            },
+            "BioSample_accession": "ERS4356276"
+        },
+        {
+            "genome_label": "ERS4356277",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356277"
+            },
+            "BioSample_accession": "ERS4356277"
+        },
+        {
+            "genome_label": "ERS4356278",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356278"
+            },
+            "BioSample_accession": "ERS4356278"
+        },
+        {
+            "genome_label": "ERS4356279",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356279"
+            },
+            "BioSample_accession": "ERS4356279"
+        },
+        {
+            "genome_label": "ERS4356280",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356280"
+            },
+            "BioSample_accession": "ERS4356280"
+        },
+        {
+            "genome_label": "ERS4356281",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356281"
+            },
+            "BioSample_accession": "ERS4356281"
+        },
+        {
+            "genome_label": "ERS4356282",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356282"
+            },
+            "BioSample_accession": "ERS4356282"
+        },
+        {
+            "genome_label": "ERS4356283",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356283"
+            },
+            "BioSample_accession": "ERS4356283"
+        },
+        {
+            "genome_label": "ERS4356284",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356284"
+            },
+            "BioSample_accession": "ERS4356284"
+        },
+        {
+            "genome_label": "ERS4356285",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356285"
+            },
+            "BioSample_accession": "ERS4356285"
+        },
+        {
+            "genome_label": "ERS4356286",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356286"
+            },
+            "BioSample_accession": "ERS4356286"
+        },
+        {
+            "genome_label": "ERS4356287",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356287"
+            },
+            "BioSample_accession": "ERS4356287"
+        },
+        {
+            "genome_label": "ERS4356288",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356288"
+            },
+            "BioSample_accession": "ERS4356288"
+        },
+        {
+            "genome_label": "ERS4356289",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356289"
+            },
+            "BioSample_accession": "ERS4356289"
+        },
+        {
+            "genome_label": "ERS4356290",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356290"
+            },
+            "BioSample_accession": "ERS4356290"
+        },
+        {
+            "genome_label": "ERS4356291",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356291"
+            },
+            "BioSample_accession": "ERS4356291"
+        },
+        {
+            "genome_label": "ERS4356292",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356292"
+            },
+            "BioSample_accession": "ERS4356292"
+        },
+        {
+            "genome_label": "ERS4356293",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356293"
+            },
+            "BioSample_accession": "ERS4356293"
+        },
+        {
+            "genome_label": "ERS4356294",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356294"
+            },
+            "BioSample_accession": "ERS4356294"
+        },
+        {
+            "genome_label": "ERS4356295",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356295"
+            },
+            "BioSample_accession": "ERS4356295"
+        },
+        {
+            "genome_label": "ERS4356296",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356296"
+            },
+            "BioSample_accession": "ERS4356296"
+        },
+        {
+            "genome_label": "ERS4356297",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356297"
+            },
+            "BioSample_accession": "ERS4356297"
+        },
+        {
+            "genome_label": "ERS4356298",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356298"
+            },
+            "BioSample_accession": "ERS4356298"
+        },
+        {
+            "genome_label": "ERS4356299",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356299"
+            },
+            "BioSample_accession": "ERS4356299"
+        },
+        {
+            "genome_label": "ERS4356300",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356300"
+            },
+            "BioSample_accession": "ERS4356300"
+        },
+        {
+            "genome_label": "ERS4356301",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356301"
+            },
+            "BioSample_accession": "ERS4356301"
+        },
+        {
+            "genome_label": "ERS4356302",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356302"
+            },
+            "BioSample_accession": "ERS4356302"
+        },
+        {
+            "genome_label": "ERS4356303",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356303"
+            },
+            "BioSample_accession": "ERS4356303"
+        },
+        {
+            "genome_label": "ERS4356304",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356304"
+            },
+            "BioSample_accession": "ERS4356304"
+        },
+        {
+            "genome_label": "ERS4356305",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356305"
+            },
+            "BioSample_accession": "ERS4356305"
+        },
+        {
+            "genome_label": "ERS4356306",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356306"
+            },
+            "BioSample_accession": "ERS4356306"
+        },
+        {
+            "genome_label": "ERS4356307",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356307"
+            },
+            "BioSample_accession": "ERS4356307"
+        },
+        {
+            "genome_label": "ERS4356308",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356308"
+            },
+            "BioSample_accession": "ERS4356308"
+        },
+        {
+            "genome_label": "ERS4356309",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356309"
+            },
+            "BioSample_accession": "ERS4356309"
+        },
+        {
+            "genome_label": "ERS4356310",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356310"
+            },
+            "BioSample_accession": "ERS4356310"
+        },
+        {
+            "genome_label": "ERS4356311",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356311"
+            },
+            "BioSample_accession": "ERS4356311"
+        },
+        {
+            "genome_label": "ERS4356312",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356312"
+            },
+            "BioSample_accession": "ERS4356312"
+        },
+        {
+            "genome_label": "ERS4356313",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356313"
+            },
+            "BioSample_accession": "ERS4356313"
+        },
+        {
+            "genome_label": "ERS4356314",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356314"
+            },
+            "BioSample_accession": "ERS4356314"
+        },
+        {
+            "genome_label": "ERS4356315",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356315"
+            },
+            "BioSample_accession": "ERS4356315"
+        },
+        {
+            "genome_label": "ERS4356316",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356316"
+            },
+            "BioSample_accession": "ERS4356316"
+        },
+        {
+            "genome_label": "ERS4356317",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356317"
+            },
+            "BioSample_accession": "ERS4356317"
+        },
+        {
+            "genome_label": "ERS4356319",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356319"
+            },
+            "BioSample_accession": "ERS4356319"
+        },
+        {
+            "genome_label": "ERS4356320",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356320"
+            },
+            "BioSample_accession": "ERS4356320"
+        },
+        {
+            "genome_label": "ERS4356321",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356321"
+            },
+            "BioSample_accession": "ERS4356321"
+        },
+        {
+            "genome_label": "ERS4356322",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356322"
+            },
+            "BioSample_accession": "ERS4356322"
+        },
+        {
+            "genome_label": "ERS4356323",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356323"
+            },
+            "BioSample_accession": "ERS4356323"
+        },
+        {
+            "genome_label": "ERS4356324",
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "ERS4356324"
+            },
+            "BioSample_accession": "ERS4356324"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "ERS4356233",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S96_RE2_01_40404.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356234",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S97_BD5_01_40345.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356235",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S94_RD7_01_40399.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356236",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S95_RE6_01_40408.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S100_RD8_01_40295.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356238",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S101_BE2_01_40456.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356239",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S98_BC1_01_40434.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356240",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S99_RE4_01_40301.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356241",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S104_BC3_01_40333.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356242",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S105_RB3_01_40475.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S102_BA8_01_40421.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356244",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S103_RA1_01_40465.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356245",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S108_BE1_01_40352.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356246",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S109_RB3_01_40374.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356247",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S106_RE7_01_40409.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356248",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S107_RA3_01_40467.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356249",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S112_RB1_01_40372.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356250",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S113_BE5_01_40356.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356251",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S110_BB1_01_40424.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356252",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S111_RC1_01_40383.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356253",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S115_BB6_01_40429.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356254",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S116_RD8_01_40400.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356255",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S114_RC6_01_40388.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356256",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S118_BD4_01_40344.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356257",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S119_RE3_01_40405.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356258",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S117_RA7_01_40368.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356259",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S121_RB5_01_40376.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356260",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S122_RA8_01_40472.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356261",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S120_RA7_01_40263.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356262",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S82_RE1_01_40403.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356263",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S83_RB4_01_40375.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356264",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S85_BD3_01_40447.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356265",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S86_BD2_01_40342.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356266",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S84_BA5_01_40418.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356267",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S88_RB8_01_40379.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356268",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S89_RA4_01_40260.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356269",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S87_BA3_01_40310.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356270",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S92_BD4_01_40448.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356271",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S93_BA2_01_40309.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356273",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S91_RD2_01_40394.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356152",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S7_RD1_01_40393.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356153",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S8_RC4_01_40386.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356154",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S172_BD7_01_40451.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356155",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S10_BC8_01_40441.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356156",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S11_RB1_01_40267.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356157",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S9_BD6_01_40346.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356158",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S13_RA2_01_40363.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356159",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S14_BC2_01_40332.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356160",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S12_BD3_01_40343.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356161",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S16_RB2_01_40474.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356162",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S17_RE4_01_40406.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356163",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S15_BE7_01_40358.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356164",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S19_RD5_01_40397.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356165",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S20_BC6_01_40439.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356166",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S18_BD8_01_40452.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356167",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S23_BC8_01_40338.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356168",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S24_BD7_01_40347.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356169",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S21_RC7_01_40283.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356170",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S22_RA6_01_40367.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356171",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S27_BC2_01_40435.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356172",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S28_BE3_01_40457.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356173",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S25_BC7_01_40337.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356174",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S26_BB7_01_40327.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356175",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S31_RC7_01_40389.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356176",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S32_BE6_01_40460.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356177",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S29_RA3_01_40364.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356178",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S30_RD3_01_40395.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356179",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S35_RA3_01_40259.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356180",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S36_BD1_01_40445.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356182",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S34_BB4_01_40427.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356183",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S39_BA7_01_40420.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356184",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S40_RB2_01_40268.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356185",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S37_RD4_01_40396.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356186",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S38_RB7_01_40273.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356187",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S42_RD3_01_40290.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356188",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S43_BA5_01_40312.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356189",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S41_RA5_01_40366.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356190",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S46_BB8_01_40328.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S47_BD1_01_40341.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356192",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S44_BC7_01_40440.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356193",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S45_RA8_01_40369.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356194",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S50_RA5_01_40469.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356195",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S51_RB1_01_40473.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356196",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S48_RD6_01_40398.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356197",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S49_BB2_01_40322.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356198",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S54_RE1_01_40298.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356199",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S55_RC1_01_40277.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356200",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S52_BD6_01_40450.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356201",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S53_RC2_01_40384.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S58_BB5_01_40428.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356203",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S59_BB8_01_40431.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356204",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S56_BE2_01_40353.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356205",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S57_RD4_01_40291.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356206",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S62_RB2_01_40373.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356207",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S63_BB6_01_40326.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356209",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S61_RA7_01_40471.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356210",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S66_RA1_01_40362.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356211",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S64_RA6_01_40262.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356212",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S65_RA5_01_40261.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356213",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S69_BE4_01_40458.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356214",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S70_RE2_01_40299.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356215",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S67_BC5_01_40438.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356216",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S68_RC5_01_40281.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356217",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S73_BA6_01_40313.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356218",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S74_BB1_01_40319.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356219",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S71_RC8_01_40390.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356220",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S72_RA2_01_40258.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356221",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S76_RE5_01_40407.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356222",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S77_RD2_01_40289.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356223",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S75_BA3_01_40416.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356224",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S80_BC4_01_40334.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356225",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S81_BA1_01_40308.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356226",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S78_BA8_01_40315.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356227",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S2_BD2_01_40446.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356228",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S3_BE1_01_40455.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356229",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S1_RD7_01_40294.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356230",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S5_BD8_01_40351.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356231",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S6_BC6_01_40336.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356232",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S4_BA7_01_40314.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356275",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S138_RD6_01_40293.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356276",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S139_RB4_01_40270.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356277",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S136_BE4_01_40355.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356278",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S137_BA4_01_40417.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356279",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S142_RC8_01_40284.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356280",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S143_BC3_01_40436.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356281",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S140_RB5_01_40271.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356282",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S141_BC4_01_40437.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356283",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S146_BE5_01_40459.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356284",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S147_RC3_01_40279.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356285",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S144_BC1_01_40331.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356286",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S145_BB7_01_40430.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356287",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S150_RB6_01_40377.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356288",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S79_RA8_01_40264.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356289",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S148_RE5_01_40302.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356290",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S149_RE7_01_40304.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356291",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S153_BE6_01_40357.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356292",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S154_BD5_01_40449.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356293",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S151_BA1_01_40414.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356294",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S152_RA6_01_40470.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356295",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S157_BA4_01_40311.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356296",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S158_RE6_01_40303.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356297",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S155_RB6_01_40272.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356298",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S156_BB3_01_40426.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356299",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S161_BB4_01_40324.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356300",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S162_BB2_01_40425.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356301",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S159_RE8_01_40410.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S160_BA6_01_40419.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356303",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S164_RC2_01_40278.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356304",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S165_BE8_01_40359.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356305",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S163_RA2_01_40466.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356306",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S167_BB3_01_40323.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356307",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S168_RB7_01_40378.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356308",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S166_BB5_01_40325.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356309",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S170_BC5_01_40335.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356310",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S171_RA4_01_40468.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356311",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S169_RC4_01_40280.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356312",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S124_RC3_01_40385.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356313",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S125_RC6_01_40282.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356314",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S123_RA4_01_40365.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356315",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S127_RD5_01_40292.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356316",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S128_RE8_01_40305.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356317",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S126_RC5_01_40387.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356319",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S131_RB8_01_40274.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356320",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S130_BE3_01_40354.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356321",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S134_RE3_01_40300.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356322",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S135_BA2_01_40415.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356323",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S132_BE8_01_40462.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        },
+        {
+            "genome_label": "ERS4356324",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083302/peak/mzxml/S133_RD1_01_40288.mzXML",
+            "sample_preparation_label": "metagenomic_mouse_fecal",
+            "extraction_method_label": "SeedGrant_Extraction",
+            "instrumentation_method_label": "Seed Grant TOF"
+        }
+    ]
+}

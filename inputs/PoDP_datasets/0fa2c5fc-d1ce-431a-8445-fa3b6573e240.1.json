@@ -1,0 +1,167 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Marianna Iorio",
+        "submitter_email": "miorio@naicons.com",
+        "submitter_orcid": "https://orcid.org/0000-0001-8669-5875",
+        "PI_name": "Margherita Sosio",
+        "PI_institution": "NAICONS srl",
+        "PI_email": "msosio@naicons.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085123",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=38c1181ee521449382ca81efa84a6e81&view=advanced_view"
+        },
+        "publications": "10.1016/s1074-5521(03)00120-0, 10.1073/pnas.1008285107, 10.1021/np400702t"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "V40P",
+                    "Other_medium_link": "10.1007/s00253-010-2579-2",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 144
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "Nono"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1087.pdf",
+                    "Other_medium": "KV6",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 144
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "Microb"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_46787",
+                        "Other_solvent": "0.1N Sodium borate buffer at pH 9.5"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "1 volume of culture added with 2 volumes of borate buffer and kept 1h at 55 C",
+                "extraction_method": "BB"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "1 volume culture added with 2 volumes Methanol",
+                "extraction_method": "MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "110-2000",
+                "collision_energy": "25eV",
+                "buffering": "0.05% trifluoroacetic acid",
+                "other_instrumentation": "linear gradient from 10 to 95% acetonitrile",
+                "instrumentation_method": "discovery"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LT559118.1"
+            },
+            "publications": "10.1038/s41598-016-0025-0",
+            "genome_label": "Nonomuraea sp. ATCC39727 (gerenzaniensis)"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_AWEV00000000.1"
+            },
+            "genome_label": "Microbispora sp. ATCC PTA-5024",
+            "publications": "24459268"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Nonomuraea sp. ATCC39727 (gerenzaniensis)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085123/peak/Nonomuraea_A40926.mzML",
+            "sample_preparation_label": "Nono",
+            "extraction_method_label": "BB",
+            "instrumentation_method_label": "discovery"
+        },
+        {
+            "genome_label": "Microbispora sp. ATCC PTA-5024",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085123/peak/Microbispora_NAI107.mzML",
+            "sample_preparation_label": "Microb",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "discovery"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000289"
+            },
+            "link": "single molecule",
+            "known_link": "A40926, glycopeptide produced by Nonomuraea sp ATCC39727 (gerenzianensis).",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC(C)CCCCCCCCC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1Oc2c3cc4cc2Oc5ccc(cc5Cl)[C@H]([C@H]6C(=O)N[C@@H](c7cc(cc(c7-c8cc(ccc8O)[C@H](C(=O)N6)NC(=O)[C@@H]4NC(=O)[C@@H]9c1cc(cc(c1Cl)O)Oc1ccc(cc1O)[C@H](C(=O)N[C@H](Cc1ccc(cc1)O3)C(=O)N9)NC)O[C@@H]1[C@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O)C(=O)O)O)C(=O)O)O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085123/peak/Nonomuraea_A40926.mzML",
+            "MS2_scan": "805"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000529"
+            },
+            "link": "single molecule",
+            "known_link": "NAI-107, also known as microbisporicin, is a lantibiotic with high activity against gram positive pathogens. \nIt's bgc has been studied through heterologous expression (see PMID:20628010)",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "ClC1=CC=C2C(C(C[C@@H]3NC([C@@H](CSC[C@H](NC([C@H](CC(C)C)NC(C(NC3=O)=C)=O)=O)C(N[C@@H]4C(N5[C@@](C(NCC(N[C@H](C(N[C@]([C@H](O)C)([H])C(N[C@H]6C(N7[C@@](C(NCC(NCC(NCC(N[C@@]8([H])C(N[C@@H](CC(N)=O)C(N[C@@](C(N[C@@]9([H])C(N[C@H](C(N[C@](CSC8)([H])C(N/C=C\\SC9)=O)=O)CC%10=CC=CC=C%10)=O)=O)([H])CSC6)=O)=O)=O)=O)=O)=O)([H])C([H])C(O)C7)=O)=O)=O)CS[C@H]4C)=O)=O)([H])CCC5)=O)=O)NC(/C(NC([C@@H](N)C(C)C)=O)=C/C)=O)=O)=CN2)=C1",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085123/peak/Microbispora_NAI107.mzML",
+            "MS2_scan": "691"
+        }
+    ]
+}

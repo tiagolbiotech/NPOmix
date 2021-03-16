@@ -1,0 +1,28 @@
+BEGIN IONS
+PEPMASS=176.21
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS118905 L-Citrulline|Cit|Orn(carbamoyl)|N5-Carbamoyl-L-ornithine|delta-Ureidonorvaline|L-2-Amino-5-ureidovaleric acid|(S)-2-Amino-5-ureidopentanoic acid|Sitrulline
+LIBRARYQUALITY=3
+SMILES=C(CC(C(=O)O)N)CNC(=O)N
+INCHIKEY=RHGKLRLOHDJJDR-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS118905 L-Citrulline|Cit|Orn(carbamoyl)|N5-Carbamoyl-L-ornithine|delta-Ureidonorvaline|L-2-Amino-5-ureidovaleric acid|(S)-2-Amino-5-ureidopentanoic acid|Sitrulline [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000220194
+SCANS=5808
+28.0 116.0 
+43.0 94.0 
+69.0 176.0 
+70.0 999.0 
+END IONS
+

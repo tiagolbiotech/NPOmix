@@ -1,0 +1,2036 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Alexander Aksenov",
+        "submitter_orcid": "https://orcid.org/0000-0002-9445-2248",
+        "submitter_email": "aaaksenov@ucsd.edu",
+        "PI_name": "Pieter C. Dorrestein",
+        "PI_institution": "University of California, San Diego",
+        "PI_email": "pdorrestein@health.ucsd.edu",
+        "submitter_name_secondary": "Carmen Saenz",
+        "submitter_email_secondary": "carmen.ausejo@sund.ku.dk"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000080251",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=476c1e7fef5c4f7692f55d298c81a6d7&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Todd Hewitt Agar",
+                    "Other_medium_link": "https://www.sigmaaldrich.com/catalog/product/sial/t1438?lang=en&region=US"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "THA media"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "Methanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "80-2000",
+                "buffering": "0.1% FA",
+                "collision_energy": "3 eV",
+                "instrumentation_method": "qToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_label": "SAMN02415141",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000510305.1"
+            },
+            "BioSample_accession": "SAMN02415141"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000226155.1"
+            },
+            "BioSample_accession": "SAMN02603849"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000334515.1"
+            },
+            "BioSample_accession": "SAMEA3138432"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000072485.1"
+            },
+            "BioSample_accession": "SAMEA1705934"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000026645.1"
+            },
+            "BioSample_accession": "SAMEA1705916"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000014625.1"
+            },
+            "BioSample_accession": "SAMN02603591"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000967095.1"
+            },
+            "BioSample_accession": "SAMEA3283131"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000493755.1"
+            },
+            "BioSample_accession": "SAMN02603887"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000013465.1"
+            },
+            "BioSample_accession": "SAMN02604150"
+        },
+        {
+            "genome_label": "SAMD00060910",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000010445.1"
+            },
+            "BioSample_accession": "SAMD00060910"
+        },
+        {
+            "genome_label": "SAMN02604011",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000012705.1"
+            },
+            "BioSample_accession": "SAMN02604011"
+        },
+        {
+            "genome_label": "SAMN00996491",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000470845.1"
+            },
+            "BioSample_accession": "SAMN00996491"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000017125.1"
+            },
+            "BioSample_accession": "SAMN02598344"
+        },
+        {
+            "genome_label": "SAMN02641592",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000508765.1"
+            },
+            "BioSample_accession": "SAMN02641592"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000284555.1"
+            },
+            "BioSample_accession": "SAMD00061003"
+        },
+        {
+            "genome_label": "SAMEA1705935",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000011505.1"
+            },
+            "BioSample_accession": "SAMEA1705935"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000006765.1"
+            },
+            "BioSample_accession": "PRJNA57945"
+        },
+        {
+            "genome_label": "SAMN02389526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000504045.1"
+            },
+            "BioSample_accession": "SAMN02389526"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000025145.2"
+            },
+            "BioSample_accession": "SAMN02603764"
+        },
+        {
+            "genome_label": "-",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "-"
+            },
+            "BioSample_accession": "-"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000496605.2"
+            },
+            "BioSample_accession": "SAMN02603191"
+        },
+        {
+            "genome_label": "SAMN02603424",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000014845.1"
+            },
+            "BioSample_accession": "SAMN02603424"
+        },
+        {
+            "genome_label": "SAMN02603895",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000271365.1"
+            },
+            "BioSample_accession": "SAMN02603895"
+        },
+        {
+            "genome_label": "PRJNA57795",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000013425.1"
+            },
+            "BioSample_accession": "PRJNA57795"
+        },
+        {
+            "genome_label": "SAMN02603042",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000195105.1"
+            },
+            "BioSample_accession": "SAMN02603042"
+        },
+        {
+            "genome_label": "SAMD00061104",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000011265.1"
+            },
+            "BioSample_accession": "SAMD00061104"
+        },
+        {
+            "genome_label": "SAMN02598326",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000014085.1"
+            },
+            "BioSample_accession": "SAMN02598326"
+        },
+        {
+            "genome_label": "SAMN02603435",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000017205.1"
+            },
+            "BioSample_accession": "SAMN02603435"
+        },
+        {
+            "genome_label": "PRJNA84387",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000240185.2"
+            },
+            "BioSample_accession": "PRJNA84387"
+        },
+        {
+            "genome_label": "SAMN02603419",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000258685.1"
+            },
+            "BioSample_accession": "SAMN02603419"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP011_TH_GA11_01_27002.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP032_TH_GC8_01_27027.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP039_TH_GD3_01_27036.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP042_TH_GD6_01_27039.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP046_TH_GD10_01_27043.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP047_TH_GD11_01_27044.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP051_TH_GE3_01_27050.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP058_TH_GE10_01_27057.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP060_TH_GE12_01_27059.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP077_TH_GG5_01_27080.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP08_TH_GA8_01_26999.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP081_TH_GG9_01_27084.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP084_TH_BA3_01_27096.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP086_TH_BA5_01_27098.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP089_TH_BA8_01_27101.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP093_TH_BA12_01_27105.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP094_TH_BB1_01_27108.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP095_TH_BB2_01_27109.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP096_TH_BB3_01_27110.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP098_TH_BB5_01_27112.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP102_TH_BB9_01_27116.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP104_TH_BB11_01_27118.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP105_TH_BB12_01_27119.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP106_TH_BC1_01_27122.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP108_TH_BC3_01_27124.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP111_TH_BC6_01_27127.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP112_TH_BC7_01_27128.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP115_TH_BC10_01_27131.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP117_TH_BC12_01_27133.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP121_TH_BD4_01_27139.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP124_TH_BD7_01_27142.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP126_TH_BD9_01_27144.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP132_TH_BE3_01_27152.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP133_TH_BE4_01_27153.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP136_TH_BE7_01_27156.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP138_TH_BE9_01_27158.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP140_TH_BE11_01_27160.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP142_TH_BF1_01_27164.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP144_TH_BF3_01_27166.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP148_TH_BF7_01_27170.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP151_TH_BF10_01_27173.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP153_TH_BF12_01_27175.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP154_TH_BG1_01_27178.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP157_TH_BG4_01_27181.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP161_TH_BG8_01_27185.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP172_TH_GA10_01_27205.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP173_TH_GA11_01_27206.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP174_TH_GA12_01_27207.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP293_TH_BE2_01_27355.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP308_TH_BF5_01_27372.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP310_TH_BF7_01_27374.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP317_TH_BG2_01_27383.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP319_TH_BG4_01_27385.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP321_TH_BG6_01_27387.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP328_TH_GA4_01_27400.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP329_TH_GA5_01_27401.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP332_TH_GA8_01_27404.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP334_TH_GA10_01_27406.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP336_TH_GA12_01_27408.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP340_TH_GB4_01_27414.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP341_TH_GB5_01_27415.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP345_TH_GB9_01_27419.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP348_TH_GB12_01_27422.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP353_TH_GC5_01_27429.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02415141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP364_TH_GD4_01_27442.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP012_TH_GA12_01_27003.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP101_TH_BB8_01_27115.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP143_TH_BF2_01_27165.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP166_TH_GA4_01_27199.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP288_TH_BD9_01_27348.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP289_TH_BD10_01_27349.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP301_TH_BE10_01_27363.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP313_TH_BF10_01_27377.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP318_TH_BG3_01_27384.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP331_TH_GA7_01_27403.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP365_TH_GD5_01_27443.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP366_TH_GD6_01_27444.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP016_TH_GB4_01_27009.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP064_TH_GF4_01_27065.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP068_TH_GF8_01_27069.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP069_TH_GF9_01_27070.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3138432",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP071_TH_GF11_01_27072.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP017_TH_GB5_01_27010.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP036_TH_GC12_01_27031.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP311_TH_BF8_01_27375.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP312_TH_BF9_01_27376.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP325_TH_GA1_01_27397.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP351_TH_GC3_01_27427.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705934",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP361_TH_GD1_01_27439.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP022_TH_GB10_01_27015.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP024_TH_GB12_01_27017.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP026_TH_GC2_01_27021.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP03_TH_GA3_01_26993.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP041_TH_GD5_01_27038.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP043_TH_GD7_01_27040.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP097_TH_BB4_01_27111.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP107_TH_BC2_01_27123.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP109_TH_BC4_01_27125.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP119_TH_BD2_01_27137.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP120_TH_BD3_01_27138.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP128_TH_BD11_01_27146.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP146_TH_BF5_01_27168.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP156_TH_BG3_01_27180.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP159_TH_BG6_01_27183.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP160_TH_BG7_01_27184.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP162_TH_BG9_01_27186.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP163_TH_GA1_01_27196.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP167_TH_GA5_01_27200.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP168_TH_GA6_01_27201.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP169_TH_GA7_01_27202.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP302_TH_BE11_01_27364.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP322_TH_BG7_01_27388.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP326_TH_GA2_01_27398.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP330_TH_GA6_01_27402.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP335_TH_GA11_01_27407.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP338_TH_GB2_01_27412.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP352_TH_GC4_01_27428.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP355_TH_GC7_01_27431.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP360_TH_GC12_01_27436.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP363_TH_GD3_01_27441.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP368_TH_GD8_01_27446.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705916",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP369_TH_GD9_01_27447.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP023_TH_GB11_01_27016.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP027_TH_GC3_01_27022.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP137_TH_BE8_01_27157.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP165_TH_GA3_01_27198.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP171_TH_GA9_01_27204.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP286_TH_BD7_01_27346.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP287_TH_BD8_01_27347.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP339_TH_GB3_01_27413.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603591",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP344_TH_GB8_01_27418.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP030_TH_GC6_01_27025.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP04_TH_GA4_01_26994.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP05_TH_GA5_01_26998.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP056_TH_GE8_01_27055.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP059_TH_GE11_01_27058.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP075_TH_GG3_01_27078.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP079_TH_GG7_01_27082.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP082_TH_BA1_01_27094.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP083_TH_BA2_01_27095.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP110_TH_BC5_01_27126.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP113_TH_BC8_01_27129.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP127_TH_BD10_01_27145.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP183_TH_GB9_01_27218.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP295_TH_BE4_01_27357.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP298_TH_BE7_01_27360.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP324_TH_BG9_01_27390.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA3283131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP347_TH_GB11_01_27421.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP031_TH_GC7_01_27026.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP034_TH_GC10_01_27029.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP035_TH_GC11_01_27030.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP037_TH_GD1_01_27034.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP038_TH_GD2_01_27035.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP054_TH_GE6_01_27053.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP055_TH_GE7_01_27054.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP057_TH_GE9_01_27056.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP061_TH_GF1_01_27062.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP062_TH_GF2_01_27063.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP063_TH_GF3_01_27064.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP065_TH_GF5_01_27066.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP066_TH_GF6_01_27067.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP07_TH_GA7_01_26991.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP070_TH_GF10_01_27071.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP073_TH_GG1_01_27076.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP076_TH_GG4_01_27079.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP080_TH_GG8_01_27083.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP09_TH_GA9_01_27000.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP141_TH_BE12_01_27161.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP290_TH_BD11_01_27350.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603887",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP358_TH_GC10_01_27434.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP033_TH_GC9_01_27028.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP044_TH_GD8_01_27041.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP049_TH_GE1_01_27048.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP134_TH_BE5_01_27154.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP135_TH_BE6_01_27155.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP164_TH_GA2_01_27197.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP179_TH_GB5_01_27214.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP294_TH_BE3_01_27356.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP303_TH_BE12_01_27365.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP306_TH_BF3_01_27370.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP316_TH_BG1_01_27382.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP320_TH_BG5_01_27386.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP333_TH_GA9_01_27405.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP350_TH_GC2_01_27426.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00060910",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP045_TH_GD9_01_27042.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00060910",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP053_TH_GE5_01_27052.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02604011",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP048_TH_GD12_01_27045.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN00996491",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP050_TH_GE2_01_27049.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP052_TH_GE4_01_27051.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP087_TH_BA6_01_27099.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP088_TH_BA7_01_27100.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP090_TH_BA9_01_27102.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP092_TH_BA11_01_27104.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP114_TH_BC9_01_27130.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP147_TH_BF6_01_27169.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP300_TH_BE9_01_27362.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP342_TH_GB6_01_27416.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598344",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP354_TH_GC6_01_27430.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02641592",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP06_TH_GA6_01_26995.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02641592",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP343_TH_GB7_01_27417.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP072_TH_GF12_01_27073.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP116_TH_BC11_01_27132.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP118_TH_BD1_01_27136.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP123_TH_BD6_01_27141.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP125_TH_BD8_01_27143.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP130_TH_BE1_01_27150.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP178_TH_GB4_01_27213.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP283_TH_BD4_01_27343.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP284_TH_BD5_01_27344.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP314_TH_BF11_01_27378.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705935",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP074_TH_GG2_01_27077.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMEA1705935",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP292_TH_BE1_01_27354.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP078_TH_GG6_01_27081.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP158_TH_BG5_01_27182.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP175_TH_GB1_01_27210.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP176_TH_GB2_01_27211.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP184_TH_GB10_01_27219.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP185_TH_GB11_01_27220.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57945",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP349_TH_GC1_01_27425.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02389526",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP085_TH_BA4_01_27097.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02389526",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP099_TH_BB6_01_27113.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP091_TH_BA10_01_27103.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP285_TH_BD6_01_27345.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP304_TH_BF1_01_27368.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP307_TH_BF4_01_27371.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP309_TH_BF6_01_27373.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP356_TH_GC8_01_27432.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP122_TH_BD5_01_27140.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP129_TH_BD12_01_27147.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP152_TH_BF11_01_27174.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP177_TH_GB3_01_27212.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP278_TH_BC11_01_27336.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP279_TH_BC12_01_27337.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP280_TH_BD1_01_27340.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP281_TH_BD2_01_27341.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603191",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP282_TH_BD3_01_27342.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603424",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP131_TH_BE2_01_27151.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603895",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP139_TH_BE10_01_27159.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603895",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP149_TH_BF8_01_27171.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603895",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP150_TH_BF9_01_27172.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA57795",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP145_TH_BF4_01_27167.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603042",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP170_TH_GA8_01_27203.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMD00061104",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP291_TH_BD12_01_27351.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02598326",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP327_TH_GA3_01_27399.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603435",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP346_TH_GB10_01_27420.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "PRJNA84387",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP357_TH_GC9_01_27433.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02603419",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000080251/peak/CFStrains/Strains/VVP367_TH_GD7_01_27445.mzXML",
+            "sample_preparation_label": "THA media",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "qToF"
+        }
+    ],
+    "BGC_MS2_links": []
+}

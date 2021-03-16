@@ -1,0 +1,814 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Gajender Aleti",
+        "submitter_email": "galeti@health.ucsd.edu",
+        "PI_institution": "University of California San Diego",
+        "submitter_orcid": "https://orcid.org/0000-0002-1867-9758",
+        "PI_name": "Anna Edlund",
+        "PI_email": "aedlund@jcvi.org"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000081832",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/result.jsp?task=3720644eead2496f8b48f6c09b8d4790&view=advanced_view"
+        },
+        "publications": "30992349"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000393",
+                    "metagenomic_sample_description": "Saliva"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "salivary metagenome"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "complex",
+                "extraction_method": "non polar"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2000",
+                "instrumentation_method": "LC-MS/MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448286"
+            },
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349",
+            "genome_label": "SC01_Caries"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448282"
+            },
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349",
+            "genome_label": "SC05_Caries"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448281"
+            },
+            "BioSample_accession": "SAMN09489426",
+            "genome_label": "SC07_Caries",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448284"
+            },
+            "genome_label": "SC09_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448283"
+            },
+            "genome_label": "SC10_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448280"
+            },
+            "genome_label": "SC11_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448279"
+            },
+            "genome_label": "SC15_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448325"
+            },
+            "genome_label": "SC16_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448301"
+            },
+            "genome_label": "SC17_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448285"
+            },
+            "genome_label": "SC18_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "SRR7448297"
+            },
+            "genome_label": "SC19_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448288"
+            },
+            "genome_label": "SC20_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448287"
+            },
+            "genome_label": "SC21_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448324"
+            },
+            "genome_label": "SC22_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448304"
+            },
+            "genome_label": "SC23_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448305"
+            },
+            "genome_label": "SC24_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448320"
+            },
+            "genome_label": "SC25_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448319"
+            },
+            "genome_label": "SC26_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448318"
+            },
+            "genome_label": "SC27_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448315"
+            },
+            "genome_label": "SC28_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448314"
+            },
+            "genome_label": "SC29_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448308"
+            },
+            "genome_label": "SC30_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448317"
+            },
+            "genome_label": "SC31_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448316"
+            },
+            "genome_label": "SC32_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448307"
+            },
+            "genome_label": "SC33_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448302"
+            },
+            "genome_label": "SC34_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448311"
+            },
+            "genome_label": "SC35_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448303"
+            },
+            "genome_label": "SC36_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448300"
+            },
+            "genome_label": "SC37_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448323"
+            },
+            "genome_label": "SC38_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448322"
+            },
+            "genome_label": "SC39_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448321"
+            },
+            "genome_label": "SC40_Caries",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448298"
+            },
+            "genome_label": "SC41_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448299"
+            },
+            "genome_label": "SC42_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448296"
+            },
+            "genome_label": "SC43_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448310"
+            },
+            "genome_label": "SC44_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448309"
+            },
+            "genome_label": "SC45_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448292"
+            },
+            "genome_label": "SC46_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448293"
+            },
+            "genome_label": "SC47_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448294"
+            },
+            "genome_label": "SC48_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448295"
+            },
+            "genome_label": "SC49_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448289"
+            },
+            "genome_label": "SC50_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448290"
+            },
+            "genome_label": "SC51_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448313"
+            },
+            "genome_label": "SC53_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448312"
+            },
+            "genome_label": "SC54_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448306"
+            },
+            "genome_label": "SC55_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "SRR7448291"
+            },
+            "genome_label": "SC56_Healthy",
+            "BioSample_accession": "SAMN09489426",
+            "publications": "30992349"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "SC01_Caries",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A1_BA1_01_6287.mzXML"
+        },
+        {
+            "genome_label": "SC05_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A3_BA3_01_6289.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC07_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A4_BA4_01_6290.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS",
+            "extraction_method_label": "non polar"
+        },
+        {
+            "genome_label": "SC09_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A5_BA5_01_6291.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC10_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A6_BA6_01_6292.mzXML",
+            "extraction_method_label": "non polar",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC11_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A7_BA7_01_6293.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS",
+            "extraction_method_label": "non polar"
+        },
+        {
+            "genome_label": "SC15_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A8_BA8_01_6294.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC16_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A9_BA9_01_6295.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC18_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A10_BA10_01_6296.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC19_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C2_BC2_01_6314.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC20_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A11_BA11_01_6297.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC21_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_A12_BA12_01_6298.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC22_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B1_BB1_01_6300.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC23_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C3_BC3_01_6315.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC24_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C4_BC4_01_6316.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC25_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B2_BB2_01_6301.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC26_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B3_BB3_01_6302.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC27_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B4_BB4_01_6303.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS",
+            "extraction_method_label": "non polar"
+        },
+        {
+            "genome_label": "SC28_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C5_BC5_01_6317.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC29_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C6_BC6_01_6318.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC30_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C7_BC7_01_6319.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC31_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B5_BB5_01_6304.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B6_BB6_01_6305.mzXML",
+            "genome_label": "SC32_Caries",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC33_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C8_BC8_01_6320.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC34_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B7_BB7_01_6306.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC35_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C9_BC9_01_6321.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC36_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B8_BB8_01_6307.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC37_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B9_BB9_01_6308.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC38_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B10_BB10_01_6309.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC39_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B11_BB11_01_6310.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC40_Caries",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_B12_BB12_01_6311.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC41_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C10_BC10_01_6322.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS",
+            "extraction_method_label": "non polar"
+        },
+        {
+            "genome_label": "SC42_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C11_BC11_01_6323.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC43_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C12_BC12_01_6324.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC44_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D1_BD1_01_6326.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC45_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D2_BD2_01_6327.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC46_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D3_BD3_01_6328.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC47_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D4_BD4_01_6329.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC48_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D5_BD5_01_6330.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC49_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D6_BD6_01_6331.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC50_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D7_BD7_01_6332.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC51_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D8_BD8_01_6333.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC53_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D10_BD10_01_6335.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC54_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D11_BD11_01_6336.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC55_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_D12_BD12_01_6337.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        },
+        {
+            "genome_label": "SC56_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_E1_BE1_01_6339.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "instrumentation_method_label": "LC-MS/MS",
+            "extraction_method_label": "non polar"
+        },
+        {
+            "genome_label": "SC17_Healthy",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081832/ccms_peak/Children%20Saliva/Plate2_C1_BC1_01_6313.mzXML",
+            "sample_preparation_label": "salivary metagenome",
+            "extraction_method_label": "non polar",
+            "instrumentation_method_label": "LC-MS/MS"
+        }
+    ]
+}

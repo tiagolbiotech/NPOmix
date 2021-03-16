@@ -1,0 +1,2965 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Ellis O'Neill",
+        "submitter_email": "ellis.o'neill@nottingham.ac.uk",
+        "submitter_orcid": "https://orcid.org/0000-0002-5941-2806",
+        "PI_name": "Ellis O'Neill",
+        "PI_institution": "University of Nottingham",
+        "PI_email": "ellis.o'neill@nottingham.ac.uk"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078839",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=a507232a787243a5afd69a6c6fa1e508&view=advanced_view#%7B%7D",
+            "molecular_network": "840eadb054f74d74ae42152a08ed9628"
+        },
+        "publications": "28335604",
+        "related_GNPSMassIVE_ID": "MSV000078836"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "A1 solid"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=469"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "MS solid"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=486"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "R5 solid"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extraction_method": "MeOH"
+            },
+            {
+                "extraction_method": "BuOH",
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ]
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtOAc",
+                "extracted_material": "cells_supernatant"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000081"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "LC-MS",
+                "range": "300-1700",
+                "collision_energy": "20keV",
+                "other_instrumentation": "amples were analyzed using an Agilent 6530 Accurate-\\nMass Q-TOF spectrometer coupled to an Agilent 1260 LC system. A\\nPhenomenex Luna C18 HPLC column (2.6 mm, 150 � 4.6 mm) was\\nused under the following LC conditions with 0.1% TFA: 1-5 min\\n(10% MeCN in H2O), 5-26 min (10-100% MeCN), 26-28 min\\n(100% MeCN). The divert valve was set to waste for the first 4 min.",
+                "buffering": "0.1% TFA"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377965.1"
+            },
+            "BioSample_accession": "SAMN02441673",
+            "genome_label": "Streptomyces sp. CNB091"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000365385.1 "
+            },
+            "genome_label": "Streptomyces sp. CNS615",
+            "BioSample_accession": "SAMN02194547"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377525.1 "
+            },
+            "genome_label": "Streptomyces sp. CNT302",
+            "BioSample_accession": "SAMN02194422"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000514715.1"
+            },
+            "genome_label": "Streptomyces sp. CNH099",
+            "BioSample_accession": "SAMN02597242"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000527195.1 "
+            },
+            "genome_label": "Streptomyces sp. CNH189",
+            "BioSample_accession": "SAMN02597197"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424825.1 "
+            },
+            "genome_label": "Streptomyces sp. CNH287",
+            "BioSample_accession": "SAMN02441484"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2526164782"
+            },
+            "genome_label": "Streptomyces sp. CNP082",
+            "BioSample_accession": "SAMN02745835"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome"
+            },
+            "genome_label": "Streptomyces sp. CNQ149",
+            "BioSample_accession": "1649593 "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000482585.1"
+            },
+            "genome_label": "Streptomyces sp. CNQ329",
+            "BioSample_accession": "SAMN02441102"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511112"
+            },
+            "genome_label": "Streptomyces sp. CNQ525",
+            "BioSample_accession": "SAMN02841146"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572165"
+            },
+            "genome_label": "Streptomyces sp. CNQ766",
+            "BioSample_accession": "SAMN02440453"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424805.1"
+            },
+            "genome_label": "Streptomyces sp. CNQ865",
+            "BioSample_accession": "SAMN02195009"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000515055.1"
+            },
+            "genome_label": "Streptomyces sp. CNR698",
+            "BioSample_accession": "SAMN02597259"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377125.1"
+            },
+            "genome_label": "Streptomyces sp. CNS335",
+            "BioSample_accession": "SAMN02440454"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome"
+            },
+            "genome_label": "Streptomyces sp. CNS580",
+            "BioSample_accession": "1290527 "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000426325.1"
+            },
+            "genome_label": "Streptomyces sp. CNS606",
+            "BioSample_accession": "SAMN02441534"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000702365.1"
+            },
+            "genome_label": "Streptomyces sp. CNS654",
+            "BioSample_accession": "SAMN02841233"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424765.1"
+            },
+            "genome_label": "Streptomyces sp. CNT318",
+            "BioSample_accession": "SAMN02440809"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424785.1"
+            },
+            "genome_label": "Streptomyces sp. CNT360",
+            "BioSample_accession": "SAMN02440677"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000514995.1"
+            },
+            "genome_label": "Streptomyces sp. CNT371",
+            "BioSample_accession": "SAMN02597256"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377145.1"
+            },
+            "genome_label": "Streptomyces sp. CNT372",
+            "BioSample_accession": "SAMN02441678"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2558860985"
+            },
+            "genome_label": "Streptomyces sp. CNX435",
+            "BioSample_accession": "SAMN02745430"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377545.1"
+            },
+            "genome_label": "Streptomyces sp. CNY228",
+            "BioSample_accession": "SAMN02441350"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377165.1"
+            },
+            "genome_label": "Streptomyces sp. CNY243",
+            "BioSample_accession": "SAMN02441361"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000412265.2"
+            },
+            "genome_label": "Streptomyces sp.MG1",
+            "BioSample_accession": "SAMN02471086"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000213055.1"
+            },
+            "genome_label": "Streptomyces sp. Tu6071",
+            "BioSample_accession": "SAMN02470040"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000415505.1"
+            },
+            "genome_label": "Streptomyces afghanensis",
+            "BioSample_accession": "SAMN01893930"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2816332174"
+            },
+            "genome_label": "Streptomyces albus",
+            "BioSample_accession": "SAMN12024760"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000240165.1"
+            },
+            "genome_label": "Streptomyces cattleya",
+            "BioSample_accession": "SAMN02603879"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCF_000203835.1"
+            },
+            "genome_label": "Streptomyces coelicolor",
+            "BioSample_accession": "SAMEA1705940"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000156435.1"
+            },
+            "genome_label": "Streptomyces ghanaensis",
+            "BioSample_accession": "SAMN02595233"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000158975.1"
+            },
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "BioSample_accession": "SAMN02595302"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003610995.1"
+            },
+            "genome_label": "Streptomyces griseus",
+            "BioSample_accession": "SAMN10130993"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000158915.1"
+            },
+            "genome_label": "Streptomyces hygroscopicus",
+            "BioSample_accession": "SAMN02595299"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000739105.1"
+            },
+            "genome_label": "Streptomyces lividans",
+            "BioSample_accession": "SAMN02947304"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000156695.2"
+            },
+            "genome_label": "Streptomyces roseosporus",
+            "BioSample_accession": "SAMN02595236"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424845.1"
+            },
+            "genome_label": "Streptomyces sp. TAA040",
+            "BioSample_accession": "SAMN02440678"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000424965.1"
+            },
+            "genome_label": "Streptomyces sp. TAA204",
+            "BioSample_accession": "SAMN02441152"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000426165.1"
+            },
+            "genome_label": "Streptomyces sp. TAA486",
+            "BioSample_accession": "SAMN02440637"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNB091_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNB091_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNB091_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNB091_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNB091_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNB091_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNB091_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNB091_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNB091_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS615_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNS615_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNS615_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS615_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS615",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS615_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT302_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT302_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//CNT302_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT302_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT302",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT302_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH099_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH099_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH099_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH189_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH189_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH189_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH287_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH287_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNH287_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNP082_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ149_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ329_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ329_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ329_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ525_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ525_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ525_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ766_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ766_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ766_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ865_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ865_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNQ865_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNR698_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNR698_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNR698_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS335_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS335_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS335_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS580_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS606_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS606_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS606_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS654_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS654_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNS654_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT318_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT318_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT318_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT360_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT360_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT360_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT371_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT371_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT371_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT372_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT372_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNT372_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNX435_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY228_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY228_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY228_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY243_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY243_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/CNY243_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.Tu6071_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.Tu6071_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.Tu6071_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.afg_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.afg_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.afg_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.alb_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.cat_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.cat_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.cat_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.co_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.co_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.co_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gha_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gha_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gha_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.grif_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.grif_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.grif_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gris_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gris_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.gris_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.hyg_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.hyg_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.hyg_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.liv_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.liv_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.liv_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.ros_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.ros_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/S.ros_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA040_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA040_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA040_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA204_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA204_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA204_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA486_R5_B.mzXML",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/AA486_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/R5/TAA486_R5_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH099_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH099_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH099_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH189_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH189_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH189_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH287_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH287_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNH287_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNP082_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ149_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ329_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ329_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ329_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ525_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ525_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ525_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ766_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ766_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ766_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ865_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ865_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNQ865_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNR698_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNR698_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNR698_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS335_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS335_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS335_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS580_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS606_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS606_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS606_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS654_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS654_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNS654_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT318_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT318_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT318_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT360_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT360_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT360_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT371_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT371_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT371_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT372_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT372_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNT372_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNX435_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY228_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY228_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY228_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY243_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY243_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/CNY243_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.Tu6071_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.Tu6071_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.Tu6071_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.afg_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.afg_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.afg_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.alb_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.cat_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.cat_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.cat_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.co_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.co_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.co_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gha_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gha_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gha_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.grif_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.grif_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.grif_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gris_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gris_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.gris_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.hyg_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.hyg_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.hyg_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.liv_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.liv_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.liv_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1//S.ros_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.ros_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/S.ros_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA040_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA040_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA040_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA204_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA204_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA204_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA486_A1_B.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA486_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/A1/TAA486_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH099_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH099_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH099",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH099_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH189_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH189_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH189",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH189_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH287_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH287_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNH287",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNH287_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNP082",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNP082_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ149",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ149_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ329_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ329_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ329",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ329_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ525_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ525_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ525",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ525_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ766_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ766_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ766",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ766_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ865_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ865_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNQ865",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNQ865_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNR698_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNR698_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNR698",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNR698_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS335_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS335_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS335",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS335_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS580",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS580_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS606_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS606_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS606",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS606_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS654_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS654_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNS654",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNS654_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT318_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT318_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT318",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT318_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT360_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT360_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT360",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT360_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT371_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT371_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT371",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT371_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT372_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT372_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNT372",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNT372_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNX435",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNX435_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY228_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY228_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY228",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY228_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY243_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY243_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNY243",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/CNY243_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.Tu6071_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.Tu6071_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. Tu6071",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.Tu6071_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.afg_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.afg_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces afghanensis",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.afg_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS//S.alb_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.alb_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.alb_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.cat_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.cat_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces cattleya",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.cat_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.co_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.co_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces coelicolor",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.co_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.gha_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.gha_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces ghanaensis",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.gha_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.grif_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.grif_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseoflavus Tu4000",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.grif_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.gris_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/.gris_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces griseus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.gris_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.hyg_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.hyg_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces hygroscopicus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.hyg_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.liv_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.liv_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces lividans",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.liv_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.ros_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.ros_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces roseosporus",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.ros_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA040_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA040_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA040",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA040_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA204_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA204_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA204",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA204_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA486_MS_B.mzXML",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA486_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. TAA486",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/TAA486_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_A1_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_A1_B.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_A1_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_MS_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_MS_B.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "MS solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_MS_E.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_R5_M.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_R5_B.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp.MG1",
+            "sample_preparation_label": "R5 solid",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078839/spectrum/MS/S.MG1_R5_E.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "known_link": "Salinamide A ",
+            "SMILES": "CC[C@@H](C)[C@H]1C(=O)N[C@@H]2C3=CC=C(C=C3)O[C@H]([C@]4(CO4)/C=C/C(=O)NCC(=O)OC[C@H](C(=O)O[C@H]([C@H](C(=O)N1)NC(=O)[C@@H](C)[C@H](C(C)C)O)C)NC(=O)[C@@H](NC(=O)[C@H](N(C2=O)C)CC5=CC=CC=C5)[C@H](C)O)C",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=25&task=9682abcfd2c746bba962397ac8e3b94b#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001766"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=13&task=9682abcfd2c746bba962397ac8e3b94b#%7B%7D",
+            "known_link": "Desferrioxamine E and related compounds",
+            "SMILES": "ON1CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC1=O",
+            "IUPAC": "1,12,23-trihydroxy-1,6,12,17,23,28-hexazacyclotritriacontane-2,5,13,16,24,27-hexone",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "coordinates": "3,033,355 - 3,040,682",
+                "strain": "AL645882.2.",
+                "similar_MIBiG_number": "BGC0000940"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Rosamicin and related compounds",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "(1S,2R,3R,7R,8S,9S,10R,12R,14E,16S)-3-Ethyl-7-hydroxy-2,8,12,16-tetramethyl-5,13-dioxo-10-(2-oxoethyl)-4,17-dioxabicyclo[14.1.0]heptadec-14-en-9-yl 3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyr anoside",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=11&show=true&task=840eadb054f74d74ae42152a08ed9628#%7B%7D",
+            "SMILES": "CCC1C(C2C(O2)(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC3C(C(CC(O3)C)N(C)C)O)CC=O)C)C)C",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "KP997155.1.",
+                "coordinates": "1 - 64,171",
+                "similar_MIBiG_number": "BGC0001830"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Actinomycin D and analogs",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "IUPAC": "2-amino-4,6-dimethyl-3-oxo-1-N,9-N-bis[7,11,14-trimethyl-2,5,9,12,15-pentaoxo-3,10-di(propan-2-yl)-8-oxa-1,4,11,14-tetrazabicyclo[14.3.0]nonadecan-6-yl]phenoxazine-1,9-dicarboxamide",
+            "SMILES": "CC1C(C(=O)NC(C(=O)N2CCCC2C(=O)N(CC(=O)N(C(C(=O)O1)C(C)C)C)C)C(C)C)NC(=O)C3=C4C(=C(C=C3)C)OC5=C(C(=O)C(=C(C5=N4)C(=O)NC6C(OC(=O)C(N(C(=O)CN(C(=O)C7CCCN7C(=O)C(NC6=O)C(C)C)C)C)C(C)C)C)N)C",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=44&show=true&task=840eadb054f74d74ae42152a08ed9628#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "HM038106.1.",
+                "similar_MIBiG_number": "BGC0000296"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Enterocin",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=49&show=true&task=840eadb054f74d74ae42152a08ed9628#%7B%7D",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "2S,3S)-2-benzoyl-1,3,8,10-tetrahydroxy-9-(4-methoxy-6-oxopyran-2-yl)-5-oxatricyclo[4.3.1.03,8]decan-4-one",
+            "SMILES": "COC1=CC(=O)OC(=C1)C2C3(CC4C(C2(C(C3(C(=O)O4)O)C(=O)C5=CC=CC=C5)O)O)O",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "AF254925.1.",
+                "similar_MIBiG_number": "BGC0000220"
+            }
+        }
+    ]
+}

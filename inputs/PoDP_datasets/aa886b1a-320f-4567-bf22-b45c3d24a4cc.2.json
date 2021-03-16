@@ -1,0 +1,514 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Martin Baunach",
+        "submitter_name_secondary": "Eric Helfrich",
+        "submitter_email_secondary": "eric_helfrich@hms.harvard.edu",
+        "PI_name": "Elke Dittmann",
+        "PI_institution": "University of Potsdam",
+        "submitter_email": "baunach@uni-potsdam.de",
+        "submitter_orcid": "https://orcid.org/0000-0003-0822-1468",
+        "PI_email": "editt@uni-potsdam.de"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078891",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=3db8eecef7114e7489caea2e8884387d",
+            "molecular_network": "3056feca749c47329e228ca7227eff9a"
+        },
+        "publications": "10.1073/pnas.1419543112,10.1104/pp.112.213116, "
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "BG11",
+                    "Other_medium_link": "http://microbiology.ucdavis.edu/meeks/BG11medium.html"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 23,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "30 μmol photons/M2S1",
+                "sample_preparation_method": "+ nitrogen source"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "BG110",
+                    "Other_medium_link": "http://microbiology.ucdavis.edu/meeks/BG11medium.html"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 23,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "30 μmol photons/M2S1",
+                "sample_preparation_method": "- nitrogen source"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "colony",
+                "other_extraction_parameters": "colony was excised from agar and extracted. Samples were subsequently extracted with Acetone and Methanol"
+            },
+            {
+                "extracted_material": "supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    }
+                ],
+                "other_extraction_parameters": "area around colony was excised and extracted. Samples were subsequently extracted with Acetone and Methanol",
+                "extraction_method": "secreted"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "500-2500",
+                "collision_energy": "25",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "UPLC: Phenomenex Kinetex 2.6 μm C18 100A (150 x 4.5 mm) analytical column\nwas used with the following solvent gradients (A=H2O + 0.1% formic acid, and B=\nacetonitrile + 0.1% formic acid with B at 5% for 0-2 min, 5-95% for 2-14 min and 95% for\n14-17 min at a flowrate of 0.5 mL/min). \nMS: The spray\nvoltage was set to 3.7 kV and the capillary temperature to 320 °C. MS1 resolution 70,000; MS2 resolution: 17500",
+                "instrumentation_method": "UPLC-ddMS/MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP001037.1"
+            },
+            "genome_label": "N. punctiforme PCC 73102",
+            "BioSample_accession": "SAMN02598449",
+            "publications": "10.1073/pnas.1419543112, 10.1104/pp.112.213116,  "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP001037.1"
+            },
+            "BioSample_accession": "SAMN02598449",
+            "publications": "10.1073/pnas.1419543112, 10.1104/pp.112.213116,  ",
+            "genome_label": "N. punctiforme PCC 73102 pks2-"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony2.mzXML"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/2014_10_06_KO.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/2014_10_06_WT.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/2014_10_07_KO_colony.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_KOminusN_high.mzXML",
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_KOminusN_low.mzXML",
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_KOplusN_low.mzXML",
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_WTminusN_high.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_WTminusN_low.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_WTplusN_high.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_17_WTplusN_low.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS",
+            "genome_label": "N. punctiforme PCC 73102"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_KOminusN_high.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_KOminusN_low.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_KOplusN_high.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_KOplusN_low.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_WTminusN_high.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_WTminusN_low.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_WTplusN_high.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_18_WTplusN_low.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_KO+N_colony.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_KO+N_secreted.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_KO-N_colony.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_KO-N_secreted.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_WT+N_colony.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_WT+N_secreted.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_WT-N_colony.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_05_19_WT-N_secreted.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_KO_colony.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_KO_colony2.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_KO_colony2N.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_KO_colonyN.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony2N.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colonyN.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_secreted.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_secreted2.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_secreted2N.mzXMLL",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_secreted2N.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_secretedN.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "secreted",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_KO+N.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_KO+N2.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102 pks2-",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_KO_N.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_WT+N.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_WT+N2.mzXML",
+            "sample_preparation_label": "+ nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        },
+        {
+            "genome_label": "N. punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_07_14_WT_N.mzXML",
+            "sample_preparation_label": "- nitrogen source",
+            "extraction_method_label": "colony",
+            "instrumentation_method_label": "UPLC-ddMS/MS"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002061"
+            },
+            "link": "single molecule",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Evidence as indicated in MIBiG",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "known_link": "Nostopeptolide A1: The nostopeptolide NRPS-PKS biosynthetic gene cluster is responsible for the production of several nostopeptolides. Bioinformatic and biochemical studies were used to link the nos BGC to the production of nostopeptolides. ",
+            "SMILES": "OC1=CC=C(C[C@@H](C(N2[C@@H](CCC2)C(OC[C@@H](C(N3[C@@H](C[C@H](C)C3)C(N[C@@H](CC(C)C)C(CC(N[C@H]4CC(C)C)=O)=O)=O)=O)NC(C(NC(CCC)=O)[C@H](CC)C)=O)=O)=O)NC([C@H](CC(N)=O)NC(CNC4=O)=O)=O)C=C1",
+            "IUPAC": "(2S,3S)-N-[(3S,7S,13S,16S,22S,27S,30S,32S)-16-(2-amino-2-oxoethyl)-13-[(4-hydroxyphenyl)methyl]-32-methyl-22,27-bis(2-methylpropyl)-2,6,12,15,18,21,24,26,29-nonaoxo-5-oxa-1,11,14,17,20,23,28-heptazatricyclo[28.3.0.07,11]tritriacontan-3-yl]-2-(butanoylamino)-3-methylpentanamide",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony2.mzXML",
+            "MS2_scan": "2399,2421,2443"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002061"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Nostopeptolide 1052: The nostopeptolide NRPS-PKS biosynthetic gene cluster is responsible for the production of several nostopeptolides. Bioinformatic and biochemical studies were used to link the nos BGC to the production of nostopeptolides. ",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "OC1=CC=C(C[C@@H](C(N2[C@@H](CCC2)C(OC[C@@H](C(N3[C@@H](C[C@H](C)C3)C(N[C@@H](CC(C)C)C(CC(N[C@H]4CC(C)C)=O)=O)=O)=O)NC([C@@H](NC(C)=O)[C@H](CC)C)=O)=O)=O)NC([C@H](CC(N)=O)NC(CNC4=O)=O)=O)C=C1",
+            "IUPAC": "(2S,3S)-2-acetamido-N-((6S,9S,15S,20S,22aS,24S,28S,31aS)-9-(2-amino-2-oxoethyl)-6-(4-hydroxybenzyl)-15,20-diisobutyl-24-methyl-5,8,11,14,17,19,22,27,31-nonaoxooctacosahydro-1H,27H-dipyrrolo[2,1-c:2',1'-w][1]oxa[4,7,10,13,16,21,24]heptaazacycloheptacosin-28-yl)-3-methylpentanamide",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=118&show=true&task=3056feca749c47329e228ca7227eff9a#%7B%7D"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0000302",
+                "strain": "GU174493.1",
+                "coordinates": "1 - 36,200"
+            },
+            "link": "single molecule",
+            "SMILES": "O=C(N[C@@H](CCC1=CC=C(O)C=C1)C(NCCCC[C@@H](NC(N[C@@H](C(O)=O)CC2=CC=CC=C2)=O)C(N[C@H]3[C@H](C)CC)=O)=O)CN(C)C([C@H](CCC4=CC=C(O)C=C4)NC3=O)=O",
+            "IUPAC": "(((3S,9S,12S,15R)-12-((R)-sec-butyl)-3,9-bis(4-hydroxyphenethyl)-7-methyl-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentaazacyclononadecan-15-yl)carbamoyl)-D-phenylalanine",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Evidence as indicated in MIBiG"
+            ],
+            "known_link": "Anabaenopetin NZ857: The anabaenopeptin BGC (apt) is responsible for the biosynthesis of a variety of anabaenopeptins including anabaenopeptin NZ857 and nostamid A. Bioinformatic and biochemical studies were used to link the apt BGC to the production of anabaenopeptins in a different producer. ",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony2.mzXML",
+            "MS2_scan": "2159,2179"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0000302",
+                "strain": "GU174493.1",
+                "coordinates": "1 - 36,200"
+            },
+            "link": "single molecule",
+            "known_link": "Nostamid: The anabaenopeptin BGC (apt) is responsible for the biosynthesis of a variety of anabaenopeptins including anabaenopeptin NZ857 and nostamid A. Bioinformatic and biochemical studies were used to link the apt BGC to the production of anabaenopeptins in a different producer. ",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C(N[C@@H](CCC1=CC=C(O)C=C1)C(NCCCC[C@@H](NC(N[C@@H](C(O)=O)CC2=CC=CC=C2)=O)C(N[C@H]3[C@H](C)CC)=O)=O)CN(C)C([C@H](CCC4=CC=CC=C4)NC3=O)=O",
+            "IUPAC": "(((3S,9S,12S,15R)-12-((R)-sec-butyl)-3-(4-hydroxyphenethyl)-7-methyl-2,5,8,11,14-pentaoxo-9-phenethyl-1,4,7,10,13-pentaazacyclononadecan-15-yl)carbamoyl)-D-phenylalanine",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078891/spectrum/massive_cyanos/EH_2014_06_18_WT_colony2.mzXML",
+            "MS2_scan": "2368,2402"
+        }
+    ]
+}

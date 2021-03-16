@@ -1,0 +1,143 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Anelize Bauermeister",
+        "submitter_orcid": "https://orcid.org/0000-0001-9731-6172",
+        "submitter_email": "ane.meister@usp.br",
+        "PI_email": "costalotufo@gmail.com",
+        "PI_institution": "Universidade de São Paulo",
+        "PI_name": "Leticia Veras Costa-Lotufo"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085589",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=733e78baa5f947e1bf54d5cee55f0e31&view=advanced_view"
+        },
+        "related_GNPSMassIVE_ID": "MSV000079015",
+        "publications": "10.3389/fmicb.2018.03021"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 150
+                },
+                "sample_preparation_method": "Salinispora arenicola BRA172"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 150
+                },
+                "sample_preparation_method": "Salinispora arenicola BRA190"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "Salinispora arenicola BRA172"
+            },
+            {
+                "extraction_method": "Salinispora arenicola BRA190",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "supernatant"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "Salinispora arenicola BRA172",
+                "range": "100-1000",
+                "collision_energy": "0.7",
+                "buffering": "0.1% formic acid"
+            },
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "Salinispora arenicola BRA190",
+                "range": "100-1000",
+                "collision_energy": "0.7",
+                "buffering": "0.1% formic acid"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASAX000000000"
+            },
+            "BioSample_accession": "SAMN14411170",
+            "genome_label": "Salinispora arenicola BRA172"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASAW000000000"
+            },
+            "genome_label": "Salinispora arenicola BRA190",
+            "BioSample_accession": "SAMN14411171"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Salinispora arenicola BRA172",
+            "sample_preparation_label": "Salinispora arenicola BRA172",
+            "extraction_method_label": "Salinispora arenicola BRA172",
+            "instrumentation_method_label": "Salinispora arenicola BRA172",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085589/peak/LCMSMS_BRA-172A_POS_B_1-7_01_9827.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola BRA190",
+            "sample_preparation_label": "Salinispora arenicola BRA190",
+            "extraction_method_label": "Salinispora arenicola BRA190",
+            "instrumentation_method_label": "Salinispora arenicola BRA190",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085589/peak/LCMSMS_BRA-190A_POS_B_1-17_01_9837.mzXML"
+        }
+    ]
+}

@@ -1,0 +1,462 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Louis Felix Nothias",
+        "submitter_orcid": "https://orcid.org/0000-0001-6711-6719",
+        "submitter_email": "louisfelix.nothias@gmail.com",
+        "PI_name": "Kapil Tahlan",
+        "PI_institution": "Memorial University of Newfoundland",
+        "PI_email": "ktalhan@mun.ca"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083835",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=c7520debe3e84611b0a9eefcee5d17fa",
+            "molecular_network": "b5eb34985777438aaf0f87e31889384c"
+        },
+        "publications": "10.3389/fmicb.2019.02550"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium545.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "not shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "sample_preparation_method": "TSB_2days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium547.pdf"
+                },
+                "growth_parameters": {
+                    "growth_duration": 72,
+                    "growth_temperature": 28
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "ISP_3days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium545.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "TSB_10days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium547.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "ISP_10days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Starch asparagine",
+                    "Other_medium_link": "https://www.frontiersin.org/articles/10.3389/fmicb.2019.02550/full#supplementary-material"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "SA_3days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Starch asparagine",
+                    "Other_medium_link": "https://www.frontiersin.org/articles/10.3389/fmicb.2019.02550/full#supplementary-material"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "SA_10days"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium545.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "TSB_7days"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extraction_method": "Methanol"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "EtOAc"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-1500",
+                "collision_energy": "35",
+                "buffering": "mobile phase consisted of (A) 0.1% formic acid in water and (B) 0.1% formic acid in acetonitrile",
+                "other_instrumentation": "Chromatographic separation was performed in mixed mode (allowing weak anion/cation exchange) on a Scherzo SM-C18 column (2 × 250 mm, 3 μm, 130 Å; Imtakt, United States) maintained at 40°C.",
+                "instrumentation_method": "Scherzo-Pos"
+            },
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000129",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-1500",
+                "collision_energy": "35",
+                "buffering": "mobile phase consisted of (A) 0.1% formic acid in water and (B) 0.1% formic acid in acetonitrile",
+                "other_instrumentation": "Chromatographic separation was performed in mixed mode (allowing weak anion/cation exchange) on a Scherzo SM-C18 column (2 × 250 mm, 3 μm, 130 Å; Imtakt, United States) maintained at 40°C.",
+                "instrumentation_method": "Scherzo-Neg"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "DS570624.1"
+            },
+            "genome_label": "Streptomyces clavuligerus"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/39.mzML",
+            "sample_preparation_label": "TSB_2days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/42.mzML",
+            "sample_preparation_label": "TSB_7days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/63.mzML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "TSB_7days",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/60.mzML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "TSB_2days",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/39.mzML",
+            "sample_preparation_label": "TSB_2days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg",
+            "genome_label": "Streptomyces clavuligerus"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/42.mzML",
+            "sample_preparation_label": "TSB_7days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg",
+            "genome_label": "Streptomyces clavuligerus"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/63.mzML",
+            "sample_preparation_label": "TSB_7days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg",
+            "genome_label": "Streptomyces clavuligerus"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/60.mzML",
+            "sample_preparation_label": "TSB_2days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg",
+            "genome_label": "Streptomyces clavuligerus"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/54.mzML",
+            "sample_preparation_label": "SA_10days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/51.mzML",
+            "sample_preparation_label": "SA_3days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/75.mzML",
+            "sample_preparation_label": "SA_10days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/72.mzML",
+            "sample_preparation_label": "SA_3days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/54.mzML",
+            "sample_preparation_label": "SA_10days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/51.mzML",
+            "sample_preparation_label": "SA_3days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/75.mzML",
+            "sample_preparation_label": "SA_10days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/72.mzML",
+            "sample_preparation_label": "SA_3days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/48.mzML",
+            "sample_preparation_label": "ISP_10days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/45.mzML",
+            "sample_preparation_label": "ISP_3days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/69.mzML",
+            "sample_preparation_label": "ISP_10days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Pos_mzML/66.mzML",
+            "sample_preparation_label": "ISP_3days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Pos"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/48.mzML",
+            "sample_preparation_label": "ISP_10days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/45.mzML",
+            "sample_preparation_label": "ISP_3days",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/69.mzML",
+            "sample_preparation_label": "ISP_10days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg"
+        },
+        {
+            "genome_label": "Streptomyces clavuligerus",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/66.mzML",
+            "sample_preparation_label": "ISP_3days",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "Scherzo-Neg"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Clavulanic acid",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "IUPAC": "(2R,3Z,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+            "SMILES": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/51.mzML",
+            "MS2_scan": "2537",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000845"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Cephamycin C",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Neg_mzML/54.mzML",
+            "MS2_scan": "749",
+            "SMILES": "CO[C@@]1(C2N(C1=O)C(=C(CS2)COC(=O)N)C(=O)O)NC(=O)CCCC(C(=O)O)N",
+            "IUPAC": "(6R,7S)-7-[[(5R)-5-amino-5-carboxypentanoyl]amino]-3-(carbamoyloxymethyl)-7-methoxy-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000319"
+            }
+        },
+        {
+            "link": "single molecule",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/42.mzML",
+            "MS2_scan": "3633",
+            "known_link": "Tunicamycin I",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "(E)-N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-[(2R)-2-[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]-2-hydroxyethyl]-4,5-dihydroxyoxan-3-yl]-11-methyldodec-2-enamide",
+            "SMILES": "CC(C)CCCCCCCC=CC(=O)NC1C(C(C(OC1OC2C(C(C(C(O2)CO)O)O)NC(=O)C)CC(C3C(C(C(O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000880"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Tunicamycin A",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/42.mzML",
+            "MS2_scan": "3888",
+            "IUPAC": "(E)-N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-[(2R)-2-[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]-2-hydroxyethyl]-4,5-dihydroxyoxan-3-yl]-13-methyltetradec-2-enamide",
+            "SMILES": "CC(C)CCCCCCCCCC=CC(=O)NC1C(C(C(OC1OC2C(C(C(C(O2)CO)O)O)NC(=O)C)CC(C3C(C(C(O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000880"
+            }
+        },
+        {
+            "link": "single molecule",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/MeOH_Pos_mzML/42.mzML",
+            "MS2_scan": "3998",
+            "known_link": "Tunicamycin B",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "(E)-N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-[(2R)-2-[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]-2-hydroxyethyl]-4,5-dihydroxyoxan-3-yl]-14-methylpentadec-2-enamide",
+            "SMILES": "CC(C)CCCCCCCCCCC=CC(=O)NC1C(C(C(OC1OC2C(C(C(C(O2)CO)O)O)NC(=O)C)CC(C3C(C(C(O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000880"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Naringenin",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083835/peak/EtOAc_Neg_mzML/60.mzML",
+            "MS2_scan": "3673",
+            "IUPAC": "(2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one",
+            "SMILES": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001310"
+            }
+        }
+    ]
+}

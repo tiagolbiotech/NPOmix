@@ -1,0 +1,351 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Jamshid Amiri Moghaddam",
+        "submitter_orcid": "https://orcid.org/0000-0002-9385-0711",
+        "submitter_email": "Jamshid.Amiri-Moghaddam@hki-jena.de",
+        "PI_name": "Prof. Dr. G. König",
+        "PI_institution": "Institute for Pharmaceutical Biology, University of Bonn, Bonn, Germany",
+        "PI_email": "g.koenig@uni-bonn.de"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000082831",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=7f14143f7f9846d9b66fc3ff89bf7dd3&view=advanced_view",
+            "molecular_network": "c90080f8763a4920bdf8117f64792e4c"
+        },
+        "publications": "30413766"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "ASW-VY/4",
+                    "medium_volume": 1000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 140
+                },
+                "other_growth_conditions": "ASW-VY/4 medium (1 L contains 75% artificial sea water (ASW), 25 mL of a 10% yeast suspension, trace elements solution and vitamin B12 filled up to the final volume with milli-Q water.",
+                "sample_preparation_method": "ASW-VY/4"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "resins": "Sepabeads® SP207",
+                "extraction_method": "Sepabeads crude extraction"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_46787",
+                        "Other_solvent": "petroleum ether"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "resins": "SPE fraction",
+                "extraction_method": "PE_SPE_extract",
+                "other_extraction_parameters": "SPE fraction"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15767"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "resins": "SPE fraction",
+                "other_extraction_parameters": "SPE fraction",
+                "extraction_method": "DCM_SPE_extarct"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "SPE fraction",
+                "extraction_method": "Acetone_SPE_extract"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "SPE fraction",
+                "extraction_method": "EtOAc_SPE_extract"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "SPE fraction",
+                "extraction_method": "MeOH_SPE_extract"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "HPLC-MS/MS on a micrOTOF-Q mass spectrometer (Bruker)"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-3000",
+                "collision_energy": "35–50 keV",
+                "buffering": "0.1% acetic acid",
+                "other_instrumentation": "UHPLC starting conditions with 90% H2O containing 0.1% acetic acid as mobile phase were kept isocratic for 0.5 min. Followed by a gradient solvent system to 100% acetonitrile (0.1% acetic acid) within 4 min.",
+                "instrumentation_method": "UHPLC-MS/MS analysis"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "PVNK00000000"
+            },
+            "BioSample_accession": "SAMN08580375",
+            "publications": "29700155",
+            "genome_label": "E. salina SWB005"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "PVNL00000000"
+            },
+            "BioSample_accession": "SAMN08580376",
+            "publications": "29700155",
+            "genome_label": "E. salina SWB007"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JMCC00000000"
+            },
+            "BioSample_accession": "SAMN02719576",
+            "genome_label": "E. salina DSM 15201"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "ABCS00000000"
+            },
+            "BioSample_accession": "SAMN02436152",
+            "genome_label": "P. pacifica DSM 14875"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "E. salina SWB005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/swb005_BA5_01_12046.mzXML",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/swb005_BB1_01_12484.mzXML",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB005Pe_RA3_01_16888.mzXML",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "PE_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB005DCM_RB2_01_16895.mzXML",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "DCM_SPE_extarct",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "extraction_method_label": "Acetone_SPE_extract",
+            "sample_preparation_label": "ASW-VY/4",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB005Aceton_RA5_01_16890.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "EtOAc_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB005EtOAc_RA8_01_16893.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB005",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "MeOH_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB005MeOH_RA1_01_16886.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/swb007_BA6_01_12047.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/swb007_BB3_01_12486.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "PE_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB007_PE_BA5_01_21027.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "DCM_SPE_extarct",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB007_DCM_BA3_01_21025.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Acetone_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB007_Aceton_BA7_01_21030.mzXML"
+        },
+        {
+            "genome_label": "E. salina SWB007",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "EtOAc_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB007_EtOAc_BA4_01_21026.mzXML"
+        },
+        {
+            "extraction_method_label": "MeOH_SPE_extract",
+            "genome_label": "E. salina SWB007",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/SWB007_MeOH_BA6_01_21028.mzXML",
+            "sample_preparation_label": "ASW-VY/4"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ESALINADSM_RB7_01_15860.mzXML",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "PE_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ES%20PE_RB8_01_16901.mzXML"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "DCM_SPE_extarct",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ES%20DCM_RB7_01_16900.mzXML"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Acetone_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ES%20Acetone_RB6_01_16899.mzXML"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "EtOAc_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ES%20EtOAc_RB5_01_16898.mzXML"
+        },
+        {
+            "genome_label": "E. salina DSM 15201",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "MeOH_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/ES%20MeOH_RB4_01_16897.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Sepabeads crude extraction",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/PPACIFICA_RB6_01_15858.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "PE_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/Pacifica%20PE_RB3_01_16896.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "DCM_SPE_extarct",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/Pacifica%20DCM_RA4_01_16889.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "Acetone_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/Pacifica%20Aceton_RA6_01_16891.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "EtOAc_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/Pacifica%20EtOAc_RA7_01_16892.mzXML"
+        },
+        {
+            "genome_label": "P. pacifica DSM 14875",
+            "sample_preparation_label": "ASW-VY/4",
+            "extraction_method_label": "MeOH_SPE_extract",
+            "instrumentation_method_label": "UHPLC-MS/MS analysis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082831/raw/Pacifica%20MeOH_RB1_01_16894.mzXML"
+        }
+    ]
+}

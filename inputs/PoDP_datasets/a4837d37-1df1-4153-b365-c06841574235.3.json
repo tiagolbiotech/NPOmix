@@ -1,0 +1,392 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Daniel Maennle",
+        "submitter_orcid": "https://orcid.org/0000-0001-8437-3071",
+        "submitter_email": "daniel-maennle@web.de",
+        "PI_name": "Leonard Kaysser, Nadine Ziemert",
+        "PI_institution": "University of Tuebingen",
+        "PI_email": "leonard.kaysser@pharm.uni-tuebingen.de"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084771",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=6680d7b941c24826b63ef1c4e4f76fee&view=advanced_view",
+            "molecular_network": "a50dc9e2fc4f4a26aef72b0e05fdb123"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=484",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 500
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "Ratledge et al. 1971",
+                "other_growth_conditions": "pretreatment of glassware according to Ratledge et al. 1962\n\ntreatment of medium with Chelex 100\n\niron-free medium was prepared according to Ratledge et al. 1971\n\n"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "cells were sonicated in methanol for 3 min",
+                "extraction_method": "MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Agilent 6530 Accurate-Mass Quadrupole Time-of-flight (QTOF) LC-MS instrument"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "750-950",
+                "collision_energy": "50eV",
+                "other_instrumentation": "samples treated with Gallium-sulphate\ncolumn: Phemnomenex Luna 5 µm C18(2) 100 Å 4.6 x 150 mm",
+                "instrumentation_method": "6530-QTOF-LC-MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "BAFR00000000.1"
+            },
+            "genome_label": "Nocardia araoensis NBRC 100135"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BAGG00000000.1"
+            },
+            "genome_label": "Nocardia takedensis NBRC 100417"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_LMFE00000000.1"
+            },
+            "genome_label": "Nocardia sp. Root136"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NC_016887.1"
+            },
+            "genome_label": "Nocardia cyriacigeorgica GUH-2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDBU00000000.1"
+            },
+            "genome_label": "Nocardia jejuensis NBRC 103114"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDCU00000000.1"
+            },
+            "genome_label": "Nocardia fusca NBRC 14340"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDCL00000000.1"
+            },
+            "genome_label": "Nocardia rhamnosiphila NBRC 108938"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDCA00000000.1"
+            },
+            "genome_label": "Nocardia vermiculata NBRC 100427"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDBM00000000.1"
+            },
+            "genome_label": "Nocardia gamkensis NBRC 108242"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDBF00000000.1"
+            },
+            "genome_label": "Nocardia elegans NBRC 108235"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_BDAX00000000.1"
+            },
+            "genome_label": "Nocardia alba NBRC 108234"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Nocardia araoensis NBRC 100135",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/3-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia takedensis NBRC 100417",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/29RE(rerun).mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia sp. Root136",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/38RE(rerun).mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia cyriacigeorgica GUH-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/GUH-2.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia jejuensis NBRC 103114",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/52-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia fusca NBRC 14340",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/55-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia rhamnosiphila NBRC 108938",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/57-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia vermiculata NBRC 100427",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/62-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia gamkensis NBRC 108242",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/70-FeMeOHGa(rerun).mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia elegans NBRC 108235",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/74RE.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        },
+        {
+            "genome_label": "Nocardia alba NBRC 108234",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084771/raw/79-FeMeOHGa.mzXML",
+            "sample_preparation_label": "Ratledge et al. 1971",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "6530-QTOF-LC-MS"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia araoensis produces several mycobactin-like siderophores with varying fatty acid chain lenghts from a nocobactin-like BGC. The genome does not have a mycobactin-like BGC. This derivative is not known to date. One example is given here.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C(CCCCCCCCCCCCC)=O)CCCCC(C(OC(C)CC(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/3-FeMeOHGa.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1173858"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia takedensis produces several mycobactin-like siderophores with varying fatty acid chain lenghts from a nocobactin-like BGC. The genome does not have a mycobactin-like BGC. This derivative is not known to date. One example is given here.",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C(CCCCCCCCCCCCCC)=O)CCCCC(C(OC(C)CC(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/29RE(rerun).mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "638325"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia jejuensis produces several nocobactin-like compounds. Here Nocardimicin G is shown exemplary. It is produced by a nocobactin-like BGC. No gene cluster for Nocardimicins have been proposed earlier.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/52-FeMeOHGa.mzXML",
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCCCCCCCC)C(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1270586"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia fusca produces several nocobactin-like siderophores with varying fatty acid chain length. One example is given here.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCCCCCC)C(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/55-FeMeOHGa.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1164886"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia rhamnosiphila produces several nocobactin-like siderophores with varying fatty acid chain length. One example is given here.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCCCCC)C(C)(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/57-FeMeOHGa.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1194795"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia vermiculata produces several nocobactin-like siderophores with varying fatty acid chain length. One example is given here.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2N=C(OC2)C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCCCCCCCC)C(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/62-FeMeOHGa.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1218107"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia gamkensis produces several nocobactin-like compounds. Here Formobactin is shown exemplary. It is produced by a nocobactin-like BGC. No gene cluster for Formobactin has been proposed earlier.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2=C(C)OC(C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCCCC)C(C)(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3)=N2",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/70-FeMeOHGa(rerun).mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "1123039"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia gamkensis produces soluble nocobactin-like siderophores from a nocobactin-like BGC. soluble nocobactins have not been reported before. These soluble siderophores are previously only known for mycobactins.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2=C(C)OC(C3=C([O+][Ga-3]4[O+]N(C=O)CCCCC(C(OC(CCCCCCC(O)=O)C(C)(C)C(NC5CCCCN([O+]4)C5=O)=O)=O)[NH2+]1)C=CC=C3)=N2",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/70-FeMeOHGa(rerun).mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "660289"
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Nocardia alba produces several nocobactin-like compounds. Here Nocardimicin A is shown exemplary. It is produced by a nocobactin-like BGC. No gene cluster for Nocardimicins have been proposed earlier.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "O=C1C2=COC(C3=C([O+][Ga-3]4[O+]N(C(C)=O)CCCCC(C(OC(CCCCCCCCC)C(C(NC5CCCCN([O+]4)C5=O)=O)C)=O)[NH2+]1)C=CC=C3)=N2",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084771/raw/79-FeMeOHGa.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "GCA_000009805.1",
+                "coordinates": "820,180 - 840,689 nt",
+                "similar_MIBiG_number": "BGC0001027"
+            },
+            "MS2_scan": "948856"
+        }
+    ]
+}

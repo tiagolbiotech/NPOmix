@@ -1,0 +1,3609 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Emily Gentry",
+        "submitter_orcid": "https://orcid.org/0000-0002-0016-8132",
+        "submitter_email": "egentry.nc@gmail.com",
+        "PI_institution": "University of California San Diego",
+        "PI_email": "pdorrestein@ucsd.edu",
+        "PI_name": "Pieter C. Dorrestein"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084475",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=295cb2aeccef486583a2e36f14ff9713&view=advanced_view",
+            "molecular_network": "c999bce5de72437bae94463b1bb135b9"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Reinforced Clostridial Medium",
+                    "Other_medium_link": "https://www.bd.com/europe/regulatory/Assets/IFU/Difco_BBL/218081.pdf",
+                    "medium_volume": 0.2
+                },
+                "growth_parameters": {
+                    "growth_temperature": 38,
+                    "growth_duration": 72,
+                    "growth_phase_OD": "OD"
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "\n+0.05% bile salts added (https://www.sigmaaldrich.com/catalog/product/sial/b8756?lang=en&region=US)",
+                "sample_preparation_method": "RCM+BA"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Fecal Growth Medium",
+                    "Other_medium_link": "https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-015-0124-3#Sec9",
+                    "medium_volume": 0.2
+                },
+                "growth_parameters": {
+                    "growth_temperature": 38,
+                    "growth_duration": 72,
+                    "growth_phase_OD": "OD"
+                },
+                "aeration": {},
+                "sample_preparation_method": "FCM"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.75,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    },
+                    {
+                        "ratio": 0.25,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "3:1 MeOH/H2O"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Normal Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "75-1500",
+                "instrumentation_method": "Maxis qToF"
+            }
+        ]
+    },
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Bacteroides stercoris CC31F",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_1036_BD4_01_45766.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium breve JCP7499",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_1120_BD11_01_45775.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridiales sp. F0540",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_1139_BE8_01_45788.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Oribacterium sinus F0268",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_13_BA5_01_45717.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis UPII 315-A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_133_BA4_01_45716.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_22",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_18_BC11_01_45757.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. D20",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_189_BD3_01_45765.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis 3_1_12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_20_BC1_01_45745.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides eggerthii 1_2_48FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_210_BB9_01_45739.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides ovatus 3_8_47FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_222_BC6_01_45750.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 1_1_6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_23_BC9_01_45755.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Actinomyces viscosus C505",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_238_BB2_01_45730.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 4_1_36",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_258_BC12_01_45758.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 9_1_42FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_27_BD1_01_45763.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. D2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_28_BD2_01_45764.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei 5_1_36/D4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_29_BB5_01_45733.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. 12_1_47BFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_30_BE4_01_45782.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium orbiscindens 1_3_50AFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_303_BA1_01_45713.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium symbiosum WAL-14673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_319_BA2_01_45714.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Treponema denticola ASLM",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_574_BA12_01_45726.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Treponema denticola AL-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_575_BA11_01_45725.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_16",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_58_BC10_01_45756.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium adolescentis L2-32",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_633_BD6_01_45768.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T00C01",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_709_BC4_01_45748.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T12C05",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_710_BC5_01_45749.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL03T12C07",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_714_BC3_01_45747.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T00C15",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_717_BB6_01_45734.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T12C06",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_719_BB7_01_45737.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides vulgatus CL09T03C04",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_720_BD5_01_45767.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides salyersiae CL02T12C01",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_725_BC7_01_45753.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides cellulosilyticus CL02T12C19",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_726_BB4_01_45732.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides finegoldii CL09T03C10",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_727_BB12_01_45742.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides caccae CL03T12C61",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_728_BB3_01_45731.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL09T00C40",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_729_BA9_01_45723.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL03T12C32",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_730_BA8_01_45722.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides johnsonii CL02T12C29",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_731_BA7_01_45721.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridiales sp. OBRC5-5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_780_BE9_01_45789.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Acidaminococcus sp. D21",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_81_BB1_01_45729.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 44B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_845_BE3_01_45781.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 35B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_847_BE2_01_45780.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 2-2B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_848_BE1_01_45779.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium breve HPH0326",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_856_BD10_01_45774.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. MSTE12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201A/HM_868_BE5_01_45783.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. KLE 1755",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1033_redo_BA4_01_45980.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7275",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1105_BC2_01_45933.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7276",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1106_BC3_01_45934.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7659",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1107_BC4_01_45935.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7672",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1108_BC5_01_45936.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7719",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1109_BC6_01_45937.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1110_BC7_01_45940.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1111_BC8_01_45941.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8066",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1112_BC9_01_45942.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8108",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1114_BC10_01_45943.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1115_BC11_01_45944.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1116_BC12_01_45945.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8481B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1118_BD1_01_45948.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8522",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_1119_BD2_01_45949.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. 2_1_58FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_154_BD3_01_45950.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides sp. 31_2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_169_BE9_01_45974.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Coprobacillus sp. 8_2_54BFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_176_BA7_01_45908.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Olsenella sp. F0356",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_198_BE8_01_45973.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parvimonas sp. F0139",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_207_BE12_01_45977.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. polymorphum F0401",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_260_BB10_01_45927.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. HGF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_287_BA3_01_45902.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Collinsella sp. 4_8_47FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_304_BA6_01_45905.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. 7_2_43FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_36_BA2_01_45901.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium TX0133a04",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_463_BB3_01_45918.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_6_BF3_01_45983.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. F0167",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_7_BD5_01_45952.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. animalis F0419",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_758_BB9_01_45926.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. MSTE9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_764_BA5_01_45904.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. ICM7",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_768_BD6_01_45953.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides sp. D13",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_77_BE10_01_45975.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. BV3AC2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_825_BF2_01_45982.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM21",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_871_BB12_01_45929.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM22",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_874_BC1_01_45932.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecalis ERV103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_934_BA8_01_45909.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium 503",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_952_BA9_01_45910.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium 513",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_959_BA10_01_45911.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium E417",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_965_BA11_01_45912.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_968_BA12_01_45913.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV165",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_970_BB1_01_45916.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV99",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202A/HM_975_BB2_01_45917.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella nigrescens CC14M",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_1053_BB3_01_46107.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Porphyromonas sp. W7784",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_1064_BA5_01_46093.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella bivia DNF00188",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_1088_BA7_01_46097.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK137",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_122_BF12_01_46184.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella timonensis CRIS 5C-B1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_136_BB9_01_46115.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella amnii CRIS 21A-A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_138_BA6_01_46094.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella sp. F0295",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_16_BB8_01_46114.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK182",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_253_BG1_01_46188.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_263_BA1_01_46089.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Selenomonas noxia F0398",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_270_BG4_01_46191.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella nigrescens F0103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_271_BB4_01_46108.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella buccae D17",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_45_BA9_01_46099.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella histicola F0411",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_471_BB1_01_46105.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL001PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_488_BB12_01_46118.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_489_BC1_01_46121.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_490_BC2_01_46122.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_491_BC3_01_46123.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_492_BC4_01_46124.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_493_BC5_01_46125.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_494_BC6_01_46126.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_495_BC7_01_46129.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL007PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_496_BC8_01_46130.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_497_BC9_01_46131.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_498_BC10_01_46132.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL020PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_499_BC11_01_46133.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella sp. F0108",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_5_BB7_01_46113.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_500_BC12_01_46134.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_501_BD1_01_46137.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_502_BD2_01_46138.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_503_BD3_01_46139.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_504_BD4_01_46140.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_505_BD5_01_46141.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_506_BD6_01_46142.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_507_BD7_01_46145.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_508_BD8_01_46146.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_509_BD9_01_46147.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_510_BD10_01_46148.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL038PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_512_BD11_01_46149.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_513_BD12_01_46150.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_514_BE1_01_46155.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL044PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_515_BE2_01_46156.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL045PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_516_BE3_01_46157.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL046PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_518_BE4_01_46158.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_519_BE5_01_46159.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_520_BE6_01_46160.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_521_BE7_01_46163.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_522_BE8_01_46164.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_523_BE9_01_46165.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL056PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_524_BE10_01_46166.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_525_BE11_01_46167.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_526_BE12_01_46168.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL060PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_527_BF1_01_46171.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_528_BF2_01_46172.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_529_BF3_01_46173.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL067PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_530_BF4_01_46174.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL072PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_531_BF5_01_46175.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL078PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_534_BF6_01_46176.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL082PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_536_BF7_01_46179.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL086PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_539_BF8_01_46180.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_552_BF9_01_46181.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_554_BF10_01_46182.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_555_BF11_01_46183.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Veillonella sp. 3_1_44",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_64_BG7_01_46194.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptostreptococcaceae sp. AS15",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_766_BA2_01_46090.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acidifaciens F0233",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_8_BB11_01_46117.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella melaninogenica D18",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_80_BB2_01_46106.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella oralis HGA0225",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_849_BB5_01_46109.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Sutterella wadsworthensis HGA0223",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_852_BG5_01_46192.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella veroralis F0319",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_92_BB10_01_46116.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella oris F0302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203A/HM_93_BB6_01_46110.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides stercoris CC31F",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_1036_GD4_01_45861.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium breve JCP7499",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_1120_GD11_01_45870.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridiales sp. F0540",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_1139_GE8_01_45883.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Oribacterium sinus F0268",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_13_GA5_01_45812.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis UPII 315-A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_133_GA4_01_45811.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_22",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_18_GC11_01_45852.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. D20",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_189_GD3_01_45860.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis 3_1_12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_20_GC1_01_45840.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides eggerthii 1_2_48FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_210_GB9_01_45834.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides ovatus 3_8_47FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_222_GC6_01_45845.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 1_1_6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_23_GC9_01_45850.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Actinomyces viscosus C505",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_238_GB2_01_45825.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 4_1_36",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_258_GC12_01_45853.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 9_1_42FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_27_GD1_01_45858.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. D2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_28_GD2_01_45859.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei 5_1_36/D4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_29_GB5_01_45828.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. 12_1_47BFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_30_GE4_01_45877.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium orbiscindens 1_3_50AFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_303_GA1_01_45808.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium symbiosum WAL-14673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_319_GA2_01_45809.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Treponema denticola ASLM",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_574_GA12_01_45821.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Treponema denticola AL-2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_575_GA11_01_45820.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_16",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_58_GC10_01_45851.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium adolescentis L2-32",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_633_GD6_01_45863.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T00C01",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_709_GC4_01_45843.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T12C05",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_710_GC5_01_45844.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL03T12C07",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_714_GC3_01_45842.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T00C15",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_717_GB6_01_45829.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T12C06",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_719_GB7_01_45832.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides vulgatus CL09T03C04",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_720_GD5_01_45862.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides salyersiae CL02T12C01",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_725_GC7_01_45848.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides cellulosilyticus CL02T12C19",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_726_GB4_01_45827.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides finegoldii CL09T03C10",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_727_GB12_01_45837.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bacteroides caccae CL03T12C61",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_728_GB3_01_45826.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL09T00C40",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_729_GA9_01_45818.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL03T12C32",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_730_GA8_01_45817.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides johnsonii CL02T12C29",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_731_GA7_01_45816.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridiales sp. OBRC5-5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_780_GE9_01_45884.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Acidaminococcus sp. D21",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_81_GB1_01_45824.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 44B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_845_GE3_01_45876.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 35B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_847_GE2_01_45875.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 2-2B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_848_GE1_01_45874.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium breve HPH0326",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_856_GD10_01_45869.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. MSTE12",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%201B/HM_868_GE5_01_45878.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. KLE 1755",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1033_BA4_01_45999.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7275",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1105_BC2_01_46029.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7276",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1106_BC3_01_46030.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7659",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1107_BC4_01_46031.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7672",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1108_BC5_01_46032.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7719",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1109_BC6_01_46033.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1110_BC7_01_46036.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1111_BC8_01_46037.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8066",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1112_BC9_01_46038.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8108",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1114_BC10_01_46039.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1115_BC11_01_46040.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1116_BC12_01_46041.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8481B",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1118_BD1_01_46044.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8522",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_1119_BD2_01_46045.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. 2_1_58FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_154_BD3_01_46046.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides sp. 31_2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_169_BE9_01_46070.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Coprobacillus sp. 8_2_54BFAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_176_BA7_01_46004.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Olsenella sp. F0356",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_198_BE8_01_46069.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parvimonas sp. F0139",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_207_BE12_01_46073.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. polymorphum F0401",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_260_BB10_01_46023.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. HGF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_287_BA3_01_45998.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Collinsella sp. 4_8_47FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_304_BA6_01_46001.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. 7_2_43FAA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_36_BA2_01_45997.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium TX0133a04",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_463_BB3_01_46014.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_6_BF3_01_46078.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. F0167",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_7_BD5_01_46048.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. animalis F0419",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_758_BB9_01_46022.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Clostridium sp. MSTE9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_764_BA5_01_46000.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. ICM7",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_768_BD6_01_46049.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Parabacteroides sp. D13",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_77_BE10_01_46071.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. BV3AC2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_825_BF2_01_46077.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM21",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_871_BB12_01_46025.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM22",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_874_BC1_01_46028.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecalis ERV103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_934_BA8_01_46005.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium 503",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_952_BA9_01_46006.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium 513",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_959_BA10_01_46007.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium E417",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_965_BA11_01_46008.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_968_BA12_01_46009.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV165",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_970_BB1_01_46012.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV99",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%202B/HM_975_BB2_01_46013.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella nigrescens CC14M",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_1053_GB3_01_46220.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Porphyromonas sp. W7784",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_1064_GA5_01_46206.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella bivia DNF00188",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_1088_GA7_01_46210.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK137",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_122_GF12_01_46298.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella timonensis CRIS 5C-B1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_136_GB9_01_46229.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella amnii CRIS 21A-A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_138_GA6_01_46207.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella sp. F0295",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_16_GB8_01_46228.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK182",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_253_GG1_01_46301.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0141",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_263_GA1_01_46202.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Selenomonas noxia F0398",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_270_GG4_01_46304.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella nigrescens F0103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_271_GB4_01_46222.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella buccae D17",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_45_GA9_01_46212.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella histicola F0411",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_471_GB1_01_46218.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL001PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_488_GB12_01_46232.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_489_GC1_01_46235.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_490_GC2_01_46236.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_491_GC3_01_46237.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_492_GC4_01_46238.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_493_GC5_01_46239.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_494_GC6_01_46240.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_495_GC7_01_46243.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL007PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_496_GC8_01_46244.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_497_GC9_01_46245.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_498_GC10_01_46246.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL020PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_499_GC11_01_46247.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella sp. F0108",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_5_GB7_01_46227.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_500_GC12_01_46248.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_501_GD1_01_46251.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_502_GD2_01_46252.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_503_GD3_01_46253.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_504_GD4_01_46254.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_505_GD5_01_46255.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_506_GD6_01_46256.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_507_GD7_01_46259.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_508_GD8_01_46260.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_509_GD9_01_46261.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_510_GD10_01_46262.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL038PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_512_GD11_01_46263.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_513_GD12_01_46264.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_514_GE1_01_46269.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL044PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_515_GE2_01_46270.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL045PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_516_GE3_01_46271.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL046PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_518_GE4_01_46272.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_519_GE5_01_46273.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_520_GE6_01_46274.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_521_GE7_01_46277.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_522_GE8_01_46278.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_523_GE9_01_46279.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL056PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_524_GE10_01_46280.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_525_GE11_01_46281.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_526_GE12_01_46282.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL060PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_527_GF1_01_46285.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_528_GF2_01_46286.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_529_GF3_01_46287.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL067PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_530_GF4_01_46288.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL072PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_531_GF5_01_46289.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL078PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_534_GF6_01_46290.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL082PA2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_536_GF7_01_46293.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL086PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_539_GF8_01_46294.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_552_GF9_01_46295.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_554_GF10_01_46296.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_555_GF11_01_46297.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Veillonella sp. 3_1_44",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_64_GG7_01_46307.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Peptostreptococcaceae sp. AS15",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_766_GA2_01_46203.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Propionibacterium acidifaciens F0233",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_8_GB11_01_46231.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella melaninogenica D18",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_80_GB2_01_46219.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella oralis HGA0225",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_849_GB5_01_46223.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Sutterella wadsworthensis HGA0223",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_852_GG5_01_46305.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella veroralis F0319",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_92_GB10_01_46230.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        },
+        {
+            "genome_label": "Prevotella oris F0302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084475/peak/mzXML%20files/FCM%20Plates/FCM%20Plate%203B/HM_93_GB6_01_46224.mzXML",
+            "sample_preparation_label": "FCM",
+            "extraction_method_label": "3:1 MeOH/H2O",
+            "instrumentation_method_label": "Maxis qToF"
+        }
+    ],
+    "genomes": [
+        {
+            "genome_label": "Bacteroides stercoris CC31F",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541046992",
+                "JGI_Genome_ID": "2541046992"
+            },
+            "BioSample_accession": "SAMN02596993"
+        },
+        {
+            "genome_label": "Bifidobacterium breve JCP7499",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047574",
+                "JGI_Genome_ID": "2541047574"
+            },
+            "BioSample_accession": "SAMN02436887"
+        },
+        {
+            "genome_label": "Clostridiales sp. F0540",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2600255234",
+                "JGI_Genome_ID": "2600255234"
+            },
+            "BioSample_accession": "SAMN02436756"
+        },
+        {
+            "genome_label": "Oribacterium sinus F0268",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "643886104",
+                "JGI_Genome_ID": "643886104"
+            },
+            "BioSample_accession": "SAMN00002241"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis UPII 315-A",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839498",
+                "JGI_Genome_ID": "2531839498"
+            },
+            "BioSample_accession": "SAMN00138210"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_22",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533111",
+                "JGI_Genome_ID": "647533111"
+            },
+            "BioSample_accession": "SAMN02463734"
+        },
+        {
+            "genome_label": "Bacteroides sp. D20",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533114",
+                "JGI_Genome_ID": "647533114"
+            },
+            "BioSample_accession": "SAMN02463737"
+        },
+        {
+            "genome_label": "Bacteroides fragilis 3_1_12",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "645058788",
+                "JGI_Genome_ID": "645058788"
+            },
+            "BioSample_accession": "SAMN02463689"
+        },
+        {
+            "genome_label": "Bacteroides eggerthii 1_2_48FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989912",
+                "JGI_Genome_ID": "649989912"
+            },
+            "BioSample_accession": "SAMN02463790"
+        },
+        {
+            "genome_label": "Bacteroides ovatus 3_8_47FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "651324012",
+                "JGI_Genome_ID": "651324012"
+            },
+            "BioSample_accession": "SAMN02463791"
+        },
+        {
+            "genome_label": "Bacteroides sp. 1_1_6",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646206272",
+                "JGI_Genome_ID": "646206272"
+            },
+            "BioSample_accession": "SAMN02463690"
+        },
+        {
+            "genome_label": "Actinomyces viscosus C505",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2562617184",
+                "JGI_Genome_ID": "2562617184"
+            },
+            "BioSample_accession": "SAMN02463750"
+        },
+        {
+            "genome_label": "Bacteroides sp. 4_1_36",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989914",
+                "JGI_Genome_ID": "649989914"
+            },
+            "BioSample_accession": "SAMN02463765"
+        },
+        {
+            "genome_label": "Bacteroides sp. 9_1_42FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646206263",
+                "JGI_Genome_ID": "646206263"
+            },
+            "BioSample_accession": "SAMN02463695"
+        },
+        {
+            "genome_label": "Bacteroides sp. D2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2562617173",
+                "JGI_Genome_ID": "2562617173"
+            },
+            "BioSample_accession": "SAMN02463697"
+        },
+        {
+            "genome_label": "Bacteroides dorei 5_1_36/D4",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646206258",
+                "JGI_Genome_ID": "646206258"
+            },
+            "BioSample_accession": "SAMN02463698"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. 12_1_47BFAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989916",
+                "JGI_Genome_ID": "649989916"
+            },
+            "BioSample_accession": "SAMN02463822"
+        },
+        {
+            "genome_label": "Clostridium orbiscindens 1_3_50AFAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2597489878",
+                "JGI_Genome_ID": "2597489878"
+            },
+            "BioSample_accession": "SAMN00103468"
+        },
+        {
+            "genome_label": "Clostridium symbiosum WAL-14673",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989923",
+                "JGI_Genome_ID": "649989923"
+            },
+            "BioSample_accession": "SAMN02463858"
+        },
+        {
+            "genome_label": "Treponema denticola ASLM",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529292987",
+                "JGI_Genome_ID": "2529292987"
+            },
+            "BioSample_accession": "SAMN02596717"
+        },
+        {
+            "genome_label": "Treponema denticola AL-2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529292986",
+                "JGI_Genome_ID": "2529292986"
+            },
+            "BioSample_accession": "SAMN02596716"
+        },
+        {
+            "genome_label": "Bacteroides sp. 2_1_16",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533110",
+                "JGI_Genome_ID": "647533110"
+            },
+            "BioSample_accession": "SAMN02463733"
+        },
+        {
+            "genome_label": "Bifidobacterium adolescentis L2-32",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "640963015",
+                "JGI_Genome_ID": "640963015"
+            },
+            "BioSample_accession": "SAMN00627056"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T00C01",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839305",
+                "JGI_Genome_ID": "2531839305"
+            },
+            "BioSample_accession": "SAMN02463925"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL07T12C05",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839306",
+                "JGI_Genome_ID": "2531839306"
+            },
+            "BioSample_accession": "SAMN02463926"
+        },
+        {
+            "genome_label": "Bacteroides fragilis CL03T12C07",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839304",
+                "JGI_Genome_ID": "2531839304"
+            },
+            "BioSample_accession": "SAMN02463922"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T00C15",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537562062",
+                "JGI_Genome_ID": "2537562062"
+            },
+            "BioSample_accession": "SAMN02463918"
+        },
+        {
+            "genome_label": "Bacteroides dorei CL02T12C06",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839307",
+                "JGI_Genome_ID": "2531839307"
+            },
+            "BioSample_accession": "SAMN02463919"
+        },
+        {
+            "genome_label": "Bacteroides vulgatus CL09T03C04",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561756",
+                "JGI_Genome_ID": "2537561756"
+            },
+            "BioSample_accession": "SAMN02463934"
+        },
+        {
+            "genome_label": "Bacteroides salyersiae CL02T12C01",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561665"
+            },
+            "BioSample_accession": "SAMN02463930"
+        },
+        {
+            "genome_label": "Bacteroides cellulosilyticus CL02T12C19",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839301",
+                "JGI_Genome_ID": "2531839301"
+            },
+            "BioSample_accession": "SAMN02463917"
+        },
+        {
+            "genome_label": "Bacteroides finegoldii CL09T03C10",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2547132079",
+                "JGI_Genome_ID": "2547132079"
+            },
+            "BioSample_accession": "SAMN02463931"
+        },
+        {
+            "genome_label": "Bacteroides caccae CL03T12C61",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839303",
+                "JGI_Genome_ID": "2531839303"
+            },
+            "BioSample_accession": "SAMN02463916"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL09T00C40",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2534681605",
+                "JGI_Genome_ID": "2534681605"
+            },
+            "BioSample_accession": "SAMN02463942"
+        },
+        {
+            "genome_label": "Parabacteroides merdae CL03T12C32",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529293058",
+                "JGI_Genome_ID": "2529293058"
+            },
+            "BioSample_accession": "SAMN02463941"
+        },
+        {
+            "genome_label": "Parabacteroides johnsonii CL02T12C29",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2534682202",
+                "JGI_Genome_ID": "2534682202"
+            },
+            "BioSample_accession": "SAMN02463940"
+        },
+        {
+            "genome_label": "Clostridiales sp. OBRC5-5",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561948",
+                "JGI_Genome_ID": "2537561948"
+            },
+            "BioSample_accession": "SAMN02463955"
+        },
+        {
+            "genome_label": "Acidaminococcus sp. D21",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "643886056",
+                "JGI_Genome_ID": "643886056"
+            },
+            "BioSample_accession": "SAMN02595304"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 44B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529293221",
+                "JGI_Genome_ID": "2529293221"
+            },
+            "BioSample_accession": "SAMN00829148"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 35B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529293225",
+                "JGI_Genome_ID": "2529293225"
+            },
+            "BioSample_accession": "SAMN00829158"
+        },
+        {
+            "genome_label": "Bifidobacterium longum subsp. longum 2-2B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839495",
+                "JGI_Genome_ID": "2531839495"
+            },
+            "BioSample_accession": "SAMN00829155"
+        },
+        {
+            "genome_label": "Bifidobacterium breve HPH0326",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047014",
+                "JGI_Genome_ID": "2541047014"
+            },
+            "BioSample_accession": "SAMN02596976"
+        },
+        {
+            "genome_label": "Bifidobacterium sp. MSTE12",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2558860922",
+                "JGI_Genome_ID": "2558860922"
+            },
+            "BioSample_accession": "SAMN02597441"
+        },
+        {
+            "genome_label": "Clostridium sp. KLE 1755",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2600255042",
+                "JGI_Genome_ID": "2600255042"
+            },
+            "BioSample_accession": "SAMN02436820"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7275",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047559",
+                "JGI_Genome_ID": "2541047559"
+            },
+            "BioSample_accession": "SAMN02436832"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7276",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047560",
+                "JGI_Genome_ID": "2541047560"
+            },
+            "BioSample_accession": "SAMN02436904"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7659",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047561",
+                "JGI_Genome_ID": "2541047561"
+            },
+            "BioSample_accession": "SAMN02436712"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7672",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047562",
+                "JGI_Genome_ID": "2541047562"
+            },
+            "BioSample_accession": "SAMN02436831"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP7719",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047563",
+                "JGI_Genome_ID": "2541047563"
+            },
+            "BioSample_accession": "SAMN02436711"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017A",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047564",
+                "JGI_Genome_ID": "2541047564"
+            },
+            "BioSample_accession": "SAMN02436912"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8017B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047565",
+                "JGI_Genome_ID": "2541047565"
+            },
+            "BioSample_accession": "SAMN02436773"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8066",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047566",
+                "JGI_Genome_ID": "2541047566"
+            },
+            "BioSample_accession": "SAMN02436710"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8108",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047568",
+                "JGI_Genome_ID": "2541047568"
+            },
+            "BioSample_accession": "SAMN02436830"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151A",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047569",
+                "JGI_Genome_ID": "2541047569"
+            },
+            "BioSample_accession": "SAMN02436772"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8151B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047570",
+                "JGI_Genome_ID": "2541047570"
+            },
+            "BioSample_accession": "SAMN02436771"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8481B",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047572",
+                "JGI_Genome_ID": "2541047572"
+            },
+            "BioSample_accession": "SAMN02436829"
+        },
+        {
+            "genome_label": "Gardnerella vaginalis JCP8522",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047573",
+                "JGI_Genome_ID": "2541047573"
+            },
+            "BioSample_accession": "SAMN02436909"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. 2_1_58FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "651324049",
+                "JGI_Genome_ID": "651324049"
+            },
+            "BioSample_accession": "SAMN02463773"
+        },
+        {
+            "genome_label": "Parabacteroides sp. 31_2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2588253729",
+                "JGI_Genome_ID": "2588253729"
+            },
+            "BioSample_accession": "SAMN00103275"
+        },
+        {
+            "genome_label": "Coprobacillus sp. 8_2_54BFAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2513237364",
+                "JGI_Genome_ID": "2513237364"
+            },
+            "BioSample_accession": "SAMN02463766"
+        },
+        {
+            "genome_label": "Olsenella sp. F0356",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2513237359",
+                "JGI_Genome_ID": "2513237359"
+            },
+            "BioSample_accession": "SAMN02463784"
+        },
+        {
+            "genome_label": "Parvimonas sp. F0139",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "651324085",
+                "JGI_Genome_ID": "651324085"
+            },
+            "BioSample_accession": "SAMN00031761"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. polymorphum F0401",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839191",
+                "JGI_Genome_ID": "2531839191"
+            },
+            "BioSample_accession": "SAMN02463835"
+        },
+        {
+            "genome_label": "Clostridium sp. HGF2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989921",
+                "JGI_Genome_ID": "649989921"
+            },
+            "BioSample_accession": "SAMN00116782"
+        },
+        {
+            "genome_label": "Collinsella sp. 4_8_47FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2597489879",
+                "JGI_Genome_ID": "2597489879"
+            },
+            "BioSample_accession": "SAMN00103554"
+        },
+        {
+            "genome_label": "Clostridium sp. 7_2_43FAA",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646206260",
+                "JGI_Genome_ID": "646206260"
+            },
+            "BioSample_accession": "SAMN02463700"
+        },
+        {
+            "genome_label": "Enterococcus faecium TX0133a04",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "649989942",
+                "JGI_Genome_ID": "649989942"
+            },
+            "BioSample_accession": "SAMN00189137"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0131",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "648861011",
+                "JGI_Genome_ID": "648861011"
+            },
+            "BioSample_accession": "SAMN02463827"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. F0167",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "651324056",
+                "JGI_Genome_ID": "651324056"
+            },
+            "BioSample_accession": "SAMN02595376"
+        },
+        {
+            "genome_label": "Fusobacterium nucleatum subsp. animalis F0419",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561939",
+                "JGI_Genome_ID": "2537561939"
+            },
+            "BioSample_accession": "SAMN02596922"
+        },
+        {
+            "genome_label": "Clostridium sp. MSTE9",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2524023211",
+                "JGI_Genome_ID": "2524023211"
+            },
+            "BioSample_accession": "SAMN00828787"
+        },
+        {
+            "genome_label": "Lachnospiraceae sp. ICM7",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561881",
+                "JGI_Genome_ID": "2537561881"
+            },
+            "BioSample_accession": "SAMN00828783"
+        },
+        {
+            "genome_label": "Parabacteroides sp. D13",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646206279",
+                "JGI_Genome_ID": "646206279"
+            },
+            "BioSample_accession": "SAMN02463739"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. BV3AC2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2558860390",
+                "JGI_Genome_ID": "2558860390"
+            },
+            "BioSample_accession": "SAMN02436401"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM21",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2558860924",
+                "JGI_Genome_ID": "2558860924"
+            },
+            "BioSample_accession": "SAMN02597442"
+        },
+        {
+            "genome_label": "Fusobacterium sp. CM22",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2558860926",
+                "JGI_Genome_ID": "2558860926"
+            },
+            "BioSample_accession": "SAMN02641566"
+        },
+        {
+            "genome_label": "Enterococcus faecalis ERV103",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2519103116",
+                "JGI_Genome_ID": "2519103116"
+            },
+            "BioSample_accession": "SAMN02299461"
+        },
+        {
+            "genome_label": "Enterococcus faecium 503",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839107",
+                "JGI_Genome_ID": "2531839107"
+            },
+            "BioSample_accession": "SAMN02299479"
+        },
+        {
+            "genome_label": "Enterococcus faecium 513",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839114",
+                "JGI_Genome_ID": "2531839114"
+            },
+            "BioSample_accession": "SAMN02299486"
+        },
+        {
+            "genome_label": "Enterococcus faecium E417",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2519103067",
+                "JGI_Genome_ID": "2519103067"
+            },
+            "BioSample_accession": "SAMN02299492"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV102",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2519103070",
+                "JGI_Genome_ID": "2519103070"
+            },
+            "BioSample_accession": "SAMN02299495"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV165",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529293274",
+                "JGI_Genome_ID": "2529293274"
+            },
+            "BioSample_accession": "SAMN02299497"
+        },
+        {
+            "genome_label": "Enterococcus faecium ERV99",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529293277",
+                "JGI_Genome_ID": "2529293277"
+            },
+            "BioSample_accession": "SAMN02299502"
+        },
+        {
+            "genome_label": "Prevotella nigrescens CC14M",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2563366765",
+                "JGI_Genome_ID": "2563366765"
+            },
+            "BioSample_accession": "SAMN01162077"
+        },
+        {
+            "genome_label": "Porphyromonas sp. W7784",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2600255048",
+                "JGI_Genome_ID": "2600255048"
+            },
+            "BioSample_accession": "SAMN02436880"
+        },
+        {
+            "genome_label": "Prevotella bivia DNF00188",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2600255118",
+                "JGI_Genome_ID": "2600255118"
+            },
+            "BioSample_accession": "SAMN02850947"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK137",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "646564561",
+                "JGI_Genome_ID": "646564561"
+            },
+            "BioSample_accession": "SAMN00000718"
+        },
+        {
+            "genome_label": "Prevotella timonensis CRIS 5C-B1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647000295",
+                "JGI_Genome_ID": "647000295"
+            },
+            "BioSample_accession": "SAMN00003362"
+        },
+        {
+            "genome_label": "Prevotella amnii CRIS 21A-A",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "648276713",
+                "JGI_Genome_ID": "648276713"
+            },
+            "BioSample_accession": "SAMN00003364"
+        },
+        {
+            "genome_label": "Prevotella sp. F0295",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647000294",
+                "JGI_Genome_ID": "647000294"
+            },
+            "BioSample_accession": "SAMN00216890"
+        },
+        {
+            "genome_label": "Propionibacterium acnes SK182",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537562124",
+                "JGI_Genome_ID": "2537562124"
+            },
+            "BioSample_accession": "SAMN00015391"
+        },
+        {
+            "genome_label": "Peptoniphilus sp. F0141",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "648276711",
+                "JGI_Genome_ID": "648276711"
+            },
+            "BioSample_accession": "SAMN00031762"
+        },
+        {
+            "genome_label": "Selenomonas noxia F0398",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537562180",
+                "JGI_Genome_ID": "2537562180"
+            },
+            "BioSample_accession": "SAMN02463846"
+        },
+        {
+            "genome_label": "Prevotella nigrescens F0103",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561577",
+                "JGI_Genome_ID": "2537561577"
+            },
+            "BioSample_accession": "SAMN02595377"
+        },
+        {
+            "genome_label": "Prevotella buccae D17",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533195",
+                "JGI_Genome_ID": "647533195"
+            },
+            "BioSample_accession": "SAMN02463748"
+        },
+        {
+            "genome_label": "Prevotella histicola F0411",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2513237391",
+                "JGI_Genome_ID": "2513237391"
+            },
+            "BioSample_accession": "SAMN02463875"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL001PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839424",
+                "JGI_Genome_ID": "2531839424"
+            },
+            "BioSample_accession": "SAMN00189190"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561818",
+                "JGI_Genome_ID": "2537561818"
+            },
+            "BioSample_accession": "SAMN00189191"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529292840",
+                "JGI_Genome_ID": "2529292840"
+            },
+            "BioSample_accession": "SAMN00189192"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL002PA3",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561816",
+                "JGI_Genome_ID": "2537561816"
+            },
+            "BioSample_accession": "SAMN00189193"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561674",
+                "JGI_Genome_ID": "2537561674"
+            },
+            "BioSample_accession": "SAMN00189194"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561673",
+                "JGI_Genome_ID": "2537561673"
+            },
+            "BioSample_accession": "SAMN00189195"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA3",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561682",
+                "JGI_Genome_ID": "2537561682"
+            },
+            "BioSample_accession": "SAMN00189196"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL005PA4",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561681",
+                "JGI_Genome_ID": "2537561681"
+            },
+            "BioSample_accession": "SAMN00189197"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL007PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561815",
+                "JGI_Genome_ID": "2537561815"
+            },
+            "BioSample_accession": "SAMN00189198"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839223",
+                "JGI_Genome_ID": "2531839223"
+            },
+            "BioSample_accession": "SAMN00189199"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL013PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561582",
+                "JGI_Genome_ID": "2537561582"
+            },
+            "BioSample_accession": "SAMN00189200"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL020PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839225",
+                "JGI_Genome_ID": "2531839225"
+            },
+            "BioSample_accession": "SAMN00189201"
+        },
+        {
+            "genome_label": "Prevotella sp. F0108",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533198",
+                "JGI_Genome_ID": "647533198"
+            },
+            "BioSample_accession": "SAMN02595329"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839324",
+                "JGI_Genome_ID": "2531839324"
+            },
+            "BioSample_accession": "SAMN00189202"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL025PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561676",
+                "JGI_Genome_ID": "2537561676"
+            },
+            "BioSample_accession": "SAMN00189203"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561821",
+                "JGI_Genome_ID": "2537561821"
+            },
+            "BioSample_accession": "SAMN00189204"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL027PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561820",
+                "JGI_Genome_ID": "2537561820"
+            },
+            "BioSample_accession": "SAMN00189205"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839430",
+                "JGI_Genome_ID": "2531839430"
+            },
+            "BioSample_accession": "SAMN00189206"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL030PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839423",
+                "JGI_Genome_ID": "2531839423"
+            },
+            "BioSample_accession": "SAMN00189207"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839425",
+                "JGI_Genome_ID": "2531839425"
+            },
+            "BioSample_accession": "SAMN00189208"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839426",
+                "JGI_Genome_ID": "2531839426"
+            },
+            "BioSample_accession": "SAMN00189209"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL036PA3",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839421",
+                "JGI_Genome_ID": "2531839421"
+            },
+            "BioSample_accession": "SAMN00189210"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2534681798",
+                "JGI_Genome_ID": "2534681798"
+            },
+            "BioSample_accession": "SAMN00189211"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL037PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2534681797",
+                "JGI_Genome_ID": "2534681797"
+            },
+            "BioSample_accession": "SAMN00189212"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL038PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839320",
+                "JGI_Genome_ID": "2531839320"
+            },
+            "BioSample_accession": "SAMN00189214"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561581",
+                "JGI_Genome_ID": "2537561581"
+            },
+            "BioSample_accession": "SAMN00189215"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL043PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561580",
+                "JGI_Genome_ID": "2537561580"
+            },
+            "BioSample_accession": "SAMN00189216"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL044PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839422",
+                "JGI_Genome_ID": "2531839422"
+            },
+            "BioSample_accession": "SAMN00189218"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL045PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839222",
+                "JGI_Genome_ID": "2531839222"
+            },
+            "BioSample_accession": "SAMN00189219"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL046PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561671",
+                "JGI_Genome_ID": "2537561671"
+            },
+            "BioSample_accession": "SAMN00189221"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839427",
+                "JGI_Genome_ID": "2531839427"
+            },
+            "BioSample_accession": "SAMN00189222"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839428",
+                "JGI_Genome_ID": "2531839428"
+            },
+            "BioSample_accession": "SAMN00189223"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL050PA3",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839429",
+                "JGI_Genome_ID": "2531839429"
+            },
+            "BioSample_accession": "SAMN00189225"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561817",
+                "JGI_Genome_ID": "2537561817"
+            },
+            "BioSample_accession": "SAMN00189224"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL053PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839226",
+                "JGI_Genome_ID": "2531839226"
+            },
+            "BioSample_accession": "SAMN00189226"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL056PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561743",
+                "JGI_Genome_ID": "2537561743"
+            },
+            "BioSample_accession": "SAMN00189227"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561675",
+                "JGI_Genome_ID": "2537561675"
+            },
+            "BioSample_accession": "SAMN00189228"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL059PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561678",
+                "JGI_Genome_ID": "2537561678"
+            },
+            "BioSample_accession": "SAMN00189229"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL060PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839319",
+                "JGI_Genome_ID": "2531839319"
+            },
+            "BioSample_accession": "SAMN00189230"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561819",
+                "JGI_Genome_ID": "2537561819"
+            },
+            "BioSample_accession": "SAMN00189231"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL063PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529292847",
+                "JGI_Genome_ID": "2529292847"
+            },
+            "BioSample_accession": "SAMN00189232"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL067PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561822",
+                "JGI_Genome_ID": "2537561822"
+            },
+            "BioSample_accession": "SAMN00189233"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL072PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561586",
+                "JGI_Genome_ID": "2537561586"
+            },
+            "BioSample_accession": "SAMN00189234"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL078PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2534682005",
+                "JGI_Genome_ID": "2534682005"
+            },
+            "BioSample_accession": "SAMN00189237"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL082PA2",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2529292952",
+                "JGI_Genome_ID": "2529292952"
+            },
+            "BioSample_accession": "SAMN00189239"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL086PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561677",
+                "JGI_Genome_ID": "2537561677"
+            },
+            "BioSample_accession": "SAMN00189242"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA1",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561583",
+                "JGI_Genome_ID": "2537561583"
+            },
+            "BioSample_accession": "SAMN00189247"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA3",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561578",
+                "JGI_Genome_ID": "2537561578"
+            },
+            "BioSample_accession": "SAMN00189249"
+        },
+        {
+            "genome_label": "Propionibacterium acnes HL110PA4",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2531839315",
+                "JGI_Genome_ID": "2531839315"
+            },
+            "BioSample_accession": "SAMN00189250"
+        },
+        {
+            "genome_label": "Veillonella sp. 3_1_44",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533241",
+                "JGI_Genome_ID": "647533241"
+            },
+            "BioSample_accession": "SAMN02463830"
+        },
+        {
+            "genome_label": "Peptostreptococcaceae sp. AS15",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2537561888",
+                "JGI_Genome_ID": "2537561888"
+            },
+            "BioSample_accession": "SAMN00828784"
+        },
+        {
+            "genome_label": "Propionibacterium acidifaciens F0233",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "645058700",
+                "JGI_Genome_ID": "645058700"
+            },
+            "BioSample_accession": "SAMN02436184"
+        },
+        {
+            "genome_label": "Prevotella melaninogenica D18",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "647533196",
+                "JGI_Genome_ID": "647533196"
+            },
+            "BioSample_accession": "SAMN02463806"
+        },
+        {
+            "genome_label": "Prevotella oralis HGA0225",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047008",
+                "JGI_Genome_ID": "2541047008"
+            },
+            "BioSample_accession": "SAMN02596991"
+        },
+        {
+            "genome_label": "Sutterella wadsworthensis HGA0223",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "2541047009",
+                "JGI_Genome_ID": "2541047009"
+            },
+            "BioSample_accession": "SAMN02596980"
+        },
+        {
+            "genome_label": "Prevotella veroralis F0319",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "645951836",
+                "JGI_Genome_ID": "645951836"
+            },
+            "BioSample_accession": "SAMN00008850"
+        },
+        {
+            "genome_label": "Prevotella oris F0302",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_IMG_genome_ID": "645951806",
+                "JGI_Genome_ID": "645951806"
+            },
+            "BioSample_accession": "SAMN00008848"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "version": "2",
+    "personal": {
+        "PI_name": "Tim S Bugni",
+        "PI_email": "tim.bugni@wisc.edu",
+        "submitter_orcid": "https://orcid.org/0000-0002-3021-2210",
+        "submitter_email": "schanana@wisc.edu",
+        "submitter_name": "Shaurya Chanana",
+        "PI_institution": "University of Wisconsin-Madison",
+        "submitter_name_secondary": "Fan Zhang",
+        "submitter_email_secondary": "fzhang83@wisc.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085027",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=bb31180fed2540f89e0177f653980a1b"
+        },
+        "publications": "22519562,28708379,24351907"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 360
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "solid_agar_streptomyces_growth"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "solid_agar_streptomyces_extraction"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-1500",
+                "collision_energy": "33",
+                "instrumentation_method": "lcms-profiling-solid-agar"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_CP044407"
+            },
+            "genome_label": "wmmb499"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "wmmb499",
+            "sample_preparation_label": "solid_agar_streptomyces_growth",
+            "extraction_method_label": "solid_agar_streptomyces_extraction",
+            "instrumentation_method_label": "lcms-profiling-solid-agar",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085027/peak/B499_MSMS_1-A,2_01_17362.mzML"
+        }
+    ]
+}

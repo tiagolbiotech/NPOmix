@@ -1,0 +1,151 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Tristan de Rond",
+        "submitter_orcid": "https://orcid.org/0000-0002-5203-4662",
+        "submitter_email": "tristan.de.rond@berkeley.edu",
+        "PI_institution": "University of California",
+        "PI_name": "Bradley Moore",
+        "PI_email": "bsmoore@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085003",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/status.jsp?task=5677ef09e418437da1bb0becf6fab70a",
+            "molecular_network": "32a59c5ddd5e409fae924ea08c8f4bef"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "Marine Agar",
+                "other_growth_conditions": "Cells were grown as a lawn on Marine Agar 2216.\nAfter 2 days of growth, a roughly equivalent amount of biomass was harvested from the plates."
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "Cells were grown as a lawn on Marine Agar 2216 with a 5uL drop of 30 mg/mL chloramphenicol in the middle of the plate.\nAfter 2 days of growth, biomass adjacent to the zone of inhibition was harvested.",
+                "sample_preparation_method": "Marine Agar with a drop of chloramphenicol"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "The cells were frozen, lyophilized, and extracted with 1 mL ethyl acetate for 1 hour. The mixtures were filtered through cotton, evaporated, and re-suspended in 200 uL 50:50 acetonitrile/water, filtered through a 0.2 µm filter and analyzed ",
+                "extraction_method": "lyophilized organic extraction"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Q-TOF"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-1700",
+                "collision_energy": "20",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "Agilent 1290 infinity liquid chromatography system with a diode array detector and Agilent 6530 Q-TOF mass spectrometer with a Dual Spray Electrospray Ionization source. Chromatography conditions were as follows: Poroshell 120 Phenyl-Hexyl column (100 × 4.6 mm, 2.7 µm particle size). Mobile phase: A: 0.1 % formic acid in water, B: 0.1 % formic acid in acetonitrile. Gradient: 40% B for 2 minutes, ramp to 100% B in 10 minutes, 100% B for 4 minutes, ramp to 40% B in 0.5 minutes, 40% B for 4.5 minutes. Flow rate: 0.5 mL/min. Source parameters: Drying gas: 11 liters per minute, 300 °C; Nebulizer: 35 psig; Capillary: 3000 V; Fragmentor: 100 V; Skimmer: 65 V; OCT 1 RF Vpp: 750. Tandem MS (Collision Induced Dissociation) parameters: Isolation width: Narrow; Collision energy: 20 V.",
+                "instrumentation_method": "LCMS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_AHCD00000000.2"
+            },
+            "BioSample_accession": "SAMN02470921",
+            "publications": "22374963",
+            "genome_label": "Pseudoalteromonas rubra"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_NBOC00000000.1"
+            },
+            "BioSample_accession": "SAMN06626651",
+            "genome_label": "Colwellia chukchiensis",
+            "publications": "29371370"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Pseudoalteromonas rubra",
+            "sample_preparation_label": "Marine Agar",
+            "extraction_method_label": "lyophilized organic extraction",
+            "instrumentation_method_label": "LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085003/updates/2020-02-23_tderond_43f8379d/peak/Prubra-MA-EtOAc-ACNH2O.mzXML"
+        },
+        {
+            "instrumentation_method_label": "LCMS",
+            "extraction_method_label": "lyophilized organic extraction",
+            "sample_preparation_label": "Marine Agar with a drop of chloramphenicol",
+            "genome_label": "Pseudoalteromonas rubra",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085003/updates/2020-02-23_tderond_43f8379d/peak/Prubra-MAchlor-EtOAc-ACNH2O.mzXML"
+        },
+        {
+            "instrumentation_method_label": "LCMS",
+            "extraction_method_label": "lyophilized organic extraction",
+            "sample_preparation_label": "Marine Agar",
+            "genome_label": "Colwellia chukchiensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085003/updates/2020-02-23_tderond_43f8379d/peak/Colwellia-MA-EtOAc-ACNH2O.mzXML"
+        },
+        {
+            "instrumentation_method_label": "LCMS",
+            "extraction_method_label": "lyophilized organic extraction",
+            "sample_preparation_label": "Marine Agar with a drop of chloramphenicol",
+            "genome_label": "Colwellia chukchiensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085003/updates/2020-02-23_tderond_43f8379d/peak/Colwellia-MAchlor-EtOAc-ACNH2O.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Pseudoalteromonas rubra produces prodiginines (prodigiosin, cycloprodigiosin, norprodigiosin, and alkyl chain length congeners thereof). The genes involved in their biosynthesis were identified through knock-outs and heterologous expression (PMID 28892091). Most of the genes are in a single BGC on contig 44, but two of the genes (specifically for cycloprodigiosin biosynthesis) are elsewhere on the genome, in contig 4\n",
+            "SMILES": "CCCCCC1=C/C(N=C1C)=C/C2=C(OC)C=C(C3=CC=CN3)N2",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "IUPAC": "(Z)-4-methoxy-5-((5-methyl-4-pentyl-2H-pyrrol-2-ylidene)methyl)-1H,1'H-2,2'-bipyrrole",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=4&show=true&task=32a59c5ddd5e409fae924ea08c8f4bef",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "NZ_AHCD02000044.1",
+                "coordinates": "95773-75141",
+                "similar_MIBiG_number": "BGC0000259"
+            }
+        }
+    ]
+}

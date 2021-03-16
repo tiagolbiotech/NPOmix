@@ -1,0 +1,495 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Nicholas Tobias",
+        "submitter_orcid": "https://orcid.org/0000-0003-2725-3043",
+        "submitter_email": "tobias@bio.uni-frankfurt.de",
+        "submitter_name_secondary": "Helge Bode",
+        "submitter_email_secondary": "h.bode@bio.uni-frankfurt.de",
+        "PI_name": "Helge Bode",
+        "PI_institution": "Goethe University",
+        "PI_email": "h.bode@bio.uni-frankfurt.de"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000081063",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=dcc30b777c344d668a5626d01f26c9a0&view=advanced_view",
+            "molecular_network": "aaff4721951b4d92b54ecbd2fe4b9b4f"
+        },
+        "publications": "28993611"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 10
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72,
+                    "growth_phase_OD": "Stationary"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "other_growth_conditions": "XAD-16 adsorbent resin was used in cultures",
+                "sample_preparation_method": "30deg_XAD"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "resins": "XAD-16",
+                "extraction_method": "MeOH_XAD"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "buffering": "0.1% formic acid",
+                "range": "100-2000",
+                "instrumentation_method": "Impact_II_mol_networking"
+            }
+        ]
+    },
+    "BGC_MS2_links": [],
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LOIC00000000"
+            },
+            "publications": "28993611,28032540",
+            "genome_label": "Photorhabdus luminescens subsp. namnaoensis PB45.5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LOMY00000000"
+            },
+            "genome_label": "Photorhabdus asymbiotica subsp. Australis PB68.1",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NC_005126"
+            },
+            "genome_label": "Photorhabdus laumondii TTO1",
+            "publications": "14528314"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NC_012962"
+            },
+            "genome_label": "Photorhabdus asymbiotica",
+            "publications": "19583835"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_CP011104"
+            },
+            "publications": "15053319",
+            "genome_label": "Photorhabdus thracensis DSM 15199"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJCW00000000"
+            },
+            "genome_label": "Xenorhabdus sp. KJ12.1",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "MKGR00000000"
+            },
+            "genome_label": "Xenorhabdus thuongxuanensis",
+            "publications": "28993611,28056225"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NKHR00000000"
+            },
+            "genome_label": "Xenorhabdus sp. PB62.4",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJAH00000000"
+            },
+            "genome_label": "Xenorhabdus sp. KK7.4",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "MKGQ00000000"
+            },
+            "genome_label": "Xenorhabdus eapokensis",
+            "publications": "28993611,28056225"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NKHQ00000000"
+            },
+            "genome_label": "Xenorhabdus sp. TS4",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "MUBK00000000"
+            },
+            "genome_label": "Xenorhabdus bedingii DSM4764",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "FN667741"
+            },
+            "genome_label": "Xenorhabdus bovienii SS-2004",
+            "publications": "22125637"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NIBS00000000"
+            },
+            "genome_label": "Xenorhabdus budapestensis DSM 16342",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJGH00000000"
+            },
+            "genome_label": "Xenorhabdus cabanillasii JSM26",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "FO704550"
+            },
+            "genome_label": "Xenorhabdus doucetiae FRM"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NIBT00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus ehlersii DSM16337"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJAI00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus hominickii DSM17903"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NKHP00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus indica DSM 17382"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NIBU00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus innexii DSM 16336"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJCX00000000"
+            },
+            "genome_label": "Xenorhabdus kozodoii DSM 17907",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NITY00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus mauleonii DSM 17908"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NITZ00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus mirianensis DSM17902"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NJAJ00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus stockiae DSM 17904"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "FN667742"
+            },
+            "genome_label": "Xenorhabdus nematophila ATCC 19061",
+            "publications": "22125637"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "FO704551"
+            },
+            "genome_label": "Xenorhabdus poinarii G6"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NIBV00000000"
+            },
+            "genome_label": "Xenorhabdus szentirmaii DSM 16338",
+            "publications": "28993611"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "MUBJ00000000"
+            },
+            "publications": "28993611",
+            "genome_label": "Xenorhabdus vietnamensis DSM 22392"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Photorhabdus luminescens subsp. namnaoensis PB45.5",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/P455_1787.mzXML"
+        },
+        {
+            "genome_label": "Photorhabdus asymbiotica subsp. Australis PB68.1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/P681_1805.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Photorhabdus laumondii TTO1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/PTT_1793.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD"
+        },
+        {
+            "genome_label": "Photorhabdus asymbiotica",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Pas_1871.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD"
+        },
+        {
+            "genome_label": "Photorhabdus thracensis DSM 15199",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Pte_1865.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus sp. KJ12.1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/X121_1877.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus thuongxuanensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/X30_1907.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus sp. PB62.4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/X624_1847.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus sp. KK7.4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/X74_1901.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus eapokensis",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/XDL_1823.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus sp. TS4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/XTS_1769.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus bedingii DSM4764",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xbe_1829.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus bovienii SS-2004",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xbo_1835.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus budapestensis DSM 16342",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xbu_1853.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus cabanillasii JSM26",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xca_1799.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus doucetiae FRM",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xdo_1883.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus ehlersii DSM16337",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xeh_1775.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus hominickii DSM17903",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xho_1751.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus indica DSM 17382",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xind_1841.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus innexii DSM 16336",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xinn_1889.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus kozodoii DSM 17907",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xko_1757.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus mauleonii DSM 17908",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xma_1811.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus mirianensis DSM17902",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xmi_1817.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus nematophila ATCC 19061",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xne_1859.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus poinarii G6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xpo_1763.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus stockiae DSM 17904",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xst_1895.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        },
+        {
+            "genome_label": "Xenorhabdus szentirmaii DSM 16338",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xsz_1745.mzXML",
+            "sample_preparation_label": "30deg_XAD",
+            "extraction_method_label": "MeOH_XAD",
+            "instrumentation_method_label": "Impact_II_mol_networking"
+        },
+        {
+            "genome_label": "Xenorhabdus vietnamensis DSM 22392",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081063/peak/XenoPhoto_Screen/Xvie_1913.mzXML",
+            "instrumentation_method_label": "Impact_II_mol_networking",
+            "extraction_method_label": "MeOH_XAD",
+            "sample_preparation_label": "30deg_XAD"
+        }
+    ]
+}

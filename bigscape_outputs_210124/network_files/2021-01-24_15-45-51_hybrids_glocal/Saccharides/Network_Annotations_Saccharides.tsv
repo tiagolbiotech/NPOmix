@@ -1,0 +1,81 @@
+BGC	Accesion ID	Description	Product Prediction	BiG-SCAPE class	Organism	Taxonomy
+ABYX02000001.1.region019	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	oligosaccharide.T1PKS	Others		
+AUKR01000035.1.region001	AUKR01000035.1	AUKR01000035.1 Streptomyces sp. TAA040 H300DRAFT_scaffold00033.33_C, whole genome shotgun sequence	oligosaccharide	Saccharides		
+BGC0000002.1	BGC0000002.1	Aculeximycin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Kutzneria albida DSM 43870	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Kutzneria
+BGC0000026.1	BGC0000026.1	Avilamycin A biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces viridochromogenes Tue57	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000033.1	BGC0000033.1	Calicheamicin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Micromonospora echinospora	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000078.1	BGC0000078.1	Incednine biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces sp. ML694-90F3	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000082.1	BGC0000082.1	Kijanimicin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Actinomadura kijaniata	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptosporangineae,Thermomonosporaceae,Actinomadura
+BGC0000199.1	BGC0000199.1	Arimetamycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	uncultured bacterium	Bacteria,environmental samples
+BGC0000210.1	BGC0000210.1	Chromomycin A3 biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces griseus subsp. griseus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000229.1	BGC0000229.1	Grincamycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces lusitanus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000239.1	BGC0000239.1	Landomycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces cyanogenus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000247.1	BGC0000247.1	Mithramycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces argillaceus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000262.1	BGC0000262.1	Rabelomycin biosynthetic gene cluster	t2pks.oligosaccharide.butyrolactone	Others	Streptomyces sp. PGA64	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000267.1	BGC0000267.1	Saquayamycin Z / galtamycin B biosynthetic gene cluster	t2pks.oligosaccharide	Others	Micromonospora sp. Tu 6368	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000268.1	BGC0000268.1	Sch47554 / Sch47555 biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. SCC 2136	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000276.1	BGC0000276.1	Urdamycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces fradiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000277.1	BGC0000277.1	Urdamycin biosynthetic gene cluster	oligosaccharide	Saccharides	Streptomyces fradiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000283.1	BGC0000283.1	Cetoniacytone A biosynthetic gene cluster	amglyccycl	Saccharides	Actinomyces sp. Lu 9419	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Actinomycineae,Actinomycetaceae,Actinomyces
+BGC0000689.1	BGC0000689.1	2-deoxystreptamine biosynthetic gene cluster	amglyccycl	Saccharides	Micromonospora echinospora	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000690.1	BGC0000690.1	5'-hydroxystreptomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces glaucescens	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000691.1	BGC0000691.1	Acarbose biosynthetic gene cluster	amglyccycl	Saccharides	Actinoplanes sp. SE50/110	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Actinoplanes
+BGC0000692.1	BGC0000692.1	Apramycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptoalloteichus hindustanus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0000693.1	BGC0000693.1	Butirosin biosynthetic gene cluster	amglyccycl	Saccharides	Bacillus circulans	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0000694.1	BGC0000694.1	Butirosin biosynthetic gene cluster	amglyccycl	Saccharides	Bacillus circulans	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0000696.1	BGC0000696.1	Gentamicin biosynthetic gene cluster	amglyccycl.lantipeptide	Others	Micromonospora echinospora	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000697.1	BGC0000697.1	Gentamicin biosynthetic gene cluster	amglyccycl	Saccharides	Micromonospora echinospora	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000699.1	BGC0000699.1	Hygromycin B biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces hygroscopicus subsp. hygroscopicus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000700.1	BGC0000700.1	Istamycin biosynthetic gene cluster	amglyccycl.melanin	Others	Streptomyces tenjimariensis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000701.1	BGC0000701.1	Jinggangmycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces hygroscopicus subsp. yingchengensis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000702.1	BGC0000702.1	Kanamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces kanamyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000704.1	BGC0000704.1	Kanamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces kanamyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000705.1	BGC0000705.1	Kanamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces kanamyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000708.1	BGC0000708.1	Lividomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces lividus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000709.1	BGC0000709.1	Neomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces fradiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000710.1	BGC0000710.1	Neomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces fradiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000711.1	BGC0000711.1	Neomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces fradiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000712.1	BGC0000712.1	Paromomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces rimosus subsp. paromomycinus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000713.1	BGC0000713.1	Ribostamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces ribosidificus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000714.1	BGC0000714.1	Sisomicin biosynthetic gene cluster	amglyccycl	Saccharides	Micromonospora inyonensis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0000715.1	BGC0000715.1	Spectinomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces spectabilis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000716.1	BGC0000716.1	Spectinomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces netropsis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000717.1	BGC0000717.1	Streptomycin biosynthetic gene cluster	amglyccycl.lantipeptide	Others	Streptomyces griseus subsp. griseus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000719.1	BGC0000719.1	Tobramycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptoalloteichus hindustanus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0000720.1	BGC0000720.1	Tobramycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptoalloteichus tenebrarius	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0000721.1	BGC0000721.1	Tobramycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptoalloteichus tenebrarius	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0000722.1	BGC0000722.1	Validamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces hygroscopicus subsp. jinggangensis	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0000723.1	BGC0000723.1	Validamycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces hygroscopicus subsp. limoneus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000724.1	BGC0000724.1	Streptomycin biosynthetic gene cluster	amglyccycl	Saccharides	Streptomyces griseus subsp. griseus NBRC 13350	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000952.1	BGC0000952.1	Pristinamycin biosynthetic gene cluster	t2pks.nrps.oligosaccharide.ectoine	Others	Streptomyces pristinaespiralis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001004.1	BGC0001004.1	Lobophorin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces sp. SCSIO 01127	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001038.1	BGC0001038.1	Pyralomicin biosynthetic gene cluster	amglyccycl.t1pks	Others	Nonomuraea spiralis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptosporangineae,Streptosporangiaceae,Nonomuraea
+BGC0001074.1	BGC0001074.1	Cosmomycin D biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces olindensis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001183.1	BGC0001183.1	Lobophorin biosynthetic gene cluster	nrps.t1pks.t3pks.oligosaccharide	Others	Streptomyces sp. FXJ7.023	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001359.1	BGC0001359.1	PM100117 / PM100118 biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces caniferus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001384.1	BGC0001384.1	Saprolmycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. TK08046	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001438.1	BGC0001438.1	Warkmycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. CS057	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001439.1	BGC0001439.1	Cervimycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. CS113	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001452.1	BGC0001452.1	Sipanmycin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces sp.	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001522.1	BGC0001522.1	Auroramycin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces filamentosus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001558.1	BGC0001558.1	Cosmomycin C / cosmomycin D biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. CNT302	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001568.1	BGC0001568.1	Cytorhodin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp. SCSIO 1666	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001603.1	BGC0001603.1	Gentamicin biosynthetic gene cluster	amglyccycl	Saccharides	Micromonospora echinospora	Bacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora
+BGC0001619.1	BGC0001619.1	Ibomycin biosynthetic gene cluster	t1pks.oligosaccharide	Others	Streptomyces sp. WAC2288	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001769.1	BGC0001769.1	Saquayamycin biosynthetic gene cluster	t2pks.oligosaccharide	Others	Streptomyces sp.	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+CP003646.1.region001	CP003646.1	CP003646.1 Gloeocapsa sp. PCC 7428, complete genome	amglyccycl	Saccharides		
+CP003946.1.region007	CP003946.1	CP003946.1 Leptolyngbya sp. PCC 7376, complete genome	oligosaccharide	Saccharides		
+CP032543.1.region008	CP032543.1	CP032543.1 Streptomyces griseus subsp. griseus strain ATCC 13273 chromosome, complete genome	T2PKS.oligosaccharide	Others		
+CP040916.1.region031	CP040916.1	CP040916.1 Streptomyces spectabilis strain NRRL 2792 chromosome, complete genome	amglyccycl.NRPS	Others		
+CP049782.1.region001	CP049782.1	CP049782.1 Streptomyces sp. ID38640 chromosome	NRPS-like.T1PKS.terpene.PKS-like.oligosaccharide	Others		
+DS999641.1.region022	DS999641.1	DS999641.1 Streptomyces ghanaensis ATCC 14672 supercont1.1 genomic scaffold, whole genome shotgun sequence	amglyccycl.NRPS	Others		
+JAACKE010000001.region007	JAACKE010000001	JAACKE010000001.1 Streptomyces sp. MBT27 MBT27_1, whole genome shotgun sequence	amglyccycl.NRPS-like.butyrolactone.PKS-like	Others		
+JAACKE010000001.region013	JAACKE010000001	JAACKE010000001.1 Streptomyces sp. MBT27 MBT27_1, whole genome shotgun sequence	PKS-like.NRPS.oligosaccharide.T2PKS	Others		
+JNYZ01000008.1.region001	JNYZ01000008.1	JNYZ01000008.1 Amycolatopsis jejuensis strain NRRL B-24427 contig8.1, whole genome shotgun sequence	amglyccycl	Saccharides		
+KB846726.1.region002	KB846726.1	KB846726.1 Streptomyces sp. CNS615 genomic scaffold D583DRAFT_scaffold00012.12, whole genome shotgun sequence	PKS-like.NRPS.T2PKS.oligosaccharide	Others		
+KB898229.1.region001	KB898229.1	KB898229.1 Streptomyces sp. CNY228 genomic scaffold D330DRAFT_scaffold00009.9, whole genome shotgun sequence	amglyccycl.butyrolactone.PKS-like	Others		
+KB898282.1.region002	KB898282.1	KB898282.1 Streptomyces sp. CNT302 genomic scaffold D329DRAFT_scaffold00013.13, whole genome shotgun sequence	PKS-like.NRPS.T2PKS.oligosaccharide	Others		
+KB898997.1.region001	KB898997.1	KB898997.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00008.8, whole genome shotgun sequence	amglyccycl	Saccharides		
+LNBE01000003.1.region010	LNBE01000003.1	LNBE01000003.1 Streptomyces sp. MBT76 scaffold_3, whole genome shotgun sequence	amglyccycl	Saccharides		
+LNBE01000004.1.region005	LNBE01000004.1	LNBE01000004.1 Streptomyces sp. MBT76 scaffold_4, whole genome shotgun sequence	amglyccycl.lassopeptide	Others		
+PPFB01000001.1.region002	PPFB01000001.1	PPFB01000001.1 Streptomyces sp. DH-12 scaffold1_size7418681, whole genome shotgun sequence	NRPS.oligosaccharide.T1PKS	Others		

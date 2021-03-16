@@ -1,0 +1,371 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Alyssa M. Demko",
+        "submitter_email": "ademko@ucsd.edu",
+        "submitter_name_secondary": "Alexander B. Chase",
+        "submitter_email_secondary": "abchase@ucsd.edu",
+        "PI_name": "Paul R. Jensen",
+        "PI_email": "pjensen@ucsd.edu",
+        "PI_institution": "Scripps Institution of Oceanography, University of California, San Diego"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083268",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=f3a1dc6565be48dabde600a0dd665925&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000066",
+                    "metagenomic_sample_description": "marine sediment"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "environmental metagenome"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "complex",
+                "resins": "Diaion HP-20",
+                "other_extraction_parameters": "Resins were encased in Nitex mesh and buried in marine sediment for 24 hours. After retrieval, they were stored at -20C prior to extraction. For extraction, resin bags were first rinsed with milliq water to remove excess salts. Then they were extracted in 1:1 methanol:acetone. Samples were dried and then crude extracts were solubilized with methanol prior to running on the instrument.\nControls were handled the same way, except they were not buried in the environment. Control samples are MO18.330 and MO18.331 and can be found in the massive dataset.",
+                "extraction_method": "Environmental Resin",
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    },
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    }
+                ]
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084",
+                    "other_instrument": "Bruker Daltonics maXis Impact"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "other_instrumentation": "Bruker Daltonics maXis Impact and C18 RP-UHPLC",
+                "instrumentation_method": "Impact",
+                "range": "150-1500",
+                "collision_energy": "5.0 eV"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXT000000000"
+            },
+            "BioSample_accession": "SAMN14350112",
+            "genome_label": "MO18_007"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXU000000000"
+            },
+            "BioSample_accession": "SAMN14350113",
+            "genome_label": "MO18_010"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXV000000000"
+            },
+            "BioSample_accession": "SAMN14350114",
+            "genome_label": "MO18_039"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXW000000000"
+            },
+            "BioSample_accession": "SAMN14350115",
+            "genome_label": "MO18_042"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXX000000000"
+            },
+            "BioSample_accession": "SAMN14350116",
+            "genome_label": "MO18_071"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXY000000000"
+            },
+            "genome_label": "MO18_074",
+            "BioSample_accession": "SAMN14350117"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUXZ000000000"
+            },
+            "BioSample_accession": "SAMN14350119",
+            "genome_label": "MO18_103"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYA000000000"
+            },
+            "BioSample_accession": "SAMN14350120",
+            "genome_label": "MO18_106"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYB000000000"
+            },
+            "BioSample_accession": "SAMN14350121",
+            "genome_label": "MO18_135"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYC000000000"
+            },
+            "genome_label": "MO18_138",
+            "BioSample_accession": "SAMN14350122"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYD000000000"
+            },
+            "BioSample_accession": "SAMN14350128",
+            "genome_label": "MO18_167"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYE000000000"
+            },
+            "BioSample_accession": "SAMN14350131",
+            "genome_label": "MO18_170"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYF000000000"
+            },
+            "BioSample_accession": "SAMN14350202",
+            "genome_label": "MO18_180"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYG000000000"
+            },
+            "BioSample_accession": "SAMN14350201",
+            "genome_label": "MO18_184"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYH000000000"
+            },
+            "BioSample_accession": "SAMN14350203",
+            "genome_label": "MO18_188"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYI000000000"
+            },
+            "BioSample_accession": "SAMN14350216",
+            "genome_label": "MO18_192"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYJ000000000"
+            },
+            "BioSample_accession": "SAMN14350222",
+            "genome_label": "MO18_199"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYK000000000"
+            },
+            "BioSample_accession": "SAMN14350223",
+            "genome_label": "MO18_202"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYL000000000"
+            },
+            "BioSample_accession": "SAMN14350225",
+            "genome_label": "MO18_231"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAUYM000000000"
+            },
+            "BioSample_accession": "SAMN14350224",
+            "genome_label": "MO18_234"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "MO18_007",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.007_RE5_01_40591.mzML",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact",
+            "sample_preparation_label": "environmental metagenome"
+        },
+        {
+            "genome_label": "MO18_010",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.010_RB3_01_40768.mzXML",
+            "sample_preparation_label": "environmental metagenome",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact"
+        },
+        {
+            "genome_label": "MO18_039",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.039_RE4_01_40694.mzXML",
+            "sample_preparation_label": "environmental metagenome",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact"
+        },
+        {
+            "genome_label": "MO18_042",
+            "sample_preparation_label": "environmental metagenome",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.042_BB8_01_40616.mzXML"
+        },
+        {
+            "genome_label": "MO18_071",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.071_BA2_01_40703.mzXML"
+        },
+        {
+            "genome_label": "MO18_074",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.074_RD3_01_40579.mzXML"
+        },
+        {
+            "genome_label": "MO18_103",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.103_RD2_01_40578.mzXML"
+        },
+        {
+            "genome_label": "MO18_106",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.106_RC4_01_40569.mzXML"
+        },
+        {
+            "genome_label": "MO18_135",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.135_GC1_01_40859.mzXML"
+        },
+        {
+            "genome_label": "MO18_138",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.138_RB5_01_40770.mzXML"
+        },
+        {
+            "genome_label": "MO18_167",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.167_BD3_01_40631.mzXML"
+        },
+        {
+            "genome_label": "MO18_170",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.170_BA5_01_40706.mzXML"
+        },
+        {
+            "genome_label": "MO18_180",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.180_BD6_01_40738.mzXML"
+        },
+        {
+            "genome_label": "MO18_184",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.184_RB3_01_40662.mzXML"
+        },
+        {
+            "genome_label": "MO18_188",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.188_BE4_01_40746.mzXML"
+        },
+        {
+            "genome_label": "MO18_192",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.192_RD2_01_40682.mzXML"
+        },
+        {
+            "genome_label": "MO18_199",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.199_BB4_01_40612.mzXML"
+        },
+        {
+            "genome_label": "MO18_202",
+            "sample_preparation_label": "environmental metagenome",
+            "instrumentation_method_label": "Impact",
+            "extraction_method_label": "Environmental Resin",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.202_RD5_01_40581.mzXML"
+        },
+        {
+            "genome_label": "MO18_231",
+            "sample_preparation_label": "environmental metagenome",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.231_BE3_01_40642.mzXML"
+        },
+        {
+            "genome_label": "MO18_234",
+            "sample_preparation_label": "environmental metagenome",
+            "extraction_method_label": "Environmental Resin",
+            "instrumentation_method_label": "Impact",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083268/ccms_peak/mzxml/MO18.234_RC7_01_40572.mzXML"
+        }
+    ]
+}

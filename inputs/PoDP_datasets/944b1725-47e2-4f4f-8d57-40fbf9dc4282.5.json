@@ -1,0 +1,191 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Benjamin-Florian Hempel",
+        "submitter_orcid": "https://orcid.org/0000-0002-1998-4033",
+        "submitter_email": "benjamin_hempel@tu-berlin.de",
+        "PI_name": "Daniel Petras",
+        "PI_institution": "Technische Universität Berlin",
+        "PI_email": "dpetras@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084117",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=d1c2849684814150bd501468d93e7aa1",
+            "molecular_network": "27c60b98704649078bb7d113630cbf0a"
+        },
+        "publications": "31015472"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "LB agar"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "Methanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-1500",
+                "collision_energy": "40",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "17,500 resolution, C-trap fill time 100 ms, AGC target 5E5 iones",
+                "instrumentation_method": "DDA"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NC_000964.3"
+            },
+            "BioSample_accession": "SAMEA3138188",
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "publications": "29280348"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_1.mzXML"
+        },
+        {
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_2.mzXML",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA"
+        },
+        {
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_3.mzXML",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/KO_srf_1.mzXML",
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/KO_srf_2.mzXML",
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/KO_srf_3.mzXML",
+            "genome_label": "Bacillus subtilis subsp. subtilis str. 168",
+            "sample_preparation_label": "LB agar",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "DDA"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "known_link": "Surfactin A biosynthetic gene cluster from Bacillus velezensis FZB42",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_1.mzXML",
+            "SMILES": "CC(C)CCCCCCC[C@@H]1CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)O1)CC(C)C)CC(C)C)CC(=O)O)C(C)C)CC(C)C)CC(C)C)CCC(=O)O",
+            "IUPAC": "3-[(3S,6R,9S,12S,15R,18S,21S,25R)-9-(carboxymethyl)-25-(8-methylnonyl)-3,6,15,18-tetrakis(2-methylpropyl)-2,5,8,11,14,17,20,23-octaoxo-12-propan-2-yl-1-oxa-4,7,10,13,16,19,22-heptazacyclopentacos-21-yl]propanoic acid",
+            "MS2_scan": "2645",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "similar_MIBiG_number": "BGC0000433"
+            }
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000433"
+            },
+            "link": "single molecule",
+            "known_link": "Surfactin B biosynthetic gene cluster from Bacillus velezensis FZB42",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "IUPAC": "3-[(3S,6R,9S,12S,15R,18S,21S,25R)-9-(carboxymethyl)-25-(9-methyldecyl)-3,6,15,18-tetrakis(2-methylpropyl)-2,5,8,11,14,17,20,23-octaoxo-12-propan-2-yl-1-oxa-4,7,10,13,16,19,22-heptazacyclopentacos-21-yl]propanoic acid",
+            "SMILES": "CC(C)CCCCCCCC[C@@H]1CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)O1)CC(C)C)CC(C)C)CC(=O)O)C(C)C)CC(C)C)CC(C)C)CCC(=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_3.mzXML",
+            "MS2_scan": "2598"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000433"
+            },
+            "link": "single molecule",
+            "known_link": "Surfactin C biosynthetic gene cluster from Bacillus velezensis FZB42",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "IUPAC": "3-[(3S,6R,9S,12S,15R,18S,21S,25R)-9-(carboxymethyl)-3,6,15,18-tetrakis(2-methylpropyl)-25-(10-methylundecyl)-2,5,8,11,14,17,20,23-octaoxo-12-propan-2-yl-1-oxa-4,7,10,13,16,19,22-heptazacyclopentacos-21-yl]propanoic acid",
+            "SMILES": "CC(C)CCCCCCCCC[C@@H]1CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)O1)CC(C)C)CC(C)C)CC(=O)O)C(C)C)CC(C)C)CC(C)C)CCC(=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_2.mzXML",
+            "MS2_scan": "2647"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000433"
+            },
+            "link": "single molecule",
+            "known_link": "Surfactin D biosynthetic gene cluster from Bacillus velezensis FZB42",
+            "IUPAC": "3-[(3S,6R,9S,12S,15R,18S,21S,25R)-9-(carboxymethyl)-25-(11-methyldodecyl)-3,6,15,18-tetrakis(2-methylpropyl)-2,5,8,11,14,17,20,23-octaoxo-12-propan-2-yl-1-oxa-4,7,10,13,16,19,22-heptazacyclopentacos-21-yl]propanoic acid",
+            "SMILES": "CC(C)CCCCCCCCCC[C@@H]1CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)O1)CC(C)C)CC(C)C)CC(=O)O)C(C)C)CC(C)C)CC(C)C)CCC(=O)O",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000084117/peak/mzxml/Bsub_wt_2.mzXML",
+            "MS2_scan": "2646"
+        }
+    ]
+}

@@ -1,0 +1,2007 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Marc G Chevrette",
+        "submitter_orcid": "https://orcid.org/0000-0002-7209-0717",
+        "submitter_email": "chevrm@gmail.com",
+        "PI_institution": "University of Wisconsin-Madison",
+        "PI_name": "Cameron Currie & Tim Bugni",
+        "PI_email": "currie@bact.wisc.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084723",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=46ab148273764ad0b1cf95baeba9a0c5",
+            "molecular_network": "927974dc1fe640d081b1467464815efa"
+        },
+        "publications": "30705269"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1087.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "* 14 days or until sporulation",
+                "sample_preparation_method": "YPM"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.09,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    },
+                    {
+                        "ratio": 0.91,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Normal Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "MS",
+                "range": "150-1550",
+                "other_instrumentation": "Mass spectra were collected using a Bruker MaXis ESI-Q-TOF mass spectrometer. Liquid chromatography was conducted using a Waters Acquity UPLC on a RP-C18 column (Phenomenex Kinetex 2.6 μm, 2.1 mm × 100 mm). "
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VOQD00000000"
+            },
+            "BioSample_accession": "PRJNA558800",
+            "publications": "30705269",
+            "genome_label": "ISID311"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKJ00000000"
+            },
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269",
+            "genome_label": "SID1034"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKI00000000"
+            },
+            "genome_label": "SID1046",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKH00000000"
+            },
+            "genome_label": "SID1328",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKG00000000"
+            },
+            "genome_label": "SID161",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKF00000000"
+            },
+            "genome_label": "SID1",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKE00000000"
+            },
+            "genome_label": "SID2119",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKD00000000"
+            },
+            "genome_label": "SID2131",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKC00000000"
+            },
+            "genome_label": "SID2563",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKB00000000"
+            },
+            "genome_label": "SID2888",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWKA00000000"
+            },
+            "genome_label": "SID2955",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJZ00000000"
+            },
+            "genome_label": "SID2999",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJY00000000"
+            },
+            "genome_label": "SID3212",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJX00000000"
+            },
+            "genome_label": "SID3343",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJW00000000"
+            },
+            "genome_label": "SID335",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJV00000000"
+            },
+            "genome_label": "SID337",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJU00000000"
+            },
+            "genome_label": "SID3915",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJT00000000"
+            },
+            "genome_label": "SID486",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJS00000000"
+            },
+            "genome_label": "SID4912",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJR00000000"
+            },
+            "genome_label": "SID4913",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJQ00000000"
+            },
+            "genome_label": "SID4914",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJP00000000"
+            },
+            "genome_label": "SID4915",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJO00000000"
+            },
+            "genome_label": "SID4917",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJN00000000"
+            },
+            "genome_label": "SID4919",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJM00000000"
+            },
+            "genome_label": "SID4920",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJL00000000"
+            },
+            "genome_label": "SID4921",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJK00000000"
+            },
+            "genome_label": "SID4923",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJJ00000000"
+            },
+            "genome_label": "SID4925",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJI00000000"
+            },
+            "genome_label": "SID4926",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJH00000000"
+            },
+            "genome_label": "SID4928",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJG00000000"
+            },
+            "genome_label": "SID4931",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJF00000000"
+            },
+            "genome_label": "SID4934",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJE00000000"
+            },
+            "genome_label": "SID4936",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJD00000000"
+            },
+            "genome_label": "SID4937",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJC00000000"
+            },
+            "genome_label": "SID4939",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJB00000000"
+            },
+            "genome_label": "SID4940",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWJA00000000"
+            },
+            "genome_label": "SID4941",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIZ00000000"
+            },
+            "genome_label": "SID4944",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIY00000000"
+            },
+            "genome_label": "SID4945",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIX00000000"
+            },
+            "genome_label": "SID4946",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIW00000000"
+            },
+            "genome_label": "SID4948",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIV00000000"
+            },
+            "genome_label": "SID4950",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIU00000000"
+            },
+            "genome_label": "SID4951",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIT00000000"
+            },
+            "genome_label": "SID4956",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIS00000000"
+            },
+            "genome_label": "SID4982",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIR00000000"
+            },
+            "genome_label": "SID4985",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIQ00000000"
+            },
+            "genome_label": "SID5464",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIP00000000"
+            },
+            "genome_label": "SID5466",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIO00000000"
+            },
+            "genome_label": "SID5468",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIN00000000"
+            },
+            "genome_label": "SID5469",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIM00000000"
+            },
+            "genome_label": "SID5470",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIL00000000"
+            },
+            "genome_label": "SID5471",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIK00000000"
+            },
+            "genome_label": "SID5473",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIJ00000000"
+            },
+            "genome_label": "SID5474",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWII00000000"
+            },
+            "genome_label": "SID5475",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIH00000000"
+            },
+            "genome_label": "SID5476",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIG00000000"
+            },
+            "genome_label": "SID5477",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIF00000000"
+            },
+            "genome_label": "SID5594",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIE00000000"
+            },
+            "genome_label": "SID5606",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWID00000000"
+            },
+            "genome_label": "SID5614",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIC00000000"
+            },
+            "genome_label": "SID5643",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIB00000000"
+            },
+            "genome_label": "SID5770",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWIA00000000"
+            },
+            "genome_label": "SID5785",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHZ00000000"
+            },
+            "genome_label": "SID5789",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHY00000000"
+            },
+            "genome_label": "SID5840",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHX00000000"
+            },
+            "genome_label": "SID5910",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHW00000000"
+            },
+            "genome_label": "SID5914",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHV00000000"
+            },
+            "genome_label": "SID5926",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHU00000000"
+            },
+            "genome_label": "SID5947",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHT00000000"
+            },
+            "genome_label": "SID5998",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHS00000000"
+            },
+            "genome_label": "SID6013",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHR00000000"
+            },
+            "genome_label": "SID6041",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHQ00000000"
+            },
+            "genome_label": "SID6137",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHP00000000"
+            },
+            "genome_label": "SID6139",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHO00000000"
+            },
+            "genome_label": "SID625",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHN00000000"
+            },
+            "genome_label": "SID685",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHM00000000"
+            },
+            "genome_label": "SID69",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHL00000000"
+            },
+            "genome_label": "SID724",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHK00000000"
+            },
+            "genome_label": "SID7760",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHJ00000000"
+            },
+            "genome_label": "SID7803",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHI00000000"
+            },
+            "genome_label": "SID7804",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHH00000000"
+            },
+            "genome_label": "SID7805",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHG00000000"
+            },
+            "genome_label": "SID7810",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHF00000000"
+            },
+            "genome_label": "SID7813",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHE00000000"
+            },
+            "genome_label": "SID7814",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHD00000000"
+            },
+            "genome_label": "SID7815",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHC00000000"
+            },
+            "genome_label": "SID7816",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHB00000000"
+            },
+            "genome_label": "SID7817",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWHA00000000"
+            },
+            "genome_label": "SID7827",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGZ00000000"
+            },
+            "genome_label": "SID7834",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGY00000000"
+            },
+            "genome_label": "SID8350",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGX00000000"
+            },
+            "genome_label": "SID8352",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGW00000000"
+            },
+            "genome_label": "SID8354",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGV00000000"
+            },
+            "genome_label": "SID8356",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGU00000000"
+            },
+            "genome_label": "SID8357",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGT00000000"
+            },
+            "genome_label": "SID8358",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGS00000000"
+            },
+            "genome_label": "SID8359",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGR00000000"
+            },
+            "genome_label": "SID8360",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGQ00000000"
+            },
+            "genome_label": "SID8361",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGP00000000"
+            },
+            "genome_label": "SID8362",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGO00000000"
+            },
+            "genome_label": "SID8364",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGN00000000"
+            },
+            "genome_label": "SID8366",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGM00000000"
+            },
+            "genome_label": "SID8367",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGL00000000"
+            },
+            "genome_label": "SID8369",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGK00000000"
+            },
+            "genome_label": "SID8370",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGJ00000000"
+            },
+            "genome_label": "SID8371",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGI00000000"
+            },
+            "genome_label": "SID8373",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGH00000000"
+            },
+            "genome_label": "SID8374",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGG00000000"
+            },
+            "genome_label": "SID8375",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGF00000000"
+            },
+            "genome_label": "SID8376",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": " WWGE00000000"
+            },
+            "genome_label": "SID8377",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGD00000000"
+            },
+            "genome_label": "SID8378",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGC00000000"
+            },
+            "genome_label": "SID8379",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGB00000000"
+            },
+            "genome_label": "SID8380",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWGA00000000"
+            },
+            "genome_label": "SID8381",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWFZ00000000"
+            },
+            "genome_label": "SID8382",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWFY00000000"
+            },
+            "genome_label": "SID8383",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWFX00000000"
+            },
+            "genome_label": "SID8385",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWFW00000000"
+            },
+            "genome_label": "SID8386",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "WWFV00000000"
+            },
+            "genome_label": "SID89",
+            "BioSample_accession": "PRJNA596543",
+            "publications": "30705269"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "SID1034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID1034_1-B,5_01_4616.mzXML",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "genome_label": "SID1046",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID1046_1-B,6_01_4618.mzXML",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID1328_1-B,7_01_4619.mzXML",
+            "genome_label": "SID1328",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID161_1-A,5_01_4609.mzXML",
+            "genome_label": "SID161",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID1_MSMS01_1-A,2_01_4598.mzXML",
+            "genome_label": "SID1",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2119_1-B,8_01_4620.mzXML",
+            "genome_label": "SID2119",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2131_1-C,1_01_4621.mzXML",
+            "genome_label": "SID2131",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2563_1-C,2_01_4622.mzXML",
+            "genome_label": "SID2563",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2888_1-C,3_01_4623.mzXML",
+            "genome_label": "SID2888",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2955_1-C,4_01_4624.mzXML",
+            "genome_label": "SID2955",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID2999_1-C,5_01_4625.mzXML",
+            "genome_label": "SID2999",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID3212_1-C,6_01_4627.mzXML",
+            "genome_label": "SID3212",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID3343_1-C,7_01_4628.mzXML",
+            "genome_label": "SID3343",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID335_1-A,6_01_4610.mzXML",
+            "genome_label": "SID335",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID337_1-A,7_01_4611.mzXML",
+            "genome_label": "SID337",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "genome_label": "SID3915",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID3915_1-C,8_01_4629.mzXML",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID486_1-B,1_01_4612.mzXML",
+            "genome_label": "SID486",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID486_2-A,7_01_4665.mzXML",
+            "genome_label": "SID486",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4912_1-D,1_01_4630.mzXML",
+            "genome_label": "SID4912",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4913_1-D,2_01_4631.mzXML",
+            "genome_label": "SID4913",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4914_1-D,3_01_4632.mzXML",
+            "genome_label": "SID4914",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4915_1-D,4_01_4633.mzXML",
+            "genome_label": "SID4915",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4917_1-D,5_01_4634.mzXML",
+            "genome_label": "SID4917",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4919_1-D,6_01_4636.mzXML",
+            "genome_label": "SID4919",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4920_1-D,7_01_4637.mzXML",
+            "genome_label": "SID4920",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4921_1-D,8_01_4638.mzXML",
+            "genome_label": "SID4921",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4923_1-E,1_01_4639.mzXML",
+            "genome_label": "SID4923",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4925_1-E,2_01_4640.mzXML",
+            "genome_label": "SID4925",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4926_1-E,3_01_4641.mzXML",
+            "genome_label": "SID4926",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4928_1-E,4_01_4642.mzXML",
+            "genome_label": "SID4928",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4931_1-E,5_01_4643.mzXML",
+            "genome_label": "SID4931",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4934_1-E,6_01_4645.mzXML",
+            "genome_label": "SID4934",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4936_1-E,7_01_4646.mzXML",
+            "genome_label": "SID4936",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4937_1-E,8_01_4647.mzXML",
+            "genome_label": "SID4937",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4939_1-F,1_01_4648.mzXML",
+            "genome_label": "SID4939",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4940_1-F,2_01_4649.mzXML",
+            "genome_label": "SID4940",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4941_1-F,3_01_4650.mzXML",
+            "genome_label": "SID4941",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4944_1-F,4_01_4651.mzXML",
+            "genome_label": "SID4944",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4945_1-F,5_01_4652.mzXML",
+            "genome_label": "SID4945",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4946_1-F,6_01_4654.mzXML",
+            "genome_label": "SID4946",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4948_1-F,7_01_4655.mzXML",
+            "genome_label": "SID4948",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4950_1-F,8_01_4656.mzXML",
+            "genome_label": "SID4950",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4951_2-A,1_01_4657.mzXML",
+            "genome_label": "SID4951",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4956_2-A,2_01_4658.mzXML",
+            "genome_label": "SID4956",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4982_2-A,3_01_4659.mzXML",
+            "genome_label": "SID4982",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID4985_2-A,4_01_4660.mzXML",
+            "genome_label": "SID4985",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5464_2-A,5_01_4661.mzXML",
+            "genome_label": "SID5464",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5466_2-A,6_01_4663.mzXML",
+            "genome_label": "SID5466",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5468_2-A,7_01_4664.mzXML",
+            "genome_label": "SID5468",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5469_2-A,8_01_4666.mzXML",
+            "genome_label": "SID5469",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5470_2-B,1_01_4667.mzXML",
+            "genome_label": "SID5470",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5471_2-B,2_01_4668.mzXML",
+            "genome_label": "SID5471",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5473_2-B,3_01_4669.mzXML",
+            "genome_label": "SID5473",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5474_2-B,4_01_4670.mzXML",
+            "genome_label": "SID5474",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5475_2-B,5_01_4671.mzXML",
+            "genome_label": "SID5475",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5476_2-B,6_01_4673.mzXML",
+            "genome_label": "SID5476",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5477_2-B,7_01_4674.mzXML",
+            "genome_label": "SID5477",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5594_2-B,8_01_4675.mzXML",
+            "genome_label": "SID5594",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5606_2-C,1_01_4676.mzXML",
+            "genome_label": "SID5606",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5614_2-C,2_01_4677.mzXML",
+            "genome_label": "SID5614",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5643_2-C,3_01_4678.mzXML",
+            "genome_label": "SID5643",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5770_2-C,4_01_4679.mzXML",
+            "genome_label": "SID5770",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5785_2-C,5_01_4680.mzXML",
+            "genome_label": "SID5785",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5789_2-C,6_01_4682.mzXML",
+            "genome_label": "SID5789",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5840_2-C,7_01_4683.mzXML",
+            "genome_label": "SID5840",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5910_2-C,8_01_4684.mzXML",
+            "genome_label": "SID5910",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5914_2-D,1_01_4685.mzXML",
+            "genome_label": "SID5914",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5926_2-D,2_01_4686.mzXML",
+            "genome_label": "SID5926",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5947_2-D,3_01_4687.mzXML",
+            "genome_label": "SID5947",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID5998_2-D,4_01_4688.mzXML",
+            "genome_label": "SID5998",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID6013_2-D,5_01_4689.mzXML",
+            "genome_label": "SID6013",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID6041_2-D,6_01_4691.mzXML",
+            "genome_label": "SID6041",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID6137_2-D,7_01_4692.mzXML",
+            "genome_label": "SID6137",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID6139_2-D,8_01_4693.mzXML",
+            "genome_label": "SID6139",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID625_1-B,2_01_4613.mzXML",
+            "genome_label": "SID625",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID685_1-B,3_01_4614.mzXML",
+            "genome_label": "SID685",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID69_MSMS03_1-A,3_01_4605.mzXML",
+            "genome_label": "SID69",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID724_1-B,4_01_4615.mzXML",
+            "genome_label": "SID724",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7760_2-E,1_01_4694.mzXML",
+            "genome_label": "SID7760",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7803_2-E,2_01_4695.mzXML",
+            "genome_label": "SID7803",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7804_2-E,3_01_4696.mzXML",
+            "genome_label": "SID7804",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7805_2-E,4_01_4697.mzXML",
+            "genome_label": "SID7805",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7810_2-E,5_01_4698.mzXML",
+            "genome_label": "SID7810",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7813_2-E,6_01_4700.mzXML",
+            "genome_label": "SID7813",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7814_2-E,7_01_4701.mzXML",
+            "genome_label": "SID7814",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7815_2-E,8_01_4702.mzXML",
+            "genome_label": "SID7815",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7816_2-F,1_01_4703.mzXML",
+            "genome_label": "SID7816",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7817_2-F,2_01_4704.mzXML",
+            "genome_label": "SID7817",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7827_2-F,3_01_4705.mzXML",
+            "genome_label": "SID7827",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID7834_2-F,4_01_4706.mzXML",
+            "genome_label": "SID7834",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8350_2-F,5_01_4707.mzXML",
+            "genome_label": "SID8350",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8352_2-F,6_01_4709.mzXML",
+            "genome_label": "SID8352",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8354_2-F,7_01_4710.mzXML",
+            "genome_label": "SID8354",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8356_2-F,8_01_4711.mzXML",
+            "genome_label": "SID8356",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8357_1-A,2_01_4712.mzXML",
+            "genome_label": "SID8357",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8358_1-A,3_01_4713.mzXML",
+            "genome_label": "SID8358",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8359_1-A,4_01_4714.mzXML",
+            "genome_label": "SID8359",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8360_1-A,5_01_4715.mzXML",
+            "genome_label": "SID8360",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8361_1-A,6_01_4716.mzXML",
+            "genome_label": "SID8361",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8362_1-A,7_01_4718.mzXML",
+            "genome_label": "SID8362",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8364_1-A,8_01_4719.mzXML",
+            "genome_label": "SID8364",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8366_1-B,1_01_4720.mzXML",
+            "genome_label": "SID8366",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8367_1-B,2_01_4721.mzXML",
+            "genome_label": "SID8367",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8369_1-B,3_01_4722.mzXML",
+            "genome_label": "SID8369",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8370_1-B,4_01_4723.mzXML",
+            "genome_label": "SID8370",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8371_1-B,5_01_4724.mzXML",
+            "genome_label": "SID8371",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8373_1-B,6_01_4725.mzXML",
+            "genome_label": "SID8373",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8374_1-B,7_01_4727.mzXML",
+            "genome_label": "SID8374",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8375_1-B,8_01_4728.mzXML",
+            "genome_label": "SID8375",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8376_1-C,1_01_4729.mzXML",
+            "genome_label": "SID8376",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8377_1-C,2_01_4730.mzXML",
+            "genome_label": "SID8377",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8378_1-C,3_01_4731.mzXML",
+            "genome_label": "SID8378",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8379_1-C,4_01_4732.mzXML",
+            "genome_label": "SID8379",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8380_1-C,5_01_4733.mzXML",
+            "genome_label": "SID8380",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8381_1-C,6_01_4734.mzXML",
+            "genome_label": "SID8381",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8382_1-C,7_01_4736.mzXML",
+            "genome_label": "SID8382",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8383_1-C,8_01_4737.mzXML",
+            "genome_label": "SID8383",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8385_1-D,1_01_4738.mzXML",
+            "genome_label": "SID8385",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID8386_1-D,2_01_4739.mzXML",
+            "genome_label": "SID8386",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID89_MSMS01_1-A,4_01_4600.mzXML",
+            "genome_label": "SID89",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID89_MSMS02_1-A,4_01_4603.mzXML",
+            "genome_label": "SID89",
+            "sample_preparation_label": "YPM",
+            "instrumentation_method_label": "MS",
+            "extraction_method_label": "MeOH"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084723/raw/chevrette_et_al_msms/CST_20151012_SID89_MSMS03_1-A,4_01_4606.mzXML",
+            "genome_label": "SID89",
+            "sample_preparation_label": "YPM",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "MS"
+        }
+    ]
+}

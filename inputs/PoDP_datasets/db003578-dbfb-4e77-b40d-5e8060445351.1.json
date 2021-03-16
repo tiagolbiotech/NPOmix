@@ -1,0 +1,498 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Dulce Guillen Matus",
+        "submitter_orcid": "https://orcid.org/0000-0002-3627-6186",
+        "submitter_email": "dguillen@ucsd.edu",
+        "submitter_name_secondary": "Alyssa Demko",
+        "submitter_email_secondary": "ademko@ucsd.edu",
+        "PI_name": "Paul R. Jensen",
+        "PI_institution": "Scripps Institution of Oceanography, UCSD",
+        "PI_email": "pjensen@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085158",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=db5e3f37b23345c98c3c9d3407e83d67"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 21,
+                    "growth_duration": 240,
+                    "growth_phase_OD": "stationary"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "other_growth_conditions": "A1 medium 100% natural seawater \nsupplemented with:\n10g/L CaCO3\n5 mL/L KBr (20g/L), \n5mL/L Fe2(SO4)3 (8g/L)\n",
+                "sample_preparation_method": "Supplemented A1 100% SW medium"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "other_growth_conditions": "Medium Controls by triplicate. \nPrepared as the same as cultivation media, and not inoculated, as a base line for media components.",
+                "sample_preparation_method": "A1 media Control "
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347"
+                    },
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "resins": "Amberlite XAD7",
+                "extracted_material": "cells",
+                "other_extraction_parameters": "Resin and cells were extracted with Acetone. Removed all solvent by rotary evaporation and aqueous layer extracted with ethyl acetate",
+                "extraction_method": "Amberlite XAD7 extraction"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Q-TOF (Quadrupole +Time of Flight)"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-2000",
+                "collision_energy": "30 eV",
+                "buffering": "0.1% Formic Acid",
+                "other_instrumentation": "Mobile phase:\nAcetronitrile \nWater\nColumn:\nPhenomenex Kinetex C18\nDimension:\n150 mm x 4.6 mm \nPore size: 5 μm, particle size: 100 Å\nTotal run time: 20 min\nGradient: 12 min\nIsocratic: 4 min",
+                "instrumentation_method": "Q-TOT F_Positive Ionization_20 min run"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614807"
+            },
+            "genome_label": "Salinispora mooreana CNS237",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366531"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora mooreana CNY646"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154136"
+            },
+            "genome_label": "Salinispora mooreana CNT150",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2528311034"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora cortesiana CNY202"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154124"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora fenicalii CNT569"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285561"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora fenicalii CNR942"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511036"
+            },
+            "genome_label": "Salinispora vitiensis CNS801",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285562"
+            },
+            "genome_label": "Salinispora vitiensis CNS055",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572145"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora vitiensis CNT148"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366532"
+            },
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154128"
+            },
+            "genome_label": "Salinispora pacifica CNT855",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366539"
+            },
+            "genome_label": "Salinispora pacifica CNY498",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511035"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora pacifica CNT133A"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572161"
+            },
+            "genome_label": "Salinispora pacifica CNT609",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518645627"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora pacifica CNY331"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572157"
+            },
+            "genome_label": "Salinispora oceanensis CNS996",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154177"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora oceanensis CNT029"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366533"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora oceanensis CNY673"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511034"
+            },
+            "genome_label": "Salinispora oceanensis CNT403",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511037"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora arenicola CNH643"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285552"
+            },
+            "genome_label": "Salinispora arenicola CNP193",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042345"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora arenicola CNS848"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154137"
+            },
+            "genome_label": "Salinispora arenicola CNX482",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154188"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora arenicola CNX508"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "640427140"
+            },
+            "genome_label": "Salinispora tropica CNB440",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572164"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora tropica CNS416"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511108"
+            },
+            "genome_label": "Salinispora tropica CNY681",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-237.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-646.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-150.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-202.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-569.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/R-942.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-801.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-055.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-148.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-666.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-855.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-498.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT133A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-133.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT609",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-609.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY331",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-331.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNS996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-996.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-029.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-673.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/T-403.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/H-643.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP193",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/P-193.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS848",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-848.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX482",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/X-482.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX508",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/X-508.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/B-440.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS416",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/S-416.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY681",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085158/raw/Salinispora_NEP_GNPS_DG/Y-681.mzXML",
+            "sample_preparation_label": "Supplemented A1 100% SW medium",
+            "extraction_method_label": "Amberlite XAD7 extraction",
+            "instrumentation_method_label": "Q-TOT F_Positive Ionization_20 min run"
+        }
+    ]
+}

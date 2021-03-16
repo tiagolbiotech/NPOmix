@@ -1,0 +1,196 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Chung Sub Kim",
+        "submitter_orcid": "https://orcid.org/0000-0001-9961-4093",
+        "PI_name": "Jason M. Crawford",
+        "PI_institution": "Yale University",
+        "PI_email": "jason.crawford.@yale.edu",
+        "submitter_email": "chungsub.kim@skku.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078995",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=d5992961c7404360ab7c97c364fd5a3b&view=advanced_view"
+        },
+        "publications": "25901819"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=484",
+                    "medium_volume": 5
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 48
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "sample_preparation_method": "M9 + Casamino acid"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "Ethyl acetate"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "QTOF"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "25-1700",
+                "collision_energy": "10eV",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "QTOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AM229678.1"
+            },
+            "BioSample_accession": "SAMN02603334",
+            "publications": "16902142",
+            "genome_label": "Escherichia coli IHE3034"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/P4_Peptide.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/P4_Peptide2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/P4_UnbiasedExclude.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/P4_UnbiasedExclude_2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/WT3_Peptide.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/WT3_Unbiased.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/WT3_Unbiased2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/P4_Peptide.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/P4_Peptide2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/P4_UnbiasedExclude.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/P4_UnbiasedExclude_2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/WT3_Peptide.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/WT3_Unbiased.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        },
+        {
+            "genome_label": "Escherichia coli IHE3034",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078995/peak/WT3_Unbiased2.mzXML",
+            "sample_preparation_label": "M9 + Casamino acid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "QTOF"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Precolibactins and related molecules\nclb gene cluster",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "(R)-N1-((S)-5-(7-methyl-5-oxo-4-azaspiro[2.4]hept-6-en-6-yl)-5-oxopentan-2-yl)-2-tetradecanamidosuccinamide",
+            "SMILES": "C[C@H](NC([C@@H](CC(N)=O)NC(CCCCCCCCCCCCC)=O)=O)CCC(C1=C(C)C2(CC2)NC1=O)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000078995/ccms_peak/P4_UnbiasedExclude.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000972"
+            },
+            "MS2_scan": "3"
+        }
+    ]
+}

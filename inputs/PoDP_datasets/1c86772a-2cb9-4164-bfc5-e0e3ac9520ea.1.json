@@ -1,0 +1,274 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Mitja M. Zdouc",
+        "submitter_orcid": "https://orcid.org/0000-0001-6534-6609",
+        "submitter_email": "zdoucmm@gmail.com",
+        "PI_name": "Margherita Sosio",
+        "PI_institution": "Naicons Srl.",
+        "PI_email": "msosio@naicons.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085376",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=a3d15e71287e40a9ad5799f0b700b1d5&view=advanced_view",
+            "molecular_network": "92036537c21b44c29e509291e53f6382"
+        },
+        "publications": "10.1101/2020.07.19.210815"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "S1",
+                    "Other_medium_link": "https://doi.org/10.1016/S0076-6879(09)04801-0"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "S1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "AF (=AF/MS)",
+                    "medium_volume": 15,
+                    "Other_medium_link": "https://doi.org/10.1016/S0076-6879(09)04801-0"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "AF VEGETATIVE"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "AF (=AF/MS)",
+                    "Other_medium_link": "https://doi.org/10.1016/S0076-6879(09)04801-0",
+                    "medium_volume": 15
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "AF PRODUCTION"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "MC1",
+                    "medium_volume": 15
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "MC1",
+                "other_growth_conditions": "35 g/L soluble starch, 10 g/L glucose, 2 g/L hydrolyzed casein, 3.5 g/L meat extract, 20 g/L yeast extract, 10 g/L\nsoybean meal, 2 g/L CaCO3, adjusted to pH 7.2 w NaOH"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "medium_volume": 15,
+                    "Other_medium": "AF2"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "other_growth_conditions": "8 g/L yeast extract, 30 g/L soybean meal, 11\ng/L glucose, 25 g/L malt extract, 1 g/L L-valine, 0.5 g/L Biospumex (Cognis, France), adjusted to pH 7.4 w NaOH",
+                "sample_preparation_method": "AF2"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "R3 (=RARE3)",
+                    "medium_volume": 15,
+                    "Other_medium_link": "https://doi.org/10.1016/S1074-5521(03)00120-0"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "R3"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_16236"
+                    }
+                ],
+                "extraction_method": "EX",
+                "other_extraction_parameters": "Cells extracted with EtOH; supernatant extracted with HP20 resin, which was washed with H2O and eluted with 80:20 (v/v)  MeOH and H2O. Storage: dried under vacuum. Sample preparation: extracts were united 50:50 (v/v) and analyzed.\n",
+                "resins": "HP20 (Diaion)"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-3000",
+                "collision_energy": "35-50 eV",
+                "buffering": "Phase A: 0.1% (v/v) acetic acid in H2O; Phase B: 0.1% (v/v) acetic acid in MeCN",
+                "other_instrumentation": " 0-1 min (10% MeCN), 1-20 min (10-100% MeCN), 20-26\nmin (100% MeCN); \ncolumn: Atlantis T3 C 18 column\n(5 μm, 4.6 mm x 50 mm); flow rate: 0.3 mL/min; injection volume: 5 µL; column temperature: 25 °C; see https://doi.org/10.1101/2020.07.19.210815 for details",
+                "instrumentation_method": "TOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JABTEX000000000"
+            },
+            "BioSample_accession": "SAMN14970435",
+            "publications": "10.1101/2020.07.19.210815",
+            "genome_label": "Planomonospora sp. ID82291"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JABTEY000000000"
+            },
+            "BioSample_accession": "SAMN14970434",
+            "publications": "10.1101/2020.07.19.210815",
+            "genome_label": "Planomonospora sp. ID91781"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JABTEZ000000000"
+            },
+            "BioSample_accession": "SAMN14970433",
+            "publications": "10.1101/2020.07.19.210815",
+            "genome_label": "Planomonospora sp. ID67723"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Planomonospora sp. ID82291",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6134_6138_mod.mzXML",
+            "sample_preparation_label": "MC1",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID82291",
+            "sample_preparation_label": "AF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6133_6137_mod.mzXML",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID82291",
+            "sample_preparation_label": "AF PRODUCTION",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6132_6136_mod.mzXML"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID91781",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/7366_7369_mod.mzXML",
+            "sample_preparation_label": "MC1",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID91781",
+            "sample_preparation_label": "AF2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/7367_7370_mod.mzXML",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID91781",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/7368_7371_mod.mzXML",
+            "sample_preparation_label": "R3",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID91781",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF",
+            "sample_preparation_label": "AF PRODUCTION",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/5456_5455_mod.mzXML"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID67723",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6030_6034_mod.mzXML",
+            "sample_preparation_label": "MC1",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID67723",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6029_6033_mod.mzXML",
+            "sample_preparation_label": "AF2",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID67723",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6031_6035_mod.mzXML",
+            "sample_preparation_label": "R3",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        },
+        {
+            "genome_label": "Planomonospora sp. ID67723",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085376/peak/mod-mzXML/6028_6032_mod.mzXML",
+            "sample_preparation_label": "AF PRODUCTION",
+            "extraction_method_label": "EX",
+            "instrumentation_method_label": "TOF"
+        }
+    ],
+    "BGC_MS2_links": []
+}

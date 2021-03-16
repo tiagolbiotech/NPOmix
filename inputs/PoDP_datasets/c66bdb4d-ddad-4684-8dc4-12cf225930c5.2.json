@@ -1,0 +1,235 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Louis Felix Nothias",
+        "submitter_email": "louisfelix.nothias@gmail.com",
+        "PI_institution": "University of California San Diego",
+        "PI_email": "pdorrestein@ucsd.edu",
+        "submitter_orcid": "https://orcid.org/0000-0001-6711-6719",
+        "PI_name": "Pieter C. Dorrestein"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000079519",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=83e734fd87a64a37ae2ce19603aa62dc",
+            "molecular_network": "7e463ca89a7c41958a0d0b993ee52131"
+        },
+        "publications": "10.1038/nchembio.2219,10.1002/cbic.201600350,10.3390/microorganisms7100394,10.1021/jacs.7b02716",
+        "related_GNPSMassIVE_ID": "MSV000079521,MSV000079520,MSV000079518,MSV000079517,MSV000079516,MSV000079502,MSV000079503"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 40,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "ISP2"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 40,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "A1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=486"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 40,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "R5"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ],
+                "other_extraction_parameters": "Sonication was applied for 15 minutes and let extracted for 1 hour",
+                "extraction_method": "Butanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "80-1200",
+                "collision_energy": "30 NCE",
+                "buffering": "Acetonitrile + 0.1 FA / Water + 0.1 FA",
+                "other_instrumentation": "chromatographically separated using a Vanquish uHPLC (Thermo Scientific) using a KinetexTM\n1.7 um C18 reversed phase (50 X 2.1 mm) chromatography column (Phenomenex) at a flow rate of 0.5 mL/min. The separation was performed using the following gradient: 0-1 min at 5% solvent B followed by a linear\ngradient from 5% solvent B to 100% solvent B over 7 min. The column was then held at 100% solvent B for 3\nmin and equilibrated back to 5% solvent B for 2 min. The column compartment was maintained at 40◦C\nthroughout the runs.",
+                "instrumentation_method": "Q-Exactive"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NC_020990.1"
+            },
+            "publications": "10.1021/jacs.7b02716",
+            "genome_label": "Streptomyces albus J1074"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces albus J1074",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/ISP2_unlab_J1074.mzXML"
+        },
+        {
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "Butanol",
+            "genome_label": "Streptomyces albus J1074",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/ISP2_unlab_J1074_10uL.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "Butanol",
+            "genome_label": "Streptomyces albus J1074",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/A1_unlab_J1074.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1",
+            "genome_label": "Streptomyces albus J1074",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/A1_unlab_J1074_pre.mzXML"
+        },
+        {
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "Butanol",
+            "genome_label": "Streptomyces albus J1074",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/R5_unlab_J1074.mzXML"
+        },
+        {
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "Butanol",
+            "genome_label": "Streptomyces albus J1074",
+            "instrumentation_method_label": "Q-Exactive",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/R5_unlab_J1074_pre.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces albus J1074",
+            "sample_preparation_label": "ISP2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/ISP2_unlab_J1074_pre.mzXML",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "Q-Exactive"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Surugamide A",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_scan": "3226",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/R5_unlab_J1074_pre.mzXML",
+            "SMILES": "NCCCCC1NC(C(NC(C(NC(C(C)NC(C(NC(C(NC(C(NC(C(NC1=O)C(CC)C)=O)Cc2ccccc2)=O)CC(C)C)=O)C(CC)C)=O)=O)C(CC)C)=O)C(CC)C)=O",
+            "IUPAC": "Surugamide A",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001792"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Surugamide B ",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/ISP2_unlab_J1074_pre.mzXML",
+            "MS2_scan": "3061",
+            "IUPAC": "Surugamide B",
+            "SMILES": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](C)NC(=O)[C@@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)C(NC(=O)[C@@H](CCCCN)NC(=O)[C@H](NC1=O)C(C)C)[C@@H](C)CC)[C@@H](C)CC",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001792"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Surugamide D",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/A1_unlab_J1074.mzXML",
+            "MS2_scan": "3013",
+            "IUPAC": "Surugamide D",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=56&task=7e463ca89a7c41958a0d0b993ee52131#%7B%7D",
+            "SMILES": "NCCCC[C@H]1NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](C)NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@H](NC1=O)[C@H](CC)C)Cc1ccccc1)CC(C)C)[C@H](CC)C)C(C)C)[C@@H](CC)C",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001792"
+            }
+        },
+        {
+            "link": "single molecule",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/R5_unlab_J1074_pre.mzXML",
+            "MS2_scan": "2969",
+            "IUPAC": "Surugamide H",
+            "known_link": "Surugamide H",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)C(C)C)C)C(C)C)CC(C)C)CC2=CC=CC=C2)C(C)C)CCCCN",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001792"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Surugamide G",
+            "SMILES": "CC(C1C(NC(C(CC)C)C(NC(CCCCN)C(NC(C(CC)C)C(NC(CC2=CC=CC=C2)C(NC(CC(C)C)C(NC(C(C)C)C(NC(C)C(N1)=O)=O)=O)=O)=O)=O)=O)=O)C",
+            "IUPAC": "Surugamide G",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000079519/raw/Unlabelled/R5_unlab_J1074_pre.mzXML",
+            "MS2_scan": "3038",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001792"
+            }
+        }
+    ]
+}

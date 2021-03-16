@@ -1,0 +1,109 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Jessica Cleary Little",
+        "submitter_email": "jclear5@uic.edu",
+        "submitter_orcid": "https://orcid.org/0000-0002-8032-1378",
+        "PI_name": "Laura M. Sanchez",
+        "PI_institution": "University of Illinois at Chicago",
+        "PI_email": "sanchelm@uic.edu",
+        "submitter_name_secondary": "Emily Pierce",
+        "submitter_email_secondary": "ecpierce@gmail.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085085",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=050edfa14f344319a33ee576a93b41a0&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Cheese Curd Agar"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 168,
+                    "growth_phase_OD": "stationary"
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "8 days solid Cheese Curd Agar",
+                "other_growth_conditions": "10% Cheese Curd Agar:\n\nper 1L DI water blend in commercial blender:\n\n-100 g freeze-dried Bayley Hazen Blue Cheese Curd\n-5 g xanthan gum\n-30 g NaCl\n-17 g Agar\n\n-Place all dry ingredients in media bottle and fill to 1L DI H2O. \n-Adjust pH to 7 using NaOH (cheese curd recipe is naturally around pH 5).\n-Autoclave for only 15 min @ 121C to avoid burning cheese and remove from autoclave immediately when temperature and pressure allow."
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_38472"
+                    }
+                ],
+                "other_extraction_parameters": "Extractions were performed on solid agar plates, thus cells and media are extracted. Plate contents are placed into falcon tube and sonicated with Acetonitrile. Solvent is then removed from solids and dried to afford a crude extract. ",
+                "extraction_method": "small scale CCA extractions"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "200-2000",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "Bruker compact qTOF and Bruker impact qTOF",
+                "instrumentation_method": "qTOF",
+                "collision_energy": "Variable ranging from 25 to 60 eV in the range from 100 to 1500 Da. In addition, the isolation width also increases from 4 to 8 Da."
+            }
+        ]
+    },
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Pseudomonas psychrophila sp. JB418",
+            "sample_preparation_label": "8 days solid Cheese Curd Agar",
+            "extraction_method_label": "small scale CCA extractions",
+            "instrumentation_method_label": "qTOF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085085/peak/JB418_alone.mzXML"
+        },
+        {
+            "genome_label": "Pseudomonas psychrophila sp. JB418",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085085/peak/JB418_1.mzXML",
+            "sample_preparation_label": "8 days solid Cheese Curd Agar",
+            "extraction_method_label": "small scale CCA extractions",
+            "instrumentation_method_label": "qTOF"
+        },
+        {
+            "genome_label": "Pseudomonas psychrophila sp. JB418",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085085/peak/JB418_2.mzXML",
+            "sample_preparation_label": "8 days solid Cheese Curd Agar",
+            "extraction_method_label": "small scale CCA extractions",
+            "instrumentation_method_label": "qTOF"
+        },
+        {
+            "genome_label": "Pseudomonas psychrophila sp. JB418",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085085/peak/JB418_3.mzXML",
+            "sample_preparation_label": "8 days solid Cheese Curd Agar",
+            "extraction_method_label": "small scale CCA extractions",
+            "instrumentation_method_label": "qTOF"
+        }
+    ],
+    "genomes": [
+        {
+            "genome_label": "Pseudomonas psychrophila sp. JB418",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2751185442"
+            }
+        }
+    ]
+}

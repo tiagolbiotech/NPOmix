@@ -1,0 +1,115 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Katherine Bauman",
+        "submitter_orcid": "https://orcid.org/0000-0003-1154-8189",
+        "submitter_email": "kdbauman@ucsd.edu",
+        "PI_name": "Bradley Moore",
+        "PI_institution": "Scripps Institution of Oceanography, University of California, San Diego",
+        "PI_email": "bsmoore@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083081",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=4f501dbba7784e8eb4111bf7e298970e&view=advanced_view",
+            "molecular_network": "24d515f76b4c4d6694a934234435b9bf"
+        },
+        "publications": "30853419"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium545.pdf",
+                    "medium_volume": 500
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 220
+                },
+                "other_growth_conditions": "0.5% yeast extract added to TSB media. Seed cultures were grown in TSB(Y) media for 36 hours. Then transferred to production culture (72 hours). No more than 500 mL in 2.8 L flask. ",
+                "sample_preparation_method": "Streptomyces "
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "Cultures adjusted to ~pH 4 before extraction. Ethyl acetate was dried down and then resuspended in MeOH before LCMS analysis.",
+                "extraction_method": "Streptophenazine extraction"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "70-2,200",
+                "collision_energy": "30 eV",
+                "buffering": "Water and acetonitrile with 0.1% formic acid",
+                "instrumentation_method": "Streptophenazines",
+                "other_instrumentation": "Reverse phase C18 HPLC column (5 um, 250 mm x 4.6 mm). Samples were eluted over a 60 min method with a gradient from 10 to 45% acetonitrile over 15 min, 45 to 65% over the next 30 min, and then to 100% over 10 min. 100% acetonitrile was held for 1 min before concentration was dropped to 10%. Flow rate was 0.75 mL/min."
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377965.1",
+                "RefSeq_accession": "GCF_000377965.1",
+                "JGI_Genome_ID": "2518285535"
+            },
+            "BioSample_accession": "SAMN02441673",
+            "publications": "30853419, 26553755",
+            "genome_label": "Streptomyces sp. CNB091"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "Streptomyces ",
+            "extraction_method_label": "Streptophenazine extraction",
+            "instrumentation_method_label": "Streptophenazines",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083081/peak/CNB091_1.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. CNB091",
+            "sample_preparation_label": "Streptomyces ",
+            "extraction_method_label": "Streptophenazine extraction",
+            "instrumentation_method_label": "Streptophenazines",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083081/peak/M1146-pKDB03.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002010"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Streptophenazine (spz) BGC. In the above links I have the native producing organism CNB091 where you can see production of the streptophenazines. I also have the spz cluster expressed in the heterologous host (Streptomyces coelicolor M1146-pCAP03-spz) with synthetic strong constitutive promoters added for expression. This is the M1146-pKDB03 metabolomics data file that is linked above. I don't have a genome for this besides the native CNB091 since it is a heterologous production example. I have still included here in case it is helpful. ",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=29&show=true&task=24d515f76b4c4d6694a934234435b9bf#%7B%7D"
+        }
+    ]
+}

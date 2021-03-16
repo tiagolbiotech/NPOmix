@@ -1,0 +1,41 @@
+BEGIN IONS
+PEPMASS=273.28
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS040705 Naringenin|Nari|4',5,7-trihydroxyflavanone|2,3-Dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one|Salipurol|naringetol|pelargidanon|Asahina
+LIBRARYQUALITY=3
+SMILES=C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O
+INCHIKEY=FTVWIRXFELQLPI-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS040705 Naringenin|Nari|4',5,7-trihydroxyflavanone|2,3-Dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one|Salipurol|naringetol|pelargidanon|Asahina [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000215207
+SCANS=3281
+41.0 58.0 
+43.0 45.0 
+66.0 40.0 
+67.0 95.0 
+68.0 51.0 
+69.0 184.0 
+90.0 30.0 
+91.0 222.0 
+97.0 33.0 
+118.0 44.0 
+119.0 331.0 
+146.0 80.0 
+147.0 226.0 
+150.0 31.0 
+151.0 44.0 
+152.0 437.0 
+153.0 999.0 
+END IONS
+

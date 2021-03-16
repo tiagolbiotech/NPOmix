@@ -1,0 +1,469 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "David Fewer",
+        "submitter_orcid": "https://orcid.org/0000-0003-3978-4845",
+        "submitter_email": "david.fewer@helsinki.fi",
+        "PI_name": "David Fewer",
+        "PI_institution": "University of helsinki",
+        "PI_email": "david.fewer@helsinki.fi"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084950",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=07d6a1a51961435bb3c1126674857790",
+            "molecular_network": "cefe9408d6e64d7691490c7ac796fbea"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Z8",
+                    "medium_volume": 40,
+                    "Other_medium_link": "http://www.sccap.dk/media/freshwater/7.asp"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 24
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "24 hours light of 5-10 micromol m-2 s-1.",
+                "sample_preparation_method": "Z8"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Z8x",
+                    "Other_medium_link": "http://www.sccap.dk/media/freshwater/7.asp",
+                    "medium_volume": 40
+                },
+                "growth_parameters": {
+                    "growth_temperature": 24
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "24 hours light of 5-10 micromol m-2 s-1. The Z8X medium lacks a source of combined nitrogen.",
+                "sample_preparation_method": "Z8x"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium_volume": 40,
+                    "medium": "other",
+                    "Other_medium": "Z8xS",
+                    "Other_medium_link": "http://www.sccap.dk/media/freshwater/7.asp"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 24
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "24 hours light of 5-10 µmol m-2 s-1. The Z8XS medium lacks a source of combined nitrogen and 1% NaCl.",
+                "sample_preparation_method": "Z8XS"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "1 ml of methanol and freeze-dried cell were mixed with 200 µl 0.5-mm-diameter glass beads (Scientific Industries Inc.) and homogenized using a FastPrep cell disrupter (Bio101, Thermo Electron Corporation, Qbiogen, Inc.) for 40 s at a speed of 6.5 m s-1.",
+                "extraction_method": "M1"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2000",
+                "collision_energy": "1.5 kV",
+                "buffering": "0.1% formic acid ",
+                "other_instrumentation": "Column used: Kinetex® C8 100 LC Column (50 × 2.1 mm, 1.7 µm, 100 Å)\nGradient: A: 0.1% formic acid in water and B: 0.1% formic acid in acetonitrile/isopropanol (1:1). The initial conditions of the linear gradient were A: 95% and B: 5% and the conditions were changed to A: 0% and B: 100% in 5 min. The injection volume was 0.5 μL.",
+                "instrumentation_method": "ToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AP019314.1"
+            },
+            "genome_label": "Microcystis viridis NIES-102",
+            "BioSample_accession": "SAMD00106498"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP046058.1, CP046059.1"
+            },
+            "genome_label": "Microcystis aeruginosa NIES-298",
+            "BioSample_accession": "SAMN05710194"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AP009552.1"
+            },
+            "genome_label": "Microcystis aeruginosa NIES-843",
+            "BioSample_accession": "SAMD00060936"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP020114.1, CP020115.1 "
+            },
+            "BioSample_accession": "SAMN05967630",
+            "genome_label": "Nodularia spumigena UHCC 0039",
+            "publications": "    29568283"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VIKW01"
+            },
+            "genome_label": "Anabaena sp. UHCC 0204",
+            "BioSample_accession": "SAMN12084250"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILD01"
+            },
+            "genome_label": "Anabaena sp. UHCC 0253",
+            "BioSample_accession": "SAMN12084370"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILE01"
+            },
+            "genome_label": "Dolichospermum planctonicum UHCC 0167",
+            "BioSample_accession": "SAMN12084395"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILF01"
+            },
+            "genome_label": "Dolichospermum flos-aquae UHCC 0037",
+            "BioSample_accession": "SAMN12084379"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP003284.1, CP003285.1, CP003286.1, CP003287.1, CP003288.1"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0090",
+            "BioSample_accession": "SAMN02604187 ",
+            "publications": "    23148582"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP043056.1, CP043057.1, CP043058.1, CP043059.1"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0315A",
+            "BioSample_accession": "SAMN05967626"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VIKX01"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0259",
+            "BioSample_accession": "SAMN12084251"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VIKZ01"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0260",
+            "BioSample_accession": "SAMN12084254"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VIKV01"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0299",
+            "BioSample_accession": "SAMN12084240"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VIKY01"
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0352",
+            "BioSample_accession": "SAMN12084252"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILA01 "
+            },
+            "genome_label": "Dolichospermum sp. UHCC 0406",
+            "BioSample_accession": "SAMN12084309"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILC01"
+            },
+            "genome_label": "Aphanizomenon sp. UHCC 0183",
+            "BioSample_accession": "SAMN12084337"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP000117.1, CP000119.1, CP000120.1, CP000121.1"
+            },
+            "genome_label": "Trichormus variabilis ATCC 29413",
+            "BioSample_accession": "SAMN02598253"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "ACYA01"
+            },
+            "genome_label": "Cylindrospermopsis raciborskii CS-505",
+            "BioSample_accession": "SAMN02470243"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "LXQD01"
+            },
+            "genome_label": "Nostoc minutum NIES-26",
+            "BioSample_accession": "SAMN04901525"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP011382.1, CP011383.1, CP011384.1, CP011385.1"
+            },
+            "genome_label": "Calothrix sp. UHCC 336/3",
+            "BioSample_accession": "SAMN02909965"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "VILB01"
+            },
+            "genome_label": "Anabaena sp. UHCC 0187",
+            "BioSample_accession": "SAMN12084330"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JXYX01"
+            },
+            "genome_label": "Microcystis aeruginosa NIES-88",
+            "BioSample_accession": "SAMN03329508"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AP018314.1, AP018315.1"
+            },
+            "genome_label": "Sphaerospermopsis kisseleviana NIES-73",
+            "BioSample_accession": "SAMD00079800"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "AZYY01"
+            },
+            "genome_label": "Aphanizomenon flos-aquae NIES-81",
+            "BioSample_accession": "SAMN02485748"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Microcystis viridis NIES-102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220001.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Microcystis aeruginosa NIES-298",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220002.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Microcystis aeruginosa NIES-843",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220003.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Nodularia spumigena UHCC 0039",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220004.mzML",
+            "sample_preparation_label": "Z8XS",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Anabaena sp. UHCC 0204",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220005.mzML",
+            "sample_preparation_label": "Z8XS",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Anabaena sp. UHCC 0253",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220006.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum planctonicum UHCC 0167",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220007.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum flos-aquae UHCC 0037",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220008.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0090",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220009.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0315A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220010.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0259",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220011.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0260",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220012.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0299",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220013.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0352",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220014.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Dolichospermum sp. UHCC 0406",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220015.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Aphanizomenon sp. UHCC 0183",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220016.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Trichormus variabilis ATCC 29413",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220017.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Cylindrospermopsis raciborskii CS-505",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220018.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Nostoc minutum NIES-26",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220019.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Calothrix sp. UHCC 336/3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220020.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Anabaena sp. UHCC 0187",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220021.mzML",
+            "sample_preparation_label": "Z8x",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Microcystis aeruginosa NIES-88",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220022.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Sphaerospermopsis kisseleviana NIES-73",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220023.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Aphanizomenon flos-aquae NIES-81",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084950/peak/040220024.mzML",
+            "sample_preparation_label": "Z8",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "version": "2",
+    "personal": {
+        "PI_name": "Leticia Costa-lotufo",
+        "submitter_email": "pireskarine@yahoo.com.br",
+        "PI_institution": "Universidade de São Paulo Instituto de Biociências",
+        "submitter_orcid": "https://orcid.org/0000-0003-3988-9241",
+        "submitter_name": "Karine Pires",
+        "submitter_name_secondary": "Leticia Costa-lotufo",
+        "submitter_email_secondary": "costalotufo@gmail.com",
+        "PI_email": "costalotufo@gmail.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000079015",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=b352c72f1df44b87a45f7313aa73d5ce&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750",
+                        "ratio": 1
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "EtOAc"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "BuOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000081"
+                },
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "instrumentation_method": "6520 Quadrupole Time-of-Flight LC/MS",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000008",
+                    "other_ionization_type": "Q-TOF MS"
+                },
+                "range": "300-1700 m/z",
+                "collision_energy": "20 eV"
+            }
+        ],
+        "sample_preparation": [
+            {
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 480
+                },
+                "sample_preparation_method": "A1 medium"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "BioSample_accession": "SAMN14411170",
+            "genome_label": "Salinispora sp. BRA172",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASAX000000000"
+            }
+        },
+        {
+            "BioSample_accession": "SAMN14411171",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASAW000000000"
+            },
+            "genome_label": "Salinispora sp. BRA190"
+        },
+        {
+            "genome_label": "Salinispora sp. BRA258",
+            "BioSample_accession": "SAMN14411172",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAASAV000000000"
+            }
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Salinispora sp. BRA172",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079015/raw/Brazilian%20Salinispora/BRA-172.mzXML",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "6520 Quadrupole Time-of-Flight LC/MS",
+            "sample_preparation_label": "A1 medium"
+        },
+        {
+            "genome_label": "Salinispora sp. BRA190",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079015/raw/Brazilian%20Salinispora/BRA-190.mzXML",
+            "sample_preparation_label": "A1 medium",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "6520 Quadrupole Time-of-Flight LC/MS"
+        },
+        {
+            "genome_label": "Salinispora sp. BRA258",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079015/raw/Brazilian%20Salinispora/BRA258-mz300.mzXML",
+            "sample_preparation_label": "A1 medium",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "6520 Quadrupole Time-of-Flight LC/MS"
+        }
+    ]
+}

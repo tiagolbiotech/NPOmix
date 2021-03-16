@@ -1,0 +1,999 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_orcid": "https://orcid.org/0000-0001-6728-1976",
+        "submitter_email": "mgugger@pasteur.fr",
+        "PI_institution": "Institut Pasteur",
+        "PI_email": "mgugger@pasteur.fr",
+        "submitter_name": "Muriel Gugger",
+        "submitter_name_secondary": "Alexandra Calteau, Anne Boullie, Raquel Castelo Branco & David P. Fewer",
+        "submitter_email_secondary": "acalteau@genoscope.cns.fr",
+        "PI_name": "Muriel Gugger"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000084954",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=f04b40a626ec4b9e9f847b1eb1d65bc4",
+            "molecular_network": "7517867ac85d496ba5f558143905df9e"
+        },
+        "publications": "23277585"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11o + NaHCO3 (5 mM)",
+                    "medium_volume": 200,
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11o/"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11o + NaHCO3 (5 mM) full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11o + NaNO3 (2 mM)",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11o/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11o + NaNO3 (2 mM) full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "sample_preparation_method": "BG11 full light 25°C",
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "ASNIII +Turks Island Salts 4X (1:1, v/v)",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/asniii/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "sample_preparation_method": "ASNIII +Turks full light 25°C",
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11 + ASNIII (1:1, v/v)",
+                    "medium_volume": 200,
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11/"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11/ASNIII full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11o",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11o/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11o full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Z8",
+                    "Other_medium_link": "http://www.sccap.dk/media/freshwater/7.asp",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "Z8 full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "ASN-III + vit. B12 (10 µg/L, obligate requirement)",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/asniii/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 15 µmol photon m-2 s-1",
+                "sample_preparation_method": "ASNIII+vitB12 full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11+10%ASN III",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/asniii/"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11/10%ASNIII full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "ASN III",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/asniii/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "ASNIII full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11o + Turks Island Salts 4X (25%, v/v) ",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11o/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 25,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11o +Turks full light 25°C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "BG11o",
+                    "Other_medium_link": "http://garcia-pichel.lab.asu.edu/labo/bg11o/",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 37,
+                    "growth_duration": 300
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 90
+                },
+                "other_growth_conditions": "24hrs white light : 20 µmol photon m-2 s-1",
+                "sample_preparation_method": "BG11o full light 37°C"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells",
+                "other_extraction_parameters": "1 ml of methanol and freeze-dried cell were mixed with 200 µl 0.5-mm-diameter glass beads (Scientific Industries Inc.) and homogenized using a FastPrep cell disrupter (Bio101, Thermo Electron Corporation, Qbiogen, Inc.) for 40 s at a speed of 6.5 m s-1.\"",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extraction_method": "M1"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2000",
+                "collision_energy": "1.5 kV",
+                "buffering": "0.1 formic acid",
+                "other_instrumentation": "Column used: Kinetex® C8 100 LC Column (50 × 2.1 mm, 1.7 µm, 100 Å)\\nGradient: A: 0.1% formic acid in water and B: 0.1% formic acid in acetonitrile/isopropanol (1:1). The initial conditions of the linear gradient were A: 95% and B: 5% and the conditions were changed to A: 0% and B: 100% in 5 min. The injection volume was 0.5 μL.",
+                "instrumentation_method": "ToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_011726.1, NC_011721.1, NC_011723.1, NC_011727.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Rippkae orientalis PCC 8801",
+            "BioSample_accession": "SAMN00000280"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ANKN00000000.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Prochlorothrix hollandica PCC 9006",
+            "BioSample_accession": "SAMN02261252"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALWB00000000.1"
+            },
+            "genome_label": "Pseudanabaena biceps PCC 7429",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261350"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVK01000000"
+            },
+            "genome_label": "Pseudanabaena sp. PCC 6802",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261339"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019697.1,NC_020053.1,NC_019698.1"
+            },
+            "genome_label": "Chamaesiphon minutus PCC 6605",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261345"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019779.1"
+            },
+            "genome_label": "Halothece sp. PCC 7418",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02232029"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVQ01000000"
+            },
+            "genome_label": "Spirulina major  PCC 6313",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02744077"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVX00000000.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Fischerella sp. PCC 9431",
+            "BioSample_accession": "SAMN02441755"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019751.1,NC_019727.1,NC_019728.1,NC_019752.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Calothrix sp. PCC 6303",
+            "BioSample_accession": "SAMN02261327"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ANFJ00000000"
+            },
+            "genome_label": "Fortiea contorta PCC 7126",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261254"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ANKO00000000"
+            },
+            "genome_label": "Oscillatoria sp. PCC 10802",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261253"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019689"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Pleurocapsa sp. PCC 7327",
+            "BioSample_accession": "SAMN02261343"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_010628.1,NC_010631.1,NC_010632.1,NC_010630.1,NC_010633.1,NC_010629.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Nostoc punctiforme PCC 73102",
+            "BioSample_accession": "SAMN02598449"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVV00000000"
+            },
+            "genome_label": "Leptolyngbya sp. PCC 6406",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261357"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019683.1"
+            },
+            "genome_label": "Leptolyngbya sp. PCC 7376",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02232033"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019757.1,NC_020050.1,NC_019744.1,NC_019758.1"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Cylindrospermum stagnale PCC 7417 ",
+            "BioSample_accession": "SAMN02261342"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": " NZ_ALVZ00000000"
+            },
+            "genome_label": "Xenococcus sp. PCC 7305",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261354"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_011884.1,NC_011880.1,NC_011885.1,NC_011882.1"
+            },
+            "genome_label": "Cyanothece sp. PCC 7425",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN00000655"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "PRJNA158687"
+            },
+            "publications": "25404466,23277585",
+            "genome_label": "Chroococcidiopsis sp. PCC 6712",
+            "BioSample_accession": "SAMN02744079"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019695.1,NC_019699.1,NC_019696.1"
+            },
+            "genome_label": "Chroococcidiopsis thermalis PCC 7203",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261359"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome"
+            },
+            "genome_label": "Limnospira indica PCC 8005",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMEA3138303"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_010296.1"
+            },
+            "genome_label": "Microcystis aeruginosa NIES-843",
+            "publications": "18192279,25404466,23277585",
+            "BioSample_accession": "SAMD00060936"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_CP020771.1"
+            },
+            "genome_label": "Microcystis aeruginosa PCC 7806",
+            "publications": "25404466,23277585,29778228",
+            "BioSample_accession": "SAMN05786724 "
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVL00000000"
+            },
+            "genome_label": "Pleurocapsa sp. PCC 7319",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261343"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_007410-13,NC_014000.1"
+            },
+            "genome_label": "Trichormus variabilis ATCC 29413",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02598253"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVN00000000"
+            },
+            "genome_label": "Leptolyngbya sp. PCC 7375",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02256520"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_CACA00000000"
+            },
+            "genome_label": "Kamptonema sp. PCC 6506",
+            "publications": "20675499,25404466,23277585",
+            "BioSample_accession": "SAMEA2272769"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019678.1,NC_019679.1,NC_019686.1"
+            },
+            "genome_label": "Rivularia sp. PCC 7116",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02232049"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019738.1,NC_019739.1,NC_019760.1,NC_019740.1,NC_019761.1,NC_019741.1,NC_019742.1,NC_019762.1,NC_019743.1"
+            },
+            "genome_label": "Microcoleus sp. PCC 7113",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261351"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019682.1"
+            },
+            "genome_label": "Calothrix sp. PCC 7507",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261328"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019702.1,NC_019691.1,NC_019692.1"
+            },
+            "genome_label": "Synechococcus sp. PCC 7502",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261356"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVU00000000"
+            },
+            "genome_label": "Synechocystis sp. PCC 7509",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261355"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVP00000000"
+            },
+            "genome_label": "Nodosilinea nodulosa PCC 7104",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261265"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019745.1,NC_019746.1,NC_020051.1,NC_019759.1,NC_019747.1"
+            },
+            "genome_label": "Gloeocapsa sp. PCC 7428",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261347"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_014501.1,NC_014533.1,NC_014534.1,NC_014502.1,NC_014503.1,NC_014504.1,NC_014535.1"
+            },
+            "genome_label": "Cyanothece sp. PCC 7822",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN00000663"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_019780.1"
+            },
+            "genome_label": "Dactylococcopsis salina PCC 8305",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261331"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVR00000000.1"
+            },
+            "genome_label": "Spirulina subsalsa PCC 9445",
+            "BioSample_accession": "SAMN02261255",
+            "publications": "25404466,23277585"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVJ00000000"
+            },
+            "BioSample_accession": "SAMN02261256",
+            "publications": "25404466,23277585",
+            "genome_label": "Calothrix sp. PCC 7103"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVS00000000.1"
+            },
+            "genome_label": "Fischerella sp. PCC 9339",
+            "BioSample_accession": "SAMN02261257",
+            "publications": "25404466,23277585"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVT00000000.1"
+            },
+            "BioSample_accession": "SAMN02597161",
+            "publications": "25404466,23277585",
+            "genome_label": "Fischerella sp. PCC 9605"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_ALVW00000000"
+            },
+            "genome_label": "Mastigocladopsis repens PCC 10914",
+            "publications": "25404466,23277585",
+            "BioSample_accession": "SAMN02261251"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NZ_CM001775.1"
+            },
+            "BioSample_accession": "SAMN02256519",
+            "publications": "25404466,23277585",
+            "genome_label": "Geminocystis herdmanii PCC 6308"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_006576.1"
+            },
+            "genome_label": "Synechococcus elongatus PCC 6301",
+            "BioSample_accession": "SAMD00061073",
+            "publications": "17211581,25404466,23277585"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "NC_003272.1,NC_003276.1,NC_003240.1,NC_003273.1,NC_003270.1,NC_003267.1,NC_003241.1"
+            },
+            "publications": "11759840,25404466,23277585",
+            "BioSample_accession": "SAMD00061094",
+            "genome_label": "Nostoc sp. PCC 7120"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Rippkae orientalis PCC 8801",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220025.mzML",
+            "sample_preparation_label": "BG11o + NaHCO3 (5 mM) full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Prochlorothrix hollandica PCC 9006",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220026.mzML",
+            "sample_preparation_label": "BG11o + NaNO3 (2 mM) full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Pseudanabaena biceps PCC 7429",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220027.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Pseudanabaena sp. PCC 6802",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220028.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Chamaesiphon minutus PCC 6605",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220029.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Halothece sp. PCC 7418",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220030.mzML",
+            "sample_preparation_label": "ASNIII +Turks full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Spirulina major  PCC 6313",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220031.mzML",
+            "sample_preparation_label": "BG11/ASNIII full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Fischerella sp. PCC 9431",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220032mzML",
+            "sample_preparation_label": "BG11o full light 37°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Calothrix sp. PCC 6303",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220033.mzML",
+            "sample_preparation_label": "BG11o + NaHCO3 (5 mM) full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Fortiea contorta PCC 7126",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220034.mzML",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Oscillatoria sp. PCC 10802",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220035mzML",
+            "sample_preparation_label": "Z8 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Pleurocapsa sp. PCC 7327",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220036.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Nostoc punctiforme PCC 73102",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220037.mzML",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Leptolyngbya sp. PCC 6406",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220038mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11/10%ASNIII full light 25°C"
+        },
+        {
+            "genome_label": "Leptolyngbya sp. PCC 7376",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220039.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "ASNIII+vitB12 full light 25°C"
+        },
+        {
+            "genome_label": "Cylindrospermum stagnale PCC 7417 ",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220040.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11o full light 25°C"
+        },
+        {
+            "genome_label": "Xenococcus sp. PCC 7305",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220041.mzML",
+            "sample_preparation_label": "ASNIII full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Cyanothece sp. PCC 7425",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220042.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Chroococcidiopsis sp. PCC 6712",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220043.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Chroococcidiopsis thermalis PCC 7203",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220044.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Limnospira indica PCC 8005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220045.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11/ASNIII full light 25°C"
+        },
+        {
+            "genome_label": "Microcystis aeruginosa NIES-843",
+            "sample_preparation_label": "BG11o + NaNO3 (2 mM) full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220046.mzML"
+        },
+        {
+            "genome_label": "Microcystis aeruginosa PCC 7806",
+            "sample_preparation_label": "BG11o + NaNO3 (2 mM) full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220047.mzML"
+        },
+        {
+            "genome_label": "Pleurocapsa sp. PCC 7319",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220048.mzML",
+            "sample_preparation_label": "ASNIII full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Trichormus variabilis ATCC 29413",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220049.mzML",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Leptolyngbya sp. PCC 7375",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220050.mzML",
+            "sample_preparation_label": "ASNIII+vitB12 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Kamptonema sp. PCC 6506",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220051.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Rivularia sp. PCC 7116",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220052.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11o +Turks full light 25°C"
+        },
+        {
+            "genome_label": "Microcoleus sp. PCC 7113",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220053.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Calothrix sp. PCC 7507",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220054.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11o full light 25°C"
+        },
+        {
+            "genome_label": "Synechococcus sp. PCC 7502",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220055.mzML"
+        },
+        {
+            "genome_label": "Synechocystis sp. PCC 7509",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220056.mzML"
+        },
+        {
+            "genome_label": "Nodosilinea nodulosa PCC 7104",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220057.mzML"
+        },
+        {
+            "genome_label": "Gloeocapsa sp. PCC 7428",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220058.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11 full light 25°C"
+        },
+        {
+            "genome_label": "Cyanothece sp. PCC 7822",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220059.mzML",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "sample_preparation_label": "BG11o full light 25°C"
+        },
+        {
+            "genome_label": "Dactylococcopsis salina PCC 8305",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220060.mzML",
+            "instrumentation_method_label": "ToF",
+            "extraction_method_label": "M1",
+            "sample_preparation_label": "ASNIII +Turks full light 25°C"
+        },
+        {
+            "genome_label": "Spirulina subsalsa PCC 9445",
+            "sample_preparation_label": "BG11/ASNIII full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220061.mzML"
+        },
+        {
+            "genome_label": "Calothrix sp. PCC 7103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220062.mzML",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Fischerella sp. PCC 9339",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220063.mzML",
+            "sample_preparation_label": "BG11o full light 37°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Fischerella sp. PCC 9605",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220064.mzML",
+            "sample_preparation_label": "BG11o full light 37°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Mastigocladopsis repens PCC 10914",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220065.mzML"
+        },
+        {
+            "genome_label": "Geminocystis herdmanii PCC 6308",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220066.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Synechococcus elongatus PCC 6301",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220067.mzML",
+            "sample_preparation_label": "BG11 full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        },
+        {
+            "genome_label": "Nostoc sp. PCC 7120",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000084954/peak/040220068.mzML",
+            "sample_preparation_label": "BG11o full light 25°C",
+            "extraction_method_label": "M1",
+            "instrumentation_method_label": "ToF"
+        }
+    ]
+}

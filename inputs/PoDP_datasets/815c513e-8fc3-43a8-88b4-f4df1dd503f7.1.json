@@ -1,0 +1,148 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Michael Rust",
+        "submitter_email": "rustmi@ethz.ch",
+        "submitter_orcid": "https://orcid.org/0000-0001-6648-2434",
+        "submitter_name_secondary": "Eric Helfrich",
+        "submitter_email_secondary": "Eric_Helfrich@hms.harvard.edu",
+        "PI_name": "Joern Piel",
+        "PI_institution": "ETH Zurich",
+        "PI_email": "jpiel@ethz.ch"
+    },
+    "metabolomics": {
+        "project": {
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=74785bb9933e432eb35addc6392b9185",
+            "molecular_network": "6e1ba4287bc641ad930dfcb7d32a28d5",
+            "GNPSMassIVE_ID": "MSV000085141"
+        },
+        "publications": "10.1073/pnas.1919245117"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "Mycale hentscheli metagenome"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "GC1"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "EM1"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "200-800",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "IM1",
+                "collision_energy": "35",
+                "other_instrumentation": "column: Phenomenex Kinetex 2.6 um C18 100 A (150 x 4.6 mm)\ngradient: a flow rate of 0.5 mL/min with acetonitrile at 5%\nfrom 0 to 2 min, 5% to 95% from 2 to 14 min, 95% from 14 to 17 min, 95% to 5% from 17 to 20 min"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAHTG010000000"
+            },
+            "BioSample_accession": "SAMN13939989",
+            "publications": "10.1073/pnas.1919245117",
+            "genome_label": "MH_40_24"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome",
+                "ENA_NCBI_accession": "JAAHTH010000000"
+            },
+            "BioSample_accession": "SAMN13939990",
+            "publications": "10.1073/pnas.1919245117",
+            "genome_label": "MH_79_12"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "MH_40_24",
+            "sample_preparation_label": "GC1",
+            "extraction_method_label": "EM1",
+            "instrumentation_method_label": "IM1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140416_1MJP40_24.mzXML"
+        },
+        {
+            "genome_label": "MH_79_12",
+            "sample_preparation_label": "GC1",
+            "extraction_method_label": "EM1",
+            "instrumentation_method_label": "IM1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140517_1MJP3_79_12.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002055"
+            },
+            "link": "single molecule",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140517_1MJP3_79_12.mzXML",
+            "verification": [
+                "Evidence as indicated in MIBiG",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "known_link": "The sponge Mycale hentscheli is the source of the polyketide Mycalamide A. Since there is a close correlation between the module architecture of a polyketide synthase and the polyketide structure, assumptions about the core BGC are possible if the structure is known and vice versa. The mycalamide biosynthetic gene cluster (myc) was identified in the metagenome of a sponge sample known to contain mycalamide. The module architecture is in good agreement with the mycalamide structure. The assignment of the biosynthetic gene cluster to mycalamide was facilitated by the fact that mycalamide belongs to the pederin-family molecules for which very similar gene clusters were already known.",
+            "SMILES": "CC1C(OC(CC1=C)(C(C(=O)NC2C3C(C(C(C(O3)CC(CO)O)(C)C)OC)OCO2)O)OC)C",
+            "IUPAC": "(2S)-N-[(4S,4aS,6R,8S,8aR)-6-[(2S)-2,3-dihydroxypropyl]-8-methoxy-7,7-dimethyl-4a,6,8,8a-tetrahydro-4H-pyrano[3,2-d][1,3]dioxin-4-yl]-2-hydroxy-2-[(2R,5R,6R)-2-methoxy-5,6-dimethyl-4-methylideneoxan-2-yl]acetamide",
+            "MS2_scan": "2580"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002057"
+            },
+            "link": "single molecule",
+            "known_link": "The sponge Mycale hentscheli is the source of the polyketide Pateamine. Since there is a close correlation between the module architecture of a polyketide synthase and the polyketide structure, assumptions about the core BGC are possible if the structure is known and vice versa. The pateamine biosynthetic gene cluster (pam) was identified in the metagenome of a sponge sample known to contain pateamine. The module architecture is in good agreement with the pateamine structure.",
+            "verification": [
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "CC1CC(CC(=O)OC(CC(=CC=CC(=O)OC(CC2=NC1=CS2)C=C(C)C=CC(=CCN(C)C)C)C)C)N",
+            "IUPAC": "(3S,6Z,8E,11S,15R,17S)-15-amino-3-[(1E,3E,5E)-7-(dimethylamino)-2,5-dimethylhepta-1,3,5-trienyl]-9,11,17-trimethyl-4,12-dioxa-20-thia-21-azabicyclo[16.2.1]henicosa-1(21),6,8,18-tetraene-5,13-dione",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140517_1MJP3_79_12.mzXML",
+            "MS2_scan": "2171"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002056"
+            },
+            "link": "single molecule",
+            "known_link": "The sponge Mycale hentscheli is the source of the polyketide Peloruside A. Since there is a close correlation between the module architecture of a polyketide synthase and the polyketide structure, assumptions about the core BGC are possible if the structure is known and vice versa. The peloruside biosynthetic gene cluster (pel) was identified in the metagenome of a sponge sample known to contain peloruside. The module architecture is in good agreement with the peloruside structure.",
+            "verification": [
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085141/peak/MH_20140517_1MJP3_79_12.mzXML",
+            "SMILES": "CCC(CO)C=C(C)C1CC(CC(C(C2(C(C(CC(O2)CC(C(C(=O)O1)O)OC)OC)O)O)(C)C)O)OC",
+            "IUPAC": "(1R,3R,4S,7S,9S,11S,13R,14R,15R)-4,11,13,14-tetrahydroxy-7-[(Z,4R)-4-(hydroxymethyl)hex-2-en-2-yl]-3,9,15-trimethoxy-12,12-dimethyl-6,17-dioxabicyclo[11.3.1]heptadecan-5-one",
+            "MS2_scan": "2479"
+        }
+    ]
+}

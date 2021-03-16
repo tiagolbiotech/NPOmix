@@ -1,0 +1,1916 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Dulce Guillen Matus",
+        "submitter_orcid": "https://orcid.org/0000-0002-3627-6186",
+        "submitter_email": "dguillen@ucsd.edu",
+        "submitter_name_secondary": "Alyssa Demko",
+        "submitter_email_secondary": "ademko@ucsd.edu",
+        "PI_name": "Paul R. Jensen",
+        "PI_institution": "Scripps Institution of Oceanography, UCSD",
+        "PI_email": "pjensen@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=7f46db81f0ce4fe5a4e4488dd7d226df",
+            "GNPSMassIVE_ID": "MSV000085159"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 21,
+                    "growth_duration": 168,
+                    "growth_phase_OD": "exponential"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "A1 liquid medium",
+                "other_growth_conditions": "3 replicates per strain,\n2 days of extraction after 168 hr & 288 hr\nIncluding media blanks."
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "Liquid-liquid EtOAc"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Quadrupole+Time of flight (TOF)"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/CHMO_0002262",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "150-2000",
+                "collision_energy": "25 eV",
+                "buffering": "0.1% FA",
+                "other_instrumentation": "UPLC\n",
+                "instrumentation_method": "UPLC-MS/MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614807"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora mooreana CNS237"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366531"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora mooreana CNY646"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154136"
+            },
+            "genome_label": "Salinispora mooreana CNT150",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2528311034"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora cortesiana CNY202"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154124"
+            },
+            "genome_label": "Salinispora fenicalii CNT569",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285561"
+            },
+            "genome_label": "Salinispora fenicalii CNR942",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511036"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora vitiensis CNS801"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285562"
+            },
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867",
+            "genome_label": "Salinispora vitiensis CNS055"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572145"
+            },
+            "genome_label": "Salinispora vitiensis CNT148",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366532"
+            },
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154178"
+            },
+            "genome_label": "Salinispora pacifica CNR114",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154128"
+            },
+            "genome_label": "Salinispora pacifica CNT855",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366539"
+            },
+            "genome_label": "Salinispora pacifica CNY498",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572162"
+            },
+            "genome_label": "Salinispora pacifica CNT851",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154177"
+            },
+            "genome_label": "Salinispora oceanensis CNT029",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366533"
+            },
+            "genome_label": "Salinispora oceanensis CNY673",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366517"
+            },
+            "genome_label": "Salinispora oceanensis CNY703",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511034"
+            },
+            "genome_label": "Salinispora oceanensis CNT403",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511037"
+            },
+            "genome_label": "Salinispora arenicola CNH643",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "640427140"
+            },
+            "genome_label": "Salinispora tropica CNB440",
+            "publications": "10.1038/s41598-017-02845-3,10.1111/1462-2920.13867"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-1.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-1_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-2.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-2_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-3.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-3_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-4.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-4_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-5.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-5_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-6.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-237-6_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-1.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-1_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-2.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-2_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-3.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-3_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-4.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-4_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-5.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-5_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-6.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-646-6_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNT150",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora mooreana CNT150",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-1_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-2.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-2_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-3.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-3_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-4.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-4_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-5.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-5_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-6.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora mooreana CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-150-6_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-1_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-2.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-2_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-3.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-3_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-4.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-4_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-5.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-5_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-6.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora cortesiana CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-202-6_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-3_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-4.mzXML",
+            "genome_label": "Salinispora fenicalii CNT569"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNT569",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-569-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora fenicalii CNR942",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-942-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS801",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-801-6_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-1.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-1_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-2.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-2_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-3.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-3_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "genome_label": "Salinispora vitiensis CNS055",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora vitiensis CNS055",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/S-055-6_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-1.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-1_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-2.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-2_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-3.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-3_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-4.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-4_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-5.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-5_neg.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-6.mzXML"
+        },
+        {
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "genome_label": "Salinispora vitiensis CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-148-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora goodfellowii CNY666",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-666-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/R-114-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-855-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-498-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-851-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT029",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-029-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY673",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-673-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNY703",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/Y-703-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-1.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-1_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-2.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-2_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-3.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-3_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-4.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-4_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-5.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-5_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-6.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora oceanensis CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/T-403-6_neg.mzXML",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/H-643-6_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-1.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-1_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-2.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-2_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-3.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-3_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-4.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-4_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-5.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-5_neg.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-6.mzXML"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "sample_preparation_label": "A1 liquid medium",
+            "extraction_method_label": "Liquid-liquid EtOAc",
+            "instrumentation_method_label": "UPLC-MS/MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085159/raw/SIRENAS%20DATA%20POST_NEG/B-440-6_neg.mzXML"
+        }
+    ]
+}

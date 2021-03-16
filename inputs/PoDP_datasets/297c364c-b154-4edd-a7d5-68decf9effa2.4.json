@@ -1,0 +1,3713 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Max Crüsemann",
+        "submitter_email": "cruesemann@uni-bonn.de",
+        "PI_name": "Max Crüsemann",
+        "PI_institution": "University of Bonn",
+        "PI_email": "cruesemann@uni-bonn.de",
+        "submitter_orcid": "https://orcid.org/0000-0001-6660-2715"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078836",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=9277186021274990a5e646874a435c0d&view=advanced_view",
+            "molecular_network": "9360fa514804487a9d39b7e7d7e6d514"
+        },
+        "related_GNPSMassIVE_ID": "MSV000078839",
+        "publications": "28335604 "
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_phase_OD": "stationary phase"
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "A1 solid"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "Cells and agar",
+                "extraction_method": "Methanol"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "Cells and agar",
+                "extraction_method": "Ethyl acetate"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ],
+                "extracted_material": "cells",
+                "other_extraction_parameters": "Cells and agar",
+                "extraction_method": "Butanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000081"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "300-1700",
+                "collision_energy": "20 keV",
+                "buffering": "0.1% TFA",
+                "other_instrumentation": "Samples were analyzed using an Agilent 6530 Accurate-\nMass Q-TOF spectrometer coupled to an Agilent 1260 LC system. A\nPhenomenex Luna C18 HPLC column (2.6 mm, 150 × 4.6 mm) was\nused under the following LC conditions with 0.1% TFA: 1−5 min\n(10% MeCN in H2O), 5−26 min (10−100% MeCN), 26−28 min\n(100% MeCN). The divert valve was set to waste for the first 4 min.",
+                "instrumentation_method": "LC-MS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572137"
+            },
+            "genome_label": "Salinispora arenicola CNT005",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2519103194"
+            },
+            "genome_label": "Salinispora arenicola CNR107",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511036"
+            },
+            "genome_label": "Salinispora pacifica CNS801",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572153"
+            },
+            "genome_label": "Salinispora arenicola CNY011",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154188"
+            },
+            "genome_label": "Salinispora arenicola CNX508",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572163"
+            },
+            "genome_label": "Salinispora arenicola CNY237",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2526164712"
+            },
+            "genome_label": "Salinispora tropica CNS416",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511104"
+            },
+            "genome_label": "Salinispora arenicola CNH996",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT138",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2516493032"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154184"
+            },
+            "genome_label": "Salinispora pacifica CNT001",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366734"
+            },
+            "genome_label": "Salinispora arenicola CNY685",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511115"
+            },
+            "genome_label": "Salinispora arenicola CNY230",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511039"
+            },
+            "genome_label": "Salinispora arenicola CNQ884",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285550"
+            },
+            "genome_label": "Salinispora arenicola CNT849",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042006"
+            },
+            "genome_label": "Salinispora pacifica CNH732",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154094"
+            },
+            "genome_label": "Salinispora tropica CNH898",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366539"
+            },
+            "genome_label": "Salinispora pacifica CNY498",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572160"
+            },
+            "genome_label": "Salinispora pacifica CNT584",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366517"
+            },
+            "genome_label": "Salinispora pacifica CNY703",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614807"
+            },
+            "genome_label": "Salinispora pacifica CNS237",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572158"
+            },
+            "genome_label": "Salinispora pacifica CNT045",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518645626"
+            },
+            "genome_label": "Salinispora pacifica CNY330",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154203"
+            },
+            "genome_label": "Salinispora arenicola CNR921",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154125"
+            },
+            "genome_label": "Salinispora arenicola CNH964",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511034"
+            },
+            "genome_label": "Salinispora pacifica CNT403",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT133",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2516653042"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572155"
+            },
+            "genome_label": "Salinispora pacifica CNQ768",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042009"
+            },
+            "genome_label": "Salinispora arenicola CNS325",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2565956527"
+            },
+            "genome_label": "Salinispora arenicola CNS296",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572162"
+            },
+            "genome_label": "Salinispora pacifica CNT851",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572159"
+            },
+            "genome_label": "Salinispora pacifica CNT124",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285558"
+            },
+            "genome_label": "Salinispora arenicola CNY231",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285554"
+            },
+            "genome_label": "Salinispora arenicola CNS744",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042016"
+            },
+            "genome_label": "Salinispora arenicola CNS342",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154182"
+            },
+            "genome_label": "Salinispora pacifica CNT796",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154178"
+            },
+            "genome_label": "Salinispora pacifica CNR114",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2521172655"
+            },
+            "genome_label": "Salinispora arenicola CNY282",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154186"
+            },
+            "genome_label": "Salinispora arenicola CNT798",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285563"
+            },
+            "genome_label": "Salinispora pacifica CNS860",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511114"
+            },
+            "genome_label": "Salinispora arenicola CNY694",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285552"
+            },
+            "genome_label": "Salinispora arenicola CNP193",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154129"
+            },
+            "genome_label": "Salinispora pacifica CNS103",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285551"
+            },
+            "genome_label": "Salinispora arenicola CNP105",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154137"
+            },
+            "genome_label": "Salinispora arenicola CNX482",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366531"
+            },
+            "genome_label": "Salinispora pacifica CNY646",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614529"
+            },
+            "genome_label": "Salinispora arenicola CNS299",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366533"
+            },
+            "genome_label": "Salinispora pacifica CNY673",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511103"
+            },
+            "genome_label": "Salinispora arenicola CNY281",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154126"
+            },
+            "genome_label": "Salinispora pacifica CNT003",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154124"
+            },
+            "genome_label": "Salinispora pacifica CNT569",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2814122978"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2519103193"
+            },
+            "genome_label": "Salinispora arenicola CNH962",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511038"
+            },
+            "genome_label": "Salinispora pacifica CNR909",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285555"
+            },
+            "genome_label": "Salinispora arenicola CNX481",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT148",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517287023"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042007"
+            },
+            "genome_label": "Salinispora arenicola CNH713",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524023246"
+            },
+            "genome_label": "Salinispora arenicola CNH963",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS863",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572194"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572211"
+            },
+            "genome_label": "Salinispora tropica CNB476",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614530"
+            },
+            "genome_label": "Salinispora tropica CNT261",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518645624"
+            },
+            "genome_label": "Salinispora tropica CNR699",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154180"
+            },
+            "genome_label": "Salinispora arenicola CNQ748",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2516143022"
+            },
+            "genome_label": "Salinispora arenicola CNS991",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511110"
+            },
+            "genome_label": "Salinispora arenicola CNY244",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154170"
+            },
+            "genome_label": "Salinispora pacifica CNT854",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511108"
+            },
+            "genome_label": "Salinispora tropica CNY681",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285560"
+            },
+            "genome_label": "Salinispora arenicola CNY260",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2526164509"
+            },
+            "genome_label": "Salinispora arenicola CNT799",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511105"
+            },
+            "genome_label": "Salinispora arenicola CNH718",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154181"
+            },
+            "genome_label": "Salinispora arenicola CNH646",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572154"
+            },
+            "genome_label": "Salinispora arenicola CNY280",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2528311034"
+            },
+            "genome_label": "Salinispora pacifica CNY202",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511113"
+            },
+            "genome_label": "Salinispora arenicola CNY679",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154187"
+            },
+            "genome_label": "Salinispora arenicola CNX891",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154128"
+            },
+            "genome_label": "Salinispora pacifica CNT855",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572157"
+            },
+            "genome_label": "Salinispora pacifica CNS996",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154135"
+            },
+            "genome_label": "Salinispora arenicola CNT850",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2548876972"
+            },
+            "genome_label": "Salinispora pacifica CNS143",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2548876909"
+            },
+            "genome_label": "Salinispora arenicola CNT088",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366532"
+            },
+            "genome_label": "Salinispora pacifica CNY666",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154193"
+            },
+            "genome_label": "Salinispora arenicola CNH941",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614561"
+            },
+            "genome_label": "Salinispora pacifica CNY239",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2528311033"
+            },
+            "genome_label": "Salinispora arenicola CNR425",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285561"
+            },
+            "genome_label": "Salinispora pacifica CNR942",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572152"
+            },
+            "genome_label": "Salinispora arenicola CNX814",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154177"
+            },
+            "genome_label": "Salinispora pacifica CNT029",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154194"
+            },
+            "genome_label": "Salinispora pacifica CNR894",
+            "publications": "24616526"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT150",
+            "publications": "24616526",
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517434008"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154163"
+            },
+            "genome_label": "Salinispora tropica CNS197",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042345"
+            },
+            "genome_label": "Salinispora arenicola CNS848",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511109"
+            },
+            "genome_label": "Salinispora tropica CNY678",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154183"
+            },
+            "genome_label": "Salinispora arenicola CNH905",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2563366534"
+            },
+            "genome_label": "Salinispora pacifica CNY363",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285559"
+            },
+            "genome_label": "Salinispora arenicola CNY256",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2565956528"
+            },
+            "genome_label": "Salinispora arenicola CNS820",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614515"
+            },
+            "genome_label": "Salinispora arenicola CNS243",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572212"
+            },
+            "genome_label": "Salinispora tropica CNB536",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154202"
+            },
+            "genome_label": "Salinispora pacifica CNT084",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154127"
+            },
+            "genome_label": "Salinispora arenicola CNT857",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2540341192"
+            },
+            "genome_label": "Salinispora tropica CNY012",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2519103195"
+            },
+            "genome_label": "Salinispora arenicola CNY234",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2540341193"
+            },
+            "genome_label": "Salinispora tropica CNT250",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2571042008"
+            },
+            "genome_label": "Salinispora pacifica CNR510",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154088"
+            },
+            "genome_label": "Salinispora arenicola CNT800",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285562"
+            },
+            "genome_label": "Salinispora pacifica CNS055",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285553"
+            },
+            "genome_label": "Salinispora arenicola CNS051",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511107"
+            },
+            "genome_label": "Salinispora arenicola CNY486",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154093"
+            },
+            "genome_label": "Salinispora arenicola CNB527",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "641228504"
+            },
+            "genome_label": "Salinispora arenicola CNS205",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154200"
+            },
+            "genome_label": "Salinispora pacifica CNT131",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572161"
+            },
+            "genome_label": "Salinispora pacifica CNT609",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "640427140"
+            },
+            "genome_label": "Salinispora tropica CNB440",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511111"
+            },
+            "genome_label": "Salinispora arenicola CNY690",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154185"
+            },
+            "genome_label": "Salinispora pacifica CNT603",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518645627"
+            },
+            "genome_label": "Salinispora pacifica CNY331",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572233"
+            },
+            "genome_label": "Salinispora arenicola CNT859",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572210"
+            },
+            "genome_label": "Salinispora arenicola CNB458",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2519103192"
+            },
+            "genome_label": "Salinispora arenicola CNH877",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2519103185"
+            },
+            "genome_label": "Salinispora arenicola CNS673",
+            "publications": "24616526"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517287019"
+            },
+            "genome_label": "Salinispora pacifica CNS960",
+            "publications": "24616526"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Salinispora arenicola CNT005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T005-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T005-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT005",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T005-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR107",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R107-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR107",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R107-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR107",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R107-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS801",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S801-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS801",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S801-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS801",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S801-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY011",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y011-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY011",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y011-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY011",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y011-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX508",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X508-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX508",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X508-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX508",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X508-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y237-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y237-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y237-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS416",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S416-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS416",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S416-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS416",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S416-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H996-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H996-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H996-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT138",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T138-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT138",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T138-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT138",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T138-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT001",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T001-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT001",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T001-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT001",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T001-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY685",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y685-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY685",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y685-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY685",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y685-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY230",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y230-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY230",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y230-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY230",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y230-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ884",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q884-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ884",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q884-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ884",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q884-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T849-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T849-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT849",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T849-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNH732",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H732-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNH732",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H732-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNH732",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H732-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNH898",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H898-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNH898",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H898-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNH898",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H898-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y498-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y498-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY498",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y498-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT584",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T584-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT584",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T584-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT584",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T584-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY703",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y703-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY703",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y703-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY703",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y703-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S237-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S237-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS237",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S237-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT045",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T045-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT045",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T045-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT045",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T045-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY330",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y330-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY330",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y330-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY330",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y330-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR921",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R921-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR921",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R921-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR921",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R921-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H964-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H964-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H964-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T403-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T403-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT403",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T403-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT133",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T133-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT133",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T133-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT133",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T133-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNQ768",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q768-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNQ768",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q768-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNQ768",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q768-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS325",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S325-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS325",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S325-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS325",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S325-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS296",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S296-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS296",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S296-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS296",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S296-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T851-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T851-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT851",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T851-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT124",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T124-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT124",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T124-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT124",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T124-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY231",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y231-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY231",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y231-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY231",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y231-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS744",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S744-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS744",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S744-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS744",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S744-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS342",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S342-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS342",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S342-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS342",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S342-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT796",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T796-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT796",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T796-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT796",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T796-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R114-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R114-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR114",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R114-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY282",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y282-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY282",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y282-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY282",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y282-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT798",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T798-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT798",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T798-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT798",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T798-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS860",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S860-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS860",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S860-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS860",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S860-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY694",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y694-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY694",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y694-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY694",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y694-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP193",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P193-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP193",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P193-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP193",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P193-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S103-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S103-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS103",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S103-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP105",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P105-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP105",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P105-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNP105",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/P105-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX482",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X482-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX482",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X482-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX482",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X482-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y646-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y646-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y646-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS299",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S299-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS299",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S299-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS299",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S299-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y673-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y673-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y673-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY281",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y281-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY281",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y281-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY281",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y281-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T003-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T003-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT003",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T003-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT569",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T569-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT569",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T569-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT569",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T569-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H643-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H643-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH643",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H643-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H962-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H962-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H962-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR909",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R909-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR909",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R909-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR909",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R909-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX481",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X481-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX481",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X481-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX481",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X481-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T148-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T148-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT148",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T148-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH713",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H713-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH713",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H713-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH713",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H713-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH963",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H963-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH963",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H963-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH963",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H963-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS863",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S863-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS863",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S863-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS863",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S863-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB476",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B476-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB476",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B476-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB476",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B476-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT261",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T261-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT261",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T261-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT261",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T261-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNR699",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R699-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNR699",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R699-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNR699",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R699-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ748",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q748-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ748",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q748-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNQ748",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Q748-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS991",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S991-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS991",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S991-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS991",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S991-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY244",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y244-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY244",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y244-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY244",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y244-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT854",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T854-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT854",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T854-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT854",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T854-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY681",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y681-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY681",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y681-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY681",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y681-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY260",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y260-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY260",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y260-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY260",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y260-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT799",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T799-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT799",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T799-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT799",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T799-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH718",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H718-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH718",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H718-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH718",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H718-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H646-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H646-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH646",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H646-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY280",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y280-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY280",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y280-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY280",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y280-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y202-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y202-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY202",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y202-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY679",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y679-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY679",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y679-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY679",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y679-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX891",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X891-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX891",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X891-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX891",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X891-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T855-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T855-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT855",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T855-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S996-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S996-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS996",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S996-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT850",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T850-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT850",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T850-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT850",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T850-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS143",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S143-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS143",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S143-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS143",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S143-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT088",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T088-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT088",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T088-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT088",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T088-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY666",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y666-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY666",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y666-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY666",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y666-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH941",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H941-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH941",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H941-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH941",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H941-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY239",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y239-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY239",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y239-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY239",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y239-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR425",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R425-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR425",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R425-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNR425",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R425-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR942",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R942-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR942",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R942-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR942",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R942-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX814",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X814-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX814",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X814-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNX814",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/X814-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT029",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T029-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT029",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T029-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT029",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T029-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR894",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R894-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR894",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R894-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR894",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R894-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T150-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T150-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT150",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T150-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS197",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S197-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS197",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S197-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNS197",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S197-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS848",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S848-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS848",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S848-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS848",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S848-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY678",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y678-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY678",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y678-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY678",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y678-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH905",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H905-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH905",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H905-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH905",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H905-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY363",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y363-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY363",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y363-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY363",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y363-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY256",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y256-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY256",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y256-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY256",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y256-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS820",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S820-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS820",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S820-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS820",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S820-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S243-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S243-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS243",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S243-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB536",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B536-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB536",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B536-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB536",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B536-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT084",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T084-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT084",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T084-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT084",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T084-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT857",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T857-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT857",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T857-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT857",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T857-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY012",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y012-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY012",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y012-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNY012",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y012-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY234",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y234-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY234",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y234-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY234",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y234-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT250",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T250-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT250",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T250-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNT250",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T250-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR510",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R510-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR510",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R510-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNR510",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/R510-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT800",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T800-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT800",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T800-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT800",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T800-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS055",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S055-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS055",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S055-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS055",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S055-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS051",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S051-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS051",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S051-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS051",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S051-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y486-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y486-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY486",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y486-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB527",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B527-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB527",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B527-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB527",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B527-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS205",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S205-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS205",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S205-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS205",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S205-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T131-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T131-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT131",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T131-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT609",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T609-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT609",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T609-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT609",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T609-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B440-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B440-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora tropica CNB440",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B440-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY690",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y690-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY690",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y690-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNY690",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y690-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT603",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T603-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT603",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T603-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNT603",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T603-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY331",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y331-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY331",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y331-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNY331",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/Y331-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT859",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T859-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT859",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T859-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNT859",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/T859-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB458",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B458-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB458",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B458-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNB458",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/B458-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH877",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H877-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH877",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H877-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNH877",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/H877-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S673-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S673-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora arenicola CNS673",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S673-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-EA.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Ethyl acetate",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-Bu.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Butanol",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "Salinispora pacifica CNS960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078836/ccms_peak/Screening/S960-3-Me.mzXML",
+            "sample_preparation_label": "A1 solid",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "LC-MS"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Staurosporine, 7-OH-Staurosporine and related analogs",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "C[C@@]12[C@@H]([C@@H](C[C@@H](O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)NC)OC",
+            "IUPAC": "(2S,3R,4R,6R)-3-methoxy-2-methyl-4-(methylamino)-29-oxa-1,7,17-triazaoctacyclo[12.12.2.12,6.07,28.08,13.015,19.020,27.021,26]nonacosa-8,10,12,14,19,21,23,25,27-nonaen-16-one",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=206&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "CP000850.1",
+                "coordinates": "2672473-2696772",
+                "similar_MIBiG_number": "BGC0000827"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Cyclomarin A, D and related analogs",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC1C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CC(C)CO)C(C2=CN(C3=CC=CC=C32)C(C)(C)C=C)O)C(C)C=C(C)C)CC(C)C)C)C(C)C)C(C4=CC=CC=C4)OC",
+            "IUPAC": "(3S,6S,9S,12S,15S,18S,21S)-15-[(R)-hydroxy-[1-(2-methylbut-3-en-2-yl)indol-3-yl]methyl]-12-[(2R)-3-hydroxy-2-methylpropyl]-6-[(R)-methoxy(phenyl)methyl]-1,9-dimethyl-18-[(2R)-4-methylpent-3-en-2-yl]-21-(2-methylpropyl)-3-propan-2-yl-1,4,7,10,13,16,19-heptazacyclohenicosane-2,5,8,11,14,17,20-heptone",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=489&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000333"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Desferrioxamine B,E, and related molecules",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "SMILES": "CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCN",
+            "IUPAC": "N-[5-[[4-[5-[acetyl(hydroxy)amino]pentylamino]-4-oxobutanoyl]-hydroxyamino]pentyl]-N'-(5-aminopentyl)-N'-hydroxybutanediamide",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=25&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "CP000667",
+                "coordinates": "Stro2539–2554",
+                "similar_MIBiG_number": "BGC0000940"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Lomaiviticin A and related molecules",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation"
+            ],
+            "IUPAC": "11-diazonio-3-[11-diazonio-1-[5-(dimethylamino)-4-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-5,9-dihydroxy-2-(5-hydroxy-4-methoxy-6-methyloxan-2-yl)oxy-10-oxido-4,6-dioxo-1,3-dihydrobenzo[b]fluoren-3-yl]-1-[5-(dimethylamino)-4-hydroxy-6-methyloxan-2-yl]oxy-1-ethyl-5,9-dihydroxy-2-(5-hydroxy-4-methoxy-6-methyloxan-2-yl)oxy-4,6-dioxo-2,3-dihydrobenzo[b]fluoren-10-olate",
+            "SMILES": "CCC1(C(C(=O)C2=C3C(=C(C4=C(C=CC(=O)C4=C3O)O)[O-])C(=C2C1OC5CC(C(C(O5)C)N(C)C)O)[N+]#N)C6C(C(C7=C(C8=C(C9=C(C=CC(=O)C9=C(C8=C7C6=O)O)O)[O-])[N+]#N)(CC)OC1CC(C(C(O1)C)N(C)C)O)OC1CC(C(C(O1)C)O)OC)OC1CC(C(C(O1)C)O)OC",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=381&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000241"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Retimycin A and analogues",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C(NC1C(NC(C)C(N(C)C2C(N(C)C3(C(C)C3)C(OC(C)C(NC(C4=NC5=CC=CC=C5C=C4O)=O)C(NC(C)C(N(C)C(C(S(C)=O)SC2)C(N(C)C6(C(C)C6)C(OC1C)=O)=O)=O)=O)=O)=O)=O)=O)C7=NC8=CC=CC=C8C=C7O",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=492&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001228"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Rifamycin S and related analogs",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17-trihydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-6,23,27,29-tetraoxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(28),2,4,9,19,21,25-heptaen-13-yl] acetate",
+            "SMILES": "CC1C=CC=C(C(=O)NC2=CC(=O)C3=C(C2=O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)C",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=353&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000137"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Rifamycin W and related analogs",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC1C=CC=C(C(=O)NC2=CC(=O)C3=C(C(=C(C(=C3C2=O)O)C)O)C(=O)C(=CC(C(C(C(C(C(C(C1O)C)O)C)O)C)O)CO)C)C",
+            "IUPAC": "(7E,9R,10S,11R,12R,13R,14R,15R,16S,17S,18E,20Z)-2,4,10,12,14,16-hexahydroxy-9-(hydroxymethyl)-3,7,11,13,15,17,21-heptamethyl-23-azatricyclo[22.3.1.05,27]octacosa-1,3,5(27),7,18,20,24-heptaene-6,22,26,28-tetrone",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=358&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000137"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Rosamicin and related analogs",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "IUPAC": "2-[(1S,2R,3R,7R,8S,9S,10R,12R,14E,16S)-9-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-3-ethyl-7-hydroxy-2,8,12,16-tetramethyl-5,13-dioxo-4,17-dioxabicyclo[14.1.0]heptadec-14-en-10-yl]acetaldehyde",
+            "SMILES": "CCC1C(C2C(O2)(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC3C(C(CC(O3)C)N(C)C)O)CC=O)C)C)C",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=309&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001830"
+            }
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000198"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Arenimycin A ",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "CC1=CC2=C(C(O)=C1C(OC)=O)[C@]3(C(C4=CC5=C(C(O)=C4C([C@]3(CC2)OC)=O)C(C=C(C5=O)N[C@@H]6[C@@H]([C@H]([C@H]([C@@H](O6)C)O)O)OC)=O)=O)O",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=380&show=true&task=9360fa514804487a9d39b7e7d7e6d514#%7B%7D",
+            "IUPAC": "methyl (6aR,14aS)-11-[[(2S,3R,4R,5R,6S)-4,5-dihydroxy-3-methoxy-6-methyloxan-2-yl]amino]-1,8,14a-trihydroxy-6a-methoxy-3-methyl-7,9,12,14-tetraoxo-5,6-dihydrobenzo[a]tetracene-2-carboxylate"
+        }
+    ]
+}

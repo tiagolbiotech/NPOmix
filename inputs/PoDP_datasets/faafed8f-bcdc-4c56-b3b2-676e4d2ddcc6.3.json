@@ -1,0 +1,109 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_orcid": "https://orcid.org/0000-0002-4093-0355",
+        "PI_email": "g.wezel@biology.leidenuniv.nl",
+        "submitter_name": "Victor J. Carrion",
+        "PI_name": "Gilles P. van Wezel",
+        "PI_institution": "Leiden University (Institute of Biology Leiden)",
+        "submitter_email": "v.j.carrion.bravo@biology.leidenuniv.nl"
+    },
+    "metabolomics": {
+        "project": {
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=8fd1fcfa0ff744a9808e80bc7be12115",
+            "molecular_network": "8fd1fcfa0ff744a9808e80bc7be12115",
+            "GNPSMassIVE_ID": "MSV000082988"
+        },
+        "publications": "10.1007/s10295-019-02140-2"
+    },
+    "experimental": {
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtAc_agar",
+                "extracted_material": "supernatant"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "range": "100-1700",
+                "instrumentation_method": "TOF",
+                "buffering": "ACN and 0.1% formic acid",
+                "collision_energy": "3 kV"
+            }
+        ],
+        "sample_preparation": [
+            {
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168,
+                    "growth_phase_OD": "Stationary"
+                },
+                "medium_details": {
+                    "Other_medium": "MM with 0.5% glycerol and 1% mannitol (w/v)",
+                    "medium_type": "liquid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=484",
+                    "medium_volume": 30
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_rpm": 220,
+                    "aeration_vessel": "Erlenmeyer flask"
+                },
+                "other_growth_conditions": "2% glycerol",
+                "sample_preparation_method": "liquid MM+glycerol"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "publications": "10.1007/s10295-019-02140-2",
+            "genome_label": "Streptomyces sp. MBT27",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "JAACKE000000000"
+            },
+            "BioSample_accession": "SAMN13901100"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "extraction_method_label": "EtAc_agar",
+            "genome_label": "Streptomyces sp. MBT27",
+            "instrumentation_method_label": "TOF",
+            "sample_preparation_label": "liquid MM+glycerol",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082988/ccms_peak/20170919_NM6_glyc2.1.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "BGC0000296: actinomycin D biosynthetic gene cluster from Streptomyces anulatus",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "SMILES": "[H][C@@]12CCCN1C(=O)[C@]([H])(NC(=O)[C@@]([H])(NC(=O)C1=CC=C(C)C3=C1N=C1C(O3)=C(C)C(=O)C(N)=C1C(=O)N[C@]1([H])C(=O)N[C@]([H])(C(C)C)C(=O)N3CCC[C@@]3([H])C(=O)N(C)CC(=O)N(C)[C@@]([H])(C(C)C)C(=O)O[C@]1([H])C)[C@@]([H])(C)OC(=O)[C@]([H])(C(C)C)N(C)C(=O)CN(C)C2=O)C(C)C",
+            "MS2_scan": "1382",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000082988/ccms_peak/20170919_NM6_glyc2.1.mzXML",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000296"
+            }
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Michael W Mullowney",
+        "submitter_email": "mullowney@northwestern.edu",
+        "submitter_orcid": "https://orcid.org/0000-0002-2884-4307",
+        "PI_name": "Neil Kelleher",
+        "PI_institution": "Northwestern University",
+        "PI_email": "mullowney@northwestern.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083648",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=51bcc5eddaf34046aff360c029de503d&view=advanced_view",
+            "molecular_network": "e76dfbd2be7c4cdda7dc7ca23304a6b5"
+        },
+        "publications": "31768033"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf",
+                    "medium_volume": 20
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking",
+                    "aeration_rpm": 0
+                },
+                "sample_preparation_method": "ISP2 solid agar 30 C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Arginine Glycerol Salts",
+                    "Other_medium_link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1057945/"
+                },
+                "growth_parameters": {
+                    "growth_duration": 240,
+                    "growth_temperature": 30
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "AGS solid agar 30 C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=469"
+                },
+                "growth_parameters": {
+                    "growth_duration": 240,
+                    "growth_temperature": 30
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "MS solid agar 30 C"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium547.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "+ N-Aceytlglucosamine (1.11 g/L)",
+                "sample_preparation_method": "ISP4-N solid agar 30 C"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15347",
+                        "Other_solvent": "Amberlite XAD-16N resin; acetone wash"
+                    }
+                ],
+                "resins": "XAD-16N",
+                "extraction_method": "XAD-16N-acetone",
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "Agar was frozen at 20 C overnight, then squeezed to release broth. Broth was incubated overnight with Amberlite XAD016N resin, resin was filtered off and shaken in acetone for at least 3 hours, then acetone filtrate was dried down."
+            },
+            {
+                "solvents": [],
+                "extracted_material": "cells_supernatant",
+                "resins": "30 mg HLB cartridge",
+                "extraction_method": "30 mg HLB cartridge",
+                "other_extraction_parameters": "500 uL broth, 500 uL ACN wash"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000008",
+                    "other_ionization_type": "HESI"
+                },
+                "range": "250–3750",
+                "collision_energy": "25",
+                "buffering": "200 µl min−1 flow rate on a Phenomenex Kinetex C18 RP-HPLC column (150 × 2.1 mm2 inner diameter, 2-µm particle size, 100 Å pore size (1 Å = 0.1 nm). Mobile phase A was water with 0.1% formic acid and mobile phase B was acetonitrile with 0.1% formic acid. ",
+                "other_instrumentation": "Part of an LC–MS/MS configuration with an Agilent 1150 HPLC",
+                "instrumentation_method": "Q Exactive untargeted"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000721595.1",
+                "RefSeq_accession": "GCF_000721595.1",
+                "JGI_Genome_ID": "2767802005"
+            },
+            "BioSample_accession": "SAMN02645517",
+            "publications": "31768033",
+            "genome_label": "Streptomyces sp. NRRL S-325"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_007363395.1",
+                "RefSeq_accession": "GCF_007363395.1",
+                "JGI_Genome_ID": "651717039, 651716642"
+            },
+            "publications": "31768033, 31197515",
+            "BioSample_accession": "SAMN11997568",
+            "genome_label": "Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000717335.1",
+                "RefSeq_accession": "GCF_000717335.1",
+                "JGI_Genome_ID": "2751185827"
+            },
+            "genome_label": "Amycolatopsis jejuensis NRRL B-24427",
+            "BioSample_accession": "SAMN02645327",
+            "publications": "31768033"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted",
+            "genome_label": "Amycolatopsis jejuensis NRRL B-24427",
+            "sample_preparation_label": "MS solid agar 30 C",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP1-MS2.mzXML"
+        },
+        {
+            "genome_label": "Amycolatopsis jejuensis NRRL B-24427",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP2-MS2.mzXML",
+            "sample_preparation_label": "MS solid agar 30 C",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted"
+        },
+        {
+            "genome_label": "Amycolatopsis jejuensis NRRL B-24427",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP3-MS2.mzXML",
+            "sample_preparation_label": "MS solid agar 30 C",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted"
+        },
+        {
+            "genome_label": "Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN1-MS2.mzXML",
+            "sample_preparation_label": "AGS solid agar 30 C",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted"
+        },
+        {
+            "sample_preparation_label": "AGS solid agar 30 C",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted",
+            "genome_label": "Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN2-MS2.mzXML"
+        },
+        {
+            "sample_preparation_label": "AGS solid agar 30 C",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted",
+            "genome_label": "Streptomyces spectabilis Dietz NRRL 2792 (ATCC 27741)",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN3-MS2.mzXML"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinS1-MS2.mzXML",
+            "extraction_method_label": "30 mg HLB cartridge",
+            "instrumentation_method_label": "Q Exactive untargeted",
+            "genome_label": "Streptomyces sp. NRRL S-325",
+            "sample_preparation_label": "ISP4-N solid agar 30 C"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP1-MS2.mzXML",
+            "SMILES": "O=C(CC(C)C)N[C@@H](CC1=CC=C(O)C=C1)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@H](C(C)C)N)=O)CCC2)=O",
+            "known_link": "Detoxin P1 is encoded by MIBiG BGC0001841.",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001841"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin P2 is encoded by MIBiG BGC0001841.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C(CC(C)C)N[C@@H](CC1=CC=CC=C1)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@H](C(CO)C)N)=O)CCC2)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP2-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001841"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin P3 is encoded by MIBiG BGC0001841.",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "SMILES": "O=C(CC(C)C)N[C@@H](CC1=CC=CC=C1)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@H](C(C)C)N)=O)CCC2)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinP3-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001841"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin S1 is encoded by MIBiG BGC0001840.",
+            "SMILES": "O=C([C@H](CC1=CC=CC=C1)NC(CCCCCC)=O)O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@@H](N)C(C)C)=O)CCC2",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinS1-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001840"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin N1 is encoded by a BGC that is very similar to MIBiG BGC0001840, BGC0001841, and BGC0001760.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C(C1=C(C=CC=C1)N)C[C@H](NC(C)=O)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@@H](N)C(C)CC)=O)CC[C@H]2OC(C)=O)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN1-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "ASM736339v1",
+                "coordinates": "7-13,049",
+                "similar_MIBiG_number": "BGC0001841"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin N2 is encoded by a BGC that is very similar to MIBiG BGC0001840, BGC0001841, and BGC0001760.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C([H])N[C@@H](CC1=CC=C(O)C=C1)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@H](C(C)CC)N)=O)CCC2)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN2-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "ASM736339v1",
+                "coordinates": "7-13,049",
+                "similar_MIBiG_number": "BGC0001841"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Detoxin N2 is encoded by a BGC that is very similar to MIBiG BGC0001840, BGC0001841, and BGC0001760.",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C([H])N[C@@H](CC1=CC=C(O)C=C1)C(O[C@@H](CC(O)=O)[C@@]2([H])N(C([C@H](C(C)CC)N)=O)CC[C@H]2OC(C)=O)=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000083648/raw/detoxins/DetoxinN3-MS2.mzXML",
+            "MS2_scan": "0",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "strain": "ASM736339v1",
+                "coordinates": "7-13,049",
+                "similar_MIBiG_number": "BGC0001841"
+            }
+        }
+    ]
+}

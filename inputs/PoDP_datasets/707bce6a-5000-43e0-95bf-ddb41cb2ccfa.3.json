@@ -1,0 +1,968 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Carmen Saenz",
+        "submitter_orcid": "https://orcid.org/0000-0003-1333-7502",
+        "PI_email": "pdorrestein@health.ucsd.edu",
+        "submitter_name_secondary": "Alexander Aksenov",
+        "submitter_email": "carmen.ausejo@sund.ku.dk",
+        "submitter_email_secondary": "aaaksenov@health.ucsd.edu",
+        "PI_institution": "University of California San Diego",
+        "PI_name": "Pieter C. Dorrestein"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083734",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=d80e741723a143348e0f196065427e57&view=advanced_view",
+            "molecular_network": "85c9922a8b8548e3a537dda24301673f"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Brain Heart Infusion (BHI) Broth",
+                    "Other_medium_link": "https://microbeonline.com/brain-heart-infusion-bhi-broth-composition-preparation-and-uses/"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "E Lenta"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "resins": "Oasis HLB",
+                "extraction_method": "Oasis HLB",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_16236"
+                    }
+                ]
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "80-2000",
+                "collision_energy": "3",
+                "buffering": "0.1% formic acid",
+                "instrumentation_method": "qToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340245.1"
+            },
+            "genome_label": "SAMN08365960",
+            "BioSample_accession": "SAMN08365960",
+            "GenBank_accession": "GCA_003340245.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340255.1"
+            },
+            "genome_label": "SAMN08365961",
+            "BioSample_accession": "SAMN08365961",
+            "GenBank_accession": "GCA_003340255.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340225.1"
+            },
+            "genome_label": "SAMN08365962",
+            "BioSample_accession": "SAMN08365962",
+            "GenBank_accession": "GCA_003340225.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340195.1"
+            },
+            "genome_label": "SAMN08365964",
+            "BioSample_accession": "SAMN08365964",
+            "GenBank_accession": "GCA_003340195.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340165.1"
+            },
+            "genome_label": "SAMN08365965",
+            "BioSample_accession": "SAMN08365965",
+            "GenBank_accession": "GCA_003340165.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340465.1"
+            },
+            "genome_label": "SAMN08365966",
+            "BioSample_accession": "SAMN08365966",
+            "GenBank_accession": "GCA_003340465.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340125.1"
+            },
+            "genome_label": "SAMN08365967",
+            "BioSample_accession": "SAMN08365967",
+            "GenBank_accession": "GCA_003340125.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340445.1"
+            },
+            "genome_label": "SAMN08365968",
+            "BioSample_accession": "SAMN08365968",
+            "GenBank_accession": "GCA_003340445.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340145.1"
+            },
+            "genome_label": "SAMN08365969",
+            "BioSample_accession": "SAMN08365969",
+            "GenBank_accession": "GCA_003340145.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340155.1"
+            },
+            "genome_label": "SAMN08365970",
+            "BioSample_accession": "SAMN08365970",
+            "GenBank_accession": "GCA_003340155.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340105.1"
+            },
+            "genome_label": "SAMN08365971",
+            "BioSample_accession": "SAMN08365971",
+            "GenBank_accession": "GCA_003340105.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340405.1"
+            },
+            "genome_label": "SAMN08365972",
+            "BioSample_accession": "SAMN08365972",
+            "GenBank_accession": "GCA_003340405.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340075.1"
+            },
+            "genome_label": "SAMN08365973",
+            "BioSample_accession": "SAMN08365973",
+            "GenBank_accession": "GCA_003340075.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340065.1"
+            },
+            "genome_label": "SAMN08365974",
+            "BioSample_accession": "SAMN08365974",
+            "GenBank_accession": "GCA_003340065.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340045.1"
+            },
+            "genome_label": "SAMN08365975",
+            "BioSample_accession": "SAMN08365975",
+            "GenBank_accession": "GCA_003340045.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340015.1"
+            },
+            "genome_label": "SAMN08365976",
+            "BioSample_accession": "SAMN08365976",
+            "GenBank_accession": "GCA_003340015.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340005.1"
+            },
+            "genome_label": "SAMN08365977",
+            "BioSample_accession": "SAMN08365977",
+            "GenBank_accession": "GCA_003340005.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339975.1"
+            },
+            "genome_label": "SAMN08365978",
+            "BioSample_accession": "SAMN08365978",
+            "GenBank_accession": "GCA_003339975.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340395.1"
+            },
+            "genome_label": "SAMN08365980",
+            "BioSample_accession": "SAMN08365980",
+            "GenBank_accession": "GCA_003340395.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000185625.1"
+            },
+            "genome_label": "SAMN02463797",
+            "BioSample_accession": "SAMN02463797",
+            "GenBank_accession": "GCA_000185625.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339935.1"
+            },
+            "genome_label": "SAMN08365981",
+            "BioSample_accession": "SAMN08365981",
+            "GenBank_accession": "GCA_003339935.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339915.1"
+            },
+            "genome_label": "SAMN08365982",
+            "BioSample_accession": "SAMN08365982",
+            "GenBank_accession": "GCA_003339915.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339945.1"
+            },
+            "genome_label": "SAMN08365979",
+            "BioSample_accession": "SAMN08365979",
+            "GenBank_accession": "GCA_003339945.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339885.1"
+            },
+            "genome_label": "SAMN08365983",
+            "BioSample_accession": "SAMN08365983",
+            "GenBank_accession": "GCA_003339885.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339875.1"
+            },
+            "genome_label": "SAMN08365984",
+            "BioSample_accession": "SAMN08365984",
+            "GenBank_accession": "GCA_003339875.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339815.1"
+            },
+            "genome_label": "SAMN08365985",
+            "BioSample_accession": "SAMN08365985",
+            "GenBank_accession": "GCA_003339815.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340385.1"
+            },
+            "genome_label": "SAMN08365986",
+            "BioSample_accession": "SAMN08365986",
+            "GenBank_accession": "GCA_003340385.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003339845.1"
+            },
+            "genome_label": "SAMN08365987",
+            "BioSample_accession": "SAMN08365987",
+            "GenBank_accession": "GCA_003339845.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340345.1"
+            },
+            "genome_label": "SAMN08365988",
+            "BioSample_accession": "SAMN08365988",
+            "GenBank_accession": "GCA_003340345.1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_003340315.1"
+            },
+            "genome_label": "SAMN08365990",
+            "BioSample_accession": "SAMN08365990",
+            "GenBank_accession": "GCA_003340315.1"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "SAMN02463797",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0087_E_lenta_1356FAA_RA1_01_40141.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02463797",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0087_E_lenta_1356FAA_RB1_01_40154.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN02463797",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0087_E_lenta_1356FAA_RC1_01_40167.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365986",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0088_G_pamelaeae_3C_RE1_01_40193.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365986",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0088_G_pamelaeae_3C_RF1_01_40206.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365986",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0088_G_pamelaeae_3C_RG1_01_40219.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0089_E_lenta_11C_RA2_01_40142.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0089_E_lenta_11C_RB2_01_40155.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365960",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0089_E_lenta_11C_RH1_01_40232.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365961",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0090_E_lenta_14A_RC2_01_40168.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365961",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0090_E_lenta_14A_RD2_01_40181.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365961",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0090_E_lenta_14A_RE2_01_40194.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0091_E_lenta_16A_RF2_01_40207.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0091_E_lenta_16A_RG2_01_40220.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365962",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0091_E_lenta_16A_RH2_01_40233.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0092_E_lenta_22C_RA3_01_40143.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0092_E_lenta_22C_RB3_01_40156.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365964",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0092_E_lenta_22C_RC3_01_40169.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365965",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0093_E_lenta_28B_RE3_01_40195.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365965",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0093_E_lenta_28B_RF3_01_40208.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365965",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0093_E_lenta_28B_RG3_01_40221.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365987",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0094_G_spp_28C_RA4_01_40144.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365987",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0094_G_spp_28C_RB4_01_40157.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365987",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0094_G_spp_28C_RH3_01_40234.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365975",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0109_E_lenta_DSM11767_RC4_01_40170.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365975",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0109_E_lenta_DSM11767_RD4_01_40183.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365975",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0109_E_lenta_DSM11767_RE4_01_40196.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365976",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0110_E_lenta_DSM11863_RF4_01_40209.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365976",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0110_E_lenta_DSM11863_RG4_01_40222.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365976",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0110_E_lenta_DSM11863_RH4_01_40235.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365977",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0111_E_lenta_DSM15644_RA5_01_40145.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365977",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0111_E_lenta_DSM15644_RB5_01_40158.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365977",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0111_E_lenta_DSM15644_RC5_01_40171.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365985",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0112_E_sinensis_DSM16107_RE5_01_40197.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365985",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0112_E_sinensis_DSM16107_RF5_01_40210.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365985",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0112_E_sinensis_DSM16107_RG5_01_40223.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365979",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0166_E_lenta_DSM2243UCSF_RA6_01_40146.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365979",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0166_E_lenta_DSM2243UCSF_RB6_01_40159.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365979",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0166_E_lenta_DSM2243UCSF_RH5_01_40236.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365983",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0169_E_lenta_Valencia_RC6_01_40172.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365983",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0169_E_lenta_Valencia_RD6_01_40185.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365983",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0169_E_lenta_Valencia_RE6_01_40198.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365970",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0170_E_lenta_AN51LG_RF6_01_40211.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365970",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0170_E_lenta_AN51LG_RG6_01_40224.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365970",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0170_E_lenta_AN51LG_RH6_01_40237.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365981",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0171_E_lenta_MR1n12_RA7_01_40147.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365981",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0171_E_lenta_MR1n12_RB7_01_40160.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365981",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0171_E_lenta_MR1n12_RC7_01_40173.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365980",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0172_E_lenta_1160AFAAUCSF_RE7_01_40199.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365980",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0172_E_lenta_1160AFAAUCSF_RF7_01_40212.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365980",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0172_E_lenta_1160AFAAUCSF_RG7_01_40225.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365966",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0173_E_lenta_326I6NA_RA8_01_40148.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365966",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0173_E_lenta_326I6NA_RB8_01_40161.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365966",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0173_E_lenta_326I6NA_RH7_01_40238.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365969",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0174_E_lenta_AB8n2_RC8_01_40174.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365969",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0174_E_lenta_AB8n2_RD8_01_40187.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365969",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0174_E_lenta_AB8n2_RE8_01_40200.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365968",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0175_E_lenta_AB12n2_RF8_01_40213.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365968",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0175_E_lenta_AB12n2_RG8_01_40226.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365968",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0175_E_lenta_AB12n2_RH8_01_40239.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365973",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0176_E_lenta_CC82BHI2_RA9_01_40149.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365973",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0176_E_lenta_CC82BHI2_RB9_01_40162.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365973",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0176_E_lenta_CC82BHI2_RC9_01_40175.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365982",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0177_E_lenta_RC46F_RE9_01_40201.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365982",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0177_E_lenta_RC46F_RF9_01_40214.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365982",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0177_E_lenta_RC46F_RG9_01_40227.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365972",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0178_E_lenta_CC75D52_RA10_01_40150.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365972",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0178_E_lenta_CC75D52_RB10_01_40163.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365972",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0178_E_lenta_CC75D52_RH9_01_40240.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365974",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0179_E_lenta_CC86D54_RC10_01_40176.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365974",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0179_E_lenta_CC86D54_RD10_01_40189.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365974",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0179_E_lenta_CC86D54_RE10_01_40202.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365984",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0180_E_lenta_W1BHI6_RF10_01_40215.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365984",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0180_E_lenta_W1BHI6_RG10_01_40228.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365984",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0180_E_lenta_W1BHI6_RH10_01_40241.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365988",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0183_ParaE_hk_RC22A_RA11_01_40151.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365988",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0183_ParaE_hk_RC22A_RB11_01_40164.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365988",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0183_ParaE_hk_RC22A_RC11_01_40177.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365990",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0185_Slackia_isc_OB21GAM31_RE11_01_40203.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365990",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0185_Slackia_isc_OB21GAM31_RF11_01_40216.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365990",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0185_Slackia_isc_OB21GAM31_RG11_01_40229.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365967",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0237_E_lenta_A2_RA12_01_40152.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365967",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0237_E_lenta_A2_RB12_01_40165.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365967",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0237_E_lenta_A2_RH11_01_40242.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365971",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0240_E_lenta_ATCC25559_RC12_01_40178.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365971",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0240_E_lenta_ATCC25559_RD12_01_40191.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365971",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0240_E_lenta_ATCC25559_RE12_01_40204.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365978",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0261_E_lenta_DSM2243DSMZ_RF12_01_40217.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365978",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0261_E_lenta_DSM2243DSMZ_RG12_01_40230.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        },
+        {
+            "genome_label": "SAMN08365978",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083734/peak/mzxml/PTJ0261_E_lenta_DSM2243DSMZ_RH12_01_40243.mzXML",
+            "sample_preparation_label": "E Lenta",
+            "extraction_method_label": "Oasis HLB",
+            "instrumentation_method_label": "qToF"
+        }
+    ]
+}

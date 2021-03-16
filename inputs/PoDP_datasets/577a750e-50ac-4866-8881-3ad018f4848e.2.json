@@ -1,0 +1,108 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Raphael Reher",
+        "submitter_email": "rreher@ucsd.edu",
+        "submitter_orcid": "https://orcid.org/0000-0002-5858-1173",
+        "submitter_name_secondary": "Max Crüsemann",
+        "submitter_email_secondary": "mcruesemann@gmail.com",
+        "PI_name": "Gabriele König / Max Crüsemann",
+        "PI_institution": "Universitz of Bonn",
+        "PI_email": "mcruesemann@gmail.com"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085192",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=1ef5f4c0a794455b92205407dc7c1b28",
+            "molecular_network": "d1f8592ca46b4d51b32731de4a5c3783"
+        },
+        "publications": "29194875,29873888,29943987 "
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 10
+                },
+                "growth_parameters": {
+                    "growth_temperature": 16,
+                    "growth_duration": 36
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 220
+                },
+                "sample_preparation_method": "BL21"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "n-BuOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-3000",
+                "collision_energy": "35-50",
+                "buffering": "0.1% acetic acid",
+                "instrumentation_method": "micro_ToF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "NZ_LGTG01000643.1."
+            },
+            "BioSample_accession": "SAMN03838137",
+            "publications": "26663534",
+            "genome_label": "Candidatus Burkholderia crenata"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Candidatus Burkholderia crenata",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085192/peak/Ardisia/AC83b.mzXML",
+            "sample_preparation_label": "BL21",
+            "extraction_method_label": "n-BuOH",
+            "instrumentation_method_label": "micro_ToF"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001451"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "The FR900359-compound family (FR900359, FR1, FR2, FR3) are cyclic depsipeptides derived from the endosymbiotic bacterium Candidatus Burkholderia crenata. FR900359 is encoded by a non-ribosomal peptide synthetase (BGC0001451).",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Evidence as indicated in MIBiG",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CCC(NC(C(OC(C(C)C)C1C(N(C)C(C(OC)C)C(OC(C(C)C)C(NC(C)=O)C(OC(CC2=CC=CC=C2)C(N(C)C(C(NC(C)C(N(C)C(C)C(N1)=O)=O)=O)=C)=O)=O)=O)=O)=O)C(O)C(C)C)=O",
+            "IUPAC": "1-(21-acetamido-18-benzyl-22-isopropyl-3-(1-methoxyethyl)-4,9,10,12,16-pentamethyl-15-methylene-2,5,8,11,14,17,20-heptaoxo-1,19-dioxa-4,7,10,13,16-pentaazacyclodocosan-6-yl)-2-methylpropyl 3-hydroxy-4-methyl-2-propionamidopentanoate",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=28&show=true&task=d1f8592ca46b4d51b32731de4a5c3783#%7B%7D"
+        }
+    ]
+}

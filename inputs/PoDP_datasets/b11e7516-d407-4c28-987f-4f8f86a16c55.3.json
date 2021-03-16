@@ -1,0 +1,104 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_orcid": "https://orcid.org/0000-0003-3447-5293",
+        "submitter_email": "c.du@biology.leidenuniv.nl",
+        "PI_email": "g.wezel@biology.leidenuniv.nl",
+        "submitter_name": "Chao Du",
+        "PI_name": "Gilles P. van Wezel",
+        "PI_institution": "Leiden University (Institute of Biology Leiden)"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000082285",
+            "molecular_network": "324c90d0d6474fe09742b32cacb74d16",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=b5591c9b6b8d47bdb6b49808882a9a98&view=advanced_view"
+        },
+        "publications": "10.1002/anie.201814581"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "MM with 0.5% glycerol and 1% mannitol (w/v)"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168,
+                    "growth_phase_OD": "Stationary"
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "MM+glycerol+mannitol"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "complex",
+                "extraction_method": "EtAc_agar"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000079"
+                },
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2000",
+                "instrumentation_method": "FT-IR"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "BioSample_accession": "SAMN08536093",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_002941025",
+                "RefSeq_accession": "GCF_002941025"
+            },
+            "genome_label": "Streptomyces sp. QL37",
+            "publications": "10.1002/anie.201814581"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. QL37",
+            "sample_preparation_label": "MM+glycerol+mannitol",
+            "extraction_method_label": "EtAc_agar",
+            "instrumentation_method_label": "FT-IR",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000082285/ccms_peak/MM-WT_1-10_P1-G-2_01_35627.mzML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "BGC0002016: lugdunomycin biosynthetic gene cluster from Streptomyces sp. QL37",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000082285/ccms_peak/MM-WT_1-10_P1-G-2_01_35627.mzML",
+            "MS2_scan": "407",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002016"
+            }
+        }
+    ]
+}

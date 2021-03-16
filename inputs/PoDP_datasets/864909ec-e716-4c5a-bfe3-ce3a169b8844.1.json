@@ -1,0 +1,1163 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Tiago Leao",
+        "submitter_orcid": "https://orcid.org/0000-0003-1034-9153",
+        "submitter_email": "tiagolbiotech@gmail.com",
+        "PI_name": "Lena Gerwick",
+        "PI_institution": "University of California San Diego",
+        "PI_email": "lgerwick@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "molecular_network": "123808ef98f942ff8852ac048c547fb5",
+            "GNPSMassIVE_ID": "MSV000085210",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=6db0dc16c3264c21b4bdcd289a2aa803"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "SW-BG-11",
+                    "medium_volume": 1000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 27,
+                    "growth_duration": 340
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "other_growth_conditions": "We add salts to regular BG-11",
+                "sample_preparation_method": "SW-BG-11"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790",
+                        "ratio": 0.34
+                    },
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15767",
+                        "ratio": 0.66
+                    }
+                ],
+                "extracted_material": "cells",
+                "extraction_method": "2:1 DCM:MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "190-2000",
+                "collision_energy": "35eV",
+                "buffering": "0.1% formic acid",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000443",
+                    "other_instrument": "Maxis Impact Q-TOF mass spectrometer"
+                },
+                "instrumentation_method": "Maxis LCMS"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHFO01"
+            },
+            "BioSample_accession": "SAMN12797902",
+            "genome_label": "Symploca sp. SIO1B1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHFT01"
+            },
+            "BioSample_accession": "SAMN12797935",
+            "genome_label": "Cyanothece sp. SIO1E1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHFV01"
+            },
+            "BioSample_accession": "SAMN12797910",
+            "genome_label": "Moorea sp. SIO1F2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHFW01"
+            },
+            "BioSample_accession": "SAMN12797976",
+            "genome_label": "Okeania sp. SIO1F9"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHFZ01"
+            },
+            "BioSample_accession": "SAMN12797979",
+            "genome_label": "Moorea sp. SIO1G6"
+        },
+        {
+            "BioSample_accession": "SAMN12797922",
+            "genome_label": "Okeania sp. SIO1H4",
+            "genome_ID": {
+                "GenBank_accession": "JAAHGB01",
+                "genome_type": "metagenome-assembled genome"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGI01"
+            },
+            "BioSample_accession": "SAMN12797932",
+            "genome_label": "Symploca sp. SIO2B6"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGK01"
+            },
+            "BioSample_accession": "SAMN12797929",
+            "genome_label": "Okeania sp. SIO2B9"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGL01"
+            },
+            "BioSample_accession": "SAMN12797930",
+            "genome_label": "Symploca sp. SIO2C1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGN01"
+            },
+            "BioSample_accession": "SAMN12797936",
+            "genome_label": "Moorea sp. SIO2C4"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGO01"
+            },
+            "BioSample_accession": "SAMN12797939",
+            "genome_label": "Okeania sp. SIO2C9"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGQ01"
+            },
+            "BioSample_accession": "SAMN12797937",
+            "genome_label": "Symploca sp. SIO2D2"
+        },
+        {
+            "genome_ID": {
+                "GenBank_accession": "JAAHGS01",
+                "genome_type": "metagenome-assembled genome"
+            },
+            "BioSample_accession": "SAMN12797974",
+            "genome_label": "Symploca sp. SIO2E9"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGT01"
+            },
+            "BioSample_accession": "SAMN12797938",
+            "genome_label": "Okeania sp. SIO2F4"
+        },
+        {
+            "genome_ID": {
+                "GenBank_accession": "JAAHGU01",
+                "genome_type": "metagenome-assembled genome"
+            },
+            "BioSample_accession": "SAMN12797943",
+            "genome_label": "Okeania sp. SIO2F5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGV01"
+            },
+            "BioSample_accession": "SAMN12797944",
+            "genome_label": "Microcoleus sp. SIO2G3"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGX01"
+            },
+            "BioSample_accession": "SAMN12797945",
+            "genome_label": "Okeania sp. SIO2G5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHGY01"
+            },
+            "BioSample_accession": "SAMN12797946",
+            "genome_label": "Cyanothece sp. SIO2G6"
+        },
+        {
+            "BioSample_accession": "SAMN12797947",
+            "genome_label": "Symploca sp. SIO2G7",
+            "genome_ID": {
+                "GenBank_accession": "JAAHGZ01",
+                "genome_type": "metagenome-assembled genome"
+            }
+        },
+        {
+            "BioSample_accession": "SAMN12797951",
+            "genome_label": "Okeania sp. SIO2H7",
+            "genome_ID": {
+                "GenBank_accession": "JAAHHA01",
+                "genome_type": "metagenome-assembled genome"
+            }
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHD01"
+            },
+            "BioSample_accession": "SAMN12797918",
+            "genome_label": "Moorea sp. SIO3A5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHE01"
+            },
+            "BioSample_accession": "SAMN12797954",
+            "genome_label": "Moorea sp. SIO3B2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHF01"
+            },
+            "BioSample_accession": "SAMN12797955",
+            "genome_label": "Okeania sp. SIO3B3"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHG01"
+            },
+            "BioSample_accession": "SAMN12797970",
+            "genome_label": "Okeania sp. SIO3B5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHH01"
+            },
+            "BioSample_accession": "SAMN12797981",
+            "genome_label": "Moorea sp. SIO3C2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHI01"
+            },
+            "BioSample_accession": "SAMN12797933",
+            "genome_label": "Okeania sp. SIO3C4"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHJ01"
+            },
+            "BioSample_accession": "SAMN12797952",
+            "genome_label": "Symploca sp. SIO3C6"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHK01"
+            },
+            "BioSample_accession": "SAMN12797960",
+            "genome_label": "Moorea sp. SIO3E2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHHM01"
+            },
+            "BioSample_accession": "SAMN12797962",
+            "genome_label": "Moorea sp. SIO3E8"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIA01"
+            },
+            "BioSample_accession": "SAMN12797913",
+            "genome_label": "Leptolyngbya sp. SIO4C1"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIB01"
+            },
+            "BioSample_accession": "SAMN12797919",
+            "genome_label": "Kamptonema sp. SIO4C4"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIC01"
+            },
+            "BioSample_accession": "SAMN12797920",
+            "genome_label": "Leptolyngbya sp. SIO4C5"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIF01"
+            },
+            "BioSample_accession": "SAMN12797914",
+            "genome_label": "Moorea sp. SIO4G2"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIG01"
+            },
+            "BioSample_accession": "SAMN12797915",
+            "genome_label": "Moorea sp. SIO4G3"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHIH01"
+            },
+            "BioSample_accession": "SAMN12797906",
+            "genome_label": "Moorea sp. SIOASIH"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JAAHII01"
+            },
+            "BioSample_accession": "SAMN12797916",
+            "genome_label": "Leptolyngbya sp. SIOISBB"
+        }
+    ],
+    "BGC_MS2_links": [],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Symploca sp. SIO1B1",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GC6_01_37750.mzXML"
+        },
+        {
+            "genome_label": "Cyanothece sp. SIO1E1",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/PAB18MAY11_9_C_GA10_01_37730.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO1F2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GG1_01_37793.mzXML"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1F9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/D_GD8_01_37764.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1F9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/H_GD9_01_37765.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Moorea sp. SIO1G6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GD1_01_37757.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015E11_RE11_01_13970.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1766_015F11_RF11_01_13982.mzXML"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F2_RF2_01_13972.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F3_RF3_01_13973.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F4_RF4_01_13974.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F5_RF5_01_13975.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F6_RF6_01_13976.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F7_RF7_01_13977.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F8_RF8_01_13978.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO1H4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1765_015F9_RF9_01_13979.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Symploca sp. SIO2B6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GD7_01_37763.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F2_RF2_01_13801.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F3_RF3_01_13805.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F4_RF4_01_13806.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F5_RF5_01_13807.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F6_RF6_01_13808.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F7_RF7_01_13809.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F8_RF8_01_13810.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2B9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1736_013F10_RF10_01_13812.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Symploca sp. SIO2C1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GE2_01_37770.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Moorea sp. SIO2C4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GE5_01_37773.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2C9",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A5_GA5_01_15275.mzXML"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2C9",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A6_GA6_01_15276.mzXML"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2C9",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A7_2_GA7_01_15279.mzXML"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2C9",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A8_GA8_01_15278.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2C9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A9_GA9_01_15281.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2C9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A10_GA10_01_15282.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2C9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1952_028A11_GA11_01_15283.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Symploca sp. SIO2D2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1831_018A6_GA6_01_14226.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Symploca sp. SIO2E9",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1716_012E3_GE3_01_13654.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027E8_RE8_01_15222.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027E9_RE9_01_15223.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027E10_RE10_01_15224.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027E11_RE11_01_15225.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1944_027F10_RF10_01_15236.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027F2_RF2_01_15227.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027F3_RF3_01_15228.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027F4_RF4_01_15229.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027F5_RF5_01_15230.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1943_027F6_RF6_01_15231.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027D9_RD9_01_15211.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027D10_RD10_01_15212.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027D11_RD11_01_15213.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E2_RE2_01_15215.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E3_RE3_01_15216.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E4_RE4_01_15217.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E5_RE5_01_15218.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E6_RE6_01_15219.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2F5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1942_027E7_RE7_01_15220.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A5_GA5_01_14839.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A6_GA6_01_14840.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A7_GA7_01_14841.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A8_GA8_01_14842.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A9_GA9_01_14843.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A10_GA10_01_14844.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024A11_GA11_01_14845.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/DMSO_1893_024B12_GB12_01_14852.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024B2_GB2_01_14847.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Microcoleus sp. SIO2G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1891_024B3_GB3_01_14848.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F2_GF2_01_14710.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F3_GF3_01_14711.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F4_GF4_01_14712.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F5_GF5_01_14713.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F6_GF6_01_14714.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F7_GF7_01_14715.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F9_GF9_01_14717.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Okeania sp. SIO2G5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1872_022F10_GF10_01_14718.mzXML"
+        },
+        {
+            "genome_label": "Cyanothece sp. SIO2G6",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1889_024A3_GA3_01_14835.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Symploca sp. SIO2G7",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1894_024C4_GC4_01_14864.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO2H7",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/PAL24MAY13_5_C_GB5_01_37737.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1902_024H11_GH11_01_14948.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H2_GH2_01_14937.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H3_GH3_01_14938.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H4_GH4_01_14939.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H5_GH5_01_14940.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H6_GH6_01_14941.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H7_GH7_01_14942.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H8_GH8_01_14944.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H9_GH9_01_14945.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3A5",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/1901_024H10_GH10_01_14946.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3B2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1849_020H9_GH9_01_14532.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO3B3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GE6_01_37774.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO3B5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/DMSO_1752_014B12_GB12_01_13869.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3C2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/E_GD11_01_37767.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Okeania sp. SIO3C4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GE1_01_37769.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1837_020A11_GA11_01_14445.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A2_GA2_01_14435.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A3_GA3_01_14436.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A4_GA4_01_14437.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A5_GA5_01_14438.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A6_GA6_01_14439.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A7_GA7_01_14440.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A8_GA8_01_14441.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A9_GA9_01_14442.mzXML"
+        },
+        {
+            "genome_label": "Symploca sp. SIO3C6",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1833_020A10_GA10_01_14443.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1688_010E7_GE7_01_13470.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1688_010E8_GE8_01_13471.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1688_010E9_GE9_01_13472.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1688_010E10_GE10_01_13473.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E2",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/A1688_010E11_GE11_01_13474.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO3E8",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GE7_01_37775.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Leptolyngbya sp. SIO4C1",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/Cobble_down_cr_GG6_01_37798.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Kamptonema sp. SIO4C4",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/numC_11_C_GC2_01_37746.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Leptolyngbya sp. SIO4C5",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/C15-B_cr_GG7_01_37799.mzXML"
+        },
+        {
+            "genome_label": "Moorea sp. SIO4G2",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GG3_01_37795.mzXML",
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Moorea sp. SIO4G3",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/cr_GG4_01_37796.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Moorea sp. SIOASIH",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/ASI16JUL14_2_C_GA3_01_37723.mzXML"
+        },
+        {
+            "sample_preparation_label": "SW-BG-11",
+            "extraction_method_label": "2:1 DCM:MeOH",
+            "instrumentation_method_label": "Maxis LCMS",
+            "genome_label": "Leptolyngbya sp. SIOISBB",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085210/ISB03NOV94_8_C_GA6_01_37726.mzXML"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Deepa Acharya",
+        "submitter_orcid": "https://orcid.org/0000-0001-6627-5865",
+        "submitter_email": "dacharya@wisc.edu",
+        "PI_name": "Tim Bugni",
+        "PI_institution": "University of Wisconsin - Madison",
+        "PI_email": "tim.bugni@wisc.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085021",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=ddbca8415b6a4c7a849277bb56dfeb34&view=advanced_view",
+            "molecular_network": "cdb8fee4ce25445a9f7f75c8fffecd34"
+        },
+        "publications": "31120241, 29121465"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "ASW-D",
+                    "medium_volume": 250
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 120
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "other_growth_conditions": "ASW D: 2 g yeast extract, 5 g malt extract and 2 g dextrose per liter of ASW",
+                "sample_preparation_method": "ASW-D"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "Solid phase extraction using MeOH on a ABN cartridge",
+                "extraction_method": "SPE-ABN"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "15-1550",
+                "collision_energy": "30, 25, and 20 eV for 500 m/z, 50, 40, and 35 eV for 1000 m/z, and 70, 50, and 45 eV for 2000 m/z for charge states of 1, 2, and 3, respectively",
+                "buffering": "0.1% formic acid",
+                "other_instrumentation": "Chromatographic separations were achieved with a gradient of MeOH and H2O (containing 0.1% formic acid) on an RP C-18 column (Phenomenex Kinetex 2.6 μm, 2.1 mm × 100 mm; Phenomenex, Torrance, CA) at a flow rate of 0.3 mL/min. The method was as follows: 1−12 min (10%−97% MeOH in H2O) and 12−14 min (97% MeOH)",
+                "instrumentation_method": "MaXis"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "MDRX01000000"
+            },
+            "publications": "28082484",
+            "genome_label": "WMMB235"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "WMMB235",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085021/peak/DA2-85-D5-M1.mzXML",
+            "sample_preparation_label": "ASW-D",
+            "extraction_method_label": "SPE-ABN",
+            "instrumentation_method_label": "MaXis"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Christian Martin ",
+        "submitter_orcid": "https://orcid.org/0000-0002-9604-6737",
+        "submitter_email": "christian.martin.hdz@gmail.com",
+        "PI_name": "Christian Martin H.",
+        "PI_institution": "Instituto de Investigaciones Cientificas y Servicios de Alta Tecnologia",
+        "PI_email": "mgutierrez@indicasat.org.pa"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000083295",
+            "molecular_network": "96f41f806240448581259962a07c5df2",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=07d43e6495e04c4a93f74f876ab826d4&view=advanced_view"
+        },
+        "publications": "30637397",
+        "related_GNPSMassIVE_ID": "MSV000085003"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf",
+                    "medium_volume": 500
+                },
+                "growth_parameters": {
+                    "growth_temperature": 35,
+                    "growth_duration": 240,
+                    "growth_phase_OD": "Phase"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "other_growth_conditions": "12 hrs light \n12 hrs dark",
+                "sample_preparation_method": "CO348"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "CO348",
+                "other_extraction_parameters": "Extraction made 50/50 "
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100-2500",
+                "collision_energy": "45 keV",
+                "buffering": "0.01 TFA",
+                "instrumentation_method": "TOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP031759"
+            },
+            "publications": "30637397",
+            "genome_label": "Pseudoalteromonas piscicida strain DE1-A"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Pseudoalteromonas piscicida strain DE1-A",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000083295/raw/CO348.mzXML",
+            "sample_preparation_label": "CO348",
+            "extraction_method_label": "CO348",
+            "instrumentation_method_label": "TOF"
+        }
+    ]
+}

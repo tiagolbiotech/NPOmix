@@ -1,0 +1,26 @@
+BEGIN IONS
+PEPMASS=174.088
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PT211890 L-Citrulline|Cit|Orn(carbamoyl)|N5-Carbamoyl-L-ornithine|delta-Ureidonorvaline|L-2-Amino-5-ureidovaleric acid|(S)-2-Amino-5-ureidopentanoic acid|Sitrulline|(2S)-2-amino-5-(carbamoylamino)pentanoic aci
+LIBRARYQUALITY=3
+SMILES=C(CC(C(=O)O)N)CNC(=O)N
+INCHIKEY=RHGKLRLOHDJJDR-UHFFFAOYSA-N
+INCHI=1/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)/t4-/m0/s1/f/h9-10H,8H2
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-LC-Q-TOF/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PT211890 L-Citrulline|Cit|Orn(carbamoyl)|N5-Carbamoyl-L-ornithine|delta-Ureidonorvaline|L-2-Amino-5-ureidovaleric acid|(S)-2-Amino-5-ureidopentanoic acid|Sitrulline|(2S)-2-amino-5-(carbamoylamino)pentanoic aci [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000222678
+SCANS=7073
+131.082001 999.0 
+174.087906 49.0 
+END IONS
+

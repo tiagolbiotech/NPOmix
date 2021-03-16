@@ -1,0 +1,97 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Michelle Schorn",
+        "submitter_orcid": "https://orcid.org/0000-0001-8144-6052",
+        "submitter_email": "michelle.schorn@wur.nl",
+        "PI_name": "Bradley Moore",
+        "PI_institution": "Scripps Institution of Oceanography, University of California San Diego",
+        "PI_email": "bsmoore@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000086050",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=3ebc6f3abb844d5bbf9547598ac95ec0&view=advanced_view",
+            "molecular_network": "2f4d66852ae5455b86a830d23844209c"
+        },
+        "publications": "31088928"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "Fresh sponge tissue was collected and stored at -80C in RNALater and dry (used for chemistry). Hormoscilla sp. cyanobacterial trichomes were separated from sponge tissue by pressing the sponge tissue and using differential centrifugation to separate the heavy cyanobacterial cells (used for sequencing)."
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "sponge"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "complex",
+                "other_extraction_parameters": "GUM007 whole-sponge tissue was pulverized and extracted with 3 x 20-ml MeOH for 30 to 60 min on a benchtop nutator. The combined extracts were dried in vacuo. Approx. 100 mg MeOH extract and 40 mL RNALater (used to store the sponge tissue) were loaded onto 1g C18 solid-phase extraction columns and fractionated from 5% - 100% MeCN.",
+                "extraction_method": "MeOH"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "other_instrumentation": "Phenomenex Kinetex 5 uM C18(2) 100-A, 150 by 4.6 mm column (0 to 3 min 5% MeCN isocratic, 3 - 23 min, 5 - 100% MeCN, 23 to 26 min 100% MeCN isocratic at 0.7 ml/min).",
+                "instrumentation_method": "Agilent"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "metagenome-assembled genome",
+                "GenBank_accession": "JACONN000000000",
+                "JGI_Genome_ID": "2821485673"
+            },
+            "BioSample_accession": "SAMN13061032",
+            "publications": "32576248, 31088928",
+            "genome_label": "GUM007"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "GUM007",
+            "sample_preparation_label": "sponge",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "Agilent",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000086050/updates/2020-09-01_mschorn_d7c0b04e/peak/GUM007_RNAL.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002077"
+            },
+            "link": "GNPS molecular family",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C(NCCC1=CC/[N+](C1)=C(N)\\N)[C@H]2C[C@@](CC[C@@H](O)C3)([H])[C@@]3([H])N2C([C@H](NC(C(OC)COS(=O)(O)=O)=O)C(C)C)=O",
+            "known_link": "Desoxydysinosins B and C are dysinosin derivatives and structurally similar to aeruginosides (BGC0000297). Dysinosin standards, kindly provided by Ron Quinn, revealed a characteristic loss of sulfate, which led to the discovery of the desoxydysinosins, present in the 15% and 20% MeCN fractions of the GUM007 sponge. Molecular networking with the GUM007 extract and dysinosin standards led to the discovery of two new desoxydysinosins. The molecular family linked here contains two dysinosin standards.",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=1&show=true&task=2f4d66852ae5455b86a830d23844209c#%7B%7D"
+        }
+    ]
+}

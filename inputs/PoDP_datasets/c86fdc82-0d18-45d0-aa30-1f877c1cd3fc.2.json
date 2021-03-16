@@ -1,0 +1,242 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Marianna Iorio",
+        "submitter_email": "miorio@naicons.com",
+        "PI_name": " Margherita Sosio",
+        "PI_institution": " NAICONS srl",
+        "PI_email": "msosio@naicons.com",
+        "submitter_orcid": "https://orcid.org/0000-0001-8669-5875"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085026",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=92656ba3c5ce493ea46ffdd834f51ab8&view=advanced_view"
+        },
+        "publications": "10.1016/j.chembiol.2018.02.008"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "M8",
+                    "medium_volume": 15,
+                    "Other_medium_link": "https://www.ncbi.nlm.nih.gov/pubmed/19374977"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "72h"
+            },
+            {
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "baffled flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "24h",
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 24
+                },
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "M8",
+                    "medium_volume": 15,
+                    "Other_medium_link": "https://www.ncbi.nlm.nih.gov/pubmed/19374977"
+                }
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "other_extraction_parameters": "1 volume of methanol was added to 1 volume of colture",
+                "extraction_method": "FE"
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "other_extraction_parameters": "colture was centrifuged at 16000 g, then filtered at 0.22 micron",
+                "extraction_method": "SN"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "column": "Reverse Phase",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "collision_energy": "25eV",
+                "other_instrumentation": "linear gradient from 10 to 95% acetonitrile",
+                "instrumentation_method": "discovery",
+                "buffering": "0.05% trifluoroacetic acid",
+                "range": "110-2000"
+            },
+            {
+                "column": "Reverse Phase",
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "collision_energy": "35eV",
+                "buffering": "0.05% trifluoroacetic acid",
+                "other_instrumentation": "linear gradient from 0 to 25% acetonitrile",
+                "instrumentation_method": "hydro",
+                "range": "80-700"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_label": "Streptomyces sp. ID38640",
+            "BioSample_accession": "SAMN14256955",
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "CP049782"
+            },
+            "publications": "10.1016/j.chembiol.2018.02.008"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. ID38640",
+            "sample_preparation_label": "72h",
+            "extraction_method_label": "FE",
+            "instrumentation_method_label": "discovery",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_FE_72h_M8.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. ID38640",
+            "sample_preparation_label": "72h",
+            "extraction_method_label": "SN",
+            "instrumentation_method_label": "hydro",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_SN_72h_M8.mzXML"
+        },
+        {
+            "genome_label": "Streptomyces sp. ID38640",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085026/updates/2020-02-27_SoniaMaffioli_d7f9a65c/peak/38640_FE_24h_M8.mzXML",
+            "sample_preparation_label": "24h",
+            "extraction_method_label": "FE",
+            "instrumentation_method_label": "discovery"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "Pseudouridimycin, a C-nucleoside antibiotic with bacterial RNApolymerase inhibitory activity.\nIts biosynthetic gene cluster has been studied by knockouts, and has been named pum",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "C1=C(C(=O)NC(=O)N1)C2C(C(C(O2)CNC(=O)C(CCC(=O)N)N(C(=O)CN=C(N)N)O)O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_SN_72h_M8.mzXML",
+            "MS2_scan": "650",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001476"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Ectoine",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC1=NCCC(N1)C(=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_SN_72h_M8.mzXML",
+            "MS2_scan": "210",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002052"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Ulleungdin, lassopeptide described in the following article: 10.1021/acs.jnatprod.8b00449",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "O=C(N[C@@](Cc1ccccc1)(C(N[C@@]([C@](CC)(C)[H])(C(NCC(N[C@@](CC2=CNC3=C2C=CC=C3)(C(NCC(N[C@@](CCCCN)(C(N[C@@](C4)(C(N[C@@]([C@](CC)(C)[H])(C(N[C@@](Cc5ccccc5)(C(NCC(N[C@@](CC6=CN=CN6)(C(N[C@@](Cc7ccc(O)cc7)(C(NCC(NCC(O)=O)=O)=O)[H])=O)[H])=O)=O)[H])=O)[H])=O)[H])=O)[H])=O)=O)[H])=O)=O)[H])=O)[H])CNC4=O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_FE_72h_M8.mzXML",
+            "MS2_scan": "699",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002053"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "desferrioxamine E, siderophore",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_FE_72h_M8.mzXML",
+            "MS2_scan": "553",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001478"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Lydicamycin, a metabolite associated to a PKS1 biosynthetic cluster with antibiotic activity.\nRelated paper at the following doi: 10.7164/antibiotics.44.282",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC1=CC2C(CCC(C2O)O)C(C1CCC(C)C(C(=CCC(C=CC(C)C(C=CCC(C(=CCC(CC3CCCN3C(=N)N)O)C)O)O)O)C)O)(C)C(=C4C(=O)CNC4=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/peak/38640_FE_72h_M8.mzXML",
+            "MS2_scan": "688",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001477"
+            }
+        },
+        {
+            "link": "single molecule",
+            "known_link": "Antipain, a metabolite associated to a NRPS biosynthetic cluster.\nIt shows protease inhibiting activity.\nRelated paper at the following doi: 10.1021/jacs.6b06848",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CC(C)C(C(=O)NC(CCCN=C(N)N)C=O)NC(=O)C(CCCN=C(N)N)NC(=O)NC(CC1=CC=CC=C1)C(=O)O",
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000085026/updates/2020-02-27_SoniaMaffioli_d7f9a65c/peak/38640_FE_24h_M8.mzXML",
+            "MS2_scan": "565",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0002051"
+            }
+        }
+    ]
+}

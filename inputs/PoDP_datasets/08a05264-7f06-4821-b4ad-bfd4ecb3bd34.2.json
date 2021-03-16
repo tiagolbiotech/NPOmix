@@ -1,0 +1,744 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Ellis O'Neill",
+        "submitter_email": "ellis.o'neill@nottingham.ac.uk",
+        "submitter_orcid": "https://orcid.org/0000-0002-5941-2806",
+        "PI_name": "Ellis O'Neill",
+        "PI_institution": "University of Nottingham",
+        "PI_email": "ellis.o'neill@nottingham.ac.uk"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078847",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=9edff3f275ed489489bd8cac082c79d4&view=advanced_view#%7B%7D"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "A1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=469"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "MS"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=486"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "R5"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "ISP2"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "LB"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {},
+                "sample_preparation_method": "MA"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "PDK"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {},
+                "sample_preparation_method": "PDK",
+                "other_growth_conditions": "potato dextrose 10?g/L, peptone 10?g/L"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "YP"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "YP",
+                "other_growth_conditions": "Yeast Extract 10 g/L, peptone 20 g/L "
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extraction_method": "MeOH"
+            },
+            {
+                "extraction_method": "BuOH",
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ]
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtOAc",
+                "extracted_material": "cells_supernatant"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000081"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "LC-MS",
+                "range": "300-1700",
+                "collision_energy": "20keV",
+                "other_instrumentation": "amples were analyzed using an Agilent 6530 Accurate-\\nMass Q-TOF spectrometer coupled to an Agilent 1260 LC system. A\\nPhenomenex Luna C18 HPLC column (2.6 mm, 150 � 4.6 mm) was\\nused under the following LC conditions with 0.1% TFA: 1-5 min\\n(10% MeCN in H2O), 5-26 min (10-100% MeCN), 26-28 min\\n(100% MeCN). The divert valve was set to waste for the first 4 min.",
+                "buffering": "0.1% TFA"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377965.1"
+            },
+            "BioSample_accession": "SAMN02441673",
+            "genome_label": "CNB091"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000365385.1 "
+            },
+            "genome_label": "CNS615",
+            "BioSample_accession": "SAMN02194547"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000377525.1 "
+            },
+            "genome_label": "CNT302",
+            "BioSample_accession": "SAMN02194422"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_A1_B.mzXML",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_A1_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_A1_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MS_B.mzXML",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MS_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MS_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_R5_B.mzXML",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_R5_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_R5_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_ISP2_B.mzXML",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_ISP2_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_ISP2_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_LB_B.mzXML",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_LB_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_LB_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MA_B.mzXML",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MA_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_MA_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_PDK_B.mzXML",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_PDK_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_PDK_E.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_YP_B.mzXML",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_YP_M.mzXML"
+        },
+        {
+            "genome_label": "CNB091",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNB091_YP_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_B.mzXML",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_A1_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_B.mzXML",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MS_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_B.mzXML",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_R5_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_B.mzXML",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_ISP2_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_B.mzXML",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_LB_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_B.mzXML",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_MA_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_B.mzXML",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_PDK_E.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_B.mzXML",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_M.mzXML"
+        },
+        {
+            "genome_label": "CNS615",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNS615_YP_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_B.mzXML",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_A1_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_B.mzXML",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "MS",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MS_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_B.mzXML",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "R5",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_R5_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_B.mzXML",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "ISP2",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_ISP2_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_B.mzXML",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "LB",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_LB_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_B.mzXML",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "MA",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_MA_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_B.mzXML",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "PDK",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_PDK_E.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_B.mzXML",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_M.mzXML"
+        },
+        {
+            "genome_label": "CNT302",
+            "sample_preparation_label": "YP",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078847/results/Extra%20media/CNT302_YP_E.mzXML"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "verification": [
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "known_link": "Salinamide A ",
+            "SMILES": "CC[C@@H](C)[C@H]1C(=O)N[C@@H]2C3=CC=C(C=C3)O[C@H]([C@]4(CO4)/C=C/C(=O)NCC(=O)OC[C@H](C(=O)O[C@H]([C@H](C(=O)N1)NC(=O)[C@@H](C)[C@H](C(C)C)O)C)NC(=O)[C@@H](NC(=O)[C@H](N(C2=O)C)CC5=CC=CC=C5)[C@H](C)O)C",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=25&task=9682abcfd2c746bba962397ac8e3b94b#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001766"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster"
+            ],
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=network_displayer&componentindex=13&task=9682abcfd2c746bba962397ac8e3b94b#%7B%7D",
+            "known_link": "Desferrioxamine E and related compounds",
+            "SMILES": "ON1CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC1=O",
+            "BGC_ID": {
+                "BGC": "MIBiG number of a similar BGC from a closely related strain",
+                "coordinates": "3,033,355 - 3,040,682",
+                "strain": "AL645882.2.",
+                "similar_MIBiG_number": "BGC0000940"
+            }
+        }
+    ]
+}

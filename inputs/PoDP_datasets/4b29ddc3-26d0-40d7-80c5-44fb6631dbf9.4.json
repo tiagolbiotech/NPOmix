@@ -1,0 +1,661 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Dr. Katherine Duncan",
+        "submitter_orcid": "https://orcid.org/0000-0002-3670-4849",
+        "submitter_email": "katherine.duncan@strath.ac.uk",
+        "PI_name": "Dr. Katherine Duncan",
+        "PI_institution": "University of Strathclyde",
+        "PI_email": "katherine.duncan@strath.ac.uk"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000079284",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=a0fce2f3609e498ab3307c3085e60cbb",
+            "molecular_network": "c22f44b14a3d450eb836d607cb9521bb"
+        },
+        "publications": "10.1016/j.chembiol.2015.03.010"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 100
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28
+                },
+                "aeration": {
+                    "aeration_type": "shaking"
+                },
+                "sample_preparation_method": "A1M1"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "Methanol"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "300-2500",
+                "collision_energy": "20",
+                "buffering": "ACN gradient",
+                "instrumentation_method": "QTOF"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154093",
+                "RefSeq_accession": "GCF_000515175.1"
+            },
+            "genome_label": "Salinispora arenicola CNB527"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154181",
+                "RefSeq_accession": "GCF_000514635.1"
+            },
+            "genome_label": "Salinispora arenicola CNH646"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2561511104",
+                "RefSeq_accession": "GCF_000702345.1"
+            },
+            "genome_label": "Salinispora arenicola CNH996"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285552",
+                "RefSeq_accession": "GCF_000375025.1"
+            },
+            "genome_label": "Salinispora arenicola CNP193"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154180",
+                "RefSeq_accession": "GCF_000514975.1"
+            },
+            "genome_label": "Salinispora arenicola CNQ748"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "641228504",
+                "RefSeq_accession": "GCF_000018265.1"
+            },
+            "genome_label": "Salinispora arenicola CNS205"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572137",
+                "RefSeq_accession": "GCF_000514895.1"
+            },
+            "genome_label": "Salinispora arenicola CNT005"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285550",
+                "RefSeq_accession": "GCF_000373825.1"
+            },
+            "genome_label": "Salinispora arenicola CNT849"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154188",
+                "RefSeq_accession": "GCF_000514875.1"
+            },
+            "genome_label": "Salinispora arenicola CNX508"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154194",
+                "RefSeq_accession": "GCF_000514755.1"
+            },
+            "genome_label": "Salinispora pacifica CNR894"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154178",
+                "RefSeq_accession": "GCF_000514775.1"
+            },
+            "genome_label": "Salinispora pacifica CNR114"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285561",
+                "RefSeq_accession": "GCF_000374665.1"
+            },
+            "genome_label": "Salinispora pacifica CNR942"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518285562",
+                "RefSeq_accession": "GCF_000374685.1"
+            },
+            "genome_label": "Salinispora pacifica CNS055"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2524614807",
+                "RefSeq_accession": "GCF_000424905.1"
+            },
+            "genome_label": "Salinispora pacifica CNS237"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572194",
+                "RefSeq_accession": "GCF_000374725.1"
+            },
+            "genome_label": "Salinispora pacifica CNS863"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154126",
+                "RefSeq_accession": "GCF_000514575.1"
+            },
+            "genome_label": "Salinispora pacifica CNT003"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154177",
+                "RefSeq_accession": "GCF_000514515.1"
+            },
+            "genome_label": "Salinispora pacifica CNT029"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2516493032",
+                "RefSeq_accession": "GCF_000514455.1"
+            },
+            "genome_label": "Salinispora pacifica CNT138"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517287023",
+                "RefSeq_accession": "GCF_000514675.1"
+            },
+            "genome_label": "Salinispora pacifica CNT148"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517434008",
+                "RefSeq_accession": "GCF_000514435.1"
+            },
+            "genome_label": "Salinispora pacifica CNT150"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572162",
+                "RefSeq_accession": "GCF_000375285.1"
+            },
+            "genome_label": "Salinispora pacifica CNT851"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154128",
+                "RefSeq_accession": "GCF_000514855.1"
+            },
+            "genome_label": "Salinispora pacifica CNT855"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2528311034",
+                "RefSeq_accession": "GCF_000484695.1"
+            },
+            "genome_label": "Salinispora pacifica CNY202"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2518645626",
+                "RefSeq_accession": "GCF_000377025.1"
+            },
+            "genome_label": "Salinispora pacifica CNY330"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "640427140",
+                "RefSeq_accession": "GCF_000016425.1"
+            },
+            "genome_label": "Salinispora tropica CNB440"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2517572212",
+                "RefSeq_accession": "GCF_000515075.1"
+            },
+            "genome_label": "Salinispora tropica CNB536"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2515154163",
+                "RefSeq_accession": "GCF_000514695.1"
+            },
+            "genome_label": "Salinispora tropica CNS197"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2540341192",
+                "RefSeq_accession": "GCF_000620325.1"
+            },
+            "genome_label": "Salinispora tropica CNY012"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/42b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNB527"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/12b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNT005"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/12c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNT005"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/13a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNS205"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/13b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNS205"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/15a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNH646"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/15b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNH646"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/16a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNQ748"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/16b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNQ748"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/17a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNT849"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/17b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNT849"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/18a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNP193"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/18b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNP193"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/20a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora arenicola CNX508"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/9a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNR114"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/9b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNR114"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/41a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNR894"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/34b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNR942"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/34c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNR942"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/11a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS055"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/11c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS055"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/8a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS237"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/8b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS237"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/22a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS863"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/22b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNS863"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/26a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT003"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/26c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT003"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/27a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT029"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/27b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT029"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/19a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT138"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/19c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT138"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/25b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT148"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/25c.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT148"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/23a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT150"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/35a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT851"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/35b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT851"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/29a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNT855"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/7a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNY202"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/7b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNY202"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/10b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora pacifica CNY330"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/2a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNB536"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/2b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNB536"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/5a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNY012"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/5b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNY012"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/36a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNS197"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/36b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNS197"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/38a.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNB440"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000079284//raw/Duncan%20et%20al.%2030%20Salinispora/38b.mzXML",
+            "sample_preparation_label": "A1M1",
+            "extraction_method_label": "Methanol",
+            "instrumentation_method_label": "QTOF",
+            "genome_label": "Salinispora tropica CNB440"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Lomaiviticin molecular family",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "SMILES": "CCC1(C(C(=O)C2=C3C(=C(C4=C(C=CC(=O)C4=C3O)O)[O-])C(=C2C1OC5CC(C(C(O5)C)N(C)C)O)[N+]#N)C6C(C(C7=C(C8=C(C9=C(C=CC(=O)C9=C(C8=C7C6=O)O)O)[O-])[N+]#N)(CC)OC1CC(C(C(O1)C)N(C)C)O)OC1CC(C(C(O1)C)O)OC)OC1CC(C(C(O1)C)O)OC",
+            "IUPAC": "11-diazonio-3-[11-diazonio-1-[5-(dimethylamino)-4-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-5,9-dihydroxy-2-(5-hydroxy-4-methoxy-6-methyloxan-2-yl)oxy-10-oxido-4,6-dioxo-1,3-dihydrobenzo[b]fluoren-3-yl]-1-[5-(dimethylamino)-4-hydroxy-6-methyloxan-2-yl]oxy-1-ethyl-5,9-dihydroxy-2-(5-hydroxy-4-methoxy-6-methyloxan-2-yl)oxy-4,6-dioxo-2,3-dihydrobenzo[b]fluoren-10-olate",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=22&show=true&task=c22f44b14a3d450eb836d607cb9521bb#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000241"
+            }
+        },
+        {
+            "link": "GNPS molecular family",
+            "known_link": "Rifamycin S ",
+            "IUPAC": "[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17-trihydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-6,23,27,29-tetraoxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(28),2,4,9,19,21,25-heptaen-13-yl] acetate",
+            "SMILES": "CC1C=CC=C(C(=O)NC2=CC(=O)C3=C(C2=O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)C",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis"
+            ],
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=23&show=true&task=c22f44b14a3d450eb836d607cb9521bb#%7B%7D",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0000137"
+            }
+        }
+    ]
+}

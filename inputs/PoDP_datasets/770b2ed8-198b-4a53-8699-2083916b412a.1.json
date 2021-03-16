@@ -1,0 +1,126 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Doug Sweeney",
+        "submitter_orcid": "https://orcid.org/0000-0002-9102-167X",
+        "submitter_email": "dsweeney@ucsd.edu",
+        "submitter_name_secondary": "Mitchell Muskat",
+        "submitter_email_secondary": "mmuskat@ucsd.edu",
+        "PI_name": "Paul R. Jensen",
+        "PI_institution": "Scripps Institution of Oceanography",
+        "PI_email": "pjensen@ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085214",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=21245588408d4c4cad6d490c3815f15d&view=advanced_view"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 1000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_phase_OD": "Stationary"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 250
+                },
+                "sample_preparation_method": "A1"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "cells_supernatant",
+                "extraction_method": "EtOAc"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "buffering": "0.1% Formic Acid",
+                "instrumentation_method": "IonTrap"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2740891881"
+            },
+            "genome_label": "CNZ-279"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2845467531"
+            },
+            "genome_label": "CNZ-286"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2791354866"
+            },
+            "genome_label": "CNZ-288"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "2791354855"
+            },
+            "genome_label": "CNZ-295"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "CNZ-279",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "IonTrap",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085214/peak/CNZ-279.mzXML"
+        },
+        {
+            "genome_label": "CNZ-286",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "IonTrap",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085214/peak/CNZ-286.mzXML"
+        },
+        {
+            "genome_label": "CNZ-288",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "IonTrap",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085214/peak/CNZ-288.mzXML"
+        },
+        {
+            "genome_label": "CNZ-295",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "IonTrap",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085214/peak/CNZ-295.mzXML"
+        }
+    ]
+}

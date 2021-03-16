@@ -1,0 +1,88 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Anelize Bauermeister",
+        "submitter_email": "ane.meister@usp.br",
+        "submitter_orcid": "https://orcid.org/0000-0001-9731-6172",
+        "submitter_name_secondary": "Amaro Emiliano Trindade-Silva",
+        "submitter_email_secondary": "atrindadesilva@gmail.com",
+        "PI_name": "leticia veras costa-lotufo",
+        "PI_email": "costalotufo@gmail.com",
+        "PI_institution": "Universidade de São Paulo"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000085586",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=ff21ab503db941829ddf86537bece647&view=advanced_view"
+        },
+        "publications": "10.21577/0103-5053.20160297"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 2000
+                },
+                "growth_parameters": {
+                    "growth_temperature": 28,
+                    "growth_duration": 240
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "Erlenmeyer flask",
+                    "aeration_rpm": 150
+                },
+                "sample_preparation_method": "Growth condition - Actinomadura BRA177"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extracted_material": "supernatant",
+                "extraction_method": "Extraction - Actinomadura BRA177"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000264"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "MS method - Actinomadura BRA177",
+                "range": "100-1000",
+                "collision_energy": "0.7"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "JGI_Genome_ID": "235463",
+                "GenBank_accession": "SUB7605628"
+            },
+            "genome_label": "genome - Actinomadura BRA177",
+            "BioSample_accession": "PRJNA639598"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "genome - Actinomadura BRA177",
+            "sample_preparation_label": "Growth condition - Actinomadura BRA177",
+            "extraction_method_label": "Extraction - Actinomadura BRA177",
+            "instrumentation_method_label": "MS method - Actinomadura BRA177",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000085586/peak/Actinomadura%20sp.%20BRA177/BRA177_Actinomadura_CrudeExtract_1-3_01_2357"
+        }
+    ]
+}

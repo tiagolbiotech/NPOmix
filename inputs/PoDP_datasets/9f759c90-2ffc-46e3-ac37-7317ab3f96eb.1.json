@@ -1,0 +1,228 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Bart Cuypers",
+        "submitter_email": "bart.cuypers@uantwerpen.be",
+        "submitter_orcid": "https://orcid.org/0000-0002-7198-1470",
+        "PI_name": "Jean-Claude Dujardin",
+        "PI_institution": "Institute of Tropical Medicine",
+        "PI_email": "jcdujardin@itg.be"
+    },
+    "metabolomics": {
+        "project": {
+            "metabolights_study_id": "MTBLS1606"
+        },
+        "publications": "29679745"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Homem + 20 Fetal Calf Serum",
+                    "Other_medium_link": "https://www.sciencedirect.com/science/article/pii/S1567134818302004"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 26
+                },
+                "aeration": {},
+                "other_growth_conditions": "Ph 7.5",
+                "sample_preparation_method": "Homem + 20 % Heat Inactivated Fetal Bovine Serum"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells",
+                "solvents": [
+                    {
+                        "ratio": 0.6,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    },
+                    {
+                        "ratio": 0.2,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_35255"
+                    },
+                    {
+                        "ratio": 0.2,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377"
+                    }
+                ],
+                "extraction_method": "Chloroform/methanol/water extraction (1/3/1)"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "HILIC",
+                "mode": "http://purl.obolibrary.org/obo/CHMO_0002262",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "70 - 1,400",
+                "buffering": "Elution of the guard column (20 mm by 2.1 mm inside diameter [i.d.], 5m; Merck/ SeQuant) and Zic-HILIC high-performance liquid chromatography (HPLC) column (150 mm by 2.1 mm i.d., 3.5 m, 100 Å; Merck/ SeQuant) was carried out with a gradient of (A) 0.1% formic acid in acetonitrile and (B) 0.1% formic acid in water. The flow rate was 100 l/min, with an injection volume of 10 microliter. Gradient elution chromatography was performed starting with 80% solvent A. Within a 6 min time interval, solvent B was increased to 40% and maintained for 12 min, followed by an increase to 90% within 4 min. This was maintained for 2 min, after which the system returned to the initial solvent composition in 2 min. The whole system was allowed to re-equilibrate under these conditions for 14 min.",
+                "other_instrumentation": "The electrospray ionization (ESI) source voltage was optimized to 4.5 kV and 3.5 kV (for the positive and negative modes, respectively), and capillary voltage was set to 40 V and 30 V (for the positive and negative modes, respectively).\nThe source temperature was set to 275°C, and the sheath and auxiliary gas flow rates were set to 40 and 5 machine-specific units, respectively. Full-scan spectra were acquired over an m/z-range of 70 to 1,400 Da, with the mass resolution set to 50,000 full width at half maximum (FWHM).",
+                "instrumentation_method": "Exactive"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "BioSample_accession": "SAMN08057133",
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BHU568"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "genome_label": "Leishmania donovani BHU575",
+            "BioSample_accession": "SAMN08057132",
+            "publications": "29679745"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "genome_label": "Leishmania donovani BPK275",
+            "BioSample_accession": "SAMN08057131",
+            "publications": "29679745"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "publications": "29679745",
+            "BioSample_accession": "SAMN08057130",
+            "genome_label": "Leishmania donovani BPK282"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BPK604",
+            "BioSample_accession": "SAMN08057129"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BPK406",
+            "BioSample_accession": "SAMN08057128"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BPK519",
+            "BioSample_accession": "SAMN08057127"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "BioSample_accession": "SAMN08057126",
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BPK612"
+        },
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_000227135.2",
+                "RefSeq_accession": "GCF_000227135.1"
+            },
+            "publications": "29679745",
+            "genome_label": "Leishmania donovani BPK026",
+            "BioSample_accession": "SAMN08057125"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "genome_label": "Leishmania donovani BHU568"
+        },
+        {
+            "genome_label": "Leishmania donovani BHU575",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK275",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK282",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK604",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK406",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK026",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK519",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        },
+        {
+            "genome_label": "Leishmania donovani BPK612",
+            "metabolomics_file": "https://www.ebi.ac.uk/metabolights/MTBLS1606",
+            "sample_preparation_label": "Homem + 20 % Heat Inactivated Fetal Bovine Serum",
+            "extraction_method_label": "Chloroform/methanol/water extraction (1/3/1)",
+            "instrumentation_method_label": "Exactive"
+        }
+    ]
+}

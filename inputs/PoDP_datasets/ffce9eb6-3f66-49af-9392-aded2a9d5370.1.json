@@ -1,0 +1,675 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Ellis O'Neill",
+        "submitter_email": "ellis.o'neill@nottingham.ac.uk",
+        "PI_name": "Ellis O'Neill",
+        "PI_institution": "University of Nottingham",
+        "PI_email": "ellis.o'neill@nottingham.ac.uk",
+        "submitter_orcid": "https://orcid.org/0000-0002-5941-2806"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000078850",
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=10486938c4914a4387a501026560de23&view=advanced_view#%7B%7D",
+            "molecular_network": "10486938c4914a4387a501026560de23"
+        }
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "A1"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=469"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "MS"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "https://www.elabprotocols.com/protocols/#!protocol=486"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "R5"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "ISP2"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "LB"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {},
+                "sample_preparation_method": "MA"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "PDK"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {},
+                "sample_preparation_method": "PDK",
+                "other_growth_conditions": "potato dextrose 10 g/L, peptone 10 g/L"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "A1_Lq_7"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "ISP2_Lq_7"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_duration": 168,
+                    "growth_temperature": 30
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "LB_Lq_7"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "MB_Lq_7"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Production medium",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_duration": 168,
+                    "growth_temperature": 30
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "Prod_Lq_7"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1054.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "A1_Lq_14"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium987.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "ISP2_Lq_14"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf"
+                },
+                "growth_parameters": {
+                    "growth_duration": 336,
+                    "growth_temperature": 30
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "LB_Lq_14"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium514.pdf",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "MB_Lq_14"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Production Medium",
+                    "medium_volume": 50
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 336
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_vessel": "spring flask",
+                    "aeration_rpm": 200
+                },
+                "sample_preparation_method": "Prod_Lq_14"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "YP"
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 168
+                },
+                "aeration": {
+                    "aeration_type": "not shaking"
+                },
+                "sample_preparation_method": "YP",
+                "other_growth_conditions": "Yeast Extract 10 g/L, peptone 20 g/L "
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extraction_method": "MeOH"
+            },
+            {
+                "extraction_method": "BuOH",
+                "extracted_material": "cells_supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_28885"
+                    }
+                ]
+            },
+            {
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtOAc",
+                "extracted_material": "cells_supernatant"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000081"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "instrumentation_method": "LC-MS",
+                "range": "300-1700",
+                "collision_energy": "20keV",
+                "other_instrumentation": "amples were analyzed using an Agilent 6530 Accurate-\\nMass Q-TOF spectrometer coupled to an Agilent 1260 LC system. A\\nPhenomenex Luna C18 HPLC column (2.6 mm, 150 × 4.6 mm) was\\nused under the following LC conditions with 0.1% TFA: 1−5 min\\n(10% MeCN in H2O), 5−26 min (10−100% MeCN), 26−28 min\\n(100% MeCN). The divert valve was set to waste for the first 4 min.",
+                "buffering": "0.1% TFA"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "RefSeq_accession": "GCA_000240165.1",
+                "GenBank_accession": "CP003219.1; CP003229.1"
+            },
+            "BioSample_accession": "SAMN02603879",
+            "genome_label": "S. cattleya"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_B.mzXML"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "A1",
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_M.mzXML",
+            "sample_preparation_label": "A1",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MS_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "MS",
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MS_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MS"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MS_M.mzXML",
+            "extraction_method_label": "MeOH",
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MS"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_R5_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "R5"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_R5_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "R5"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_R5_M.mzXML",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "R5"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "ISP2"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "ISP2"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_M.mzXML",
+            "genome_label": "S. cattleya",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "ISP2",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "LB"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "LB"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_M.mzXML",
+            "genome_label": "S. cattleya",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "LB",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MA_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "MA"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MA_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "MA"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MA_M.mzXML",
+            "genome_label": "S. cattleya",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "MA",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_PDK_B.mzXML",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "PDK"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "genome_label": "S. cattleya",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_PDK_E.mzXML",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "PDK"
+        },
+        {
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_PDK_M.mzXML",
+            "genome_label": "S. cattleya",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "PDK",
+            "instrumentation_method_label": "LC-MS"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "A1_Lq_7",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_lq_7_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "A1_Lq_7",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_lq_7_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "A1_Lq_14",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_lq_14_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "A1_Lq_14",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_A1_lq_14_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "ISP2_Lq_7",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_lq_7_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "ISP2_Lq_7",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_lq_7_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "ISP2_Lq_14",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_lq_14_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "ISP2_Lq_14",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_ISP2_lq_14_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "LB_Lq_7",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_lq_7_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "LB_Lq_7",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_lq_7_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "LB_Lq_14",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_lq_14_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "LB_Lq_14",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_LB_lq_14_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MB_Lq_7",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MB_lq_7_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MB_Lq_7",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MB_lq_7_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MB_Lq_14",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MB_lq_14_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "MB_Lq_14",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_MB_lq_14_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "Prod_Lq_7",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_Prod_lq_7_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "Prod_Lq_7",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_Prod_lq_7_E.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "Prod_Lq_14",
+            "extraction_method_label": "BuOH",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_Prod_lq_14_B.mzXML"
+        },
+        {
+            "genome_label": "S. cattleya",
+            "sample_preparation_label": "Prod_Lq_14",
+            "extraction_method_label": "EtOAc",
+            "instrumentation_method_label": "LC-MS",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_Prod_lq_14_E.mzXML"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "extraction_method_label": "MeOH",
+            "sample_preparation_label": "YP",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_YP_M.mzXML",
+            "genome_label": "S. cattleya"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "extraction_method_label": "BuOH",
+            "sample_preparation_label": "YP",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_YP_B.mzXML",
+            "genome_label": "S. cattleya"
+        },
+        {
+            "instrumentation_method_label": "LC-MS",
+            "extraction_method_label": "EtOAc",
+            "sample_preparation_label": "YP",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078850/results/S.cattleya/S.cat_YP_E.mzXML",
+            "genome_label": "S. cattleya"
+        }
+    ]
+}

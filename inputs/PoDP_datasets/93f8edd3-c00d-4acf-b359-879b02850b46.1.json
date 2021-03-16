@@ -1,0 +1,152 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Eric Helfrich",
+        "submitter_orcid": "https://orcid.org/0000-0001-8751-3279",
+        "submitter_email": "eriche@ethz.ch",
+        "submitter_name_secondary": "Michael Rust",
+        "submitter_email_secondary": "rustmi@ethz.ch",
+        "PI_name": "Jörn Piel",
+        "PI_institution": "ETH Zurich",
+        "PI_email": "jpiel@ethz.ch"
+    },
+    "metabolomics": {
+        "project": {
+            "GNPSMassIVE_ID": "MSV000081318",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=3b773ba17b064eeba3ef482f86173d2c",
+            "molecular_network": "3ec14b33ccf744ecbd2896c8fa68d25b"
+        },
+        "publications": "10.1073/pnas.1715496115, 10.1038/nchembio.1870  "
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "enriched ‘Entotheonella serta’ fraction from the marine sponge Theonella swinhoei (white chemotype)"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "enriched ‘Entotheonella serta’ fraction"
+            },
+            {
+                "medium_details": {
+                    "medium_type": "metagenome",
+                    "metagenomic_environment": "https://bioportal.bioontology.org/ontologies/MEO/?p=classes&conceptid=http%3A%2F%2Fpurl.jp%2Fbio%2F11%2Fmeo%2FMEO_0000871",
+                    "metagenomic_sample_description": "Theonella swinhoei (white chemotype)"
+                },
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "Theonella swinhoei (white chemotype)"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extraction_method": "theonellamides",
+                "solvents": [
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15767"
+                    },
+                    {
+                        "ratio": 0.5,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_17790"
+                    }
+                ],
+                "extracted_material": "complex"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "600-2000",
+                "instrumentation_method": "theonellamides",
+                "buffering": "0.1% formic acid",
+                "collision_energy": "35",
+                "other_instrumentation": "A solvent gradient (A = H2O + 0.1% formic acid and B = acetonitrile + 0.1% formic acid with B at 5% for 0-2 min, 5-95% for 2-14 min and 95% for 11-17 min at a flow rate of 0.5 mL/min) was used on a Phenomenex Kinetex 2.6 μm C18 100A (150 × 4.6 mm) column at 27 °C. The spray voltage was set to 3.7 kV and the capillary temperature to 320 °C. MS2 data were acquired in a data-dependent fashion with the parent ion scan at a resolution of 70,000 and the MS2 scan at a resolution of 17,500. The 10 most abundant peaks of each parent ion scan were subjected to CID fragmentation with a normalized collision energy (NCE) of 35 for network analysis, and 20, 25, 30, 40 and 45, respectively, for MS-based structure elucidation and the dynamic exclusion time was set to 10 sec. MS/MS scans were conducted with an AGC target of 3 x 106 or a maximum injection time of 150 ms."
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "PPXO00000000.1"
+            },
+            "BioSample_accession": "SAMN08384467",
+            "genome_label": "Candidatus Entotheonella serta",
+            "publications": "10.1073/pnas.1715496115, 10.1038/nchembio.1870  "
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Candidatus Entotheonella serta",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081318/updates/2017-07-13_eriche_ecca281c/raw/TSWJapanSponge.mzXML",
+            "sample_preparation_label": "enriched ‘Entotheonella serta’ fraction",
+            "extraction_method_label": "theonellamides",
+            "instrumentation_method_label": "theonellamides"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001800"
+            },
+            "link": "single molecule",
+            "SMILES": "C[C@@H](c1ccc(cc1)Br)[C@H]2C(=O)NC[C@@H](C(=O)N[C@@H](C[C@H](CC(=O)N[C@H]3Cc4cn(cn4)C[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)[C@H](C(=O)N)O)CC(=O)N)NC(=O)[C@@H](NC(=O)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC3=O)[C@H](C)O)CO)Cc5ccccc5)[C@H](/C=C(\\C)/C=C/c6ccccc6)O)CO)O)C(=O)O)O",
+            "IUPAC": "(1S,5R,7S,10S,14S,17S,20S,23R,26S,30S,33S,36S,39S,Z)-17-((R)-2-amino-1-hydroxy-2-oxoethyl)-20-(2-amino-2-oxoethyl)-33-benzyl-14-((S)-1-(4-bromophenyl)ethyl)-5,10-dihydroxy-30-((S,2E,4E)-1-hydroxy-3-methyl-5-phenylpenta-2,4-dien-1-yl)-39-((S)-1-hydroxyethyl)-26,36-bis(hydroxymethyl)-3,9,13,16,19,22,25,28,32,35,38,41-dodecaoxo-2,8,12,15,18,21,24,27,31,34,37,40,44,46-tetradecaazatricyclo[21.18.6.143,46]octatetraconta-43(48),44-diene-7-carboxylic acid",
+            "known_link": "Theonellamide B: the tna NRPS biosynthetic pathway was identified to be encoded in the genome of the sponge symbiont Candidatus Entotheonella serta. The BGC was linked to theonellamide production by bioinformatic and biochemical analysis. ",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000081318/updates/2017-07-13_eriche_ecca281c/raw/TSWJapanSponge.mzXML",
+            "MS2_scan": "2476, 2605, 2615"
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001800"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Theonellamides: the tna NRPS biosynthetic pathway was identified to be encoded in the genome of the sponge symbiont Candidatus Entotheonella serta. The BGC was linked to theonellamide production by bioinformatic and biochemical analysis. ",
+            "SMILES": "C[C@@H](c1ccc(cc1)Br)[C@H]2C(=O)NC[C@@H](C(=O)N[C@@H](C[C@H](CC(=O)N[C@H]3Cc4cn(cn4)C[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)[C@H](C(=O)N)O)CC(=O)N)NC(=O)[C@@H](NC(=O)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC3=O)[C@H](C)O)CO)Cc5ccccc5)[C@H](/C=C(\\C)/C=C/c6ccccc6)O)CO)O)C(=O)O)O",
+            "IUPAC": "(1S,5R,7S,10S,14S,17S,20S,23R,26S,30S,33S,36S,39S,Z)-17-((R)-2-amino-1-hydroxy-2-oxoethyl)-20-(2-amino-2-oxoethyl)-33-benzyl-14-((S)-1-(4-bromophenyl)ethyl)-5,10-dihydroxy-30-((S,2E,4E)-1-hydroxy-3-methyl-5-phenylpenta-2,4-dien-1-yl)-39-((S)-1-hydroxyethyl)-26,36-bis(hydroxymethyl)-3,9,13,16,19,22,25,28,32,35,38,41-dodecaoxo-2,8,12,15,18,21,24,27,31,34,37,40,44,46-tetradecaazatricyclo[21.18.6.143,46]octatetraconta-43(48),44-diene-7-carboxylic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=120&show=true&task=3ec14b33ccf744ecbd2896c8fa68d25b#%7B%7D",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ]
+        },
+        {
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001800"
+            },
+            "link": "GNPS molecular family",
+            "known_link": "Theonellamides: the tna NRPS biosynthetic pathway was identified to be encoded in the genome of the sponge symbiont Candidatus Entotheonella serta. The BGC was linked to theonellamide production by bioinformatic and biochemical analysis. ",
+            "SMILES": "C[C@@H](c1ccc(cc1)Br)[C@H]2C(=O)NC[C@@H](C(=O)N[C@@H](C[C@H](CC(=O)N[C@H]3Cc4cn(cn4)C[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)[C@H](C(=O)N)O)CC(=O)N)NC(=O)[C@@H](NC(=O)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC3=O)[C@H](C)O)CO)Cc5ccccc5)[C@H](/C=C(\\C)/C=C/c6ccccc6)O)CO)O)C(=O)O)O",
+            "IUPAC": "(1S,5R,7S,10S,14S,17S,20S,23R,26S,30S,33S,36S,39S,Z)-17-((R)-2-amino-1-hydroxy-2-oxoethyl)-20-(2-amino-2-oxoethyl)-33-benzyl-14-((S)-1-(4-bromophenyl)ethyl)-5,10-dihydroxy-30-((S,2E,4E)-1-hydroxy-3-methyl-5-phenylpenta-2,4-dien-1-yl)-39-((S)-1-hydroxyethyl)-26,36-bis(hydroxymethyl)-3,9,13,16,19,22,25,28,32,35,38,41-dodecaoxo-2,8,12,15,18,21,24,27,31,34,37,40,44,46-tetradecaazatricyclo[21.18.6.143,46]octatetraconta-43(48),44-diene-7-carboxylic acid",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?view=cluster_info_sliced&componentindex=2&show=true&task=3ec14b33ccf744ecbd2896c8fa68d25b#%7B%7D",
+            "verification": [
+                "Experimentally validated with knockouts, heterologous expression, or other gene cluster manipulation",
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ]
+        }
+    ]
+}

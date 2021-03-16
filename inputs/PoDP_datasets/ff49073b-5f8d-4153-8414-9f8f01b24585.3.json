@@ -1,0 +1,110 @@
+{
+    "version": "2",
+    "personal": {
+        "submitter_name": "Victor J. Carrion",
+        "submitter_orcid": "https://orcid.org/0000-0002-4093-0355",
+        "submitter_email": "v.j.carrion.bravo@biology.leidenuniv.nl",
+        "PI_name": "Gilles P. van Wezel",
+        "PI_institution": "Leiden University (Institute of Biology Leiden)",
+        "PI_email": "g.wezel@biology.leidenuniv.nl"
+    },
+    "metabolomics": {
+        "project": {
+            "MaSSIVE_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5ac2a08c0f65484f820493c9dee2e956&view=advanced_view",
+            "GNPSMassIVE_ID": "MSV000081504",
+            "molecular_network": "9756f2def01e480e808ecd86b50db0e8"
+        },
+        "publications": "28945067"
+    },
+    "experimental": {
+        "sample_preparation": [
+            {
+                "medium_details": {
+                    "medium_type": "liquid",
+                    "medium": "other",
+                    "Other_medium": "Minimal liquid medium (NMMP), containing 1% (w/v) glycerol and 0.5% (w/v) mannitol",
+                    "medium_volume": 200
+                },
+                "growth_parameters": {
+                    "growth_temperature": 30,
+                    "growth_duration": 72,
+                    "growth_phase_OD": "Stationary phase"
+                },
+                "aeration": {
+                    "aeration_type": "shaking",
+                    "aeration_rpm": 220,
+                    "aeration_vessel": "spring flask"
+                },
+                "sample_preparation_method": "NMMP+glycerol+mannitol"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "supernatant",
+                "solvents": [
+                    {
+                        "ratio": 1,
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_27750"
+                    }
+                ],
+                "extraction_method": "EtAc_liquid"
+            }
+        ],
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000484"
+                },
+                "column": "Reverse Phase",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "100−2000",
+                "buffering": "1% (v/v) formic acid",
+                "other_instrumentation": "Gemini C18",
+                "instrumentation_method": "LTQ"
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_ID": {
+                "genome_type": "genome",
+                "GenBank_accession": "GCA_001445655",
+                "RefSeq_accession": "GCF_001445655",
+                "JGI_Genome_ID": "2724679019"
+            },
+            "BioSample_accession": "SAMN04253747",
+            "publications": "28945067",
+            "genome_label": "Streptomyces sp. MBT76"
+        }
+    ],
+    "genome_metabolome_links": [
+        {
+            "genome_label": "Streptomyces sp. MBT76",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000081504/raw/JG_QL109_DDA_03.mzXML",
+            "sample_preparation_label": "NMMP+glycerol+mannitol",
+            "extraction_method_label": "EtAc_liquid",
+            "instrumentation_method_label": "LTQ"
+        }
+    ],
+    "BGC_MS2_links": [
+        {
+            "link": "single molecule",
+            "known_link": "BGC0001752: qinichelins biosynthetic gene cluster from Streptomyces sp. MBT76",
+            "verification": [
+                "Bioinformatically inferred through comparative analysis with another experimentally defined gene cluster",
+                "Experimentally validated with NMR and/or detailed MS/MS analysis",
+                "Evidence as indicated in MIBiG"
+            ],
+            "MS2_URL": "ftp://massive.ucsd.edu/MSV000081504/raw/JG_QL109_DDA_03.mzXML",
+            "network_nodes_URL": "https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=9756f2def01e480e808ecd86b50db0e8&view=view_all_clusters_withID",
+            "MS2_scan": "420",
+            "BGC_ID": {
+                "BGC": "MIBiG number associated with this exact BGC",
+                "MIBiG_number": "BGC0001752"
+            }
+        }
+    ]
+}

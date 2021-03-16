@@ -1,0 +1,372 @@
+{
+    "version": "2",
+    "personal": {
+        "PI_institution": "University of California, San Diego",
+        "submitter_email": "yiyuanl@andrew.cmu.edu",
+        "submitter_orcid": "https://orcid.org/0000-0000-0000-0000",
+        "submitter_name": "Yi-Yuan Lee",
+        "submitter_name_secondary": "Cao Liu ",
+        "submitter_email_secondary": "liuc1@andrew.cmu.edu",
+        "PI_name": "Pieter C. Dorrestein",
+        "PI_email": "pdorrestein@health.ucsd.edu"
+    },
+    "metabolomics": {
+        "project": {
+            "molecular_network": "a7f3eab3123a4a72b0cd9fd94ba5ba31",
+            "GNPSMassIVE_ID": "MSV000078556",
+            "MaSSIVE_URL": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=6b9dcff3899e4d5f89f0daf9489a3a5e"
+        },
+        "related_GNPSMassIVE_ID": "MSV000078556",
+        "publications": "00000000"
+    },
+    "experimental": {
+        "instrumentation_methods": [
+            {
+                "instrumentation": {
+                    "instrument": "http://purl.obolibrary.org/obo/MS_1000084"
+                },
+                "collision_energy": "20 keV",
+                "column": "Reverse Phase",
+                "ionization": {
+                    "ionization_type": "http://purl.obolibrary.org/obo/MS_1000073"
+                },
+                "range": "300 - 1700",
+                "instrumentation_method": "ToF",
+                "mode": "http://purl.obolibrary.org/obo/MS_1000130",
+                "buffering": "0.1% TFA"
+            }
+        ],
+        "extraction_methods": [
+            {
+                "extracted_material": "cells",
+                "extraction_method": "Ethanol/Water",
+                "solvents": [
+                    {
+                        "Other_solvent": "Ethanol/Water (50:50)",
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_16236",
+                        "ratio": 0.5
+                    },
+                    {
+                        "solvent": "http://purl.obolibrary.org/obo/CHEBI_15377",
+                        "ratio": 0.5
+                    }
+                ]
+            }
+        ],
+        "sample_preparation": [
+            {
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "Brain Heart Infusion Agar (BHI)",
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Brain Heart Infusion Agar (BHI)"
+                },
+                "other_growth_conditions": "Commensal bacteria (from the following genera: Propionibacte- rium, Corynebacterium, Staphylococcus, Acinetobacter, Bacillus, Streptococcus, Lactobacillus, Pseudomonas, and Escherichia), all frequently found on human skin, as well as yeasts (from the following genera: Malassezia and Candida), were cultured in Petri dishes using appropriate media and growing conditions (Dataset S7). Cell biomass collected from each culture was first washed in 200 μL water, and then 100 μL of 50% (vol/vol) ethanol in water was added. To capture the background, agar pieces cut from blanks containing growth media (controls) were treated fol- lowing the same protocol. We analyzed 50% ethanol extracts from human cells, bacteria, yeast cultures, and blanks using the same UPLC-MS/MS method."
+            },
+            {
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "Tryptone Soy Agar (TSA)",
+                "other_growth_conditions": "Commensal bacteria (from the following genera: Propionibacte- rium, Corynebacterium, Staphylococcus, Acinetobacter, Bacillus, Streptococcus, Lactobacillus, Pseudomonas, and Escherichia), all frequently found on human skin, as well as yeasts (from the following genera: Malassezia and Candida), were cultured in Petri dishes using appropriate media and growing conditions (Dataset S7). Cell biomass collected from each culture was first washed in 200 μL water, and then 100 μL of 50% (vol/vol) ethanol in water was added. To capture the background, agar pieces cut from blanks containing growth media (controls) were treated fol- lowing the same protocol. We analyzed 50% ethanol extracts from human cells, bacteria, yeast cultures, and blanks using the same UPLC-MS/MS method.",
+                "medium_details": {
+                    "medium_type": "solid",
+                    "Other_medium": "Tryptone Soy Agar (TSA)",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium545.pdf"
+                }
+            },
+            {
+                "growth_parameters": {},
+                "aeration": {},
+                "sample_preparation_method": "Lactobacilli MRS Agar (Lac)",
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Lactobacilli MRS Agar (Lac)"
+                },
+                "other_growth_conditions": "Commensal bacteria (from the following genera: Propionibacte- rium, Corynebacterium, Staphylococcus, Acinetobacter, Bacillus, Streptococcus, Lactobacillus, Pseudomonas, and Escherichia), all frequently found on human skin, as well as yeasts (from the following genera: Malassezia and Candida), were cultured in Petri dishes using appropriate media and growing conditions (Dataset S7). Cell biomass collected from each culture was first washed in 200 μL water, and then 100 μL of 50% (vol/vol) ethanol in water was added. To capture the background, agar pieces cut from blanks containing growth media (controls) were treated fol- lowing the same protocol. We analyzed 50% ethanol extracts from human cells, bacteria, yeast cultures, and blanks using the same UPLC-MS/MS method."
+            },
+            {
+                "growth_parameters": {},
+                "aeration": {},
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "http://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium381.pdf"
+                },
+                "sample_preparation_method": "Luria-Bertani Agar (LBA)",
+                "other_growth_conditions": "Commensal bacteria (from the following genera: Propionibacte- rium, Corynebacterium, Staphylococcus, Acinetobacter, Bacillus, Streptococcus, Lactobacillus, Pseudomonas, and Escherichia), all frequently found on human skin, as well as yeasts (from the following genera: Malassezia and Candida), were cultured in Petri dishes using appropriate media and growing conditions (Dataset S7). Cell biomass collected from each culture was first washed in 200 μL water, and then 100 μL of 50% (vol/vol) ethanol in water was added. To capture the background, agar pieces cut from blanks containing growth media (controls) were treated fol- lowing the same protocol. We analyzed 50% ethanol extracts from human cells, bacteria, yeast cultures, and blanks using the same UPLC-MS/MS method."
+            },
+            {
+                "growth_parameters": {},
+                "aeration": {},
+                "other_growth_conditions": "Commensal bacteria (from the following genera: Propionibacte- rium, Corynebacterium, Staphylococcus, Acinetobacter, Bacillus, Streptococcus, Lactobacillus, Pseudomonas, and Escherichia), all frequently found on human skin, as well as yeasts (from the following genera: Malassezia and Candida), were cultured in Petri dishes using appropriate media and growing conditions (Dataset S7). Cell biomass collected from each culture was first washed in 200 μL water, and then 100 μL of 50% (vol/vol) ethanol in water was added. To capture the background, agar pieces cut from blanks containing growth media (controls) were treated fol- lowing the same protocol. We analyzed 50% ethanol extracts from human cells, bacteria, yeast cultures, and blanks using the same UPLC-MS/MS method.",
+                "sample_preparation_method": "Luria-Bertani Agar (LBA) and Nutrient Agar (NA)",
+                "medium_details": {
+                    "medium_type": "solid",
+                    "medium": "other",
+                    "Other_medium": "Luria-Bertani Agar (LBA) and Nutrient Agar (NA)"
+                }
+            }
+        ]
+    },
+    "genomes": [
+        {
+            "genome_label": "12625_2_11",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "12625_2_11",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM1342v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM1342v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM146933v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM146933v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM146959v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM146959v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM187869v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM187869v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM205596v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM205596v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM22729v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM22729v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM23121v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM23121v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM23951v2",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM23951v2",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM73048v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM73048v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM746v2",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM746v2",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM764v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM764v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "ASM80567v1",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "ASM80567v1",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "SE1457",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "SE1457",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        },
+        {
+            "genome_label": "Wild_Type_454AllContigs",
+            "BioSample_accession": "AAAAA000000",
+            "genome_ID": {
+                "GenBank_accession": "Wild_Type_454AllContigs",
+                "genome_type": "genome"
+            },
+            "publications": "00000000"
+        }
+    ],
+    "BGC_MS2_links": [],
+    "genome_metabolome_links": [
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/44_Bsub_3610_LB_RD1_01_5571.mzXML",
+            "genome_label": "ASM205596v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/13_SE12228_LB_RA7_01_5443.mzXML",
+            "genome_label": "ASM764v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/47_Paer_PA01_LB_RD3_01_5579.mzXML",
+            "genome_label": "Wild_Type_454AllContigs",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/16_SE1457_NA_RB8_01_5481.mzXML",
+            "genome_label": "SE1457",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA) and Nutrient Agar (NA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/17_Pacne_11827_BHI_RA9_01_5543.mzXML",
+            "genome_label": "ASM23121v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Brain Heart Infusion Agar (BHI)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/18_PropA11827_TSA_RA10_01_5450.mzXML",
+            "genome_label": "ASM23121v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Tryptone Soy Agar (TSA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/19_PropA6919_LB_RA11_01_5461.mzXML",
+            "genome_label": "ASM73048v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/50_Sa_MSSA_LB_RD6_01_5588.mzXML",
+            "genome_label": "12625_2_11",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/1_SA113_TSA_BB3_01_5743.mzXML",
+            "genome_label": "ASM1342v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Tryptone Soy Agar (TSA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/20_PropA6919_BHI_RA12_01_5453.mzXML",
+            "genome_label": "ASM73048v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Brain Heart Infusion Agar (BHI)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/55_Ecoli_LB_BB1_01_6059.mzXML",
+            "genome_label": "ASM187869v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Brain Heart Infusion Agar (BHI)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/21_SE_FS1_LB_RB9_01_5484.mzXML",
+            "genome_label": "ASM146933v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/56_Cm23348_LB_RB2_01_5464.mzXML",
+            "genome_label": "ASM80567v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/25_SE_14.1.R1.SE_LB_BA3_01_5723.mzXML",
+            "genome_label": "ASM23951v2",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/26_Pavidum_LB_RB1_01_5646.mzXML",
+            "genome_label": "ASM22729v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/61_Smutans_UAI-59_BHI_BB8_01_5757.mzXML",
+            "genome_label": "ASM746v2",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Brain Heart Infusion Agar (BHI)"
+        },
+        {
+            "instrumentation_method_label": "ToF",
+            "metabolomics_file": "ftp://massive.ucsd.edu/MSV000078556/ccms_peak/Microbe%20Extraction/34_Pacne_12.1.L1_LB_RC4_01_5639.mzXML",
+            "genome_label": "ASM146959v1",
+            "extraction_method_label": "Ethanol/Water",
+            "sample_preparation_label": "Luria-Bertani Agar (LBA)"
+        }
+    ]
+}
