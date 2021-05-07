@@ -1,0 +1,8 @@
+./network_files/2021-01-24_15-45-51_hybrids_glocal//NRPS/NRPS_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//PKSI/PKSI_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//PKS-NRP_Hybrids/PKS-NRP_Hybrids_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//Others/Others_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//PKSother/PKSother_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//Terpene/Terpene_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//Saccharides/Saccharides_c0.30.network
+./network_files/2021-01-24_15-45-51_hybrids_glocal//RiPPs/RiPPs_c0.30.network

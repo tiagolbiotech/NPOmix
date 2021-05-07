@@ -1,0 +1,449 @@
+BGC	Accesion ID	Description	Product Prediction	BiG-SCAPE class	Organism	Taxonomy
+ABYX02000001.1.region001	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ABYX02000001.1.region021	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ABYX02000001.1.region024	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ABYX02000001.1.region026	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ABYX02000001.1.region029	ABYX02000001.1	ABYX02000001.1 Streptomyces filamentosus NRRL 11379 supercont4.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ACYA01000027.1.region001	ACYA01000027.1	ACYA01000027.1 Cylindrospermopsis raciborskii CS-505 CS505_3, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+AHCD02000148.1.region001	AHCD02000148.1	AHCD02000148.1 Pseudoalteromonas rubra DSM 6842 strain ATCC 29570 contig148, whole genome shotgun sequence	NRPS.transAT-PKS	PKS-NRP_Hybrids		
+AHCD02000170.1.region001	AHCD02000170.1	AHCD02000170.1 Pseudoalteromonas rubra DSM 6842 strain ATCC 29570 contig170, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AL645882.2.region015	AL645882.2	AL645882.2 Streptomyces coelicolor A3(2) complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+ALVU02000001.1.region004	ALVU02000001.1	ALVU02000001.1 Synechocystis sp. PCC 7509 SYN7509DRAFT_scaffold1.1_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ALVZ01000171.1.region001	ALVZ01000171.1	ALVZ01000171.1 Xenococcus sp. PCC 7305 scaffold_00171, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+ALVZ01000197.1.region001	ALVZ01000197.1	ALVZ01000197.1 Xenococcus sp. PCC 7305 scaffold_00197, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+ALVZ01000228.1.region001	ALVZ01000228.1	ALVZ01000228.1 Xenococcus sp. PCC 7305 scaffold_00228, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+ALVZ01000233.1.region001	ALVZ01000233.1	ALVZ01000233.1 Xenococcus sp. PCC 7305 scaffold_00233, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+ALWB01000112.1.region001	ALWB01000112.1	ALWB01000112.1 Pseudanabaena biceps PCC 7429 scaffold_00112, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AP009552.1.region006	AP009552.1	AP009552.1 Microcystis aeruginosa NIES-843 DNA, complete genome	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+AP009552.1.region008	AP009552.1	AP009552.1 Microcystis aeruginosa NIES-843 DNA, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+AP019314.1.region003	AP019314.1	AP019314.1 Microcystis viridis NIES-102 DNA, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+AP019314.1.region011	AP019314.1	AP019314.1 Microcystis viridis NIES-102 DNA, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+AUEV01000018.1.region001	AUEV01000018.1	AUEV01000018.1 Streptomyces sp. TAA486 I004DRAFT_scaffold00016.16_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUFD01000005.1.region002	AUFD01000005.1	AUFD01000005.1 Streptomyces sp. CNS606 K304DRAFT_scaffold00003.3_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUFD01000025.1.region001	AUFD01000025.1	AUFD01000025.1 Streptomyces sp. CNS606 K304DRAFT_scaffold00023.23_C, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+AUKN01000001.1.region001	AUKN01000001.1	AUKN01000001.1 Streptomyces sp. CNT318 H296DRAFT_scaffold00001.1_C, whole genome shotgun sequence	NRPS.transAT-PKS.transAT-PKS-like.T1PKS	PKS-NRP_Hybrids		
+AUKN01000007.1.region001	AUKN01000007.1	AUKN01000007.1 Streptomyces sp. CNT318 H296DRAFT_scaffold00006.6_C, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+AUKN01000010.1.region001	AUKN01000010.1	AUKN01000010.1 Streptomyces sp. CNT318 H296DRAFT_scaffold00009.9_C, whole genome shotgun sequence	NRPS.transAT-PKS.T1PKS	PKS-NRP_Hybrids		
+AUKN01000013.1.region001	AUKN01000013.1	AUKN01000013.1 Streptomyces sp. CNT318 H296DRAFT_scaffold00012.12_C, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+AUKO01000002.1.region001	AUKO01000002.1	AUKO01000002.1 Streptomyces sp. CNT360 H297DRAFT_scaffold00002.2_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUKO01000002.1.region002	AUKO01000002.1	AUKO01000002.1 Streptomyces sp. CNT360 H297DRAFT_scaffold00002.2_C, whole genome shotgun sequence	NRPS.transAT-PKS	PKS-NRP_Hybrids		
+AUKO01000012.1.region002	AUKO01000012.1	AUKO01000012.1 Streptomyces sp. CNT360 H297DRAFT_scaffold00008.8_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUKP01000016.1.region001	AUKP01000016.1	AUKP01000016.1 Streptomyces sp. CNQ865 H298DRAFT_scaffold00015.15_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUKP01000017.1.region001	AUKP01000017.1	AUKP01000017.1 Streptomyces sp. CNQ865 H298DRAFT_scaffold00016.16_C, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+AUKP01000029.1.region001	AUKP01000029.1	AUKP01000029.1 Streptomyces sp. CNQ865 H298DRAFT_scaffold00028.28_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUKQ01000011.1.region001	AUKQ01000011.1	AUKQ01000011.1 Streptomyces sp. CNH287 H299DRAFT_scaffold00008.8_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AUKQ01000024.1.region001	AUKQ01000024.1	AUKQ01000024.1 Streptomyces sp. CNH287 H299DRAFT_scaffold00021.21_C, whole genome shotgun sequence	NRPS.PKS-like	PKS-NRP_Hybrids		
+AXVU01000004.1.region001	AXVU01000004.1	AXVU01000004.1 Streptomyces sp. CNQ329 I003DRAFT_scaffold00003.3_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AZWL01000004.1.region003	AZWL01000004.1	AZWL01000004.1 Streptomyces sp. CNH099 B121DRAFT_scaffold_2.3_C, whole genome shotgun sequence	NRPS.PKS-like	PKS-NRP_Hybrids		
+AZWL01000009.1.region001	AZWL01000009.1	AZWL01000009.1 Streptomyces sp. CNH099 B121DRAFT_scaffold_7.8_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AZWZ01000015.1.region002	AZWZ01000015.1	AZWZ01000015.1 Streptomyces sp. CNT371 B105DRAFT_scaffold_11.12_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+AZWZ01000018.1.region001	AZWZ01000018.1	AZWZ01000018.1 Streptomyces sp. CNT371 B105DRAFT_scaffold_14.15_C, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+BA000019.2.region004	BA000019.2	BA000019.2 Nostoc sp. PCC 7120 DNA, complete genome	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+BA000019.2.region009	BA000019.2	BA000019.2 Nostoc sp. PCC 7120 DNA, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+BA000019.2.region010	BA000019.2	BA000019.2 Nostoc sp. PCC 7120 DNA, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+BEYQ01000002.1.region001	BEYQ01000002.1	BEYQ01000002.1 Microcystis aeruginosa NIES-298 DNA, sequence02, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+BEYQ01000005.1.region001	BEYQ01000005.1	BEYQ01000005.1 Microcystis aeruginosa NIES-298 DNA, sequence05, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+BEYQ01000012.1.region002	BEYQ01000012.1	BEYQ01000012.1 Microcystis aeruginosa NIES-298 DNA, sequence12, whole genome shotgun sequence	NRPS-like.T1PKS.T3PKS	PKS-NRP_Hybrids		
+BGC0000062.1	BGC0000062.1	Fumonisin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium verticillioides	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium,Fusarium fujikuroi species complex
+BGC0000063.1	BGC0000063.1	Fumonisin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium oxysporum	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium,Fusarium oxysporum species complex
+BGC0000064.1	BGC0000064.1	Fusarin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium verticillioides	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium,Fusarium fujikuroi species complex
+BGC0000081.1	BGC0000081.1	Kedarcidin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptoalloteichus sp. ATCC 53650	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0000145.1	BGC0000145.1	Salinosporamide A biosynthetic gene cluster	transatpks.nrps.t1pks	PKS-NRP_Hybrids	Salinispora tropica	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Salinispora
+BGC0000150.1	BGC0000150.1	Sporolide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Salinispora tropica CNB-440	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Salinispora
+BGC0000186.1	BGC0000186.1	Thailandamide biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Burkholderia thailandensis E264	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,pseudomallei group
+BGC0000289.1	BGC0000289.1	A40926 biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Nonomuraea sp. ATCC 39727	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptosporangineae,Streptosporangiaceae,Nonomuraea
+BGC0000290.1	BGC0000290.1	A47934 biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Streptomyces toyocaensis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000311.1	BGC0000311.1	Balhimycin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis balhimycina DSM 5908	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Amycolatopsis
+BGC0000322.1	BGC0000322.1	Chloroeremomycin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis orientalis	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Amycolatopsis
+BGC0000335.1	BGC0000335.1	Cystomanamides biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cystobacter fuscus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Cystobacter
+BGC0000345.1	BGC0000345.1	Eponemycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces hygroscopicus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000346.1	BGC0000346.1	Epoxomicin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Goodfellowiella coeruleoviolacea	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Goodfellowiella
+BGC0000353.1	BGC0000353.1	FK506 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. MA6548	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000365.1	BGC0000365.1	Glycopeptidolipid biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Mycobacterium smegmatis str. MC2 155	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Corynebacterineae,Mycobacteriaceae,Mycobacterium
+BGC0000380.1	BGC0000380.1	Leupyrrin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0000383.1	BGC0000383.1	Luminmycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Photorhabdus luminescens subsp. laumondii TTO1	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Photorhabdus
+BGC0000393.1	BGC0000393.1	Myxoprincomide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus DK 1622	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0000402.1	BGC0000402.1	Paenilarvins biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Paenibacillus larvae subsp. larvae DSM 25430	Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus
+BGC0000418.1	BGC0000418.1	Ristocetin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis lurida	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Amycolatopsis
+BGC0000419.1	BGC0000419.1	Ristomycin A biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis japonica	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Amycolatopsis
+BGC0000436.1	BGC0000436.1	Syringolin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Rhizobium sp. AP16	Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium/Agrobacterium group,Rhizobium
+BGC0000440.1	BGC0000440.1	Teicoplanin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Actinoplanes teichomyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Actinoplanes
+BGC0000441.1	BGC0000441.1	Teicoplanin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Actinoplanes teichomyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Actinoplanes
+BGC0000455.1	BGC0000455.1	Vancomycin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis orientalis HCCB10007	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Amycolatopsis
+BGC0000467.1	BGC0000467.1	Yersiniabactin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Yersinia enterocolitica	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Yersinia
+BGC0000954.1	BGC0000954.1	Ajudazol biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0000955.1	BGC0000955.1	Althiomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0000958.1	BGC0000958.1	Antimycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. S4	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000959.1	BGC0000959.1	Aspyridone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus nidulans FGSC A4	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0000960.1	BGC0000960.1	Azinomycin B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sahachiroi	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000962.1	BGC0000962.1	Barbamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Lyngbya majuscula	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Lyngbya
+BGC0000963.1	BGC0000963.1	Bleomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces verticillus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000965.1	BGC0000965.1	C-1027 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces globisporus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000966.1	BGC0000966.1	Caerulomycin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Actinoalloteichus sp. WH1-2216-6	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Actinoalloteichus
+BGC0000967.1	BGC0000967.1	Calyculin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	uncultured Candidatus Entotheonella sp.	Bacteria,Proteobacteria,Deltaproteobacteria,Candidatus Entotheonella,environmental samples
+BGC0000968.1	BGC0000968.1	Chaetoglobosin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Penicillium expansum	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Penicillium
+BGC0000969.1	BGC0000969.1	Chondramide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0000970.1	BGC0000970.1	Chondrochloren biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0000971.1	BGC0000971.1	Cinnabaramide biosynthetic gene cluster	transatpks.nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. JS360	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000972.1	BGC0000972.1	Colibactin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Escherichia coli	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Escherichia
+BGC0000973.1	BGC0000973.1	Collismycin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. CS40	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000974.1	BGC0000974.1	Crocacin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0000975.1	BGC0000975.1	Cryptophycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nostoc sp. ATCC 53789	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0000976.1	BGC0000976.1	Curacin biosynthetic gene cluster	t2pks.nrps.t1pks	PKS-NRP_Hybrids	Moorea producens 3L	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Moorea
+BGC0000982.1	BGC0000982.1	Cystothiazole A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cystobacter fuscus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Cystobacter
+BGC0000983.1	BGC0000983.1	Cytochalasin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus clavatus NRRL 1	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0000984.1	BGC0000984.1	Delftibactin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Delftia acidovorans SPH-1	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Delftia
+BGC0000988.1	BGC0000988.1	Epothilone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0000989.1	BGC0000989.1	Epothilone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum So0157-2	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0000990.1	BGC0000990.1	Epothilone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0000991.1	BGC0000991.1	Epothilone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0000994.1	BGC0000994.1	FK520 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces hygroscopicus subsp. ascomyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000995.1	BGC0000995.1	FR901464 biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Pseudomonas sp. 2663	Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+BGC0000996.1	BGC0000996.1	Frontalamides biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. SPB78	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000997.1	BGC0000997.1	Glidobactin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	[Polyangium] brachysporum	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales
+BGC0000998.1	BGC0000998.1	Guadinomine biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. K01-0509	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0000999.1	BGC0000999.1	Heat-stable antifungal factor biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Lysobacter enzymogenes	Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter
+BGC0001000.1	BGC0001000.1	Hectochlorin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Lyngbya majuscula	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Lyngbya
+BGC0001001.1	BGC0001001.1	Jamaicamide biosynthetic gene cluster	t2pks.nrps.t1pks	PKS-NRP_Hybrids	Lyngbya majuscula	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Lyngbya
+BGC0001002.1	BGC0001002.1	Jawsamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces roseoverticillatus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001003.1	BGC0001003.1	Lipomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces aureofaciens	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001005.1	BGC0001005.1	Locillomycin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Bacillus subtilis	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0001008.1	BGC0001008.1	Maduropeptin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Actinomadura madurae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptosporangineae,Thermomonosporaceae,Actinomadura
+BGC0001009.1	BGC0001009.1	Melithiazol biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Melittangium lichenicola	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Melittangium
+BGC0001010.1	BGC0001010.1	Melithiazol biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Melittangium lichenicola	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Melittangium
+BGC0001011.1	BGC0001011.1	Meridamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. NRRL 30748	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001012.1	BGC0001012.1	Meridamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces violaceusniger	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001013.1	BGC0001013.1	Meridamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp.	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001014.1	BGC0001014.1	Micacocidin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Ralstonia solanacearum GMI1000	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+BGC0001015.1	BGC0001015.1	Microcystin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Planktothrix agardhii NIVA-CYA 126/8	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Planktothrix
+BGC0001016.1	BGC0001016.1	Microcystin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Anabaena sp. 90	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Anabaena
+BGC0001017.1	BGC0001017.1	Microcystin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Microcystis aeruginosa PCC 7806	Bacteria,Cyanobacteria,Oscillatoriophycideae,Chroococcales,Microcystis
+BGC0001019.1	BGC0001019.1	Microsclerodermins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0001022.1	BGC0001022.1	Myxalamid biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001023.1	BGC0001023.1	Myxochromide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001024.1	BGC0001024.1	Myxothiazol biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca DW4/3-1	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001025.1	BGC0001025.1	Myxovirescin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Myxococcus xanthus DK 1622	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001026.1	BGC0001026.1	NG-391 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Metarhizium anisopliae	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Clavicipitaceae,mitosporic Clavicipitaceae,Metarhizium
+BGC0001028.1	BGC0001028.1	Nostopeptolide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nostoc sp. GSV224	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0001029.1	BGC0001029.1	Nostophycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nostoc sp. 152	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0001033.1	BGC0001033.1	Paenilamicin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Paenibacillus larvae subsp. larvae DSM 25430	Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus
+BGC0001034.1	BGC0001034.1	Pellasoren biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0001035.1	BGC0001035.1	Pneumocandin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Glarea lozoyensis ATCC 20868	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Leotiomycetes,Helotiales,Helotiaceae,Glarea
+BGC0001036.1	BGC0001036.1	Polyoxypeptin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. MK498-98F14	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001037.1	BGC0001037.1	Pseurotin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus fumigatus Af293	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0001039.1	BGC0001039.1	Pyridomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces pyridomyceticus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001040.1	BGC0001040.1	Rapamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces rapamycinicus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001041.1	BGC0001041.1	Salinosporamide biosynthetic gene cluster	t1pks.nrps.transatpks	PKS-NRP_Hybrids	Salinispora tropica CNB-440	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Salinispora
+BGC0001042.1	BGC0001042.1	Sanglifehrin A biosynthetic gene cluster	nrps.t1pks.hglks	PKS-NRP_Hybrids	Streptomyces flaveolus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001043.1	BGC0001043.1	SGR PTMs biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces griseus subsp. griseus NBRC 13350	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001047.1	BGC0001047.1	Syringolin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Pseudomonas syringae	Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+BGC0001048.1	BGC0001048.1	Tallysomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptoalloteichus hindustanus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Pseudonocardineae,Pseudonocardiaceae,Streptoalloteichus
+BGC0001049.1	BGC0001049.1	Tenellin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Beauveria bassiana	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Cordycipitaceae,Beauveria
+BGC0001051.1	BGC0001051.1	Thuggacin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0001052.1	BGC0001052.1	Tirandamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. 307-9	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001053.1	BGC0001053.1	Tubulysin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Angiococcus disciformis	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Cystobacter
+BGC0001054.1	BGC0001054.1	Xenocoumacin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Xenorhabdus nematophila ATCC 19061	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Xenorhabdus
+BGC0001055.1	BGC0001055.1	Yersiniabactin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Escherichia coli	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Escherichia
+BGC0001056.1	BGC0001056.1	Zeamine biosynthetic gene cluster	nrps.t1pks.hglks	PKS-NRP_Hybrids	Serratia plymuthica RVH1	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Serratia
+BGC0001057.1	BGC0001057.1	Zearalenone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium graminearum	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium
+BGC0001059.1	BGC0001059.1	Zwittermycin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Bacillus cereus	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus cereus group
+BGC0001069.1	BGC0001069.1	Chivosazole biosynthetic gene cluster	t1pks.nrps.transatpks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0001070.1	BGC0001070.1	Kirromycin biosynthetic gene cluster	t1pks.nrps.transatpks	PKS-NRP_Hybrids	Streptomyces collinus Tu 365	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001071.1	BGC0001071.1	Nosperin biosynthetic gene cluster	t1pks.nrps.transatpks.t2pks	PKS-NRP_Hybrids	Nostoc sp. 'Peltigera membranacea cyanobiont'	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0001088.1	BGC0001088.1	Albicidin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Xanthomonas albilineans	Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+BGC0001089.1	BGC0001089.1	Bacillaene biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Bacillus amyloliquefaciens subsp. plantarum str. FZB42	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0001090.1	BGC0001090.1	Bacillomycin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Bacillus amyloliquefaciens subsp. plantarum str. FZB42	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0001092.1	BGC0001092.1	Diaphorin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Candidatus Profftella armatura	Bacteria,Proteobacteria,Betaproteobacteria,Candidatus Profftella
+BGC0001093.1	BGC0001093.1	Disorazole biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Sorangium cellulosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Sorangium
+BGC0001096.1	BGC0001096.1	FR901464 biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Pseudomonas sp. 2663	Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+BGC0001098.1	BGC0001098.1	Iturin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Bacillus subtilis	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0001099.1	BGC0001099.1	Kalimantacin / batumin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Pseudomonas fluorescens	Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+BGC0001101.1	BGC0001101.1	Leinamycin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Streptomyces atroolivaceus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001102.1	BGC0001102.1	Malleilactone biosynthetic gene cluster	transatpks.nrps.t1pks	PKS-NRP_Hybrids	Burkholderia thailandensis E264	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,pseudomallei group
+BGC0001103.1	BGC0001103.1	Mycosubtilin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Bacillus subtilis subsp. spizizenii ATCC 6633	Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus
+BGC0001105.1	BGC0001105.1	Onnamide biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Candidatus Entotheonella sp. TSY1	Bacteria,Proteobacteria,Deltaproteobacteria,Candidatus Entotheonella
+BGC0001106.1	BGC0001106.1	Oxazolomycin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Streptomyces albus	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001108.1	BGC0001108.1	Pederin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	symbiont bacterium of Paederus fuscipes	Bacteria,Unknown
+BGC0001109.1	BGC0001109.1	Pederin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	unidentified	Bacteria,Unknown
+BGC0001110.1	BGC0001110.1	Psymberin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	uncultured bacterium psy1	Bacteria,environmental samples
+BGC0001111.1	BGC0001111.1	Rhizopodins biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Stigmatella aurantiaca Sg a15	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001112.1	BGC0001112.1	Rhizoxins biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Burkholderia rhizoxinica	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia
+BGC0001113.1	BGC0001113.1	Spliceostatin / FR901464 biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Burkholderia sp. FERM BP-3421	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia
+BGC0001114.1	BGC0001114.1	Thailanstatin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Burkholderia thailandensis	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,pseudomallei group
+BGC0001115.1	BGC0001115.1	Thiomarinol biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Pseudoalteromonas sp. SANK 73390	Bacteria,Proteobacteria,Gammaproteobacteria,Alteromonadales,Pseudoalteromonadaceae,Pseudoalteromonas
+BGC0001116.1	BGC0001116.1	Virginiamycin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Streptomyces virginiae	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Streptomycineae,Streptomycetaceae,Streptomyces
+BGC0001122.1	BGC0001122.1	Isoflavipucine biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus terreus NIH2624	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0001125.1	BGC0001125.1	Puwainaphycins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cylindrospermum alatosporum CCALA 988	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Cylindrospermum
+BGC0001130.1	BGC0001130.1	Fabclavine biosynthetic gene cluster	nrps.t1pks.hglks	PKS-NRP_Hybrids	Xenorhabdus budapestensis	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Morganellaceae,Xenorhabdus
+BGC0001136.1	BGC0001136.1	Desmethylbassianin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Beauveria bassiana	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Cordycipitaceae,Beauveria
+BGC0001165.1	BGC0001165.1	Curacin biosynthetic gene cluster	t2pks.nrps.t1pks	PKS-NRP_Hybrids	Lyngbya majuscula	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Lyngbya
+BGC0001178.1	BGC0001178.1	UK-68,597 biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Actinoplanes sp. ATCC 53533	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Actinoplanes
+BGC0001182.1	BGC0001182.1	Chaetoglobosins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chaetomium globosum CBS 148.51	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Sordariomycetidae,Sordariales,Chaetomiaceae,Chaetomium
+BGC0001187.1	BGC0001187.1	Xenolozoyenone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Glarea lozoyensis	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Leotiomycetes,Helotiales,Helotiaceae,Glarea
+BGC0001195.1	BGC0001195.1	Nocardiopsin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nocardiopsis sp. CMB-M0232	Bacteria,Actinobacteria,Streptosporangiales,Nocardiopsaceae,Nocardiopsis
+BGC0001202.1	BGC0001202.1	Landepoxcin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	uncultured bacterium AR_412	Bacteria,environmental samples
+BGC0001203.1	BGC0001203.1	Clarexpoxcin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	uncultured bacterium AR_456	Bacteria,environmental samples
+BGC0001212.1	BGC0001212.1	Nannocystin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nannocystis sp. MB1016	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystineae,Nannocystaceae,Nannocystis
+BGC0001216.1	BGC0001216.1	Splenocin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. CNQ431	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001218.1	BGC0001218.1	Fumosorinone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Isaria fumosorosea	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Cordycipitaceae,Isaria
+BGC0001230.1	BGC0001230.1	Salinamides biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. CNB091	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001231.1	BGC0001231.1	Microsclerodermins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Jahnella sp. MSr9139	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Jahnella
+BGC0001233.1	BGC0001233.1	Feglymycin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Streptomyces sp. DSM 11171	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001235.1	BGC0001235.1	Antalid biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Polyangium spumosum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Polyangium
+BGC0001236.1	BGC0001236.1	Thiotetroamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces afghaniensis	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001237.1	BGC0001237.1	Thiolactomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Salinispora pacifica DSM 45543	Bacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Salinispora
+BGC0001255.1	BGC0001255.1	Equisetin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium heterosporum	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium
+BGC0001268.1	BGC0001268.1	Fusarin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fusarium fujikuroi	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Nectriaceae,Fusarium,Fusarium fujikuroi species complex
+BGC0001290.1	BGC0001290.1	Emericellamide A / emericellamide B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus nidulans FGSC A4	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0001327.1	BGC0001327.1	Rakicidin A / rakicidin B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Micromonospora purpureochromogenes	Bacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora
+BGC0001328.1	BGC0001328.1	Rakicidin A / rakicidin B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Micromonospora sp. M42	Bacteria,Actinobacteria,Actinobacteridae,Actinomycetales,Micromonosporineae,Micromonosporaceae,Micromonospora
+BGC0001329.1	BGC0001329.1	Rakicidin D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces lilacinus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001331.1	BGC0001331.1	BE-43547 A1-C2 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Salinispora arenicola CNR107	Bacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Salinispora
+BGC0001332.1	BGC0001332.1	Microtermolide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. MspMP-M5	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001342.1	BGC0001342.1	Thuggacin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0001344.1	BGC0001344.1	Tubulysin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cystobacter sp. SBCb004	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Cystobacter
+BGC0001351.1	BGC0001351.1	Cahuitamycins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces gandocaensis	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001352.1	BGC0001352.1	Thiotetronate Tü 3010 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces olivaceus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001353.1	BGC0001353.1	Thiolactomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Lentzea sp. ATCC 31319	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Lentzea
+BGC0001354.1	BGC0001354.1	U-68204 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces thiolactonus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001355.1	BGC0001355.1	U-68204 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. MG11	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001358.1	BGC0001358.1	Leucinostatins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Purpureocillium lilacinum	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Ophiocordycipitaceae,Purpureocillium
+BGC0001363.1	BGC0001363.1	Ralsolamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Ralstonia solanacearum GMI1000	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+BGC0001367.1	BGC0001367.1	Haliamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Haliangium ochraceum DSM 14365	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystineae,Kofleriaceae,Haliangium
+BGC0001394.1	BGC0001394.1	Phenalamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus stipitatus DSM 14675	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001397.1	BGC0001397.1	Lidamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces globisporus C-1027	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001415.1	BGC0001415.1	Althiomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Serratia marcescens subsp. marcescens Db11	Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Serratia
+BGC0001417.1	BGC0001417.1	Myxochromide D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cystobacterineae bacterium	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,unclassified Cystobacterineae
+BGC0001418.1	BGC0001418.1	Myxochromide D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Hyalangium minutum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Hyalangium
+BGC0001419.1	BGC0001419.1	Myxochromide D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Hyalangium minutum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Hyalangium
+BGC0001420.1	BGC0001420.1	Myxochromide D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Hyalangium minutum	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Hyalangium
+BGC0001421.1	BGC0001421.1	Myxochromide B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus sp.	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001422.1	BGC0001422.1	Myxochromide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus fulvus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001423.1	BGC0001423.1	Myxochromide C biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus hansupus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001424.1	BGC0001424.1	Myxochromide C biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus virescens	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001425.1	BGC0001425.1	Myxochromide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001426.1	BGC0001426.1	Myxochromide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001427.1	BGC0001427.1	Myxochromide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001428.1	BGC0001428.1	Myxochromide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Myxococcus xanthus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Myxococcus
+BGC0001429.1	BGC0001429.1	Myxochromide S biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001430.1	BGC0001430.1	Myxochromide S biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001431.1	BGC0001431.1	Myxochromide S biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella aurantiaca	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001432.1	BGC0001432.1	Myxochromide D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Stigmatella erecta	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Cystobacteraceae,Stigmatella
+BGC0001435.1	BGC0001435.1	Ikarugamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. ZJ306	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001443.1	BGC0001443.1	Matlystatins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Actinomadura atramentaria DSM 43919	Bacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura
+BGC0001445.1	BGC0001445.1	Leporin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Aspergillus flavus NRRL3357	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Aspergillus
+BGC0001449.1	BGC0001449.1	UCS1025A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Thermothelomyces thermophila ATCC 42464	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Sordariomycetidae,Sordariales,Chaetomiaceae,Thermothelomyces
+BGC0001459.1	BGC0001459.1	Decaplanin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis regifaucium	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis
+BGC0001460.1	BGC0001460.1	Decaplanin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis decaplanina DSM 44594	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis
+BGC0001461.1	BGC0001461.1	Nogabecin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis keratiniphila subsp. nogabecina	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis
+BGC0001462.1	BGC0001462.1	Avoparcin biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Amycolatopsis coloradensis	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis
+BGC0001467.1	BGC0001467.1	Hapalosin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fischerella sp. PCC 9431	Bacteria,Cyanobacteria,Nostocales,Hapalosiphonaceae,Fischerella
+BGC0001477.1	BGC0001477.1	Lydicamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. ID38640	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001503.1	BGC0001503.1	Amycolamycin A / amycolamycin B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Amycolatopsis sp.	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis
+BGC0001519.1	BGC0001519.1	Aurantimycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces aurantiacus JA 4570	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001553.1	BGC0001553.1	Clifednamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. JV178	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001556.1	BGC0001556.1	Combamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp.	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001559.1	BGC0001559.1	Crocagin A / crocagin B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Chondromyces crocatus	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Sorangiineae,Polyangiaceae,Chondromyces
+BGC0001560.1	BGC0001560.1	Cryptomaldamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Moorea producens JHB	Bacteria,Cyanobacteria,Oscillatoriophycideae,Oscillatoriales,Oscillatoriaceae,Moorea
+BGC0001563.1	BGC0001563.1	Curvupallides biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Cochliobolus pallescens	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Dothideomycetes,Pleosporomycetidae,Pleosporales,Pleosporineae,Pleosporaceae,Cochliobolus
+BGC0001564.1	BGC0001564.1	Cusperin biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Cuspidothrix issatschenkoi CHARLIE-1	Bacteria,Cyanobacteria,Nostocales,Aphanizomenonaceae,Cuspidothrix
+BGC0001565.1	BGC0001565.1	Cyclosporin C biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Beauveria felina	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Sordariomycetes,Hypocreomycetidae,Hypocreales,Cordycipitaceae,Beauveria
+BGC0001584.1	BGC0001584.1	C-1027 biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. CB02366	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001598.1	BGC0001598.1	Foxicins A–D biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces diastatochromogenes	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001620.1	BGC0001620.1	Ilamycins biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces atratus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001630.1	BGC0001630.1	Kasumigamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	uncultured Candidatus Entotheonella sp.	Bacteria,Nitrospinae/Tectomicrobia group,Candidatus Tectomicrobia,Candidatus Entotheonella,environmental samples
+BGC0001631.1	BGC0001631.1	Kasumigamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Microcystis aeruginosa NIES-87	Bacteria,Cyanobacteria,Oscillatoriophycideae,Chroococcales,Microcystaceae,Microcystis
+BGC0001635.1	BGC0001635.1	Kistamicin A biosynthetic gene cluster	nrps.t3pks	PKS-NRP_Hybrids	Nonomuraea sp. ATCC 55076	Bacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Nonomuraea
+BGC0001667.1	BGC0001667.1	Microcystin-LR / microcystin-FR / microcystin-LA / microcystin-LAba / microcystin-LM / microcystin-LV / microcystin-LL biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Fischerella sp. CENA161	Bacteria,Cyanobacteria,Nostocales,Hapalosiphonaceae,Fischerella
+BGC0001695.1	BGC0001695.1	Neoantimycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces conglobatus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001702.1	BGC0001702.1	Nocamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Saccharothrix syringae	Bacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Saccharothrix
+BGC0001703.1	BGC0001703.1	Nocuolin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nostoc sp. CCAP 1453/38	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0001704.1	BGC0001704.1	Nocuolin A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nodularia sp. HBU26	Bacteria,Cyanobacteria,Nostocales,Aphanizomenonaceae,Nodularia
+BGC0001705.1	BGC0001705.1	Nodularin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nostoc sp. CENA543	Bacteria,Cyanobacteria,Nostocales,Nostocaceae,Nostoc
+BGC0001711.1	BGC0001711.1	Occidiofungin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Burkholderia pyrrocinia	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,Burkholderia cepacia complex
+BGC0001724.1	BGC0001724.1	Oxaleimide C biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Penicillium oxalicum 114-2	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Eurotiomycetes,Eurotiomycetidae,Eurotiales,Aspergillaceae,Penicillium
+BGC0001726.1	BGC0001726.1	Pactamides biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces pactum	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001728.1	BGC0001728.1	Paenilipoheptin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Paenibacillus polymyxa E681	Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus
+BGC0001737.1	BGC0001737.1	Phenalamide biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Corallococcus coralloides	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Corallococcus
+BGC0001738.1	BGC0001738.1	Phomasetin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Pyrenochaetopsis sp.	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Dothideomycetes,Pleosporomycetidae,Pleosporales,Pleosporineae,Cucurbitariaceae,Pyrenochaetopsis
+BGC0001740.1	BGC0001740.1	Phthoxazolin biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Streptomyces avermitilis	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001741.1	BGC0001741.1	Phyllostictine A / phyllostictine B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Phyllosticta cirsii	Eukaryota,Fungi,Dikarya,Ascomycota,Pezizomycotina,Dothideomycetes,Dothideomycetes incertae sedis,Botryosphaeriales,Phyllostictaceae,Phyllosticta
+BGC0001750.1	BGC0001750.1	Pyrronazol B biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Nannocystis pusilla	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystineae,Nannocystaceae,Nannocystis
+BGC0001751.1	BGC0001751.1	Pyxipyrrolone A / pyxipyrrolone B biosynthetic gene cluster	t2pks.nrps.transatpks	PKS-NRP_Hybrids	Pyxidicoccus sp. MCy9557	Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Cystobacterineae,Myxococcaceae,Pyxidicoccus
+BGC0001754.1	BGC0001754.1	Ralsolamycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Ralstonia solanacearum GMI1000	Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+BGC0001763.1	BGC0001763.1	Rufomycin biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces atratus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001766.1	BGC0001766.1	Salinamide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces sp. CNB091	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001780.1	BGC0001780.1	Siphonazole biosynthetic gene cluster	nrps.transatpks	PKS-NRP_Hybrids	Herpetosiphon sp. B060	Bacteria,Chloroflexi,Chloroflexia,Herpetosiphonales,Herpetosiphonaceae,Herpetosiphon
+BGC0001807.1	BGC0001807.1	Totopensamide biosynthetic gene cluster	nrps.t1pks.t3pks	PKS-NRP_Hybrids	Streptomyces pactum	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+BGC0001816.1	BGC0001816.1	Valactamide A biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Shuttle vector AtFAC9J20	other sequences,artificial sequences,vectors
+BGC0001829.1	BGC0001829.1	α,β-epoxyketone biosynthetic gene cluster	nrps.t1pks	PKS-NRP_Hybrids	Streptomyces chromofuscus	Bacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces
+CACA01000024.1.region001	CACA01000024.1	CACA01000024.1 Oscillatoria sp. PCC 6506 whole genome shotgun sequence, Contig27	NRPS.T1PKS	PKS-NRP_Hybrids		
+CACA01000353.1.region001	CACA01000353.1	CACA01000353.1 Oscillatoria sp. PCC 6506 whole genome shotgun sequence, Contig389	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CACA01000370.1.region001	CACA01000370.1	CACA01000370.1 Oscillatoria sp. PCC 6506 whole genome shotgun sequence, Contig408	NRPS.T1PKS	PKS-NRP_Hybrids		
+CM001165.1.region007	CM001165.1	CM001165.1 Streptomyces sp. Tu6071 chromosome, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+CM001165.1.region013	CM001165.1	CM001165.1 Streptomyces sp. Tu6071 chromosome, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CM001165.1.region016	CM001165.1	CM001165.1 Streptomyces sp. Tu6071 chromosome, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CM001775.1.region002	CM001775.1	CM001775.1 Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP000076.1.region006	CP000076.1	CP000076.1 Pseudomonas protegens Pf-5, complete genome	NRPS-like.transAT-PKS.transAT-PKS-like	PKS-NRP_Hybrids		
+CP000117.1.region009	CP000117.1	CP000117.1 Anabaena variabilis ATCC 29413, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP000117.1.region010	CP000117.1	CP000117.1 Anabaena variabilis ATCC 29413, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP000117.1.region012	CP000117.1	CP000117.1 Anabaena variabilis ATCC 29413, complete genome	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+CP000117.1.region014	CP000117.1	CP000117.1 Anabaena variabilis ATCC 29413, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP001037.1.region003	CP001037.1	CP001037.1 Nostoc punctiforme PCC 73102 strain ATCC 29133 chromosome, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP001037.1.region009	CP001037.1	CP001037.1 Nostoc punctiforme PCC 73102 strain ATCC 29133 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP001037.1.region020	CP001037.1	CP001037.1 Nostoc punctiforme PCC 73102 strain ATCC 29133 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP001040.1.region001	CP001040.1	CP001040.1 Nostoc punctiforme PCC 73102 plasmid pNPUN03, complete sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP001287.1.region007	CP001287.1	CP001287.1 Cyanothece sp. PCC 8801, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP001683.1.region003	CP001683.1	CP001683.1 Saccharomonospora viridis DSM 43017, complete genome	NRPS.T3PKS	PKS-NRP_Hybrids		
+CP002198.1.region005	CP002198.1	CP002198.1 Cyanothece sp. PCC 7822, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP002199.1.region001	CP002199.1	CP002199.1 Cyanothece sp. PCC 7822 plasmid Cy782201, complete sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003219.1.region013	CP003219.1	CP003219.1 Streptomyces cattleya DSM 46488, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003219.1.region014	CP003219.1	CP003219.1 Streptomyces cattleya DSM 46488, complete genome	NRPS.transAT-PKS.T1PKS	PKS-NRP_Hybrids		
+CP003219.1.region022	CP003219.1	CP003219.1 Streptomyces cattleya DSM 46488, complete genome	hglE-KS.NRPS	PKS-NRP_Hybrids		
+CP003549.1.region011	CP003549.1	CP003549.1 Rivularia sp. PCC 7116, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003597.1.region009	CP003597.1	CP003597.1 Chroococcidiopsis thermalis PCC 7203, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003597.1.region011	CP003597.1	CP003597.1 Chroococcidiopsis thermalis PCC 7203, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003600.1.region010	CP003600.1	CP003600.1 Chamaesiphon minutus PCC 6605, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003600.1.region012	CP003600.1	CP003600.1 Chamaesiphon minutus PCC 6605, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003610.1.region007	CP003610.1	CP003610.1 Calothrix sp. PCC 6303, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003630.1.region001	CP003630.1	CP003630.1 Microcoleus sp. PCC 7113, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003642.1.region001	CP003642.1	CP003642.1 Cylindrospermum stagnale PCC 7417, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003642.1.region006	CP003642.1	CP003642.1 Cylindrospermum stagnale PCC 7417, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003643.1.region001	CP003643.1	CP003643.1 Cylindrospermum stagnale PCC 7417 plasmid pCYLST.01, partial sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003646.1.region004	CP003646.1	CP003646.1 Gloeocapsa sp. PCC 7428, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003647.1.region001	CP003647.1	CP003647.1 Gloeocapsa sp. PCC 7428 plasmid pGLO7428.01, complete sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003647.1.region003	CP003647.1	CP003647.1 Gloeocapsa sp. PCC 7428 plasmid pGLO7428.01, complete sequence	NRPS-like.NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003943.1.region004	CP003943.1	CP003943.1 Calothrix sp. PCC 7507 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP003946.1.region001	CP003946.1	CP003946.1 Leptolyngbya sp. PCC 7376, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP009124.1.region012	CP009124.1	CP009124.1 Streptomyces lividans TK24, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP011382.1.region004	CP011382.1	CP011382.1 Calothrix sp. 336/3, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP011664.1.region003	CP011664.1	CP011664.1 Streptomyces sp. Mg1, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP011664.1.region006	CP011664.1	CP011664.1 Streptomyces sp. Mg1, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP020114.1.region002	CP020114.1	CP020114.1 Nodularia spumigena UHCC 0039 chromosome, complete genome	NRPS-like.NRPS.T1PKS	PKS-NRP_Hybrids		
+CP020114.1.region011	CP020114.1	CP020114.1 Nodularia spumigena UHCC 0039 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP020771.1.region001	CP020771.1	CP020771.1 Microcystis aeruginosa PCC 7806SL chromosome, complete genome	NRPS-like.T1PKS.T3PKS	PKS-NRP_Hybrids		
+CP020771.1.region005	CP020771.1	CP020771.1 Microcystis aeruginosa PCC 7806SL chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP032543.1.region012	CP032543.1	CP032543.1 Streptomyces griseus subsp. griseus strain ATCC 13273 chromosome, complete genome	NRPS.PKS-like	PKS-NRP_Hybrids		
+CP032543.1.region014	CP032543.1	CP032543.1 Streptomyces griseus subsp. griseus strain ATCC 13273 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP032543.1.region026	CP032543.1	CP032543.1 Streptomyces griseus subsp. griseus strain ATCC 13273 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP040916.1.region006	CP040916.1	CP040916.1 Streptomyces spectabilis strain NRRL 2792 chromosome, complete genome	transAT-PKS.NRPS.transAT-PKS-like.PKS-like.T3PKS	PKS-NRP_Hybrids		
+CP040916.1.region015	CP040916.1	CP040916.1 Streptomyces spectabilis strain NRRL 2792 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP040916.1.region026	CP040916.1	CP040916.1 Streptomyces spectabilis strain NRRL 2792 chromosome, complete genome	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+CP040916.1.region032	CP040916.1	CP040916.1 Streptomyces spectabilis strain NRRL 2792 chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+CP043056.1.region009	CP043056.1	CP043056.1 Dolichospermum sp. UHCC 0315A chromosome, complete genome	NRPS.T1PKS	PKS-NRP_Hybrids		
+DS999641.1.region026	DS999641.1	DS999641.1 Streptomyces ghanaensis ATCC 14672 supercont1.1 genomic scaffold, whole genome shotgun sequence	hglE-KS.NRPS-like	PKS-NRP_Hybrids		
+DS999642.1.region002	DS999642.1	DS999642.1 Streptomyces ghanaensis ATCC 14672 supercont1.2 genomic scaffold, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+FP565176.1.region005	FP565176.1	FP565176.1 Xanthomonas albilineans GPE PC73 complete genome	NRPS.T3PKS	PKS-NRP_Hybrids		
+FP565176.1.region007	FP565176.1	FP565176.1 Xanthomonas albilineans GPE PC73 complete genome	NRPS.transAT-PKS-like	PKS-NRP_Hybrids		
+FTMA01000003.1.region001	FTMA01000003.1	FTMA01000003.1 Maribacter ulvicola strain DSM 15366 genome assembly, contig: Ga0111696_103, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+GG657754.1.region024	GG657754.1	GG657754.1 Streptomyces hygroscopicus ATCC 53653 genomic scaffold supercont1.1, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+GG657754.1.region027	GG657754.1	GG657754.1 Streptomyces hygroscopicus ATCC 53653 genomic scaffold supercont1.1, whole genome shotgun sequence	NRPS.transAT-PKS.T1PKS	PKS-NRP_Hybrids		
+JAACKE010000001.region004	JAACKE010000001	JAACKE010000001.1 Streptomyces sp. MBT27 MBT27_1, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+JAIY01000004.1.region001	JAIY01000004.1	JAIY01000004.1 Kitasatospora sp. MBT66 scaffold4, whole genome shotgun sequence	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+JAIY01000006.1.region001	JAIY01000006.1	JAIY01000006.1 Kitasatospora sp. MBT66 scaffold6, whole genome shotgun sequence	NRPS.transAT-PKS-like.T1PKS	PKS-NRP_Hybrids		
+JAIY01000009.1.region001	JAIY01000009.1	JAIY01000009.1 Kitasatospora sp. MBT66 scaffold9, whole genome shotgun sequence	NRPS-like.NRPS.T1PKS	PKS-NRP_Hybrids		
+JAIY01000015.1.region001	JAIY01000015.1	JAIY01000015.1 Kitasatospora sp. MBT66 scaffold15, whole genome shotgun sequence	NRPS.T2PKS	PKS-NRP_Hybrids		
+JH992890.1.region003	JH992890.1	JH992890.1 Fischerella sp. PCC 9339 genomic scaffold PCC9339DRAFT_scaffold5.9, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992891.1.region001	JH992891.1	JH992891.1 Fischerella sp. PCC 9339 genomic scaffold PCC9339DRAFT_scaffold4.8, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992892.1.region001	JH992892.1	JH992892.1 Fischerella sp. PCC 9339 genomic scaffold PCC9339DRAFT_scaffold3.7, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992893.1.region003	JH992893.1	JH992893.1 Fischerella sp. PCC 9339 genomic scaffold PCC9339DRAFT_scaffold2.6, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992893.1.region005	JH992893.1	JH992893.1 Fischerella sp. PCC 9339 genomic scaffold PCC9339DRAFT_scaffold2.6, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992901.1.region009	JH992901.1	JH992901.1 Mastigocladopsis repens PCC 10914 genomic scaffold Mas10914DRAFT_scaffold1.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JH992901.1.region010	JH992901.1	JH992901.1 Mastigocladopsis repens PCC 10914 genomic scaffold Mas10914DRAFT_scaffold1.1, whole genome shotgun sequence	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+JH993793.1.region001	JH993793.1	JH993793.1 Leptolyngbya sp. PCC 7375 genomic scaffold Lepto7375DRAFT_LPA.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JMCC02000027.1.region001	JMCC02000027.1	JMCC02000027.1 Enhygromyxa salina strain DSM 15201 ES-Contig_27, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JMCC02000069.1.region001	JMCC02000069.1	JMCC02000069.1 Enhygromyxa salina strain DSM 15201 ES-Contig_69, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JMCC02000198.1.region001	JMCC02000198.1	JMCC02000198.1 Enhygromyxa salina strain DSM 15201 ES-Contig_198, whole genome shotgun sequence	NRPS.transAT-PKS-like	PKS-NRP_Hybrids		
+JNID01000001.1.region002	JNID01000001.1	JNID01000001.1 Streptomyces sp. CNQ-525 H172DRAFT_scaffold00001.1_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JNLT01000003.1.region003	JNLT01000003.1	JNLT01000003.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00003.3_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JNLT01000009.1.region001	JNLT01000009.1	JNLT01000009.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00008.8_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JNLT01000009.1.region002	JNLT01000009.1	JNLT01000009.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00008.8_C, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+JNLT01000009.1.region004	JNLT01000009.1	JNLT01000009.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00008.8_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JNLT01000021.1.region001	JNLT01000021.1	JNLT01000021.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00020.20_C, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JNLT01000022.1.region001	JNLT01000022.1	JNLT01000022.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00021.21_C, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+JNLT01000031.1.region001	JNLT01000031.1	JNLT01000031.1 Streptomyces sp. CNS654 CD02DRAFT_scaffold00030.30_C, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+JNYZ01000011.1.region002	JNYZ01000011.1	JNYZ01000011.1 Amycolatopsis jejuensis strain NRRL B-24427 contig11.1, whole genome shotgun sequence	NRPS.PKS-like	PKS-NRP_Hybrids		
+JOIW01000006.1.region001	JOIW01000006.1	JOIW01000006.1 Streptomyces sp. NRRL S-325 contig6.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JRNF01000013.1.region001	JRNF01000013.1	JRNF01000013.1 Prevotella bivia DNF00188 contig013, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+JXYX01000004.1.region001	JXYX01000004.1	JXYX01000004.1 Microcystis aeruginosa NIES-88 scaffold4, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB217478.1.region009	KB217478.1	KB217478.1 Calothrix sp. PCC 7103 genomic scaffold Cal7103DRAFT_CPM.6, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB217483.1.region002	KB217483.1	KB217483.1 Calothrix sp. PCC 7103 genomic scaffold Cal7103DRAFT_CPM.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB235922.1.region006	KB235922.1	KB235922.1 Pleurocapsa sp. PCC 7319 genomic scaffold Pleur7319scaffold_7, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB235922.1.region010	KB235922.1	KB235922.1 Pleurocapsa sp. PCC 7319 genomic scaffold Pleur7319scaffold_7, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB235922.1.region015	KB235922.1	KB235922.1 Pleurocapsa sp. PCC 7319 genomic scaffold Pleur7319scaffold_7, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB235924.1.region001	KB235924.1	KB235924.1 Pleurocapsa sp. PCC 7319 genomic scaffold Pleur7319scaffold_9, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB235930.1.region005	KB235930.1	KB235930.1 Microchaete sp. PCC 7126 genomic scaffold Mic7126DRAFT_MPQ.3, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB235930.1.region007	KB235930.1	KB235930.1 Microchaete sp. PCC 7126 genomic scaffold Mic7126DRAFT_MPQ.3, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB846722.1.region001	KB846722.1	KB846722.1 Streptomyces sp. CNS615 genomic scaffold D583DRAFT_scaffold00008.8, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB846722.1.region002	KB846722.1	KB846722.1 Streptomyces sp. CNS615 genomic scaffold D583DRAFT_scaffold00008.8, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB897364.1.region001	KB897364.1	KB897364.1 Streptomyces sp. CNQ766 genomic scaffold C591DRAFT_scaffold00002.2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB897379.1.region001	KB897379.1	KB897379.1 Streptomyces sp. CNQ766 genomic scaffold C591DRAFT_scaffold00017.17, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+KB897425.1.region001	KB897425.1	KB897425.1 Streptomyces sp. CNQ766 genomic scaffold C591DRAFT_scaffold00063.63, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB897624.1.region001	KB897624.1	KB897624.1 Streptomyces sp. CNS335 genomic scaffold C592DRAFT_scaffold00005.5, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB897627.1.region002	KB897627.1	KB897627.1 Streptomyces sp. CNS335 genomic scaffold C592DRAFT_scaffold00008.8, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB897641.1.region001	KB897641.1	KB897641.1 Streptomyces sp. CNS335 genomic scaffold C592DRAFT_scaffold00022.22, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+KB897729.1.region002	KB897729.1	KB897729.1 Streptomyces sp. CNY243 genomic scaffold C594DRAFT_scaffold00017.17, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB897732.1.region001	KB897732.1	KB897732.1 Streptomyces sp. CNY243 genomic scaffold C594DRAFT_scaffold00020.20, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+KB897744.1.region001	KB897744.1	KB897744.1 Streptomyces sp. CNY243 genomic scaffold C594DRAFT_scaffold00032.32, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB898221.1.region004	KB898221.1	KB898221.1 Streptomyces sp. CNY228 genomic scaffold D330DRAFT_scaffold00001.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB898990.1.region004	KB898990.1	KB898990.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00001.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB898991.1.region001	KB898991.1	KB898991.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00002.2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB898998.1.region001	KB898998.1	KB898998.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00009.9, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB899005.1.region001	KB899005.1	KB899005.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00016.16, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB899010.1.region001	KB899010.1	KB899010.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00021.21, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KB899014.1.region001	KB899014.1	KB899014.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00025.25, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KB899023.1.region001	KB899023.1	KB899023.1 Streptomyces sp. CNB091 genomic scaffold D581DRAFT_scaffold00034.34, whole genome shotgun sequence	NRPS.PKS-like	PKS-NRP_Hybrids		
+KE354369.1.region001	KE354369.1	KE354369.1 Streptomyces afghaniensis 772 genomic scaffold STAFG_scaffold1596, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KE384282.1.region001	KE384282.1	KE384282.1 Streptomyces sp. TAA204 genomic scaffold H343DRAFT_scaffold00011.11, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KE384521.1.region002	KE384521.1	KE384521.1 Streptomyces sp. CNS606 genomic scaffold K304DRAFT_scaffold00001.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KE384522.1.region001	KE384522.1	KE384522.1 Streptomyces sp. CNS606 genomic scaffold K304DRAFT_scaffold00002.2, whole genome shotgun sequence	NRPS.T1PKS.T3PKS	PKS-NRP_Hybrids		
+KE384522.1.region002	KE384522.1	KE384522.1 Streptomyces sp. CNS606 genomic scaffold K304DRAFT_scaffold00002.2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KE650771.1.region015	KE650771.1	KE650771.1 Fischerella sp. PCC 9431 genomic scaffold Fis9431DRAFT_Scaffold1.2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KE650771.1.region016	KE650771.1	KE650771.1 Fischerella sp. PCC 9431 genomic scaffold Fis9431DRAFT_Scaffold1.2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KI912151.1.region004	KI912151.1	KI912151.1 Fischerella sp. PCC 9605 genomic scaffold FIS9605DRAFT_scaffold4.4, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KI912153.1.region001	KI912153.1	KI912153.1 Fischerella sp. PCC 9605 genomic scaffold FIS9605DRAFT_scaffold6.6, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KI913949.1.region002	KI913949.1	KI913949.1 Leptolyngbya sp. PCC 6406 genomic scaffold LEP6406DRAFT_scaffold1.1, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+KI913949.1.region004	KI913949.1	KI913949.1 Leptolyngbya sp. PCC 6406 genomic scaffold LEP6406DRAFT_scaffold1.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KL370765.1.region001	KL370765.1	KL370765.1 Streptomyces sp. CNQ-525 genomic scaffold H172DRAFT_scaffold00013.13, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+KL370766.1.region001	KL370766.1	KL370766.1 Streptomyces sp. CNQ-525 genomic scaffold H172DRAFT_scaffold00015.15, whole genome shotgun sequence	NRPS.T3PKS	PKS-NRP_Hybrids		
+KV411303.1.region012	KV411303.1	KV411303.1 Nocardia terpenica strain IFM 0406 genomic scaffold scaffold1, whole genome shotgun sequence	NRPS-like.NRPS.T1PKS	PKS-NRP_Hybrids		
+KV411304.1.region021	KV411304.1	KV411304.1 Nocardia terpenica strain IFM 0406 genomic scaffold scaffold2, whole genome shotgun sequence	NRPS.T2PKS.T1PKS	PKS-NRP_Hybrids		
+KV878783.1.region003	KV878783.1	KV878783.1 Spirulina major PCC 6313 genomic scaffold Contig40, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LNBE01000002.1.region012	LNBE01000002.1	LNBE01000002.1 Streptomyces sp. MBT76 scaffold_2, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LNBE01000003.1.region004	LNBE01000003.1	LNBE01000003.1 Streptomyces sp. MBT76 scaffold_3, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+LNBE01000009.1.region001	LNBE01000009.1	LNBE01000009.1 Streptomyces sp. MBT76 scaffold_9, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LXQD01000032.1.region001	LXQD01000032.1	LXQD01000032.1 Nostoc minutum NIES-26 scaffold128.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LXQD01000072.1.region001	LXQD01000072.1	LXQD01000072.1 Nostoc minutum NIES-26 scaffold166.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LXQD01000205.1.region001	LXQD01000205.1	LXQD01000205.1 Nostoc minutum NIES-26 scaffold29.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LXQD01000308.1.region001	LXQD01000308.1	LXQD01000308.1 Nostoc minutum NIES-26 scaffold51.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+LXQD01000328.1.region001	LXQD01000328.1	LXQD01000328.1 Nostoc minutum NIES-26 scaffold7.1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PPFB01000001.1.region004	PPFB01000001.1	PPFB01000001.1 Streptomyces sp. DH-12 scaffold1_size7418681, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PPFB01000001.1.region013	PPFB01000001.1	PPFB01000001.1 Streptomyces sp. DH-12 scaffold1_size7418681, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PPFB01000001.1.region016	PPFB01000001.1	PPFB01000001.1 Streptomyces sp. DH-12 scaffold1_size7418681, whole genome shotgun sequence	NRPS.T2PKS.T1PKS	PKS-NRP_Hybrids		
+PTJS01000001.1.region006	PTJS01000001.1	PTJS01000001.1 Streptomyces sp. QL37 scaffold1_size8772908, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PVNK01000057.1.region001	PVNK01000057.1	PVNK01000057.1 Enhygromyxa salina strain SWB005 ENSA5_contig000057, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PVNK01000160.1.region001	PVNK01000160.1	PVNK01000160.1 Enhygromyxa salina strain SWB005 ENSA5_contig000160, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PVNK01000189.1.region001	PVNK01000189.1	PVNK01000189.1 Enhygromyxa salina strain SWB005 ENSA5_contig000189, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+PVNK01000234.1.region001	PVNK01000234.1	PVNK01000234.1 Enhygromyxa salina strain SWB005 ENSA5_contig000234, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PVNL01000031.1.region001	PVNL01000031.1	PVNL01000031.1 Enhygromyxa salina strain SWB007 ENSA7_contig000031, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+PVNL01000074.1.region001	PVNL01000074.1	PVNL01000074.1 Enhygromyxa salina strain SWB007 ENSA7_contig000074, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+PVNL01000127.1.region001	PVNL01000127.1	PVNL01000127.1 Enhygromyxa salina strain SWB007 ENSA7_contig000127, whole genome shotgun sequence	NRPS.transAT-PKS-like	PKS-NRP_Hybrids		
+VIKW01000017.1.region001	VIKW01000017.1	VIKW01000017.1 Anabaena sp. UHCC 0204 scaffold17_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKW01000032.1.region001	VIKW01000032.1	VIKW01000032.1 Anabaena sp. UHCC 0204 scaffold32_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKW01000042.1.region001	VIKW01000042.1	VIKW01000042.1 Anabaena sp. UHCC 0204 scaffold42_cov0, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+VIKX01000097.1.region001	VIKX01000097.1	VIKX01000097.1 Dolichospermum sp. UHCC 0259 scaffold97_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKX01000122.1.region001	VIKX01000122.1	VIKX01000122.1 Dolichospermum sp. UHCC 0259 scaffold122_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKY01000283.1.region001	VIKY01000283.1	VIKY01000283.1 Dolichospermum sp. UHCC 0352 scaffold287_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKZ01000014.1.region001	VIKZ01000014.1	VIKZ01000014.1 Dolichospermum sp. UHCC 0260 scaffold14_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VIKZ01000048.1.region001	VIKZ01000048.1	VIKZ01000048.1 Dolichospermum sp. UHCC 0260 scaffold48_cov0, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VILB01000011.1.region002	VILB01000011.1	VILB01000011.1 Anabaena sp. UHCC 0187 scaffold11_cov1, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VILD01000001.1.region003	VILD01000001.1	VILD01000001.1 Anabaena sp. UHCC 0253 XSP2A_scaffold00001_cov, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VILD01000004.1.region001	VILD01000004.1	VILD01000004.1 Anabaena sp. UHCC 0253 XSP2A_scaffold00004_cov, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+VILD01000006.1.region001	VILD01000006.1	VILD01000006.1 Anabaena sp. UHCC 0253 XSP2A_scaffold00006_cov, whole genome shotgun sequence	NRPS-like.T1PKS	PKS-NRP_Hybrids		
+VILF01000001.1.region003	VILF01000001.1	VILF01000001.1 Dolichospermum flos-aquae UHCC 0037 newAn37_scaffold1, whole genome shotgun sequence	hglE-KS.NRPS.T1PKS	PKS-NRP_Hybrids		
+VILF01000005.1.region001	VILF01000005.1	VILF01000005.1 Dolichospermum flos-aquae UHCC 0037 newAn37_scaffold5, whole genome shotgun sequence	NRPS.T1PKS	PKS-NRP_Hybrids		
+c00024_NODE_24...region001	c00024_NODE_24..	NODE_24_length_116672_cov_7.788456	NRPS.T1PKS	PKS-NRP_Hybrids		
+c00074_NODE_74...region001	c00074_NODE_74..	NODE_74_length_31412_cov_5.050359	NRPS.T1PKS	PKS-NRP_Hybrids		
+c00216_NODE_21...region001	c00216_NODE_21..	NODE_216_length_7870_cov_3.364301	NRPS.T1PKS	PKS-NRP_Hybrids		
+c00256_NODE_25...region001	c00256_NODE_25..	NODE_256_length_16852_cov_5.339434	NRPS.T1PKS	PKS-NRP_Hybrids		
+c00769_NODE_76...region001	c00769_NODE_76..	NODE_769_length_2769_cov_1.943908	NRPS-like.T1PKS	PKS-NRP_Hybrids		
