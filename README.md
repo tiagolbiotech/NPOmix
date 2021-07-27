@@ -31,7 +31,7 @@ Round 5 - 23 GCF-MS/MS links (11 correct links)
 
 ## Contact
 
-If you have difficulty to run the NPOmix tool for your set of samples or if you have questions, please contact me in the link below. The ideal set of samples would be samples slightly rare but present in our current database and these samples should be similar to each other.
+If you have difficulties to run the NPOmix tool for your set of samples or if you have questions, please contact me in the link below. The ideal set of samples would be samples slightly rare but present in our current database of 1,006 samples and these samples should be similar to each other.
 ```
 https://www.tfleao.com/contact-me
 ```
