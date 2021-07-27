@@ -26,7 +26,7 @@ Round 2 - 1 GCF-MS/MS links (0 correct link)
 Round 3 - 16 GCF-MS/MS links (8 correct links)
 Round 3.8 – dereplication and discovery of new Brasilicardin A MS/MS spectrum
 Round 4 - 18 GCF-MS/MS links (8 correct links)
-Round 5 - 23 GCF-MS/MS links (11 correct links)
+Round 5 - 5 additional GCF-MS/MS links (23 total links, 11 correct links)
 ```
 
 ## Contact
