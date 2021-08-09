@@ -15,7 +15,6 @@ Number of networked genomes (same as number of samples):
 Round 1 - 60 cyanobacterial samples
 Round 2 - 129 PoDP genomes downloaded automatically
 Round 3 - 129 PoDP genomes downloaded automatically + 450 metagenomes (a total of 579)
-Round 3.8 - Same as round 3 but instead of reference MS/MS we select 300 cryptic MS/MS from the 16 most diverse bacteria
 Round 4 - 326 PoDP genomes (downloaded automatically and manually) + 680 metagenomes (a total of 1006)
 Round 5 – Same as round 4 but adding the missing LC-MS/MS files for Gerwick's cyanobacteria and using 406 Gerwick MS/MS spectra (from GNPS)
 ```
@@ -24,9 +23,8 @@ Number of validated GCF-MS/MS links:
 Round 1 - 39 GCF-MS/MS links (1 correct link)
 Round 2 - 1 GCF-MS/MS links (0 correct link)
 Round 3 - 16 GCF-MS/MS links (8 correct links)
-Round 3.8 – dereplication and discovery of new Brasilicardin A MS/MS spectrum
-Round 4 - 18 GCF-MS/MS links (8 correct links)
-Round 5 - 5 additional GCF-MS/MS links (23 total links, 11 correct links)
+Round 4 - 10 filtered GCF-MS/MS links (7 correct links)
+Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct links)
 ```
 
 ## Contact
