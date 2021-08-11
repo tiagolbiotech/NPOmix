@@ -1,0 +1,28 @@
+BEGIN IONS
+PEPMASS=130.6
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS078103 Itaconic acid|Itaconate|Methylenesuccinic acid|Methylenebutanedioic acid|2-Propene-1,2-dicarboxylic acid|3-Carboxy-3-butenoic Acid|Propylenedicarboxylic acid
+LIBRARYQUALITY=3
+SMILES=C=C(CC(=O)O)C(=O)O
+INCHIKEY=LVHBHZANLOWSRM-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS078103 Itaconic acid|Itaconate|Methylenesuccinic acid|Methylenebutanedioic acid|2-Propene-1,2-dicarboxylic acid|3-Carboxy-3-butenoic Acid|Propylenedicarboxylic acid [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000217445
+SCANS=4414
+48.0 66.0 
+68.0 459.0 
+69.0 999.0 
+89.0 56.0 
+END IONS
+

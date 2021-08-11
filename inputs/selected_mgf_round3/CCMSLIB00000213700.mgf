@@ -1,0 +1,26 @@
+BEGIN IONS
+PEPMASS=180.2
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS023201 Fusaric acid|Fusarate|Fusarinic acid|5-Butylpicolinic acid|5-butylpyridine-3-carboxylic acid
+LIBRARYQUALITY=3
+SMILES=CCCCC1=CN=C(C=C1)C(=O)O
+INCHIKEY=DGMPVYSXXIOGJY-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS023201 Fusaric acid|Fusarate|Fusarinic acid|5-Butylpicolinic acid|5-butylpyridine-3-carboxylic acid [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000213700
+SCANS=2520
+162.0 141.0 
+180.0 999.0 
+END IONS
+

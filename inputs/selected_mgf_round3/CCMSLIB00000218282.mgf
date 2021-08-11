@@ -1,0 +1,28 @@
+BEGIN IONS
+PEPMASS=180.0
+CHARGE=1+
+COMPOUNDNAME=Massbank:KO002888 Butyl pyridine-2-carboxylate|2-Pyridinecarboxylic acid, butyl ester|Butyl 2-pyridinecarboxylate|Fusaric acid
+LIBRARYQUALITY=3
+SMILES=CCCCc(c1)cnc(c1)C(O)=O
+INCHIKEY=DGMPVYSXXIOGJY-UHFFFAOYSA-N
+INCHI=1S/C10H13NO2/c1-2-3-4-8-5-6-9(10(12)13)11-7-8/h5-7H,2-4H2,1H3,(H,12,13)
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-LC-ESI-QQ
+FILENAME=Massbank_ESI_positive_8_1_2014_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=MASSBANK
+NAME=Massbank:KO002888 Butyl pyridine-2-carboxylate|2-Pyridinecarboxylic acid, butyl ester|Butyl 2-pyridinecarboxylate|Fusaric acid [M+H]+
+PI=Putative Massbank Match
+DATACOLLECTOR=Massbank
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000218282
+SCANS=8690
+43.0 173267.5 
+58.2 19802.0 
+70.7 14851.5 
+74.1 39604.0 
+END IONS
+

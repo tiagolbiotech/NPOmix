@@ -1,0 +1,48 @@
+BEGIN IONS
+PEPMASS=319.36
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS113102 zearalenone|FES|Fusarium toxin|Mycotoxin F2|Benzoxacyclotetradecin-1,7(8H)-dione|Zenone|6-(10-Hydroxy-6-oxo-trans-1-undecenyl)-beta-resorcylic acid-N-lactone
+LIBRARYQUALITY=3
+SMILES=CC1CCCC(=O)CCCC=CC2=CC(=CC(=C2C(=O)O1)O)O
+INCHIKEY=MBMQEIFVQACCCH-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS113102 zearalenone|FES|Fusarium toxin|Mycotoxin F2|Benzoxacyclotetradecin-1,7(8H)-dione|Zenone|6-(10-Hydroxy-6-oxo-trans-1-undecenyl)-beta-resorcylic acid-N-lactone [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000219891
+SCANS=5656
+69.0 53.0 
+85.0 177.0 
+96.0 47.0 
+97.0 369.0 
+125.0 47.0 
+185.0 64.0 
+187.0 160.0 
+189.0 58.0 
+227.0 31.0 
+229.0 51.0 
+231.0 126.0 
+249.0 83.0 
+255.0 63.0 
+265.0 50.0 
+282.0 61.0 
+283.0 482.0 
+284.0 32.0 
+300.0 111.0 
+301.0 437.0 
+302.0 98.0 
+317.0 30.0 
+318.0 276.0 
+319.0 999.0 
+320.0 120.0 
+END IONS
+

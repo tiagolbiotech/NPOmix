@@ -1,0 +1,32 @@
+BEGIN IONS
+PEPMASS=319.155
+CHARGE=1+
+COMPOUNDNAME=Massbank:PR100441 Zearalenone|FES|Fusarium toxin|Mycotoxin F2|Benzoxacyclotetradecin-1,7(8H)-dione|Zenone|6-(10-Hydroxy-6-oxo-trans-1-undecenyl)-beta-resorcylic acid-N-lactone
+LIBRARYQUALITY=3
+SMILES=O=C(C2)CCC[C@H](C)OC(=O)c(c(O)1)c(C=CCC2)cc(O)c1
+INCHIKEY=MBMQEIFVQACCCH-LBPRGKRZSA-N
+INCHI=1S/C18H22O5/c1-12-6-5-9-14(19)8-4-2-3-7-13-10-15(20)11-16(21)17(13)18(22)23-12/h3,7,10-12,20-21H,2,4-6,8-9H2,1H3/b7-3+/t12-/m0/s1
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-LC-ESI-QTOF
+FILENAME=Massbank_ESI_positive_8_1_2014_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=MASSBANK
+NAME=Massbank:PR100441 Zearalenone|FES|Fusarium toxin|Mycotoxin F2|Benzoxacyclotetradecin-1,7(8H)-dione|Zenone|6-(10-Hydroxy-6-oxo-trans-1-undecenyl)-beta-resorcylic acid-N-lactone [M+H]+
+PI=Putative Massbank Match
+DATACOLLECTOR=Massbank
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000223264
+SCANS=11396
+69.0717 326.6 
+157.0669 371.0 
+185.0621 597.1 
+187.0773 635.2 
+203.0729 419.6 
+283.1345 639.9 
+301.1449 457.6 
+319.1545 390.2 
+END IONS
+

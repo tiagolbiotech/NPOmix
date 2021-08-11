@@ -1,0 +1,26 @@
+BEGIN IONS
+PEPMASS=175.24
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS065703 cis-Aconitic Acid|Achilleaic acid|cis-aconitate|cis-Oxaloacetic acid|cis-1,2,3-Propenetricarboxylic Acid|cis-Propene-1,2,3-tricarboxylic acid
+LIBRARYQUALITY=3
+SMILES=C(C(=CC(=O)O)C(=O)O)C(=O)O
+INCHIKEY=GTZCVFVGUGFEME-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS065703 cis-Aconitic Acid|Achilleaic acid|cis-aconitate|cis-Oxaloacetic acid|cis-1,2,3-Propenetricarboxylic Acid|cis-Propene-1,2,3-tricarboxylic acid [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000216767
+SCANS=4071
+60.0 212.0 
+70.0 999.0 
+END IONS
+

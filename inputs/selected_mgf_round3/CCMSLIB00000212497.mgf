@@ -1,0 +1,26 @@
+BEGIN IONS
+PEPMASS=268.3
+CHARGE=1+
+COMPOUNDNAME=ReSpect:PS004003 Adenosine|9-beta-D-Ribofuranosyladenine|Adenine riboside|Sandesin|Boniton|Myocol|Nucleocardyl|Adenocard
+LIBRARYQUALITY=3
+SMILES=C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)O)O
+INCHIKEY=OIRDTQYFTABQOQ-UHFFFAOYSA-N
+INCHI=N/A
+MSLEVEL=2
+SOURCE_INSTRUMENT=ESI-Flow-injection QqQ/MS
+FILENAME=respect_8_1_2014_GNPS_peaks.mgf
+SEQ=*..*
+IONMODE=Positive
+ORGANISM=RESPECT
+NAME=ReSpect:PS004003 Adenosine|9-beta-D-Ribofuranosyladenine|Adenine riboside|Sandesin|Boniton|Myocol|Nucleocardyl|Adenocard [M+H]
+PI=Putative ReSpect Match
+DATACOLLECTOR=ReSpect
+PUBMED=N/A
+SUBMITUSER=mwang87
+TAGS=
+SPECTRUMID=CCMSLIB00000212497
+SCANS=1907
+135.0 134.0 
+136.0 999.0 
+END IONS
+
