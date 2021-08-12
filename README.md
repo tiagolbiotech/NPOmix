@@ -1,4 +1,4 @@
-# NPOmix
+# NPOmix v1.0
 
 ![logo](https://github.com/tiagolbiotech/NPOmix/blob/main/Screen_Shot_2021-08-12_at_7.18.10_PM.png)
 
