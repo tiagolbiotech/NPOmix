@@ -36,7 +36,7 @@ Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct link
 ```
 1) Run notebook 1 to download the set of 1,040 samples required to build our NPOmix database;
 
-2) Run notebook 3 up to the topic 3.7 to create the BGC fingerprints (training set) and to select the mgf files (folder named NPOmix_mgf_spectra);
+2) Run notebook 3 up to the topic 3.7 to create the BGC fingerprints (training set) and to select the MGF files (folder named NPOmix_mgf_spectra);
 
 3) Run notebook 2 to create MS/MS fingerprints (testing set);
 
@@ -48,8 +48,8 @@ Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct link
 ```
 1) Run notebook 1 to download the set of 1,040 samples required to build our NPOmix database;
 
-2) Using MzMine2, select the mgf spectra to be tested (place them at the folder named NPOmix_mgf_spectra);
-   Tutorial to select mgf spectra from mzXML/mzML files: https://www.youtube.com/watch?v=MwdJ6mVkdJY
+2) Using MzMine2, select the MGF spectra to be tested (place them at the folder named NPOmix_mgf_spectra);
+   Tutorial to select MGF spectra from mzXML/mzML files: https://www.youtube.com/watch?v=MwdJ6mVkdJY
 
 3) Run notebook 2 to create MS/MS fingerprints (testing set);
 
