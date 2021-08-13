@@ -58,9 +58,9 @@ Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct link
 
 ## Submit your samples for collaboration
 
-```
 In case the tool is challenging to run, please submit your project in the contact option below and we will run your samples the soonest we can. We hope that positive results will lead to good and fruitful collaborations. Please insert a brief description of your project and samples in the message box at the link below. Once we reply your message, you can share the necessary files via email.
 
+```
 Necessary files:
 
 1) FASTA genome file(s) named with NCBI ID (example, "GCA_001767235.fasta");
