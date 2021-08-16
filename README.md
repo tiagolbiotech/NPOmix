@@ -34,7 +34,7 @@ Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct link
 ## How to reproduce the NPOmix v1.0 analysis?
 
 ```
-1) Run notebook 1 to download the set of 1,040 samples required to build our NPOmix database;
+1) Run notebook 1 to download the set of 1,040 samples required to build the NPOmix database (if you have difficulties to download the files, please contact us);
 
 2) Run notebook 3 up to the topic 3.7 to create the BGC fingerprints (training set) and to select the MGF files (folder named NPOmix_mgf_spectra);
 
@@ -46,7 +46,7 @@ Round 5 - 5 additional filtered GCF-MS/MS links (15 total links, 10 correct link
 ## How to run your samples on the NPOmix v1.0 analysis?
 
 ```
-1) Run notebook 1 to download the set of 1,040 samples required to build our NPOmix database;
+1) Run notebook 1 to download the set of 1,040 samples required to build the NPOmix database (if you have difficulties to download the files, please contact us);
 
 2) Using MzMine2, select the MGF spectra to be tested (place them at the folder named NPOmix_mgf_spectra);
    Tutorial to select MGF spectra from mzXML/mzML files: https://www.youtube.com/watch?v=MwdJ6mVkdJY
