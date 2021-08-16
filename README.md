@@ -19,7 +19,7 @@ Number of networked genomes (same as number of samples):
 Round 1 - 60 cyanobacterial samples
 Round 2 - 129 PoDP genomes downloaded automatically
 Round 3 - 129 PoDP genomes downloaded automatically + 450 metagenomes (a total of 579)
-Round 4 - 326 PoDP genomes (downloaded automatically and manually) + 680 metagenomes (a total of 1006)
+Round 4 - 360 PoDP genomes (downloaded automatically and manually) + 680 metagenomes (a total of 1,040)
 Round 5 – Same as round 4 but adding the missing LC-MS/MS files for Gerwick's cyanobacteria and using 406 Gerwick MS/MS spectra (from GNPS)
 ```
 Number of validated GCF-MS/MS links:
