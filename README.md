@@ -12,6 +12,10 @@ To use the NPOmix approach (Fig. 1, schematic example for the approach used in o
 
 ![Fig1_part2](https://github.com/tiagolbiotech/NPOmix/blob/main/Screen%20Shot%202021-06-23%20at%201.35.53%20PM.png)
 
+## Video explanation
+
+https://user-images.githubusercontent.com/12102722/131203358-9576574d-4526-414a-b6a5-b94125ea8b18.mp4
+
 ## Rounds of test
 
 Number of networked genomes (same as number of samples):
