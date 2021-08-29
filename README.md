@@ -1,5 +1,7 @@
 # NPOmix v1.0
 
+### A learning strategy to connect natural product mass spectrometry fragmentation data to their biosynthetic gene clusters
+
 Manuscript in preparation.
 
 ![logo](https://github.com/tiagolbiotech/NPOmix/blob/main/Screen_Shot_2021-08-12_at_7.18.10_PM.png)
