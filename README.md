@@ -18,6 +18,11 @@ To use the NPOmix approach (Fig. 1, schematic example for the approach used in o
 
 https://user-images.githubusercontent.com/12102722/131203358-9576574d-4526-414a-b6a5-b94125ea8b18.mp4
 
+### References:
+1) 3% of the biosynthetic potential: Gavriilidou, A., Kautsar, S. A., Zaburannyi, N., Krug, D, Muller, R., Medema, M. H. & Ziemert, N. A global survey of specialized metabolic diversity encoded in bacterial genomes. bioRxiv (2021).
+2) Piared omics Data Platform: Schorn, M. A. et al. A community resource for paired genomic and metabolomic data mining. Nat. Chem. Biol. 17, 363–368 (2021).
+3) New approved drugs from 1981 to 2014: Newman, D. J. & Cragg, G. M. Natural Products as Sources of New Drugs from 1981 to 2014. J. Nat. Prod. 79, 629–61 (2016).
+
 ## Rounds of test
 
 Number of networked genomes (same as number of samples):
