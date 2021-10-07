@@ -1,8 +1,10 @@
 # NPOmix v1.0
 
-### A learning strategy to connect natural product mass spectrometry fragmentation data to their biosynthetic gene clusters
+### A supervised fingerprint-based strategy to connect natural product mass spectrometry fragmentation data to their biosynthetic gene clusters
 
-Manuscript in preparation.
+Authors: Tiago F. Leao, Mingxun Wang, Ricardo da Silva, Justin J.J. van der Hooft, Anelize Bauermeister, Asker Brejnrod, Evgenia Glukhov, Lena Gerwick, William H. Gerwick, Nuno Bandeira, Pieter C. Dorrestein
+
+BioRvix manuscript here: https://www.biorxiv.org/content/10.1101/2021.10.05.463235v1
 
 ![logo](https://github.com/tiagolbiotech/NPOmix/blob/main/Screen_Shot_2021-08-12_at_7.18.10_PM.png)
 
