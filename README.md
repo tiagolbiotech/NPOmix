@@ -1,4 +1,4 @@
-# NPOmix v1.0
+# NPOmix v1.0 - https://github.com/tiagolbiotech/NPOmix_python (python-only code)
 
 ### A supervised fingerprint-based strategy to connect natural product mass spectrometry fragmentation data to their biosynthetic gene clusters
 
