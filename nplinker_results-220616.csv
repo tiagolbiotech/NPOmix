@@ -1,0 +1,29 @@
+Ranking	Shared rank	MIBiG_ID	GNPS_ID	Name	Annotation
+17	1	BGC0000962	CCMSLIB00000001573	Barbamide	Yes
+16	1	BGC0000962	CCMSLIB00000001575*	Barbamide	Yes
+3	1	BGC0001001	CCMSLIB00000001706	Jamaicamide A	Yes
+2	1	BGC0001001	CCMSLIB00000001708*	Jamaicamide C	Yes
+Absent	Absent	BGC0000028	CCMSLIB00000479759	Bafilomycin B1	NA
+Absent	Absent	BGC0000958	CCMSLIB00000578442	Antimycin	NA
+Absent	Absent	BGC0001698	CCMSLIB00000840594	Nevaltophin D	NA
+851	2	BGC0000399	CCMSLIB00004679298	Orfamide A	Yes
+847	2	BGC0000398	CCMSLIB00004679299	Orfamide B	Yes
+843	2	BGC0000399	CCMSLIB00004679300	Orfamide C	Yes
+>536	>536	BGC0001088	CCMSLIB00000579285	Albicidin	NA
+>536	>536	BGC0001088	CCMSLIB00004681475	Propionyl-Albicidin	NA
+>536	>536	BGC0001088	CCMSLIB00004681481	Beta-Methoxy-Albicidin	NA
+473	1	BGC0001088	CCMSLIB00004681486	Carbamoyl-Beta-Methoxy-Albicidin	No
+499	1	BGC0001088	CCMSLIB00004681487	Carbamoyl-Beta-Methoxy-Asn-Albicidin	Yes
+77	2	BGC0000280	CCMSLIB00004685866	2,4-diacetylphloroglucinol	No
+77	2	BGC0000281	CCMSLIB00004693587	2,4-diacetylphloroglucinol	No
+Absent	Absent	BGC0000632	NPOMIX00004721397	Brasilicardin A	NA
+Absent	Absent	BGC0000936	CCMSLIB00004681482	Pyocyanine	NA
+Absent	Absent	BGC0000936	CCMSLIB00000839195	Pyocyanine	NA
+Absent	Absent	BGC0000936	CCMSLIB00005436037	Pyocyanine	NA
+1	1	BGC0001560	CCMSLIB00005724004	Cryptomaldamide	Yes
+					
+asterisk means that the m/z reported by NPLinker is different than the entry in the GNPS library 					
+					
+absent means not in the list of BGCs, however, a homologous BGC to the MIBiG BGC is present in genome					
+					
+bigger than a given rank means that the correct metabolite was not in the list of candidates					
